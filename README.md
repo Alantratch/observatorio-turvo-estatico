@@ -204,3 +204,5 @@ Não coloque tokens em `public/` ou variáveis `VITE_*`: o build publica esses v
 `npm test` valida o ETL e os dados locais. `npm run build` verifica TypeScript e gera os arquivos estáticos. CI executa ambos e salva o artefato `dist`. [CONTRIBUTING](CONTRIBUTING.md) explica como ampliar um módulo e revisar fontes.
 
 Licença MIT para o código. Os dados mantêm os termos e atribuições de cada órgão; a licença do código não altera a licença dos dados de terceiros.
+
+A logo municipal utilizada no menu é o [arquivo disponibilizado pelo Município de Turvo](https://drive.turvo.pr.gov.br/Logos/Vertical%20Cores%20.png), armazenado sem alteração em `public/branding/turvo-logo.png`.
