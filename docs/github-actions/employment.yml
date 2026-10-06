@@ -1,0 +1,87 @@
+# Copy to .github/workflows/employment.yml after granting workflow write access.
+name: Atualizar Trabalho e Emprego
+on:
+  schedule:
+    - cron: '31 10 3 * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Base para atualizar
+        type: choice
+        options: [caged, rais, all]
+        default: caged
+      force:
+        description: Reprocessar mesma divulgação (revisões)
+        type: boolean
+        default: false
+      remuneration:
+        description: Processar remuneração RAIS (arquivo regional grande; layout validado)
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  # Same group as the weekly ETL: snapshots cannot be pushed concurrently.
+  group: data-update
+  cancel-in-progress: false
+jobs:
+  employment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Leitor dos arquivos oficiais 7z
+        run: sudo apt-get update && sudo apt-get install -y 7zip
+      # Temporary compressed data is not cached publicly or versioned.
+      # Monthly schedule checks for a new CAGED publication before downloading.
+      # RAIS table is a small HTTPS workbook; optional remuneration is a large regional archive.
+      - name: Coletar e preservar dados anteriores em caso de falha
+        id: collect
+        continue-on-error: true
+        env:
+          SOURCE: ${{ inputs.source || 'caged' }}
+          FORCE: ${{ inputs.force }}
+          REMUNERATION: ${{ inputs.remuneration }}
+        run: |
+          args=(--module employment --source "$SOURCE")
+          if [ "$FORCE" = 'true' ]; then args+=(--force); fi
+          if [ "$REMUNERATION" = 'true' ]; then args+=(--rais-remuneration); fi
+          python scripts/etl.py "${args[@]}"
+      - name: Validar snapshots e aplicação
+        run: |
+          python scripts/etl.py --module employment --offline
+          python -m unittest discover -s tests
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: node --test tests/*.test.mjs
+      - run: npm run build
+      - name: Publicar apenas mudanças efetivas
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: atualizar Trabalho e Emprego MTE'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: observatorio-trabalho
+          path: dist
+      - name: Publicar no Cloudflare Pages, se configurado
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            npx wrangler@4 pages deploy dist --project-name observatorio-turvo-estatico --branch "${{ github.ref_name }}"
+          fi
+      - name: Sinalizar falha após preservar snapshot e relatório
+        if: steps.collect.outcome == 'failure'
+        run: exit 1

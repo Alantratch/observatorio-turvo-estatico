@@ -19,7 +19,7 @@ npm run build
 npm run preview
 ```
 
-O build funciona **sem acessar fontes públicas**, usando os snapshots versionados. O navegador não consulta SIDRA diretamente.
+O build funciona **sem acessar fontes públicas**, usando os snapshots versionados. O navegador consulta apenas arquivos estáticos; não acessa SIDRA ou microdados MTE diretamente.
 
 ## População: módulo completo
 
@@ -49,6 +49,25 @@ python3 scripts/etl.py --module economy
 python3 scripts/etl.py --module economy --offline
 ```
 
+## Trabalho e Emprego: RAIS e Novo CAGED
+
+Página própria com **RAIS 2023–2025**, estoque e estrutura setorial, remuneração nominal de dezembro/2025, **Novo CAGED setembro/2024–agosto/2026** com ajustes, acumulado no ano, janela móvel de 12 meses, setores, CNAE, CBO, salários das admissões e comparação regional. Dados oficiais substituem os mocks `formal-jobs` e `caged-balance`. RAIS mede estoque anual; Novo CAGED mede eventos mensais. Vínculos e movimentos não são pessoas únicas; saldo não é estoque e não permite calcular desemprego municipal.
+
+Há tabelas acessíveis, narrativas determinadas pelos dados, gráficos, metadados, proteção de pequenas contagens e downloads JSON/CSV. Estoque/5 setores da RAIS foram conferidos com a tabela oficial nos quatro municípios; o Novo CAGED agosto/2026 reproduziu exatamente o total nacional do MTE. **Conferência independente municipal CAGED no ISPER/Perfil permanece pendente**, assim como RAIS Estabelecimento e evolução da remuneração anual. A média RAIS informa a amostra e as remunerações ausentes/zero.
+
+```sh
+# Descobrir novos períodos; fontes independentes, sem baixar a mesma divulgação:
+python3 scripts/etl.py --module employment --source caged
+python3 scripts/etl.py --module employment --source rais
+# Remuneração RAIS é opcional/manual: arquivo regional grande e layout validado.
+python3 scripts/etl.py --module employment --source rais --rais-remuneration --cache .mte-cache
+# Incorporar revisão na mesma divulgação, com cache não público:
+python3 scripts/etl.py --module employment --source caged --force --cache .mte-cache
+python3 scripts/etl.py --module employment --offline
+```
+
+O processamento de arquivos oficiais `.7z` usa **7-Zip** (`7zip` no Ubuntu, `7z`/`7zz` ou variável `MTE_7ZIP`). Python continua sem bibliotecas externas. Arquivos são lidos em streaming e descartados ao final, exceto quando houver cache explicitamente solicitado fora de `public/data`. A atualização semanal `all` não baixa microdados de Trabalho; há um workflow mensal próprio como template. Veja [conceitos, layouts, fontes, validações e operação de Trabalho e Emprego](docs/modulos/trabalho-emprego.md).
+
 ## Atualizar os dados
 
 ```sh
@@ -61,7 +80,7 @@ O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, L
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
-Dados nos demais módulos são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
+Dados em Educação, Saúde, Finanças, Contratações e Agropecuária são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
 
 ## Módulos
 
@@ -70,7 +89,7 @@ Dados nos demais módulos são explicitamente **fictícios**, destinados a demon
 | Visão Geral | Cards oficiais, gráficos e referências | Destaques editoriais e mapa |
 | População | Página própria: Censo, estimativas, idade/sexo, cor/raça, urbano/rural, domicílios e território | Comparador regional no novo schema |
 | Economia / PIB | PIB, per capita, variação nominal, VAB/setores, impostos, história e comparação regional | Novas divulgações e benchmark estadual compatível |
-| Trabalho e Emprego | Demo RAIS/CAGED | Importadores e saldo mensal |
+| Trabalho e Emprego | RAIS anual/estrutura/remuneração e CAGED mensal ajustado, CNAE/CBO, comparação, downloads | Conferência municipal ISPER, estabelecimentos e história salarial |
 | Educação | Demo Censo Escolar | Matrículas, IDEB e rede escolar |
 | Saúde | Demo CNES | Estabelecimentos, cobertura e indicadores |
 | Finanças Públicas | Demo SICONFI | DCA/RREO/RGF normalizados |
@@ -91,11 +110,15 @@ src/
   App.tsx                   # Composição das páginas e estados
   modules/population/       # Página, gráficos, metadados e schema de População
   modules/economy/          # Página e gráficos próprios, comparação e metodologia
+  modules/employment/       # RAIS/CAGED separados, gráficos, tabelas e metodologia
 public/data/
   indicators.json           # Snapshots de Turvo + demonstrações identificadas
   comparison.json           # Snapshots oficiais dos municípios comparados
   population.json           # Dados multidimensionais de População
   economy.json              # PIB, per capita, setores, impostos e comparações
+  employment.json           # RAIS e CAGED multidimensionais, quatro municípios
+  exports/                  # CSVs de emprego, gerados pelo ETL
+  metadata/employment/      # Controles oficiais municipais RAIS
   economy/                  # Respostas oficiais auditáveis
   gdp*.csv                  # PIB e per capita, gerados pelo ETL
   economy-sectors.csv        # VAB e participações setoriais
@@ -105,6 +128,8 @@ scripts/common.py           # HTTP, números e escrita atômica
 scripts/sources/ibge.py      # Metadados e parsing completo de agregados
 scripts/modules/population.py # Coleta e validação do módulo População
 scripts/modules/economy.py    # Coleta e validação do módulo Economia
+scripts/sources/mte.py         # Transporte, descoberta, layouts e streaming MTE
+scripts/modules/employment.py # RAIS, CAGED, ajustes, privacidade e exportação
 tests/test_etl.py           # Conversão, integridade e comportamento em falhas
 docs/github-actions/        # Templates de CI, coleta semanal e deploy opcional (ativar abaixo)
 ```
@@ -143,7 +168,7 @@ Configuração oficial: https://developers.cloudflare.com/pages/framework-guides
 
 Alternativa por GitHub Actions: crie um projeto Pages de upload direto chamado `observatorio-turvo-estatico` e configure os secrets `CLOUDFLARE_API_TOKEN` (escopo limitado a Pages) e `CLOUDFLARE_ACCOUNT_ID`. O workflow de deploy compila e publica com Wrangler. Sem secrets, compila e informa que a publicação foi pulada. **Escolha um único modo de deploy** para evitar publicações duplicadas. O provisionamento da conta Cloudflare não é feito pelo repositório.
 
-A atualização semanal executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Commits feitos com `GITHUB_TOKEN` não acionam novos workflows de push; por isso o próprio workflow de coleta compila e publica quando há secrets Cloudflare. Em integração Git, se o provedor não disparar build para commits do bot, use o modo Actions. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
+O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Commits feitos com `GITHUB_TOKEN` não acionam novos workflows de push; por isso o próprio workflow de coleta compila e publica quando há secrets Cloudflare. Em integração Git, se o provedor não disparar build para commits do bot, use o modo Actions. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
 
 ## Custo e segurança
 

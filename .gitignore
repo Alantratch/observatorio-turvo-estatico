@@ -4,3 +4,6 @@ dist/
 !.env.example
 __pycache__/
 .wrangler/
+.mte-cache/
+*.7z
+*.part

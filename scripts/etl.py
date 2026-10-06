@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.common import atomic_write, read, request_json
 from scripts.modules.population import update as update_population
 from scripts.modules.economy import update as update_economy
+from scripts.modules.employment import update as update_employment
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'public' / 'data'
@@ -88,8 +89,15 @@ def validate(data):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--module', choices=['all', 'population', 'economy'], default='all', help='Atualizar um módulo ou todos')
+    parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment'], default='all', help='Atualizar um módulo ou todos')
     parser.add_argument('--offline', action='store_true', help='Validar snapshot sem consultar APIs')
+    parser.add_argument('--source', choices=['all','rais','caged'], default='all', help='Somente Trabalho: bases independentes')
+    parser.add_argument('--force', action='store_true', help='Reprocessar mesma divulgação e incorporar revisões')
+    parser.add_argument('--rais-remuneration', action='store_true', help='Processar arquivo regional grande para remuneração RAIS; opcional/manual')
+    parser.add_argument('--cache', help='Cache local não público de arquivos MTE')
+    parser.add_argument('--latest', help='Competência CAGED explícita AAAAMM')
+    parser.add_argument('--rais-year', type=int, help='Ano RAIS explícito')
+    parser.add_argument('--window', type=int, choices=[12,24], default=24)
     options = parser.parse_args()
     if options.module == 'all':
         update(options.offline)
@@ -98,5 +106,8 @@ if __name__ == '__main__':
         failures += update_population(DATA, options.offline)['collection']['failures']
     if options.module in ('all', 'economy'):
         failures += update_economy(DATA, options.offline)['collection']['failures']
+    # Heavy national microdata is intentionally excluded from the weekly all refresh.
+    if options.module == 'employment':
+        failures += update_employment(DATA, options.offline, options.source, options.force, options.cache, options.latest, options.rais_year, options.window, options.rais_remuneration)['collection']['failures']
     if failures and not options.offline:
         raise SystemExit(1)  # Snapshot remains usable; signal failed refresh.

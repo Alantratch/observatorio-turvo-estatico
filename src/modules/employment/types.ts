@@ -1,0 +1,11 @@
+export interface Counts {admissions:number; dismissals:number; balance:number}
+export interface Month extends Counts {period:string; admissionSalary:number|null; salarySample:number|null; salaryStatus:string}
+export interface FlowCategory extends Counts {code:string;label:string;period?:string}
+export interface StockSector {code:string;label:string;stock:number;share:number;remuneration?:number|null}
+export interface RaisYear {period:string;stock:number;sectors:StockSector[]}
+export interface Window extends Partial<Counts> {status:string;from?:string;to?:string;reason?:string}
+export interface Rais {status:string;reference:string|null;sourceId?:string;methodology?:string;collectedAt:string|null;stock?:{value:number;unit:string};sectors?:StockSector[];series?:RaisYear[];remuneration?:{status:string;value:number|null;reason?:string;unit?:string;sample?:number|null;variable?:string;missingOrZero?:number;collectedAt?:string;sectors?:{label:string;value:number|null;sample:number|null}[]};establishments?:{status:string;value:number|null;reason?:string};reason?:string}
+export interface Caged {status:string;latestReference:string|null;adjustedThrough?:string;sourceId?:string;methodology?:string;unit?:string;collectedAt:string|null;monthly:Month[];yearToDate?:Window;rolling12Months?:Window;sectors?:FlowCategory[];occupations?:FlowCategory[];activities?:FlowCategory[];occupationPrivacy?:string;activityPrivacy?:string;salaryMethod?:string;validation?:{status:string;municipalIndependentCheck:string};reason?:string}
+export interface Source {id:string;agency:string;dataset:string;reference:string;collectedAt:string|null;url:string;microdataUrl:string;layout:string;concept:string;filters:string;transformations:string;files:{url:string;sha256:string;bytes:number}[]}
+export interface Peer {municipality:{code:string;mteCode:string;name:string;state:string};rais:Rais;caged:Caged}
+export interface EmploymentData extends Peer {schemaVersion:number;comparisons:Record<string,Peer>;sources:Source[];collection:{attemptedAt:string|null;lastSuccessAt:string|null;failures:string[];privacyMinimum?:number};revisions:{municipalityCode:string;period:string;revisionDetectedAt:string;previous:Counts;current:Counts}[]}

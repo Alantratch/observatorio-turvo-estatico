@@ -315,76 +315,146 @@
     {
       "id": "caged-balance",
       "module": "employment",
-      "title": "Saldo de empregos",
-      "value": 84,
+      "title": "Saldo de vínculos no mês",
+      "value": 23,
       "unit": "vínculos",
-      "source": "Novo CAGED",
-      "agency": "MTE",
-      "reference": "Exemplo fictício",
-      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
-      "collectedAt": null,
+      "source": "MTE / Novo CAGED",
+      "agency": "Ministério do Trabalho e Emprego",
+      "reference": "2026-08",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged",
+      "collectedAt": "2026-10-06T16:53:23.546027+00:00",
       "municipalityCode": "4127965",
-      "status": "mock",
+      "status": "real",
       "series": [
         {
-          "period": "2020",
-          "value": 67.2
+          "period": "2024-09",
+          "value": 20
         },
         {
-          "period": "2021",
-          "value": 72.24
+          "period": "2024-10",
+          "value": -5
         },
         {
-          "period": "2022",
-          "value": 69.72
+          "period": "2024-11",
+          "value": -14
         },
         {
-          "period": "2023",
-          "value": 78.96
+          "period": "2024-12",
+          "value": -48
         },
         {
-          "period": "2024",
-          "value": 84
+          "period": "2025-01",
+          "value": -19
+        },
+        {
+          "period": "2025-02",
+          "value": 21
+        },
+        {
+          "period": "2025-03",
+          "value": 28
+        },
+        {
+          "period": "2025-04",
+          "value": 11
+        },
+        {
+          "period": "2025-05",
+          "value": -1
+        },
+        {
+          "period": "2025-06",
+          "value": 51
+        },
+        {
+          "period": "2025-07",
+          "value": 30
+        },
+        {
+          "period": "2025-08",
+          "value": 2
+        },
+        {
+          "period": "2025-09",
+          "value": 16
+        },
+        {
+          "period": "2025-10",
+          "value": 6
+        },
+        {
+          "period": "2025-11",
+          "value": 24
+        },
+        {
+          "period": "2025-12",
+          "value": -40
+        },
+        {
+          "period": "2026-01",
+          "value": 24
+        },
+        {
+          "period": "2026-02",
+          "value": 109
+        },
+        {
+          "period": "2026-03",
+          "value": 51
+        },
+        {
+          "period": "2026-04",
+          "value": -11
+        },
+        {
+          "period": "2026-05",
+          "value": 19
+        },
+        {
+          "period": "2026-06",
+          "value": 34
+        },
+        {
+          "period": "2026-07",
+          "value": 46
+        },
+        {
+          "period": "2026-08",
+          "value": 23
         }
       ],
-      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+      "methodology": "novo-caged-adjusted-flows",
+      "note": "Vínculos, não pessoas únicas. RAIS: estoque anual. Novo CAGED: admissões menos desligamentos; saldo não é estoque."
     },
     {
-      "id": "formal-jobs",
+      "id": "formal-employment-stock",
       "module": "employment",
       "title": "Vínculos formais",
-      "value": 3200,
+      "value": 2763,
       "unit": "vínculos",
-      "source": "RAIS",
-      "agency": "MTE",
-      "reference": "Exemplo fictício",
-      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais",
-      "collectedAt": null,
+      "source": "MTE / RAIS",
+      "agency": "Ministério do Trabalho e Emprego",
+      "reference": "2025",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais",
+      "collectedAt": "2026-10-06T16:29:21.820013+00:00",
       "municipalityCode": "4127965",
-      "status": "mock",
+      "status": "real",
       "series": [
         {
-          "period": "2020",
-          "value": 2560.0
-        },
-        {
-          "period": "2021",
-          "value": 2752.0
-        },
-        {
-          "period": "2022",
-          "value": 2656.0
-        },
-        {
           "period": "2023",
-          "value": 3008.0
+          "value": 2466
         },
         {
           "period": "2024",
-          "value": 3200
+          "value": 2513
+        },
+        {
+          "period": "2025",
+          "value": 2763
         }
       ],
-      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+      "methodology": "rais-stock-31dec",
+      "note": "Vínculos, não pessoas únicas. RAIS: estoque anual. Novo CAGED: admissões menos desligamentos; saldo não é estoque."
     },
     {
       "id": "revenue",

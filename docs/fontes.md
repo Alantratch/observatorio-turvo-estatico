@@ -6,7 +6,7 @@ Turvo/PR: código IBGE **4127965**. Em outras bases, o identificador pode ter se
 | --- | --- | --- | --- |
 | População, território | IBGE SIDRA, Pesquisas, Localidades e Malhas | https://servicodados.ibge.gov.br/api/docs | Integradas; veja documentação de População |
 | Economia | IBGE Agregados 5938 e Pesquisas 38/47001 | https://servicodados.ibge.gov.br/api/docs | PIB, per capita, VAB/setores, impostos e comparações integrados |
-| Trabalho | MTE RAIS e Novo CAGED | https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho | TODO; demonstração |
+| Trabalho | MTE/PDET · RAIS e Novo CAGED | https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho | Integrado: RAIS 2023–2025 e CAGED set/2024–ago/2026; metadados próprios |
 | Educação | INEP Censo Escolar / IDEB | https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos | TODO; demonstração |
 | Saúde | DATASUS / CNES | https://datasus.saude.gov.br/ e https://cnes.datasus.gov.br/ | TODO; demonstração |
 | Finanças | Tesouro / SICONFI | https://siconfi.tesouro.gov.br/ | TODO; demonstração |
@@ -37,7 +37,7 @@ Valores fictícios têm `status=mock`, referência “Exemplo fictício”, sem 
 
 A comparação 2010–2022 usa a variação absoluta da tabela 4709 e base 2010 compatibilizada; não a publicação original 2010 da tabela 202. Símbolo SIDRA `-` significa zero absoluto e tem conversão explícita; `X`, `..` e `...` nunca viram zero.
 
-MCP Brasil pode ser usado para descoberta e consulta assistida. Foram analisados os clientes de agregados, municípios, pesquisas e malhas em [Mcp-Brasil/mcp-brasil](https://github.com/Mcp-Brasil/mcp-brasil/tree/2efb258370b125bbf190884283ae10f209b9d335/src/mcp_brasil/data/ibge), licença MIT. Nenhum código foi copiado e o site/ETL não dependem de servidor MCP. A fonte autoritativa de todos os valores publicados permanece o IBGE.
+MCP Brasil pode ser usado para descoberta e consulta assistida. Foram analisados os clientes de agregados, municípios, pesquisas e malhas em [Mcp-Brasil/mcp-brasil](https://github.com/Mcp-Brasil/mcp-brasil/tree/2efb258370b125bbf190884283ae10f209b9d335/src/mcp_brasil/data/ibge), licença MIT. Nenhum código foi copiado e o site/ETL não dependem de servidor MCP. A fonte autoritativa dos indicadores de População/Economia permanece o IBGE; Trabalho usa MTE/PDET.
 
 ## Economia aprofundada
 
@@ -46,3 +46,11 @@ MCP Brasil pode ser usado para descoberta e consulta assistida. Foram analisados
 Participações setoriais oficiais têm denominador VAB total; impostos/PIB é cálculo derivado separado. Variação do PIB é nominal, sem correção inflacionária. A falta de abertura em 2022/2023 é característica da divulgação do IBGE. Metadados, símbolos brutos e referências independentes estão em economy.json e economy/raw. JSON e CSVs são produzidos pelo ETL.
 
 Foram inspecionadas ferramentas IBGE, IPEADATA e BACEN do MCP Brasil e catálogo oficial IPEADATA. As séries regionais de preços de 2010 não foram misturadas com os valores correntes do IBGE; indicadores nacionais BACEN não foram atribuídos ao município. MCP é referência de descoberta; IBGE é a fonte autoritativa dos indicadores publicados.
+
+## Trabalho e Emprego · MTE/PDET
+
+[Documentação completa](modulos/trabalho-emprego.md) lista URLs de origem, layouts e filtros. RAIS tabela 4: estoque e cinco setores 2023–2025, conferidos com microdados 2025 (ativos em 31/12, abandonados excluídos). Remuneração nominal de dezembro/2025 calcula média somente com valores positivos, mostrando cobertura. Novo CAGED: 24 competências até agosto/2026, MOV + FOR − EXC por competência original, admissões/desligamentos/saldo, janelas completas, CNAE/CBO com proteção de contagens 1–4 e salário das admissões não intermitentes nos limites metodológicos MTE.
+
+O total nacional de agosto/2026 coincide exatamente com o sumário oficial; a conferência independente municipal CAGED no ISPER/Perfil permanece pendente. Não publicamos estoque CAGED reconstruído nem taxas municipais de emprego/desemprego. SHA256, tamanho, coleta, referência, layouts e revisões estão em `employment.json`.
+
+O MCP Brasil foi inspecionado no commit `2efb258370b125bbf190884283ae10f209b9d335`: não há conector municipal RAIS/CAGED. O catálogo BACEN contém SGS 28561 (saldo CAGED nacional), PNAD e rendimento macro. Não foram atribuídos a Turvo. Oportunidade futura upstream `mte_trabalho`, documentada no módulo, sem servidor MCP obrigatório no site.
