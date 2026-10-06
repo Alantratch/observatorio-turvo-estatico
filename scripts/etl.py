@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.common import atomic_write, read, request_json
 from scripts.modules.population import update as update_population
+from scripts.modules.economy import update as update_economy
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'public' / 'data'
@@ -19,7 +20,7 @@ SOURCES = [
     ('density', 'population', 'Densidade demográfica', '4714', '614', '2022', 'hab/km²', 1),
     ('gdp', 'economy', 'Produto Interno Bruto (PIB)', '5938', '37', 'all', 'R$', 1000),
 ]
-EXPECTED_UNITS = {'93': 'Pessoas', '6318': 'Quilômetros quadrados', '614': 'Habitante por quilômetro quadrado', '37': 'Mil Reais', '543': 'Reais'}
+EXPECTED_UNITS = {'93': 'Pessoas', '6318': 'Quilômetros quadrados', '614': 'Habitante por quilômetro quadrado', '37': 'Mil Reais', '543': 'Mil Reais'}
 
 def normalize(rows, spec, code, collected_at):
     identifier, module, title, table, variable, _, unit, multiplier = spec
@@ -46,6 +47,9 @@ def update(offline=False):
     for code, name in MUNICIPALITIES.items():
         items = catalog['indicators'] if code == '4127965' else peers.setdefault(code, {'name': name, 'indicators': []})['indicators']
         for spec in SOURCES:
+            # The dedicated module owns GDP once its validated snapshot exists.
+            if spec[1] == 'economy' and (DATA / 'economy.json').exists():
+                continue
             url = f'https://apisidra.ibge.gov.br/values/t/{spec[3]}/n6/{code}/v/{spec[4]}/p/{spec[5]}'
             try:
                 indicator = normalize(request_json(url), spec, code, now)
@@ -84,11 +88,15 @@ def validate(data):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--module', choices=['all', 'population'], default='all', help='Atualizar somente População ou todos os módulos')
+    parser.add_argument('--module', choices=['all', 'population', 'economy'], default='all', help='Atualizar um módulo ou todos')
     parser.add_argument('--offline', action='store_true', help='Validar snapshot sem consultar APIs')
     options = parser.parse_args()
     if options.module == 'all':
         update(options.offline)
-    population = update_population(DATA, options.offline)
-    if population['collection']['failures'] and not options.offline:
-        raise SystemExit(1)  # Make partial collection failures visible in Actions; old data remain valid.
+    failures = []
+    if options.module in ('all', 'population'):
+        failures += update_population(DATA, options.offline)['collection']['failures']
+    if options.module in ('all', 'economy'):
+        failures += update_economy(DATA, options.offline)['collection']['failures']
+    if failures and not options.offline:
+        raise SystemExit(1)  # Snapshot remains usable; signal failed refresh.

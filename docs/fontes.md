@@ -5,7 +5,7 @@ Turvo/PR: código IBGE **4127965**. Em outras bases, o identificador pode ter se
 | Área | Órgão / fonte | URL | Situação |
 | --- | --- | --- | --- |
 | População, território | IBGE SIDRA, Pesquisas, Localidades e Malhas | https://servicodados.ibge.gov.br/api/docs | Integradas; veja documentação de População |
-| Economia | IBGE SIDRA tabela 5938 | https://sidra.ibge.gov.br/tabela/5938 | Integrada; série histórica disponível |
+| Economia | IBGE Agregados 5938 e Pesquisas 38/47001 | https://servicodados.ibge.gov.br/api/docs | PIB, per capita, VAB/setores, impostos e comparações integrados |
 | Trabalho | MTE RAIS e Novo CAGED | https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho | TODO; demonstração |
 | Educação | INEP Censo Escolar / IDEB | https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos | TODO; demonstração |
 | Saúde | DATASUS / CNES | https://datasus.saude.gov.br/ e https://cnes.datasus.gov.br/ | TODO; demonstração |
@@ -38,3 +38,11 @@ Valores fictícios têm `status=mock`, referência “Exemplo fictício”, sem 
 A comparação 2010–2022 usa a variação absoluta da tabela 4709 e base 2010 compatibilizada; não a publicação original 2010 da tabela 202. Símbolo SIDRA `-` significa zero absoluto e tem conversão explícita; `X`, `..` e `...` nunca viram zero.
 
 MCP Brasil pode ser usado para descoberta e consulta assistida. Foram analisados os clientes de agregados, municípios, pesquisas e malhas em [Mcp-Brasil/mcp-brasil](https://github.com/Mcp-Brasil/mcp-brasil/tree/2efb258370b125bbf190884283ae10f209b9d335/src/mcp_brasil/data/ibge), licença MIT. Nenhum código foi copiado e o site/ETL não dependem de servidor MCP. A fonte autoritativa de todos os valores publicados permanece o IBGE.
+
+## Economia aprofundada
+
+[Documentação do módulo](modulos/economia.md): tabela 5938, variáveis 37, 498, 513/516, 517/520, 6575/6574, 525/528 e 543. **543 é impostos, em Mil Reais; não PIB per capita.** Este vem de Pesquisas 38, pai 47000/folha 47001, unidade R$, série revisada. PIB 2002–2023, per capita 2010–2023, abertura setorial/VAB total/impostos 2002–2021. Os quatro municípios são coletados pelas mesmas APIs oficiais.
+
+Participações setoriais oficiais têm denominador VAB total; impostos/PIB é cálculo derivado separado. Variação do PIB é nominal, sem correção inflacionária. A falta de abertura em 2022/2023 é característica da divulgação do IBGE. Metadados, símbolos brutos e referências independentes estão em economy.json e economy/raw. JSON e CSVs são produzidos pelo ETL.
+
+Foram inspecionadas ferramentas IBGE, IPEADATA e BACEN do MCP Brasil e catálogo oficial IPEADATA. As séries regionais de preços de 2010 não foram misturadas com os valores correntes do IBGE; indicadores nacionais BACEN não foram atribuídos ao município. MCP é referência de descoberta; IBGE é a fonte autoritativa dos indicadores publicados.

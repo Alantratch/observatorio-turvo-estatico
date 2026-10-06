@@ -1,0 +1,24 @@
+[
+  {
+    "id": 47001,
+    "pesquisa_id": 38,
+    "posicao": "2.1",
+    "indicador": "Série revisada",
+    "classe": "I",
+    "unidade": {
+      "id": "R$",
+      "classe": "$",
+      "multiplicador": 1
+    },
+    "children": [],
+    "nota": [],
+    "fonte": [
+      {
+        "periodo": "-",
+        "fontes": [
+          "IBGE, em parceria com os Órgãos Estaduais de Estatística, Secretarias Estaduais de Governo e Superintendência da Zona Franca de Manaus - \r\nSUFRAMA"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1069 @@
+{
+  "metadata": {
+    "id": 5938,
+    "nome": "Produto interno bruto a preços correntes, impostos, líquidos de subsídios, sobre produtos a preços correntes e valor adicionado bruto a preços correntes total e por atividade econômica, e respectivas participações - Referência 2010",
+    "URL": "https://sidra.ibge.gov.br/tabela/5938",
+    "pesquisa": "Produto Interno Bruto dos Municípios",
+    "assunto": "Contas Nacionais e Regionais",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2002,
+      "fim": 2023
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N8",
+        "N9",
+        "N6",
+        "N3"
+      ],
+      "Especial": [],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 37,
+        "nome": "Produto Interno Bruto a preços correntes",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 553,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 552,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 497,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 530,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 496,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 543,
+        "nome": "Impostos, líquidos de subsídios, sobre produtos a preços correntes",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 571,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 570,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 545,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 551,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 544,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 498,
+        "nome": "Valor adicionado bruto a preços correntes total",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 555,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 554,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 500,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 546,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 499,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 513,
+        "nome": "Valor adicionado bruto a preços correntes da agropecuária",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 516,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 557,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 556,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 515,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 547,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 514,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 517,
+        "nome": "Valor adicionado bruto a preços correntes da indústria",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 520,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 559,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 558,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 519,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 548,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 518,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6575,
+        "nome": "Valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6574,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6571,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6570,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6572,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6569,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6573,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 525,
+        "nome": "Valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 528,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 563,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da microrregião geográfic",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 562,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 527,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 550,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 526,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      }
+    ],
+    "classificacoes": []
+  },
+  "periods": [
+    {
+      "id": "2002",
+      "literals": [
+        "2002"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2003",
+      "literals": [
+        "2003"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2004",
+      "literals": [
+        "2004"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2005",
+      "literals": [
+        "2005"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2006",
+      "literals": [
+        "2006"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2007",
+      "literals": [
+        "2007"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2008",
+      "literals": [
+        "2008"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2009",
+      "literals": [
+        "2009"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2010",
+      "literals": [
+        "2010"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2011",
+      "literals": [
+        "2011"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2012",
+      "literals": [
+        "2012"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2013",
+      "literals": [
+        "2013"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2014",
+      "literals": [
+        "2014"
+      ],
+      "modificacao": "14/12/2017"
+    },
+    {
+      "id": "2015",
+      "literals": [
+        "2015"
+      ],
+      "modificacao": "10/01/2019"
+    },
+    {
+      "id": "2016",
+      "literals": [
+        "2016"
+      ],
+      "modificacao": "13/12/2019"
+    },
+    {
+      "id": "2017",
+      "literals": [
+        "2017"
+      ],
+      "modificacao": "17/12/2021"
+    },
+    {
+      "id": "2018",
+      "literals": [
+        "2018"
+      ],
+      "modificacao": "16/12/2022"
+    },
+    {
+      "id": "2019",
+      "literals": [
+        "2019"
+      ],
+      "modificacao": "15/12/2023"
+    },
+    {
+      "id": "2020",
+      "literals": [
+        "2020"
+      ],
+      "modificacao": "15/12/2023"
+    },
+    {
+      "id": "2021",
+      "literals": [
+        "2021"
+      ],
+      "modificacao": "19/12/2025"
+    },
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "19/12/2025"
+    },
+    {
+      "id": "2023",
+      "literals": [
+        "2023"
+      ],
+      "modificacao": "19/12/2025"
+    }
+  ],
+  "response": [
+    {
+      "id": "37",
+      "variavel": "Produto Interno Bruto a preços correntes",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "17297",
+                "2003": "20559",
+                "2004": "22572",
+                "2005": "24201",
+                "2006": "26637",
+                "2007": "28960",
+                "2008": "36141",
+                "2009": "38720",
+                "2010": "40100",
+                "2011": "48834",
+                "2012": "54575",
+                "2013": "62215",
+                "2014": "68367",
+                "2015": "76475",
+                "2016": "82688",
+                "2017": "84016",
+                "2018": "82465",
+                "2019": "84472",
+                "2020": "100926",
+                "2021": "113016",
+                "2022": "111089",
+                "2023": "125483"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "543",
+      "variavel": "Impostos, líquidos de subsídios, sobre produtos a preços correntes",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "491",
+                "2003": "571",
+                "2004": "697",
+                "2005": "820",
+                "2006": "839",
+                "2007": "808",
+                "2008": "1042",
+                "2009": "999",
+                "2010": "1151",
+                "2011": "1743",
+                "2012": "1993",
+                "2013": "1955",
+                "2014": "2216",
+                "2015": "3005",
+                "2016": "2981",
+                "2017": "2986",
+                "2018": "3481",
+                "2019": "3614",
+                "2020": "3479",
+                "2021": "4992",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "498",
+      "variavel": "Valor adicionado bruto a preços correntes total",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "16806",
+                "2003": "19988",
+                "2004": "21874",
+                "2005": "23381",
+                "2006": "25798",
+                "2007": "28152",
+                "2008": "35099",
+                "2009": "37721",
+                "2010": "38949",
+                "2011": "47090",
+                "2012": "52582",
+                "2013": "60260",
+                "2014": "66151",
+                "2015": "73470",
+                "2016": "79707",
+                "2017": "81029",
+                "2018": "78983",
+                "2019": "80858",
+                "2020": "97447",
+                "2021": "108024",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "513",
+      "variavel": "Valor adicionado bruto a preços correntes da agropecuária",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "7385",
+                "2003": "9230",
+                "2004": "10471",
+                "2005": "9929",
+                "2006": "10323",
+                "2007": "11842",
+                "2008": "16055",
+                "2009": "16849",
+                "2010": "17021",
+                "2011": "20486",
+                "2012": "21775",
+                "2013": "26349",
+                "2014": "29367",
+                "2015": "32327",
+                "2016": "35933",
+                "2017": "34376",
+                "2018": "31971",
+                "2019": "31162",
+                "2020": "47326",
+                "2021": "54581",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "516",
+      "variavel": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "43.94",
+                "2003": "46.18",
+                "2004": "47.87",
+                "2005": "42.46",
+                "2006": "40.02",
+                "2007": "42.07",
+                "2008": "45.74",
+                "2009": "44.67",
+                "2010": "43.70",
+                "2011": "43.50",
+                "2012": "41.41",
+                "2013": "43.73",
+                "2014": "44.39",
+                "2015": "44.00",
+                "2016": "45.08",
+                "2017": "42.42",
+                "2018": "40.48",
+                "2019": "38.54",
+                "2020": "48.57",
+                "2021": "50.53",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "517",
+      "variavel": "Valor adicionado bruto a preços correntes da indústria",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "639",
+                "2003": "505",
+                "2004": "605",
+                "2005": "677",
+                "2006": "668",
+                "2007": "785",
+                "2008": "927",
+                "2009": "1096",
+                "2010": "1191",
+                "2011": "1515",
+                "2012": "2170",
+                "2013": "2143",
+                "2014": "2159",
+                "2015": "2366",
+                "2016": "2333",
+                "2017": "2070",
+                "2018": "2119",
+                "2019": "2618",
+                "2020": "2587",
+                "2021": "3015",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "520",
+      "variavel": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "3.80",
+                "2003": "2.53",
+                "2004": "2.77",
+                "2005": "2.90",
+                "2006": "2.59",
+                "2007": "2.79",
+                "2008": "2.64",
+                "2009": "2.90",
+                "2010": "3.06",
+                "2011": "3.22",
+                "2012": "4.13",
+                "2013": "3.56",
+                "2014": "3.26",
+                "2015": "3.22",
+                "2016": "2.93",
+                "2017": "2.56",
+                "2018": "2.68",
+                "2019": "3.24",
+                "2020": "2.65",
+                "2021": "2.79",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6575",
+      "variavel": "Valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "2289",
+                "2003": "2702",
+                "2004": "2889",
+                "2005": "3389",
+                "2006": "3948",
+                "2007": "4382",
+                "2008": "5299",
+                "2009": "5917",
+                "2010": "5765",
+                "2011": "8387",
+                "2012": "10231",
+                "2013": "11038",
+                "2014": "11849",
+                "2015": "14046",
+                "2016": "14031",
+                "2017": "15489",
+                "2018": "16789",
+                "2019": "17854",
+                "2020": "18417",
+                "2021": "21080",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6574",
+      "variavel": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "13.62",
+                "2003": "13.52",
+                "2004": "13.21",
+                "2005": "14.49",
+                "2006": "15.30",
+                "2007": "15.57",
+                "2008": "15.10",
+                "2009": "15.69",
+                "2010": "14.80",
+                "2011": "17.81",
+                "2012": "19.46",
+                "2013": "18.32",
+                "2014": "17.91",
+                "2015": "19.12",
+                "2016": "17.60",
+                "2017": "19.12",
+                "2018": "21.26",
+                "2019": "22.08",
+                "2020": "18.90",
+                "2021": "19.51",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "525",
+      "variavel": "Valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "6493",
+                "2003": "7551",
+                "2004": "7910",
+                "2005": "9387",
+                "2006": "10859",
+                "2007": "11142",
+                "2008": "12817",
+                "2009": "13859",
+                "2010": "14971",
+                "2011": "16702",
+                "2012": "18407",
+                "2013": "20729",
+                "2014": "22775",
+                "2015": "24731",
+                "2016": "27410",
+                "2017": "29094",
+                "2018": "28104",
+                "2019": "29225",
+                "2020": "29116",
+                "2021": "29347",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "528",
+      "variavel": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2002": "38.64",
+                "2003": "37.78",
+                "2004": "36.16",
+                "2005": "40.15",
+                "2006": "42.09",
+                "2007": "39.58",
+                "2008": "36.52",
+                "2009": "36.74",
+                "2010": "38.44",
+                "2011": "35.47",
+                "2012": "35.01",
+                "2013": "34.40",
+                "2014": "34.43",
+                "2015": "33.66",
+                "2016": "34.39",
+                "2017": "35.91",
+                "2018": "35.58",
+                "2019": "36.14",
+                "2020": "29.88",
+                "2021": "27.17",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4113254%5D"
+}

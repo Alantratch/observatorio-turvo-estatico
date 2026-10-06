@@ -1,0 +1,426 @@
+{
+  "metadata": [
+    {
+      "id": 47001,
+      "pesquisa_id": 38,
+      "posicao": "2.1",
+      "indicador": "Série revisada",
+      "classe": "I",
+      "unidade": {
+        "id": "R$",
+        "classe": "$",
+        "multiplicador": 1
+      },
+      "children": [],
+      "nota": [],
+      "fonte": [
+        {
+          "periodo": "-",
+          "fontes": [
+            "IBGE, em parceria com os Órgãos Estaduais de Estatística, Secretarias Estaduais de Governo e Superintendência da Zona Franca de Manaus - \r\nSUFRAMA"
+          ]
+        }
+      ]
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": 46996,
+      "posicao": "1",
+      "indicador": "PIB a preços correntes",
+      "classe": null,
+      "children": [
+        {
+          "id": 46997,
+          "posicao": "1.1",
+          "indicador": "Série revisada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [],
+          "nota": []
+        },
+        {
+          "id": 46998,
+          "posicao": "1.2",
+          "indicador": "Série retropolada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [],
+          "nota": []
+        },
+        {
+          "id": 46999,
+          "posicao": "1.3",
+          "indicador": "Série encerrada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [],
+          "nota": []
+        }
+      ],
+      "nota": []
+    },
+    {
+      "id": 47000,
+      "posicao": "2",
+      "indicador": "PIB per capita",
+      "classe": null,
+      "children": [
+        {
+          "id": 47001,
+          "posicao": "2.1",
+          "indicador": "Série revisada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1
+          },
+          "children": [],
+          "nota": [],
+          "fonte": [
+            {
+              "periodo": "-",
+              "fontes": [
+                "IBGE, em parceria com os Órgãos Estaduais de Estatística, Secretarias Estaduais de Governo e Superintendência da Zona Franca de Manaus - \r\nSUFRAMA"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 47002,
+          "posicao": "2.2",
+          "indicador": "Série encerrada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1
+          },
+          "children": [],
+          "nota": []
+        }
+      ],
+      "nota": []
+    },
+    {
+      "id": 47003,
+      "posicao": "3",
+      "indicador": "Valor adicionado bruto a preços correntes",
+      "classe": null,
+      "children": [
+        {
+          "id": 47004,
+          "posicao": "3.1",
+          "indicador": "Série revisada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [
+            {
+              "id": 47005,
+              "posicao": "3.1.1",
+              "indicador": "Atividade econômica",
+              "classe": null,
+              "children": [
+                {
+                  "id": 47006,
+                  "posicao": "3.1.1.1",
+                  "indicador": "Agropecuária",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47007,
+                  "posicao": "3.1.1.2",
+                  "indicador": "Indústria",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47008,
+                  "posicao": "3.1.1.3",
+                  "indicador": "Serviços - Exclusive Administração, defesa, educação e saúde públicas e seguridade social",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47009,
+                  "posicao": "3.1.1.4",
+                  "indicador": "Administração, defesa, educação e saúde públicas e seguridade social",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                }
+              ],
+              "nota": []
+            }
+          ],
+          "nota": []
+        },
+        {
+          "id": 47010,
+          "posicao": "3.2",
+          "indicador": "Série retropolada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [
+            {
+              "id": 47011,
+              "posicao": "3.2.1",
+              "indicador": "Atividade econômica",
+              "classe": null,
+              "children": [
+                {
+                  "id": 47012,
+                  "posicao": "3.2.1.1",
+                  "indicador": "Agropecuária",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47013,
+                  "posicao": "3.2.1.2",
+                  "indicador": "Indústria",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47014,
+                  "posicao": "3.2.1.3",
+                  "indicador": "Serviços - Exclusive Administração, defesa, educação e saúde públicas e seguridade social",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47015,
+                  "posicao": "3.2.1.4",
+                  "indicador": "Administração, defesa, educação e saúde públicas e seguridade social",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                }
+              ],
+              "nota": []
+            }
+          ],
+          "nota": []
+        },
+        {
+          "id": 47016,
+          "posicao": "3.3",
+          "indicador": "Série encerrada",
+          "classe": null,
+          "children": [
+            {
+              "id": 47017,
+              "posicao": "3.3.1",
+              "indicador": "Atividade econômica",
+              "classe": null,
+              "children": [
+                {
+                  "id": 47018,
+                  "posicao": "3.3.1.1",
+                  "indicador": "Agropecuária",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47019,
+                  "posicao": "3.3.1.2",
+                  "indicador": "Indústria",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                },
+                {
+                  "id": 47020,
+                  "posicao": "3.3.1.3",
+                  "indicador": "Serviços",
+                  "classe": "I",
+                  "unidade": {
+                    "id": "R$",
+                    "classe": "$",
+                    "multiplicador": 1000
+                  },
+                  "children": [],
+                  "nota": []
+                }
+              ],
+              "nota": []
+            }
+          ],
+          "nota": []
+        }
+      ],
+      "nota": []
+    },
+    {
+      "id": 47021,
+      "posicao": "4",
+      "indicador": "Impostos, líquidos de subsídios, sobre produtos, a preços correntes",
+      "classe": null,
+      "children": [
+        {
+          "id": 47022,
+          "posicao": "4.1",
+          "indicador": "Série revisada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [],
+          "nota": []
+        },
+        {
+          "id": 47023,
+          "posicao": "4.2",
+          "indicador": "Série retropolada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [],
+          "nota": []
+        },
+        {
+          "id": 47024,
+          "posicao": "4.3",
+          "indicador": "Série encerrada",
+          "classe": "I",
+          "unidade": {
+            "id": "R$",
+            "classe": "$",
+            "multiplicador": 1000
+          },
+          "children": [],
+          "nota": []
+        }
+      ],
+      "nota": []
+    }
+  ],
+  "response": [
+    {
+      "id": 47001,
+      "res": [
+        {
+          "localidade": "410940",
+          "res": {
+            "2010": "14974.01",
+            "2011": "17304.98",
+            "2012": "20323.98",
+            "2013": "23550.66",
+            "2014": "25024.31",
+            "2015": "26817.67",
+            "2016": "29229.97",
+            "2017": "31093.54",
+            "2018": "33913.28",
+            "2019": "33642.77",
+            "2020": "41171.47",
+            "2021": "45217.95",
+            "2022": "51505.47",
+            "2023": "54170.74"
+          },
+          "notas": {
+            "2010": null,
+            "2011": null,
+            "2012": null,
+            "2013": null,
+            "2014": null,
+            "2015": null,
+            "2016": null,
+            "2017": null,
+            "2018": null,
+            "2019": null,
+            "2020": null,
+            "2021": null,
+            "2022": null,
+            "2023": null
+          }
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/47001/resultados/4109401"
+}

@@ -3,7 +3,7 @@
 Cada etapa deve incluir conector, metadados, teste de normalização e revisão da metodologia antes de marcar um dado como oficial.
 
 1. **População:** implementados Censos publicados, estimativas anuais separadas, crescimento compatibilizado, pirâmide etária, sexo, cor ou raça, índices demográficos, urbano/rural, domicílios, malha municipal e downloads. Próximos passos: comparação regional no novo schema e história em geografia compatível para Censos anteriores. Veja [módulo População](modulos/populacao.md).
-2. **Economia:** TODO PIB histórico, valor adicionado por setor, deflator documentado e cautela com mudanças metodológicas.
+2. **Economia:** implementados PIB 2002–2023, per capita oficial 2010–2023, variação nominal, VAB e setores 2002–2021, impostos separados, participações oficiais, evolução estrutural, comparação regional, metadados auditáveis e downloads. Próximos passos: novas divulgações e benchmark estadual compatível. Não há PIB real municipal calculado por IPCA. Veja [módulo Economia](modulos/economia.md).
 3. **Trabalho:** TODO importadores agregados RAIS/CAGED, estoque anual e saldo mensal em telas distintas.
 4. **Educação:** TODO agregação do Censo Escolar e IDEB por etapa/rede; supressão de células sensíveis.
 5. **Saúde:** TODO CNES por competência, séries de estabelecimentos, definição de indicadores de cobertura.
