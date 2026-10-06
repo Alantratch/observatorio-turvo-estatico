@@ -89,14 +89,16 @@ def validate(data):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment'], default='all', help='Atualizar um módulo ou todos')
+    parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment', 'education'], default='all', help='Atualizar um módulo ou todos')
     parser.add_argument('--offline', action='store_true', help='Validar snapshot sem consultar APIs')
     parser.add_argument('--source', choices=['all','rais','caged'], default='all', help='Somente Trabalho: bases independentes')
     parser.add_argument('--force', action='store_true', help='Reprocessar mesma divulgação e incorporar revisões')
     parser.add_argument('--rais-remuneration', action='store_true', help='Processar arquivo regional grande para remuneração RAIS; opcional/manual')
-    parser.add_argument('--cache', help='Cache local não público de arquivos MTE')
+    parser.add_argument('--cache', help='Cache local não público de arquivos MTE/INEP')
     parser.add_argument('--latest', help='Competência CAGED explícita AAAAMM')
     parser.add_argument('--rais-year', type=int, help='Ano RAIS explícito')
+    parser.add_argument('--education-year', type=int, help='Ano do Censo/indicadores anuais; avaliações usam edição própria mais recente')
+    parser.add_argument('--history-start', type=int, default=2015, help='Início do histórico educacional')
     parser.add_argument('--window', type=int, choices=[12,24], default=24)
     options = parser.parse_args()
     if options.module == 'all':
@@ -109,5 +111,8 @@ if __name__ == '__main__':
     # Heavy national microdata is intentionally excluded from the weekly all refresh.
     if options.module == 'employment':
         failures += update_employment(DATA, options.offline, options.source, options.force, options.cache, options.latest, options.rais_year, options.window, options.rais_remuneration)['collection']['failures']
+    if options.module == 'education':
+        from scripts.modules.education import update as update_education
+        failures += update_education(DATA, options.offline, options.force, options.cache, options.education_year, options.history_start)['collection']['failures']
     if failures and not options.offline:
         raise SystemExit(1)  # Snapshot remains usable; signal failed refresh.

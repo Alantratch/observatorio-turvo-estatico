@@ -7,7 +7,7 @@ Turvo/PR: código IBGE **4127965**. Em outras bases, o identificador pode ter se
 | População, território | IBGE SIDRA, Pesquisas, Localidades e Malhas | https://servicodados.ibge.gov.br/api/docs | Integradas; veja documentação de População |
 | Economia | IBGE Agregados 5938 e Pesquisas 38/47001 | https://servicodados.ibge.gov.br/api/docs | PIB, per capita, VAB/setores, impostos e comparações integrados |
 | Trabalho | MTE/PDET · RAIS e Novo CAGED | https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho | Integrado: RAIS 2023–2025 e CAGED set/2024–ago/2026; metadados próprios |
-| Educação | INEP Censo Escolar / IDEB | https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos | TODO; demonstração |
+| Educação | INEP Censo Escolar, Sinopse, IDEB, SAEB, alfabetização e indicadores anuais | [INEP dados abertos](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos) | Integrado; [arquivos, campos, períodos e limites](modulos/educacao.md) |
 | Saúde | DATASUS / CNES | https://datasus.saude.gov.br/ e https://cnes.datasus.gov.br/ | TODO; demonstração |
 | Finanças | Tesouro / SICONFI | https://siconfi.tesouro.gov.br/ | TODO; demonstração |
 | Contratações | MGI / PNCP | https://pncp.gov.br/ | TODO; demonstração |

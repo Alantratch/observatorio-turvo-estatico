@@ -28,3 +28,7 @@ Timeout de 25s, até três tentativas por endpoint; gravação atômica em cada 
 ## Worker futuro (opcional)
 
 Somente criar Worker se forem necessárias consultas dinâmicas, cache por parâmetro ou um endpoint próprio. Proposta: `GET /v1/municipios/:codigo/indicadores`, respondendo o mesmo schema e consultando snapshots com cache. TODO: implementar quando houver necessidade, com allowlist de municípios, limites de requisição e testes. O MVP não depende disso.
+
+## Educação
+
+[Educação](modulos/educacao.md) tem contrato próprio multidimensional e página sob demanda. Arquivos oficiais INEP são descobertos por base/ciclo; não há API REST única presumida. Censo 2025 junta quatro tabelas de agregados escolares por código INEP. A Sinopse fornece controle independente e docentes únicos; avaliações preservam etapas/redes. O JSON serve escola/município/rede sem indivíduos. CSVs de download incluem proveniência. Atualização mensal leve excluída do ETL semanal; reprocessamento pesado só em nova publicação/revisão manual. openpyxl lê XLSX; arquivos nacionais/cache ficam fora de public.
