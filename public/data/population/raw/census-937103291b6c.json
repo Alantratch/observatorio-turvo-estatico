@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "id": 4714,
+    "nome": "População Residente, Área territorial e Densidade demográfica",
+    "URL": "https://sidra.ibge.gov.br/tabela/4714",
+    "pesquisa": "Censo Demográfico",
+    "assunto": "Território",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2022,
+      "fim": 2022
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N6",
+        "N3"
+      ],
+      "Especial": [],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 93,
+        "nome": "População residente",
+        "unidade": "Pessoas",
+        "sumarizacao": []
+      },
+      {
+        "id": 6318,
+        "nome": "Área da unidade territorial",
+        "unidade": "Quilômetros quadrados",
+        "sumarizacao": []
+      },
+      {
+        "id": 614,
+        "nome": "Densidade demográfica",
+        "unidade": "Habitante por quilômetro quadrado",
+        "sumarizacao": []
+      }
+    ],
+    "classificacoes": []
+  },
+  "periods": [
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "07/05/2026"
+    }
+  ],
+  "response": [
+    {
+      "id": "93",
+      "variavel": "População residente",
+      "unidade": "Pessoas",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "14231"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6318",
+      "variavel": "Área da unidade territorial",
+      "unidade": "Quilômetros quadrados",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "938.966"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "614",
+      "variavel": "Densidade demográfica",
+      "unidade": "Habitante por quilômetro quadrado",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "15.16"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D"
+}

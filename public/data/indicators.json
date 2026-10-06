@@ -334,67 +334,100 @@
       "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
     },
     {
-      "id": "area",
-      "module": "population",
-      "title": "Área territorial",
-      "value": 938.966,
-      "unit": "km²",
-      "source": "IBGE / SIDRA · Tabela 4714",
-      "agency": "IBGE",
-      "reference": "2022",
-      "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4127965/v/6318/p/2022",
-      "collectedAt": "2026-10-06T14:08:30.826178+00:00",
-      "municipalityCode": "4127965",
-      "status": "real",
-      "series": [
-        {
-          "period": "2022",
-          "value": 938.966
-        }
-      ],
-      "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
-    },
-    {
-      "id": "density",
-      "module": "population",
-      "title": "Densidade demográfica",
-      "value": 15.16,
-      "unit": "hab/km²",
-      "source": "IBGE / SIDRA · Tabela 4714",
-      "agency": "IBGE",
-      "reference": "2022",
-      "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4127965/v/614/p/2022",
-      "collectedAt": "2026-10-06T14:11:57.713922+00:00",
-      "municipalityCode": "4127965",
-      "status": "real",
-      "series": [
-        {
-          "period": "2022",
-          "value": 15.16
-        }
-      ],
-      "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
-    },
-    {
-      "id": "population",
-      "module": "population",
-      "title": "População residente",
+      "id": "population-census",
+      "title": "População residente — Censo",
       "value": 14231.0,
       "unit": "pessoas",
-      "source": "IBGE / SIDRA · Tabela 4714",
-      "agency": "IBGE",
       "reference": "2022",
-      "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4127965/v/93/p/2022",
-      "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+      "sourceId": "census",
+      "source": "População Residente, Área territorial e Densidade demográfica",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
       "municipalityCode": "4127965",
       "status": "real",
+      "concept": "Contagem de população residente no Censo Demográfico 2022.",
+      "methodology": "census",
+      "module": "population",
       "series": [
         {
           "period": "2022",
           "value": 14231.0
         }
       ],
-      "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      "note": "Contagem de população residente no Censo Demográfico 2022."
+    },
+    {
+      "id": "population-density",
+      "title": "Densidade demográfica",
+      "value": 15.16,
+      "unit": "hab/km²",
+      "reference": "2022",
+      "sourceId": "census",
+      "source": "População Residente, Área territorial e Densidade demográfica",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "concept": "Densidade oficial censitária 2022. Não recalculada com a área territorial mais recente.",
+      "methodology": "census",
+      "module": "population",
+      "series": [
+        {
+          "period": "2022",
+          "value": 15.16
+        }
+      ],
+      "note": "Densidade oficial censitária 2022. Não recalculada com a área territorial mais recente."
+    },
+    {
+      "id": "population-estimate",
+      "title": "População estimada",
+      "value": 14110.0,
+      "unit": "pessoas",
+      "reference": "2026",
+      "sourceId": "estimates",
+      "source": "População residente estimada",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2001%7C2002%7C2003%7C2004%7C2005%7C2006%7C2008%7C2009%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2024%7C2025%7C2026/variaveis/9324?localidades=N6%5B4127965%5D",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "concept": "Estimativa da população residente em 1º de julho; não é contagem censitária.",
+      "methodology": "estimate",
+      "module": "population",
+      "series": [
+        {
+          "period": "2026",
+          "value": 14110.0
+        }
+      ],
+      "note": "Estimativa da população residente em 1º de julho; não é contagem censitária."
+    },
+    {
+      "id": "territorial-area",
+      "title": "Área territorial",
+      "value": 936.038,
+      "unit": "km²",
+      "reference": "2025",
+      "sourceId": "territorial-area",
+      "source": "Área da unidade territorial",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "concept": "Área da unidade territorial na edição anual informada pelo IBGE.",
+      "methodology": "territory",
+      "module": "population",
+      "series": [
+        {
+          "period": "2025",
+          "value": 936.038
+        }
+      ],
+      "note": "Área da unidade territorial na edição anual informada pelo IBGE."
     },
     {
       "id": "contracts",

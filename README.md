@@ -21,6 +21,21 @@ npm run preview
 
 O build funciona **sem acessar fontes públicas**, usando os snapshots versionados. O navegador não consulta SIDRA diretamente.
 
+## População: módulo completo
+
+A página População tem retrato atual, evolução censitária, estimativas separadas, pirâmide etária, perfil demográfico, cor ou raça, urbano/rural, domicílios e mapa municipal oficial. Todos os números são coletados do IBGE e têm fonte, pesquisa, tabela/indicador, referência, coleta e metodologia. Nenhum mock é usado em População.
+
+O novo `public/data/population.json` preserva dimensões e universos próprios. Há downloads JSON, CSV e GeoJSON, tabelas acessíveis e respostas brutas para auditoria. O ETL está dividido em `scripts/common.py`, `scripts/sources/ibge.py` e `scripts/modules/population.py`. A página é carregada sob demanda.
+
+```sh
+# Atualizar somente População; não consultar os outros módulos:
+python3 scripts/etl.py --module population
+# Validar sem rede:
+python3 scripts/etl.py --module population --offline
+```
+
+A comparação oficial 2010–2022 usa população 2010 territorialmente compatibilizada, diferente do Censo 2010 original. Densidade censitária 2022 não é recalculada com área 2025. Veja [documentação completa de População](docs/modulos/populacao.md) para fontes, IDs, fórmulas e limites.
+
 ## Atualizar os dados
 
 ```sh
@@ -40,7 +55,7 @@ Dados nos demais módulos são explicitamente **fictícios**, destinados a demon
 | Módulo | MVP | Evolução |
 | --- | --- | --- |
 | Visão Geral | Cards oficiais, gráficos e referências | Destaques editoriais e mapa |
-| População | SIDRA 4714 | Estimativas anuais, faixas etárias |
+| População | Página própria: Censo, estimativas, idade/sexo, cor/raça, urbano/rural, domicílios e território | Comparador regional no novo schema |
 | Economia / PIB | SIDRA 5938 | PIB per capita e setores do valor adicionado |
 | Trabalho e Emprego | Demo RAIS/CAGED | Importadores e saldo mensal |
 | Educação | Demo Censo Escolar | Matrículas, IDEB e rede escolar |
@@ -61,10 +76,16 @@ src/
   lib/types.ts              # Contrato normalizado de dados
   lib/data.ts               # Carregamento e formatação
   App.tsx                   # Composição das páginas e estados
+  modules/population/       # Página, gráficos, metadados e schema de População
 public/data/
   indicators.json           # Snapshots de Turvo + demonstrações identificadas
   comparison.json           # Snapshots oficiais dos municípios comparados
-scripts/etl.py              # Coleta, normalização e preservação de snapshots
+  population.json           # Dados multidimensionais de População
+  population/               # Malha municipal e respostas brutas auditáveis
+scripts/etl.py              # Orquestração incremental de ETLs
+scripts/common.py           # HTTP, números e escrita atômica
+scripts/sources/ibge.py      # Metadados e parsing completo de agregados
+scripts/modules/population.py # Coleta e validação do módulo População
 tests/test_etl.py           # Conversão, integridade e comportamento em falhas
 .github/workflows/          # CI, coleta semanal e deploy opcional
 ```
@@ -73,18 +94,12 @@ Vite + React + TypeScript permite evolução incremental de componentes e módul
 
 ## Ativar as automações no GitHub
 
-Os workflows estão prontos em `docs/github-actions/`. A autenticação usada na criação do repositório não tinha o escopo `workflow`, e o GitHub recusou o envio para `.github/workflows/`. Por isso **as automações ainda não estão ativas no repositório remoto**. A cópia local de desenvolvimento possui os arquivos em `.github/workflows/` e um commit pendente de envio.
+Os workflows estão prontos em `docs/github-actions/`. A autenticação usada na criação do repositório não tinha o escopo `workflow`, e o GitHub recusou o envio para `.github/workflows/`. Por isso **as automações ainda não estão ativas no repositório remoto**.
 
-Na cópia local original, após renovar a autorização:
+Para ativá-las numa cópia atualizada do repositório:
 
 ```sh
 gh auth refresh -h github.com -s workflow
-git -c credential.helper='!gh auth git-credential' push origin main
-```
-
-Se você clonou o repositório remoto, copie os arquivos e publique:
-
-```sh
 mkdir -p .github/workflows
 cp docs/github-actions/*.yml .github/workflows/
 git add .github/workflows
@@ -92,7 +107,7 @@ git commit -m "ci: ativar build, atualização e deploy"
 git push
 ```
 
-Depois confira a aba Actions. O envio pode exigir uma credencial com permissão para workflows. Até ativar, execute a atualização manualmente pelo comando local.
+Depois confira a aba Actions. O envio exige uma credencial com permissão para workflows. Até ativar, execute a atualização manualmente pelo comando local. O workflow de coleta publica o snapshot preservado e o relatório de falha antes de sinalizar erro ao GitHub.
 
 ## Deploy no Cloudflare Pages
 

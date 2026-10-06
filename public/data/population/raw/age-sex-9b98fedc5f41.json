@@ -1,0 +1,3599 @@
+{
+  "metadata": {
+    "id": 9606,
+    "nome": "População residente, por cor ou raça, segundo o sexo e a idade",
+    "URL": "https://sidra.ibge.gov.br/tabela/9606",
+    "pesquisa": "Censo Demográfico",
+    "assunto": "Cor ou raça",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2010,
+      "fim": 2022
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N6",
+        "N3"
+      ],
+      "Especial": [
+        "N134",
+        "N131"
+      ],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 93,
+        "nome": "População residente",
+        "unidade": "Pessoas",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 1000093,
+        "nome": "População residente - percentual do total geral",
+        "unidade": "%",
+        "sumarizacao": []
+      }
+    ],
+    "classificacoes": [
+      {
+        "id": 86,
+        "nome": "Cor ou raça",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 95251,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 2776,
+            "nome": "Branca",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2777,
+            "nome": "Preta",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2778,
+            "nome": "Amarela",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2779,
+            "nome": "Parda",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2780,
+            "nome": "Indígena",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nome": "Sexo",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 6794,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 4,
+            "nome": "Homens",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 5,
+            "nome": "Mulheres",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      },
+      {
+        "id": 287,
+        "nome": "Idade",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 100362,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 93070,
+            "nome": "0 a 4 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6557,
+            "nome": "Menos de 1 ano",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93071,
+            "nome": "Menos de 1 mês",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93072,
+            "nome": "1 mês",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93073,
+            "nome": "2 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93074,
+            "nome": "3 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93075,
+            "nome": "4 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93076,
+            "nome": "5 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93077,
+            "nome": "6 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93078,
+            "nome": "7 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93079,
+            "nome": "8 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93080,
+            "nome": "9 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93081,
+            "nome": "10 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 93082,
+            "nome": "11 meses",
+            "unidade": null,
+            "nivel": 3
+          },
+          {
+            "id": 6558,
+            "nome": "1 ano",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6559,
+            "nome": "2 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6560,
+            "nome": "3 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6561,
+            "nome": "4 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93084,
+            "nome": "5 a 9 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6562,
+            "nome": "5 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6563,
+            "nome": "6 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6564,
+            "nome": "7 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6565,
+            "nome": "8 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6566,
+            "nome": "9 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93085,
+            "nome": "10 a 14 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6567,
+            "nome": "10 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6568,
+            "nome": "11 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6569,
+            "nome": "12 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6570,
+            "nome": "13 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6571,
+            "nome": "14 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93086,
+            "nome": "15 a 19 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6572,
+            "nome": "15 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6573,
+            "nome": "16 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6574,
+            "nome": "17 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6575,
+            "nome": "18 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6576,
+            "nome": "19 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93087,
+            "nome": "20 a 24 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6577,
+            "nome": "20 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6578,
+            "nome": "21 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6579,
+            "nome": "22 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6580,
+            "nome": "23 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6581,
+            "nome": "24 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93088,
+            "nome": "25 a 29 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6582,
+            "nome": "25 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6656,
+            "nome": "26 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6657,
+            "nome": "27 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6658,
+            "nome": "28 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6659,
+            "nome": "29 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93089,
+            "nome": "30 a 34 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6583,
+            "nome": "30 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6584,
+            "nome": "31 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6585,
+            "nome": "32 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6586,
+            "nome": "33 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6587,
+            "nome": "34 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93090,
+            "nome": "35 a 39 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6588,
+            "nome": "35 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6589,
+            "nome": "36 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6590,
+            "nome": "37 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6591,
+            "nome": "38 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6592,
+            "nome": "39 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93091,
+            "nome": "40 a 44 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6593,
+            "nome": "40 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6594,
+            "nome": "41 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6595,
+            "nome": "42 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6596,
+            "nome": "43 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6597,
+            "nome": "44 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93092,
+            "nome": "45 a 49 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6598,
+            "nome": "45 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6599,
+            "nome": "46 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6600,
+            "nome": "47 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6601,
+            "nome": "48 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6602,
+            "nome": "49 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93093,
+            "nome": "50 a 54 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6603,
+            "nome": "50 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6604,
+            "nome": "51 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6605,
+            "nome": "52 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6606,
+            "nome": "53 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6607,
+            "nome": "54 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93094,
+            "nome": "55 a 59 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6608,
+            "nome": "55 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6609,
+            "nome": "56 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6610,
+            "nome": "57 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6611,
+            "nome": "58 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6612,
+            "nome": "59 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93095,
+            "nome": "60 a 64 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6613,
+            "nome": "60 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6614,
+            "nome": "61 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6615,
+            "nome": "62 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6616,
+            "nome": "63 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6617,
+            "nome": "64 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93096,
+            "nome": "65 a 69 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6618,
+            "nome": "65 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6619,
+            "nome": "66 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6620,
+            "nome": "67 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6621,
+            "nome": "68 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6622,
+            "nome": "69 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93097,
+            "nome": "70 a 74 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6623,
+            "nome": "70 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6624,
+            "nome": "71 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6625,
+            "nome": "72 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6626,
+            "nome": "73 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6627,
+            "nome": "74 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 93098,
+            "nome": "75 a 79 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6628,
+            "nome": "75 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6629,
+            "nome": "76 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6630,
+            "nome": "77 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6631,
+            "nome": "78 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6632,
+            "nome": "79 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 49108,
+            "nome": "80 a 84 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6633,
+            "nome": "80 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6634,
+            "nome": "81 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6635,
+            "nome": "82 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6636,
+            "nome": "83 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6637,
+            "nome": "84 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 49109,
+            "nome": "85 a 89 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6638,
+            "nome": "85 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6639,
+            "nome": "86 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6640,
+            "nome": "87 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6641,
+            "nome": "88 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6642,
+            "nome": "89 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 60040,
+            "nome": "90 a 94 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6643,
+            "nome": "90 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6644,
+            "nome": "91 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6645,
+            "nome": "92 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6646,
+            "nome": "93 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6647,
+            "nome": "94 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 60041,
+            "nome": "95 a 99 anos",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 6648,
+            "nome": "95 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6649,
+            "nome": "96 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6650,
+            "nome": "97 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6651,
+            "nome": "98 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6652,
+            "nome": "99 anos",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 6653,
+            "nome": "100 anos ou mais",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2010",
+      "literals": [
+        "2010"
+      ],
+      "modificacao": "22/12/2023"
+    },
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "22/12/2023"
+    }
+  ],
+  "response": [
+    {
+      "id": "93",
+      "variavel": "População residente",
+      "unidade": "Pessoas",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "100362": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "14231"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93070": "0 a 4 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "999"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93084": "5 a 9 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1031"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93085": "10 a 14 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1040"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93086": "15 a 19 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1045"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93087": "20 a 24 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "998"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93088": "25 a 29 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1199"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93089": "30 a 34 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1082"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93090": "35 a 39 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1045"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93091": "40 a 44 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "988"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93092": "45 a 49 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "914"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93093": "50 a 54 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "880"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93094": "55 a 59 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "805"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93095": "60 a 64 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "684"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93096": "65 a 69 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "592"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93097": "70 a 74 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "419"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93098": "75 a 79 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "262"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "49108": "80 a 84 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "145"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "49109": "85 a 89 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "65"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "60040": "90 a 94 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "28"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "60041": "95 a 99 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "9"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "6794": "Total"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "6653": "100 anos ou mais"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "100362": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "7205"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93070": "0 a 4 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "531"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93084": "5 a 9 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "534"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93085": "10 a 14 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "515"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93086": "15 a 19 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "536"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93087": "20 a 24 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "512"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93088": "25 a 29 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "580"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93089": "30 a 34 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "524"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93090": "35 a 39 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "552"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93091": "40 a 44 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "505"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93092": "45 a 49 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "453"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93093": "50 a 54 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "451"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93094": "55 a 59 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "415"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93095": "60 a 64 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "317"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93096": "65 a 69 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "314"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93097": "70 a 74 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "204"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93098": "75 a 79 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "138"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "49108": "80 a 84 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "77"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "49109": "85 a 89 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "27"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "60040": "90 a 94 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "12"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "60041": "95 a 99 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "8"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "4": "Homens"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "6653": "100 anos ou mais"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "100362": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "7026"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93070": "0 a 4 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "468"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93084": "5 a 9 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "497"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93085": "10 a 14 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "525"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93086": "15 a 19 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "509"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93087": "20 a 24 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "486"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93088": "25 a 29 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "619"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93089": "30 a 34 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "558"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93090": "35 a 39 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "493"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93091": "40 a 44 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "483"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93092": "45 a 49 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "461"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93093": "50 a 54 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "429"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93094": "55 a 59 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "390"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93095": "60 a 64 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "367"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93096": "65 a 69 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "278"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93097": "70 a 74 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "215"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "93098": "75 a 79 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "124"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "49108": "80 a 84 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "68"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "49109": "85 a 89 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "38"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "60040": "90 a 94 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "16"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "60041": "95 a 99 anos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            },
+            {
+              "id": "2",
+              "nome": "Sexo",
+              "categoria": {
+                "5": "Mulheres"
+              }
+            },
+            {
+              "id": "287",
+              "nome": "Idade",
+              "categoria": {
+                "6653": "100 anos ou mais"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/periodos/2022/variaveis/93?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D%7C2%5B6794%2C4%2C5%5D%7C287%5B100362%2C93070%2C93084%2C93085%2C93086%2C93087%2C93088%2C93089%2C93090%2C93091%2C93092%2C93093%2C93094%2C93095%2C93096%2C93097%2C93098%2C49108%2C49109%2C60040%2C60041%2C6653%5D"
+}
