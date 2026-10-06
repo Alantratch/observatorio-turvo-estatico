@@ -52,5 +52,5 @@ jobs:
       - name: Sinalizar falha após preservar e publicar o relatório
         if: steps.collect.outcome == 'failure'
         run: |
-          echo '::error::Coleta incompleta; último snapshot preservado. Consulte collection.failures em population.json.'
+          echo '::error::Coleta incompleta; último snapshot preservado. Consulte collection.failures em population.json e economy.json.'
           exit 1
