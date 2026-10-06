@@ -1,0 +1,36 @@
+{
+  "source": {
+    "url": "ftp://ftp.mtps.gov.br/pdet/microdados/RAIS/2025/RAIS_VINC_PUB_SUL.7z",
+    "bytes": 704888712,
+    "sha256": "c537caaaa8318b04e6f4cbbc7e59b130988668b7ea58ce67a0ab2caebf2f5bd0",
+    "remote": {
+      "bytes": 704888712,
+      "modified": "213 20260513145917"
+    }
+  },
+  "collectedAt": "2026-10-06T16:41:42.533778+00:00",
+  "layout": "RAIS 2025 CSV/COMT; cp1252; vírgula; 62 campos",
+  "noteUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
+  "controls": {
+    "4127965": {
+      "microdataStock": 2763,
+      "table4Stock": 2763,
+      "sectorChecks": "cinco setores com igualdade exata; tolerância zero"
+    },
+    "4109401": {
+      "microdataStock": 52702,
+      "table4Stock": 52702,
+      "sectorChecks": "cinco setores com igualdade exata; tolerância zero"
+    },
+    "4119608": {
+      "microdataStock": 6800,
+      "table4Stock": 6800,
+      "sectorChecks": "cinco setores com igualdade exata; tolerância zero"
+    },
+    "4113254": {
+      "microdataStock": 657,
+      "table4Stock": 657,
+      "sectorChecks": "cinco setores com igualdade exata; tolerância zero"
+    }
+  }
+}
