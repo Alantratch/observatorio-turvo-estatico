@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "id": 9756,
+    "nome": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
+    "URL": "https://sidra.ibge.gov.br/tabela/9756",
+    "pesquisa": "Censo Demográfico",
+    "assunto": "Cor ou raça",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2010,
+      "fim": 2022
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N6",
+        "N3"
+      ],
+      "Especial": [
+        "N134",
+        "N131"
+      ],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 9175,
+        "nome": "Índice de envelhecimento (Idosos: 60 anos ou mais de idade)",
+        "unidade": "Razão",
+        "sumarizacao": []
+      },
+      {
+        "id": 10613,
+        "nome": "Idade mediana",
+        "unidade": "Anos",
+        "sumarizacao": []
+      },
+      {
+        "id": 8845,
+        "nome": "Razão de sexo",
+        "unidade": "Razão",
+        "sumarizacao": []
+      }
+    ],
+    "classificacoes": [
+      {
+        "id": 86,
+        "nome": "Cor ou raça",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 95251,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 2776,
+            "nome": "Branca",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2777,
+            "nome": "Preta",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2778,
+            "nome": "Amarela",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2779,
+            "nome": "Parda",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2780,
+            "nome": "Indígena",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2010",
+      "literals": [
+        "2010"
+      ],
+      "modificacao": "22/12/2023"
+    },
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "22/12/2023"
+    }
+  ],
+  "response": [
+    {
+      "id": "9175",
+      "variavel": "Índice de envelhecimento (Idosos: 60 anos ou mais de idade)",
+      "unidade": "Razão",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2010": "37.50",
+                "2022": "71.82"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10613",
+      "variavel": "Idade mediana",
+      "unidade": "Anos",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2010": "27",
+                "2022": "33"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8845",
+      "variavel": "Razão de sexo",
+      "unidade": "Razão",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "86",
+              "nome": "Cor ou raça",
+              "categoria": {
+                "95251": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2010": "102.18",
+                "2022": "102.55"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D"
+}

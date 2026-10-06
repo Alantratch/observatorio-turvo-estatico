@@ -4,7 +4,7 @@ Turvo/PR: código IBGE **4127965**. Em outras bases, o identificador pode ter se
 
 | Área | Órgão / fonte | URL | Situação |
 | --- | --- | --- | --- |
-| População, território | IBGE SIDRA tabela 4714 | https://sidra.ibge.gov.br/tabela/4714 | Integrada; Censo 2022 |
+| População, território | IBGE SIDRA, Pesquisas, Localidades e Malhas | https://servicodados.ibge.gov.br/api/docs | Integradas; veja documentação de População |
 | Economia | IBGE SIDRA tabela 5938 | https://sidra.ibge.gov.br/tabela/5938 | Integrada; série histórica disponível |
 | Trabalho | MTE RAIS e Novo CAGED | https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho | TODO; demonstração |
 | Educação | INEP Censo Escolar / IDEB | https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos | TODO; demonstração |
@@ -30,3 +30,11 @@ RAIS/CAGED: distinguir estoque anual de vínculos e fluxos mensais de admissões
 INEP: distinguir município da escola e residência, rede administrativa e etapa; não expor registros pessoais. DATASUS: definir competência e cobertura; CNES conta estabelecimentos, não população atendida. SICONFI: validar conta contábil, anexo, exercício e estágio da receita/despesa. PNCP: ler documentação de filtros, paginação e unidade compradora; não confundir total contratado com quantidade de editais. PAM/PPM: selecionar produtos e unidades compatíveis antes de somar.
 
 Valores fictícios têm `status=mock`, referência “Exemplo fictício”, sem data de coleta. Estão no catálogo para desenvolvimento e nunca no comparador de valores oficiais. TODO: substituir por `unavailable` em uma edição institucional antes de divulgação oficial.
+
+## População aprofundada
+
+[Documentação do módulo](modulos/populacao.md) registra tabelas 4714, 6579, 202, 4709, 9606, 9756, 9923 e 9922, API Pesquisas/29167, Localidades e Malhas. Consultas reais e metadados verificados para 4127965 geram `population.json`, com respostas brutas auditáveis. Os novos IDs são `population-census`, `population-estimate`, `territorial-area` e `population-density`. A área anual vem da API Pesquisas, sem alterar a densidade oficial censitária.
+
+A comparação 2010–2022 usa a variação absoluta da tabela 4709 e base 2010 compatibilizada; não a publicação original 2010 da tabela 202. Símbolo SIDRA `-` significa zero absoluto e tem conversão explícita; `X`, `..` e `...` nunca viram zero.
+
+MCP Brasil pode ser usado para descoberta e consulta assistida. Foram analisados os clientes de agregados, municípios, pesquisas e malhas em [Mcp-Brasil/mcp-brasil](https://github.com/Mcp-Brasil/mcp-brasil/tree/2efb258370b125bbf190884283ae10f209b9d335/src/mcp_brasil/data/ibge), licença MIT. Nenhum código foi copiado e o site/ETL não dependem de servidor MCP. A fonte autoritativa de todos os valores publicados permanece o IBGE.

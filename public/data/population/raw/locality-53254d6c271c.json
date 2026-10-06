@@ -1,0 +1,43 @@
+{
+  "response": {
+    "id": 4127965,
+    "nome": "Turvo",
+    "microrregiao": {
+      "id": 41029,
+      "nome": "Guarapuava",
+      "mesorregiao": {
+        "id": 4108,
+        "nome": "Centro-Sul Paranaense",
+        "UF": {
+          "id": 41,
+          "sigla": "PR",
+          "nome": "Paraná",
+          "regiao": {
+            "id": 4,
+            "sigla": "S",
+            "nome": "Sul"
+          }
+        }
+      }
+    },
+    "regiao-imediata": {
+      "id": 410004,
+      "nome": "Guarapuava",
+      "regiao-intermediaria": {
+        "id": 4102,
+        "nome": "Guarapuava",
+        "UF": {
+          "id": 41,
+          "sigla": "PR",
+          "nome": "Paraná",
+          "regiao": {
+            "id": 4,
+            "sigla": "S",
+            "nome": "Sul"
+          }
+        }
+      }
+    }
+  },
+  "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/4127965"
+}

@@ -1,0 +1,108 @@
+{
+  "metadata": [
+    {
+      "id": 29167,
+      "pesquisa_id": 33,
+      "posicao": "3",
+      "indicador": "Área da unidade territorial",
+      "classe": "I",
+      "unidade": {
+        "id": "km²",
+        "classe": "N",
+        "multiplicador": 1
+      },
+      "children": [],
+      "nota": [
+        {
+          "periodo": "2016",
+          "notas": [
+            "Disponível em: <http://www.ibge.gov.br/home/geociencias/cartografia/default_territ_area.shtm>. Acesso em: jun. 2017"
+          ]
+        }
+      ],
+      "fonte": [
+        {
+          "periodo": "2020",
+          "fontes": [
+            "Área territorial brasileira 2020. Rio de Janeiro: IBGE, 2021"
+          ]
+        },
+        {
+          "periodo": "2016",
+          "fontes": [
+            "Área territorial brasileira. Rio de Janeiro: IBGE, 2017"
+          ]
+        },
+        {
+          "periodo": "2017",
+          "fontes": [
+            "Área territorial brasileira. Rio de Janeiro: IBGE, 2018"
+          ]
+        },
+        {
+          "periodo": "2018",
+          "fontes": [
+            "Área territorial brasileira. Rio de Janeiro: IBGE, 2019"
+          ]
+        },
+        {
+          "periodo": "2019",
+          "fontes": [
+            "Área territorial brasileira. Rio de Janeiro: IBGE, 2020"
+          ]
+        },
+        {
+          "periodo": "2021",
+          "fontes": [
+            "Área territorial brasileira 2021. Rio de Janeiro: IBGE, 2022"
+          ]
+        },
+        {
+          "periodo": "2022",
+          "fontes": [
+            "Área territorial brasileira 2022. Rio de Janeiro: IBGE, 2023"
+          ]
+        },
+        {
+          "periodo": "2023",
+          "fontes": [
+            "Área territorial brasileira 2023. Rio de Janeiro: IBGE, 2024"
+          ]
+        }
+      ]
+    }
+  ],
+  "response": [
+    {
+      "id": 29167,
+      "res": [
+        {
+          "localidade": "412796",
+          "res": {
+            "2017": "926.767",
+            "2018": "938.166",
+            "2019": "938.966",
+            "2020": "938.966",
+            "2021": "938.966",
+            "2022": "938.966",
+            "2023": "938.966",
+            "2024": "939.182",
+            "2025": "936.038"
+          },
+          "notas": {
+            "2017": null,
+            "2018": null,
+            "2019": null,
+            "2020": null,
+            "2021": null,
+            "2022": null,
+            "2023": null,
+            "2024": null,
+            "2025": null
+          }
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965"
+}

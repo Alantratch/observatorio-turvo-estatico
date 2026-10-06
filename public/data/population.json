@@ -1,0 +1,1718 @@
+{
+  "schemaVersion": 1,
+  "municipality": {
+    "code": "4127965",
+    "name": "Turvo",
+    "state": "PR"
+  },
+  "summary": {
+    "population-estimate": {
+      "id": "population-estimate",
+      "title": "População estimada",
+      "value": 14110.0,
+      "unit": "pessoas",
+      "reference": "2026",
+      "sourceId": "estimates",
+      "source": "População residente estimada",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2001%7C2002%7C2003%7C2004%7C2005%7C2006%7C2008%7C2009%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2024%7C2025%7C2026/variaveis/9324?localidades=N6%5B4127965%5D",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "concept": "Estimativa da população residente em 1º de julho; não é contagem censitária.",
+      "methodology": "estimate"
+    },
+    "population-census": {
+      "id": "population-census",
+      "title": "População residente — Censo",
+      "value": 14231.0,
+      "unit": "pessoas",
+      "reference": "2022",
+      "sourceId": "census",
+      "source": "População Residente, Área territorial e Densidade demográfica",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "concept": "Contagem de população residente no Censo Demográfico 2022.",
+      "methodology": "census"
+    },
+    "population-density": {
+      "id": "population-density",
+      "title": "Densidade demográfica",
+      "value": 15.16,
+      "unit": "hab/km²",
+      "reference": "2022",
+      "sourceId": "census",
+      "source": "População Residente, Área territorial e Densidade demográfica",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "concept": "Densidade oficial censitária 2022. Não recalculada com a área territorial mais recente.",
+      "methodology": "census"
+    },
+    "territorial-area": {
+      "id": "territorial-area",
+      "title": "Área territorial",
+      "value": 936.038,
+      "unit": "km²",
+      "reference": "2025",
+      "sourceId": "territorial-area",
+      "source": "Área da unidade territorial",
+      "agency": "IBGE",
+      "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "concept": "Área da unidade territorial na edição anual informada pelo IBGE.",
+      "methodology": "territory"
+    }
+  },
+  "populationHistory": {
+    "status": "real",
+    "sourceIds": [
+      "census-history",
+      "census"
+    ],
+    "rows": [
+      {
+        "period": "1991",
+        "value": 14146.0,
+        "methodology": "census",
+        "sourceId": "census-history"
+      },
+      {
+        "period": "2000",
+        "value": 14530.0,
+        "methodology": "census",
+        "sourceId": "census-history"
+      },
+      {
+        "period": "2010",
+        "value": 13811.0,
+        "methodology": "census",
+        "sourceId": "census-history"
+      },
+      {
+        "period": "2022",
+        "value": 14231.0,
+        "methodology": "census",
+        "sourceId": "census"
+      }
+    ]
+  },
+  "estimateHistory": {
+    "status": "real",
+    "sourceIds": [
+      "estimates"
+    ],
+    "rows": [
+      {
+        "period": "2001",
+        "value": 14578.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2002",
+        "value": 14611.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2003",
+        "value": 14648.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2004",
+        "value": 14727.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2005",
+        "value": 14771.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2006",
+        "value": 14814.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2008",
+        "value": 14391.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2009",
+        "value": 14363.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2011",
+        "value": 13717.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2012",
+        "value": 13628.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2013",
+        "value": 13937.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2014",
+        "value": 13860.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2015",
+        "value": 13785.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2016",
+        "value": 13712.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2017",
+        "value": 13640.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2018",
+        "value": 13340.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2019",
+        "value": 13215.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2020",
+        "value": 13095.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2021",
+        "value": 12977.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2024",
+        "value": 14443.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2025",
+        "value": 14101.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      },
+      {
+        "period": "2026",
+        "value": 14110.0,
+        "methodology": "estimate",
+        "sourceId": "estimates"
+      }
+    ]
+  },
+  "growth": {
+    "status": "real",
+    "sourceIds": [
+      "census-growth"
+    ],
+    "from": "2010",
+    "to": "2022",
+    "compatibleBaseline": 14074.0,
+    "absoluteChange": 157.0,
+    "percentChange": 1.1155321870115107,
+    "annualGeometricRate": 0.09
+  },
+  "ageSex": {
+    "status": "real",
+    "sourceIds": [
+      "age-sex"
+    ],
+    "reference": "2022",
+    "unit": "pessoas",
+    "total": 14231.0,
+    "rows": [
+      {
+        "ageGroup": "0–4",
+        "categoryIds": [
+          "93070"
+        ],
+        "male": 531.0,
+        "female": 468.0,
+        "total": 999.0,
+        "percent": 7.019886164008152
+      },
+      {
+        "ageGroup": "5–9",
+        "categoryIds": [
+          "93084"
+        ],
+        "male": 534.0,
+        "female": 497.0,
+        "total": 1031.0,
+        "percent": 7.244747382474878
+      },
+      {
+        "ageGroup": "10–14",
+        "categoryIds": [
+          "93085"
+        ],
+        "male": 515.0,
+        "female": 525.0,
+        "total": 1040.0,
+        "percent": 7.307989600168646
+      },
+      {
+        "ageGroup": "15–19",
+        "categoryIds": [
+          "93086"
+        ],
+        "male": 536.0,
+        "female": 509.0,
+        "total": 1045.0,
+        "percent": 7.343124165554073
+      },
+      {
+        "ageGroup": "20–29",
+        "categoryIds": [
+          "93087",
+          "93088"
+        ],
+        "male": 1092.0,
+        "female": 1105.0,
+        "total": 2197.0,
+        "percent": 15.438128030356266
+      },
+      {
+        "ageGroup": "30–39",
+        "categoryIds": [
+          "93089",
+          "93090"
+        ],
+        "male": 1076.0,
+        "female": 1051.0,
+        "total": 2127.0,
+        "percent": 14.946244114960297
+      },
+      {
+        "ageGroup": "40–49",
+        "categoryIds": [
+          "93091",
+          "93092"
+        ],
+        "male": 958.0,
+        "female": 944.0,
+        "total": 1902.0,
+        "percent": 13.365188672616119
+      },
+      {
+        "ageGroup": "50–59",
+        "categoryIds": [
+          "93093",
+          "93094"
+        ],
+        "male": 866.0,
+        "female": 819.0,
+        "total": 1685.0,
+        "percent": 11.840348534888623
+      },
+      {
+        "ageGroup": "60–69",
+        "categoryIds": [
+          "93095",
+          "93096"
+        ],
+        "male": 631.0,
+        "female": 645.0,
+        "total": 1276.0,
+        "percent": 8.966341086360762
+      },
+      {
+        "ageGroup": "70–79",
+        "categoryIds": [
+          "93097",
+          "93098"
+        ],
+        "male": 342.0,
+        "female": 339.0,
+        "total": 681.0,
+        "percent": 4.785327805495046
+      },
+      {
+        "ageGroup": "80+",
+        "categoryIds": [
+          "49108",
+          "49109",
+          "60040",
+          "60041",
+          "6653"
+        ],
+        "male": 124.0,
+        "female": 124.0,
+        "total": 248.0,
+        "percent": 1.7426744431171388
+      }
+    ]
+  },
+  "sex": {
+    "status": "real",
+    "reference": "2022",
+    "sourceIds": [
+      "age-sex"
+    ],
+    "unit": "pessoas",
+    "total": 14231.0,
+    "rows": [
+      {
+        "categoryId": "4",
+        "category": "Homens",
+        "value": 7205.0,
+        "percent": 50.628908720399124
+      },
+      {
+        "categoryId": "5",
+        "category": "Mulheres",
+        "value": 7026.0,
+        "percent": 49.37109127960087
+      }
+    ]
+  },
+  "race": {
+    "status": "real",
+    "reference": "2022",
+    "sourceIds": [
+      "race"
+    ],
+    "unit": "pessoas",
+    "total": 14231.0,
+    "rows": [
+      {
+        "categoryId": "2776",
+        "category": "Branca",
+        "value": 8940.0,
+        "percent": 62.82060290914201
+      },
+      {
+        "categoryId": "2777",
+        "category": "Preta",
+        "value": 278.0,
+        "percent": 1.953481835429696
+      },
+      {
+        "categoryId": "2778",
+        "category": "Amarela",
+        "value": 16.0,
+        "percent": 0.11243060923336377
+      },
+      {
+        "categoryId": "2779",
+        "category": "Parda",
+        "value": 4486.0,
+        "percent": 31.52273206380437
+      },
+      {
+        "categoryId": "2780",
+        "category": "Indígena",
+        "value": 511.0,
+        "percent": 3.590752582390556
+      }
+    ]
+  },
+  "urbanRural": {
+    "status": "real",
+    "reference": "2022",
+    "sourceIds": [
+      "urban-rural"
+    ],
+    "unit": "pessoas",
+    "total": 14231.0,
+    "rows": [
+      {
+        "categoryId": "1",
+        "category": "Urbana",
+        "value": 6832.0,
+        "percent": 48.00787014264634
+      },
+      {
+        "categoryId": "2",
+        "category": "Rural",
+        "value": 7399.0,
+        "percent": 51.99212985735366
+      }
+    ]
+  },
+  "demographicIndicators": {
+    "status": "real",
+    "sourceIds": [
+      "demographic"
+    ],
+    "reference": "2022",
+    "indicators": [
+      {
+        "id": "median-age",
+        "title": "Idade mediana",
+        "value": 33.0,
+        "unit": "anos",
+        "reference": "2022",
+        "sourceId": "demographic",
+        "source": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
+        "agency": "IBGE",
+        "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
+        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "municipalityCode": "4127965",
+        "status": "real",
+        "concept": "Idade que separa a metade mais jovem da metade mais velha da população.",
+        "methodology": "census"
+      },
+      {
+        "id": "aging-index",
+        "title": "Índice de envelhecimento",
+        "value": 71.82,
+        "unit": "pessoas de 60+ / 100 de 0–14",
+        "reference": "2022",
+        "sourceId": "demographic",
+        "source": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
+        "agency": "IBGE",
+        "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
+        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "municipalityCode": "4127965",
+        "status": "real",
+        "concept": "Pessoas de 60 anos ou mais por 100 pessoas de zero a 14 anos. Razão publicada pelo IBGE.",
+        "methodology": "census"
+      },
+      {
+        "id": "sex-ratio",
+        "title": "Razão de sexo",
+        "value": 102.55,
+        "unit": "homens / 100 mulheres",
+        "reference": "2022",
+        "sourceId": "demographic",
+        "source": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
+        "agency": "IBGE",
+        "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
+        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "municipalityCode": "4127965",
+        "status": "real",
+        "concept": "Número de homens por 100 mulheres na população considerada.",
+        "methodology": "census"
+      }
+    ],
+    "rows": [
+      {
+        "period": "2010",
+        "medianAge": 27.0,
+        "agingIndex": 37.5,
+        "sexRatio": 102.18
+      },
+      {
+        "period": "2022",
+        "medianAge": 33.0,
+        "agingIndex": 71.82,
+        "sexRatio": 102.55
+      }
+    ]
+  },
+  "households": {
+    "status": "real",
+    "sourceIds": [
+      "households"
+    ],
+    "reference": "2022",
+    "indicators": [
+      {
+        "id": "occupied-households",
+        "title": "Domicílios particulares permanentes ocupados",
+        "value": 5015.0,
+        "unit": "domicílios",
+        "reference": "2022",
+        "sourceId": "households",
+        "source": "Domicílios particulares permanentes ocupados, moradores em domicílios particulares permanentes ocupados e média de moradores em domicílios particulares permanentes ocupados, segundo a situação do domicílio",
+        "agency": "IBGE",
+        "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/periodos/2022/variaveis/381%7C382%7C5930?localidades=N6%5B4127965%5D&classificacao=1%5B6795%5D",
+        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "municipalityCode": "4127965",
+        "status": "real",
+        "concept": "Domicílios particulares permanentes ocupados; exclui domicílios coletivos e improvisados.",
+        "methodology": "census"
+      },
+      {
+        "id": "residents-per-household",
+        "title": "Média de moradores por domicílio",
+        "value": 2.84,
+        "unit": "pessoas / domicílio",
+        "reference": "2022",
+        "sourceId": "households",
+        "source": "Domicílios particulares permanentes ocupados, moradores em domicílios particulares permanentes ocupados e média de moradores em domicílios particulares permanentes ocupados, segundo a situação do domicílio",
+        "agency": "IBGE",
+        "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/periodos/2022/variaveis/381%7C382%7C5930?localidades=N6%5B4127965%5D&classificacao=1%5B6795%5D",
+        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "municipalityCode": "4127965",
+        "status": "real",
+        "concept": "Média oficial de moradores em domicílios particulares permanentes ocupados.",
+        "methodology": "census"
+      }
+    ],
+    "residents": 14225.0
+  },
+  "territory": {
+    "status": "real",
+    "sourceIds": [
+      "territorial-area",
+      "locality",
+      "municipal-boundary"
+    ],
+    "geometryReference": "2022",
+    "region": "Sul",
+    "immediateRegion": "Guarapuava",
+    "intermediateRegion": "Guarapuava",
+    "geometry": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -51.2977,
+                  -25.0655
+                ],
+                [
+                  -51.2986,
+                  -25.0601
+                ],
+                [
+                  -51.3086,
+                  -25.0548
+                ],
+                [
+                  -51.3135,
+                  -25.0466
+                ],
+                [
+                  -51.3157,
+                  -25.029
+                ],
+                [
+                  -51.3294,
+                  -25.0166
+                ],
+                [
+                  -51.3266,
+                  -25.0035
+                ],
+                [
+                  -51.3353,
+                  -24.9975
+                ],
+                [
+                  -51.3242,
+                  -24.9858
+                ],
+                [
+                  -51.3359,
+                  -24.9761
+                ],
+                [
+                  -51.3261,
+                  -24.965
+                ],
+                [
+                  -51.3297,
+                  -24.9605
+                ],
+                [
+                  -51.3279,
+                  -24.948
+                ],
+                [
+                  -51.3394,
+                  -24.9425
+                ],
+                [
+                  -51.3327,
+                  -24.9309
+                ],
+                [
+                  -51.3434,
+                  -24.9269
+                ],
+                [
+                  -51.3696,
+                  -24.9286
+                ],
+                [
+                  -51.3827,
+                  -24.9186
+                ],
+                [
+                  -51.3894,
+                  -24.923
+                ],
+                [
+                  -51.4106,
+                  -24.9181
+                ],
+                [
+                  -51.4056,
+                  -24.9106
+                ],
+                [
+                  -51.3996,
+                  -24.9095
+                ],
+                [
+                  -51.4028,
+                  -24.897
+                ],
+                [
+                  -51.3952,
+                  -24.8907
+                ],
+                [
+                  -51.3934,
+                  -24.8774
+                ],
+                [
+                  -51.3715,
+                  -24.8741
+                ],
+                [
+                  -51.3713,
+                  -24.8561
+                ],
+                [
+                  -51.3819,
+                  -24.8444
+                ],
+                [
+                  -51.3789,
+                  -24.8353
+                ],
+                [
+                  -51.3694,
+                  -24.8362
+                ],
+                [
+                  -51.3708,
+                  -24.8226
+                ],
+                [
+                  -51.362,
+                  -24.819
+                ],
+                [
+                  -51.3657,
+                  -24.8089
+                ],
+                [
+                  -51.3548,
+                  -24.7981
+                ],
+                [
+                  -51.3481,
+                  -24.7974
+                ],
+                [
+                  -51.3437,
+                  -24.7901
+                ],
+                [
+                  -51.3348,
+                  -24.7941
+                ],
+                [
+                  -51.3202,
+                  -24.7894
+                ],
+                [
+                  -51.3162,
+                  -24.782
+                ],
+                [
+                  -51.3294,
+                  -24.7673
+                ],
+                [
+                  -51.3328,
+                  -24.7596
+                ],
+                [
+                  -51.3488,
+                  -24.7638
+                ],
+                [
+                  -51.3606,
+                  -24.7591
+                ],
+                [
+                  -51.3742,
+                  -24.7733
+                ],
+                [
+                  -51.3852,
+                  -24.7549
+                ],
+                [
+                  -51.3949,
+                  -24.7643
+                ],
+                [
+                  -51.4101,
+                  -24.7563
+                ],
+                [
+                  -51.4197,
+                  -24.7593
+                ],
+                [
+                  -51.4299,
+                  -24.7725
+                ],
+                [
+                  -51.4233,
+                  -24.7838
+                ],
+                [
+                  -51.4367,
+                  -24.7979
+                ],
+                [
+                  -51.4436,
+                  -24.798
+                ],
+                [
+                  -51.441,
+                  -24.8138
+                ],
+                [
+                  -51.4302,
+                  -24.8195
+                ],
+                [
+                  -51.4539,
+                  -24.8269
+                ],
+                [
+                  -51.4479,
+                  -24.8369
+                ],
+                [
+                  -51.4597,
+                  -24.837
+                ],
+                [
+                  -51.4599,
+                  -24.8437
+                ],
+                [
+                  -51.4699,
+                  -24.8468
+                ],
+                [
+                  -51.4616,
+                  -24.8548
+                ],
+                [
+                  -51.4521,
+                  -24.8544
+                ],
+                [
+                  -51.4454,
+                  -24.8584
+                ],
+                [
+                  -51.4453,
+                  -24.869
+                ],
+                [
+                  -51.4571,
+                  -24.8721
+                ],
+                [
+                  -51.4578,
+                  -24.8804
+                ],
+                [
+                  -51.4633,
+                  -24.8859
+                ],
+                [
+                  -51.4723,
+                  -24.8871
+                ],
+                [
+                  -51.47,
+                  -24.8963
+                ],
+                [
+                  -51.4785,
+                  -24.8959
+                ],
+                [
+                  -51.4891,
+                  -24.9091
+                ],
+                [
+                  -51.4919,
+                  -24.9159
+                ],
+                [
+                  -51.5041,
+                  -24.9141
+                ],
+                [
+                  -51.5158,
+                  -24.9188
+                ],
+                [
+                  -51.5118,
+                  -24.9343
+                ],
+                [
+                  -51.5067,
+                  -24.9418
+                ],
+                [
+                  -51.5092,
+                  -24.9472
+                ],
+                [
+                  -51.5191,
+                  -24.9435
+                ],
+                [
+                  -51.5321,
+                  -24.9506
+                ],
+                [
+                  -51.5378,
+                  -24.943
+                ],
+                [
+                  -51.5439,
+                  -24.9525
+                ],
+                [
+                  -51.556,
+                  -24.9625
+                ],
+                [
+                  -51.5688,
+                  -24.9637
+                ],
+                [
+                  -51.5704,
+                  -24.9741
+                ],
+                [
+                  -51.5769,
+                  -24.9807
+                ],
+                [
+                  -51.5817,
+                  -24.9728
+                ],
+                [
+                  -51.5887,
+                  -24.9718
+                ],
+                [
+                  -51.5884,
+                  -24.9821
+                ],
+                [
+                  -51.5981,
+                  -24.9851
+                ],
+                [
+                  -51.6197,
+                  -24.9849
+                ],
+                [
+                  -51.6224,
+                  -24.9901
+                ],
+                [
+                  -51.617,
+                  -24.9987
+                ],
+                [
+                  -51.6315,
+                  -24.9984
+                ],
+                [
+                  -51.6478,
+                  -25.0025
+                ],
+                [
+                  -51.6591,
+                  -25.0135
+                ],
+                [
+                  -51.6777,
+                  -25.0303
+                ],
+                [
+                  -51.6805,
+                  -25.0422
+                ],
+                [
+                  -51.6868,
+                  -25.052
+                ],
+                [
+                  -51.6965,
+                  -25.0455
+                ],
+                [
+                  -51.7045,
+                  -25.0471
+                ],
+                [
+                  -51.715,
+                  -25.0428
+                ],
+                [
+                  -51.7349,
+                  -25.0394
+                ],
+                [
+                  -51.7495,
+                  -25.0422
+                ],
+                [
+                  -51.7586,
+                  -25.0343
+                ],
+                [
+                  -51.7677,
+                  -25.034
+                ],
+                [
+                  -51.7729,
+                  -25.0237
+                ],
+                [
+                  -51.7793,
+                  -25.0287
+                ],
+                [
+                  -51.7747,
+                  -25.0544
+                ],
+                [
+                  -51.7683,
+                  -25.0546
+                ],
+                [
+                  -51.762,
+                  -25.0656
+                ],
+                [
+                  -51.7549,
+                  -25.0687
+                ],
+                [
+                  -51.7449,
+                  -25.0642
+                ],
+                [
+                  -51.7371,
+                  -25.0704
+                ],
+                [
+                  -51.7304,
+                  -25.08
+                ],
+                [
+                  -51.7231,
+                  -25.0762
+                ],
+                [
+                  -51.708,
+                  -25.0753
+                ],
+                [
+                  -51.7029,
+                  -25.0713
+                ],
+                [
+                  -51.6896,
+                  -25.0881
+                ],
+                [
+                  -51.6759,
+                  -25.0825
+                ],
+                [
+                  -51.671,
+                  -25.094
+                ],
+                [
+                  -51.651,
+                  -25.0927
+                ],
+                [
+                  -51.6411,
+                  -25.1033
+                ],
+                [
+                  -51.6307,
+                  -25.1112
+                ],
+                [
+                  -51.6164,
+                  -25.1164
+                ],
+                [
+                  -51.6063,
+                  -25.1249
+                ],
+                [
+                  -51.6125,
+                  -25.1469
+                ],
+                [
+                  -51.6222,
+                  -25.1543
+                ],
+                [
+                  -51.6213,
+                  -25.1591
+                ],
+                [
+                  -51.559,
+                  -25.177
+                ],
+                [
+                  -51.543,
+                  -25.1637
+                ],
+                [
+                  -51.5196,
+                  -25.1671
+                ],
+                [
+                  -51.5031,
+                  -25.1577
+                ],
+                [
+                  -51.4867,
+                  -25.1549
+                ],
+                [
+                  -51.4795,
+                  -25.1559
+                ],
+                [
+                  -51.4536,
+                  -25.1421
+                ],
+                [
+                  -51.4445,
+                  -25.1396
+                ],
+                [
+                  -51.4396,
+                  -25.1463
+                ],
+                [
+                  -51.4198,
+                  -25.1507
+                ],
+                [
+                  -51.4117,
+                  -25.1367
+                ],
+                [
+                  -51.4075,
+                  -25.1441
+                ],
+                [
+                  -51.398,
+                  -25.1409
+                ],
+                [
+                  -51.4031,
+                  -25.1351
+                ],
+                [
+                  -51.3988,
+                  -25.1181
+                ],
+                [
+                  -51.3937,
+                  -25.1238
+                ],
+                [
+                  -51.3864,
+                  -25.1133
+                ],
+                [
+                  -51.2944,
+                  -25.1077
+                ],
+                [
+                  -51.302,
+                  -25.0902
+                ],
+                [
+                  -51.2992,
+                  -25.078
+                ],
+                [
+                  -51.3036,
+                  -25.0728
+                ],
+                [
+                  -51.2977,
+                  -25.0655
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "codarea": "4127965"
+          }
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "census",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "4714",
+      "title": "População Residente, Área territorial e Densidade demográfica",
+      "variables": [
+        {
+          "id": "93",
+          "name": "População residente",
+          "unit": "Pessoas"
+        },
+        {
+          "id": "6318",
+          "name": "Área da unidade territorial",
+          "unit": "Quilômetros quadrados"
+        },
+        {
+          "id": "614",
+          "name": "Densidade demográfica",
+          "unit": "Habitante por quilômetro quadrado"
+        }
+      ],
+      "classifications": [],
+      "periods": [
+        "2022"
+      ],
+      "reference": "2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/4714",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "Censo Demográfico 2022. Densidade publicada pelo IBGE, com a área territorial de referência do Censo; não recalculada com área de 2025.",
+      "rawPath": "population/raw/census-937103291b6c.json"
+    },
+    {
+      "id": "estimates",
+      "agency": "IBGE",
+      "research": "Estimativas de População",
+      "table": "6579",
+      "title": "População residente estimada",
+      "variables": [
+        {
+          "id": "9324",
+          "name": "População residente estimada",
+          "unit": "Pessoas"
+        }
+      ],
+      "classifications": [],
+      "periods": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2008",
+        "2009",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "reference": "2001, 2002, 2003, 2004, 2005, 2006, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2024, 2025, 2026",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2001%7C2002%7C2003%7C2004%7C2005%7C2006%7C2008%7C2009%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2024%7C2025%7C2026/variaveis/9324?localidades=N6%5B4127965%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/6579",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "Estimativas anuais do IBGE, referência 1º de julho. Não são contagens censitárias. Revisões e mudanças de limites podem afetar comparações.",
+      "rawPath": "population/raw/estimates-2f7935a186e3.json"
+    },
+    {
+      "id": "census-history",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "202",
+      "title": "População residente, por sexo e situação do domicílio",
+      "variables": [
+        {
+          "id": "93",
+          "name": "População residente",
+          "unit": "Pessoas"
+        }
+      ],
+      "classifications": [
+        {
+          "id": "2",
+          "categories": {
+            "0": "Total"
+          }
+        },
+        {
+          "id": "1",
+          "categories": {
+            "0": "Total"
+          }
+        }
+      ],
+      "periods": [
+        "1970",
+        "1980",
+        "1991",
+        "2000",
+        "2010"
+      ],
+      "reference": "1991, 2000, 2010",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/202/periodos/1970%7C1980%7C1991%7C2000%7C2010/variaveis/93?localidades=N6%5B4127965%5D&classificacao=2%5B0%5D%7C1%5B0%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/202",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/202/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Omitir apenas períodos explicitamente sem informação (...); preservar no arquivo bruto. Não interpolar.",
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada.",
+        "Períodos sem informação para Turvo, omitidos do gráfico: 1970, 1980"
+      ],
+      "methodology": "Censos conforme publicados para cada período. Limites municipais podem variar; não usar diferenças brutas como crescimento territorialmente compatibilizado.",
+      "rawPath": "population/raw/census-history-ecab48d4d155.json"
+    },
+    {
+      "id": "census-growth",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "4709",
+      "title": "População residente, Variação absoluta de população residente e Taxa de crescimento geométrico",
+      "variables": [
+        {
+          "id": "93",
+          "name": "População residente",
+          "unit": "Pessoas"
+        },
+        {
+          "id": "5936",
+          "name": "Variação absoluta da população residente 2010 compatibilizada",
+          "unit": "Pessoas"
+        },
+        {
+          "id": "10605",
+          "name": "Taxa de crescimento geométrico",
+          "unit": "%"
+        }
+      ],
+      "classifications": [],
+      "periods": [
+        "2022"
+      ],
+      "reference": "2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4709/periodos/2022/variaveis/93%7C5936%7C10605?localidades=N6%5B4127965%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/4709",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/4709/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Base 2010 compatibilizada = população 2022 − variação absoluta oficial. Percentual = variação absoluta / base compatibilizada × 100. Taxa geométrica: valor oficial, não recalculado.",
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "Comparação 2010–2022 com a população 2010 compatibilizada aos limites territoriais de 2022.",
+      "rawPath": "population/raw/census-growth-1a965ddcac8a.json"
+    },
+    {
+      "id": "age-sex",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "9606",
+      "title": "População residente, por cor ou raça, segundo o sexo e a idade",
+      "variables": [
+        {
+          "id": "93",
+          "name": "População residente",
+          "unit": "Pessoas"
+        }
+      ],
+      "classifications": [
+        {
+          "id": "86",
+          "categories": {
+            "95251": "Total"
+          }
+        },
+        {
+          "id": "2",
+          "categories": {
+            "6794": "Total",
+            "4": "Homens",
+            "5": "Mulheres"
+          }
+        },
+        {
+          "id": "287",
+          "categories": {
+            "100362": "Total",
+            "93070": "0 a 4 anos",
+            "93084": "5 a 9 anos",
+            "93085": "10 a 14 anos",
+            "93086": "15 a 19 anos",
+            "93087": "20 a 24 anos",
+            "93088": "25 a 29 anos",
+            "93089": "30 a 34 anos",
+            "93090": "35 a 39 anos",
+            "93091": "40 a 44 anos",
+            "93092": "45 a 49 anos",
+            "93093": "50 a 54 anos",
+            "93094": "55 a 59 anos",
+            "93095": "60 a 64 anos",
+            "93096": "65 a 69 anos",
+            "93097": "70 a 74 anos",
+            "93098": "75 a 79 anos",
+            "49108": "80 a 84 anos",
+            "49109": "85 a 89 anos",
+            "60040": "90 a 94 anos",
+            "60041": "95 a 99 anos",
+            "6653": "100 anos ou mais"
+          }
+        }
+      ],
+      "periods": [
+        "2022"
+      ],
+      "reference": "2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/periodos/2022/variaveis/93?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D%7C2%5B6794%2C4%2C5%5D%7C287%5B100362%2C93070%2C93084%2C93085%2C93086%2C93087%2C93088%2C93089%2C93090%2C93091%2C93092%2C93093%2C93094%2C93095%2C93096%2C93097%2C93098%2C49108%2C49109%2C60040%2C60041%2C6653%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/9606",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Somar somente categorias etárias disjuntas de nível 1 nos 11 grupos publicados na interface. Percentuais calculados sobre o total desta tabela.",
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "População residente, total de cor ou raça, por sexo e idade. Sexo conforme categorias Homens e Mulheres do IBGE.",
+      "rawPath": "population/raw/age-sex-9b98fedc5f41.json"
+    },
+    {
+      "id": "race",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "9606",
+      "title": "População residente, por cor ou raça, segundo o sexo e a idade",
+      "variables": [
+        {
+          "id": "93",
+          "name": "População residente",
+          "unit": "Pessoas"
+        }
+      ],
+      "classifications": [
+        {
+          "id": "86",
+          "categories": {
+            "95251": "Total",
+            "2776": "Branca",
+            "2777": "Preta",
+            "2778": "Amarela",
+            "2779": "Parda",
+            "2780": "Indígena"
+          }
+        },
+        {
+          "id": "2",
+          "categories": {
+            "6794": "Total"
+          }
+        },
+        {
+          "id": "287",
+          "categories": {
+            "100362": "Total"
+          }
+        }
+      ],
+      "periods": [
+        "2022"
+      ],
+      "reference": "2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/periodos/2022/variaveis/93?localidades=N6%5B4127965%5D&classificacao=86%5B95251%2C2776%2C2777%2C2778%2C2779%2C2780%5D%7C2%5B6794%5D%7C287%5B100362%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/9606",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Percentual = quantidade / total de cor ou raça desta tabela × 100.",
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "Cor ou raça conforme categorias declaradas da fonte. Indígena é a categoria de cor ou raça; não equivale ao universo ampliado de indígenas que inclui o quesito “se considera indígena”.",
+      "rawPath": "population/raw/race-d3c562dc3395.json"
+    },
+    {
+      "id": "demographic",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "9756",
+      "title": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
+      "variables": [
+        {
+          "id": "9175",
+          "name": "Índice de envelhecimento (Idosos: 60 anos ou mais de idade)",
+          "unit": "Razão"
+        },
+        {
+          "id": "10613",
+          "name": "Idade mediana",
+          "unit": "Anos"
+        },
+        {
+          "id": "8845",
+          "name": "Razão de sexo",
+          "unit": "Razão"
+        }
+      ],
+      "classifications": [
+        {
+          "id": "86",
+          "categories": {
+            "95251": "Total"
+          }
+        }
+      ],
+      "periods": [
+        "2010",
+        "2022"
+      ],
+      "reference": "2010, 2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/9756",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "Total de cor ou raça. Envelhecimento: pessoas de 60+ por 100 de 0–14; idade mediana: separa a metade mais jovem da mais velha; razão de sexo: homens por 100 mulheres. Definições oficiais na publicação étnico-racial do Censo 2022.",
+      "definitionUrl": "https://www.ibge.gov.br/biblioteca/visualizacao/periodicos/3105/cd_2022_etnico_racial.pdf",
+      "rawPath": "population/raw/demographic-1614b21dbc82.json"
+    },
+    {
+      "id": "urban-rural",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "9923",
+      "title": "População residente, por situação do domicílio",
+      "variables": [
+        {
+          "id": "93",
+          "name": "População residente",
+          "unit": "Pessoas"
+        }
+      ],
+      "classifications": [
+        {
+          "id": "1",
+          "categories": {
+            "6795": "Total",
+            "1": "Urbana",
+            "2": "Rural"
+          }
+        }
+      ],
+      "periods": [
+        "2022"
+      ],
+      "reference": "2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9923/periodos/2022/variaveis/93?localidades=N6%5B4127965%5D&classificacao=1%5B6795%2C1%2C2%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/9923",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9923/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Percentual = quantidade / total da tabela × 100.",
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "Situação urbana ou rural do domicílio conforme a classificação do Censo 2022. Não inferida por ocupação ou atividade econômica.",
+      "rawPath": "population/raw/urban-rural-1afa4b6054bc.json"
+    },
+    {
+      "id": "households",
+      "agency": "IBGE",
+      "research": "Censo Demográfico",
+      "table": "9922",
+      "title": "Domicílios particulares permanentes ocupados, moradores em domicílios particulares permanentes ocupados e média de moradores em domicílios particulares permanentes ocupados, segundo a situação do domicílio",
+      "variables": [
+        {
+          "id": "381",
+          "name": "Domicílios particulares permanentes ocupados",
+          "unit": "Domicílios"
+        },
+        {
+          "id": "382",
+          "name": "Moradores em domicílios particulares permanentes ocupados",
+          "unit": "Pessoas"
+        },
+        {
+          "id": "5930",
+          "name": "Média de moradores em domicílios particulares permanentes ocupados",
+          "unit": "Pessoas"
+        }
+      ],
+      "classifications": [
+        {
+          "id": "1",
+          "categories": {
+            "6795": "Total"
+          }
+        }
+      ],
+      "periods": [
+        "2022"
+      ],
+      "reference": "2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/periodos/2022/variaveis/381%7C382%7C5930?localidades=N6%5B4127965%5D&classificacao=1%5B6795%5D",
+      "officialUrl": "https://sidra.ibge.gov.br/tabela/9922",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/metadados",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [
+        "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
+      ],
+      "methodology": "Somente domicílios particulares permanentes ocupados. Moradores deste universo não precisam igualar a população residente total. Média oficial arredondada pelo IBGE.",
+      "rawPath": "population/raw/households-21ba2b7056ad.json"
+    },
+    {
+      "id": "territorial-area",
+      "agency": "IBGE",
+      "research": "Áreas territoriais / IBGE Cidades",
+      "title": "Área da unidade territorial",
+      "table": null,
+      "variables": [
+        {
+          "id": "29167",
+          "name": "Área da unidade territorial",
+          "unit": "km²"
+        }
+      ],
+      "classifications": [],
+      "periods": [
+        "2025"
+      ],
+      "reference": "2025",
+      "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
+      "officialUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [],
+      "methodology": "Área territorial anual publicada pelo IBGE. Não utilizar como denominador da densidade censitária 2022.",
+      "indicator": "29167",
+      "rawPath": "population/raw/territorial-area-872b0d807f46.json"
+    },
+    {
+      "id": "locality",
+      "agency": "IBGE",
+      "research": "API de Localidades",
+      "title": "Identificação municipal e regiões geográficas",
+      "table": null,
+      "variables": [],
+      "classifications": [],
+      "periods": [
+        "Cadastro vigente na coleta"
+      ],
+      "reference": "Cadastro vigente na coleta",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/4127965",
+      "officialUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/4127965",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/4127965",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [],
+      "methodology": "Regiões imediata e intermediária conforme cadastro oficial do IBGE; não confundir com antigas microrregiões.",
+      "rawPath": "population/raw/locality-53254d6c271c.json"
+    },
+    {
+      "id": "municipal-boundary",
+      "agency": "IBGE",
+      "research": "API de Malhas",
+      "title": "Contorno municipal de Turvo",
+      "table": null,
+      "variables": [],
+      "classifications": [],
+      "periods": [
+        "2022"
+      ],
+      "reference": "2022",
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4127965?formato=application/vnd.geo%2Bjson&qualidade=intermediaria&periodo=2022",
+      "officialUrl": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4127965?formato=application/vnd.geo%2Bjson&qualidade=intermediaria&periodo=2022",
+      "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4127965/metadados?periodo=2022",
+      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "transformations": [],
+      "methodology": "Malha de referência 2022, qualidade intermediária fornecida pelo IBGE. Contorno informativo; não é limite cadastral de precisão e não representa necessariamente a área publicada em 2025.",
+      "rawPath": "population/raw/municipal-boundary-2c1cb97f1a96.json"
+    }
+  ],
+  "collection": {
+    "attemptedAt": "2026-10-06T14:43:25.446789+00:00",
+    "lastSuccessAt": "2026-10-06T14:43:25.446789+00:00",
+    "failures": [],
+    "policy": "Preservação integral do último snapshot se qualquer coleta/validação requerida falhar."
+  }
+}

@@ -17,7 +17,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scripts/etl.py
+      - name: Coletar e preservar snapshots
+        id: collect
+        continue-on-error: true
+        run: python scripts/etl.py
       - run: python -m unittest discover -s tests
       - name: Versionar snapshots
         run: |
@@ -46,3 +49,8 @@ jobs:
           if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
             npx wrangler@4 pages deploy dist --project-name observatorio-turvo-estatico --branch main
           fi
+      - name: Sinalizar falha após preservar e publicar o relatório
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo '::error::Coleta incompleta; último snapshot preservado. Consulte collection.failures em population.json.'
+          exit 1

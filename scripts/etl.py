@@ -1,14 +1,14 @@
 """ETL SIDRA sem dependências externas. Falhas preservam o último snapshot válido."""
 import argparse
-import gzip
-import json
 import math
-import os
-import tempfile
-import time
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.request import Request, urlopen
+
+# Support both `python scripts/etl.py` and imports in offline unit tests.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scripts.common import atomic_write, read, request_json
+from scripts.modules.population import update as update_population
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'public' / 'data'
@@ -20,17 +20,6 @@ SOURCES = [
     ('gdp', 'economy', 'Produto Interno Bruto (PIB)', '5938', '37', 'all', 'R$', 1000),
 ]
 EXPECTED_UNITS = {'93': 'Pessoas', '6318': 'Quilômetros quadrados', '614': 'Habitante por quilômetro quadrado', '37': 'Mil Reais', '543': 'Reais'}
-
-def request_json(url):
-    for attempt in range(3):
-        try:
-            with urlopen(Request(url, headers={'User-Agent': 'ObservatorioTurvo/0.1 (public-data)', 'Accept-Encoding': 'identity'}), timeout=25) as response:
-                raw = response.read()
-                if raw[:2] == b'\x1f\x8b': raw = gzip.decompress(raw)
-                return json.loads(raw)
-        except Exception:
-            if attempt == 2: raise
-            time.sleep(2 ** attempt)
 
 def normalize(rows, spec, code, collected_at):
     identifier, module, title, table, variable, _, unit, multiplier = spec
@@ -45,17 +34,6 @@ def normalize(rows, spec, code, collected_at):
     if not points: raise ValueError('Sem observações numéricas')
     points.sort(key=lambda p: p['period'])
     return dict(id=identifier, module=module, title=title, value=points[-1]['value'], unit=unit, source=f'IBGE / SIDRA · Tabela {table}', agency='IBGE', reference=points[-1]['period'], url=f'https://apisidra.ibge.gov.br/values/t/{table}/n6/{code}/v/{variable}/p/{spec[5]}', collectedAt=collected_at, municipalityCode=code, status='real', series=points, note='PIB nominal. Valores em mil reais convertidos para reais.' if identifier == 'gdp' else 'Referência temporal conforme fonte; coleta não equivale à publicação.')
-
-def atomic_write(path, data):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile('w', dir=path.parent, delete=False, encoding='utf-8') as handle:
-        json.dump(data, handle, ensure_ascii=False, indent=2, allow_nan=False)
-        handle.write('\n')
-        temporary = handle.name
-    os.replace(temporary, path)
-
-def read(path, default):
-    return json.loads(path.read_text()) if path.exists() else default
 
 def update(offline=False):
     catalog = read(DATA / 'indicators.json', {'schemaVersion': 1, 'municipality': {'code': '4127965', 'name': 'Turvo', 'state': 'PR'}, 'indicators': [], 'collection': {'attemptedAt': None, 'failures': []}})
@@ -106,5 +84,11 @@ def validate(data):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--module', choices=['all', 'population'], default='all', help='Atualizar somente População ou todos os módulos')
     parser.add_argument('--offline', action='store_true', help='Validar snapshot sem consultar APIs')
-    update(parser.parse_args().offline)
+    options = parser.parse_args()
+    if options.module == 'all':
+        update(options.offline)
+    population = update_population(DATA, options.offline)
+    if population['collection']['failures'] and not options.offline:
+        raise SystemExit(1)  # Make partial collection failures visible in Actions; old data remain valid.

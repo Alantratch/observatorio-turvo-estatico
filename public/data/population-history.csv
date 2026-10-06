@@ -1,0 +1,5 @@
+period,value,methodology,sourceId,reference,sourceUrl
+1991,14146.0,census,census-history,1991,https://servicodados.ibge.gov.br/api/v3/agregados/202/periodos/1970%7C1980%7C1991%7C2000%7C2010/variaveis/93?localidades=N6%5B4127965%5D&classificacao=2%5B0%5D%7C1%5B0%5D
+2000,14530.0,census,census-history,2000,https://servicodados.ibge.gov.br/api/v3/agregados/202/periodos/1970%7C1980%7C1991%7C2000%7C2010/variaveis/93?localidades=N6%5B4127965%5D&classificacao=2%5B0%5D%7C1%5B0%5D
+2010,13811.0,census,census-history,2010,https://servicodados.ibge.gov.br/api/v3/agregados/202/periodos/1970%7C1980%7C1991%7C2000%7C2010/variaveis/93?localidades=N6%5B4127965%5D&classificacao=2%5B0%5D%7C1%5B0%5D
+2022,14231.0,census,census,2022,https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D

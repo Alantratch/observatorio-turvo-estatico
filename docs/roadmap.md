@@ -2,7 +2,7 @@
 
 Cada etapa deve incluir conector, metadados, teste de normalização e revisão da metodologia antes de marcar um dado como oficial.
 
-1. **População:** TODO estimativas anuais, séries censitárias, sexo/idade, malha municipal e mapa acessível.
+1. **População:** implementados Censos publicados, estimativas anuais separadas, crescimento compatibilizado, pirâmide etária, sexo, cor ou raça, índices demográficos, urbano/rural, domicílios, malha municipal e downloads. Próximos passos: comparação regional no novo schema e história em geografia compatível para Censos anteriores. Veja [módulo População](modulos/populacao.md).
 2. **Economia:** TODO PIB histórico, valor adicionado por setor, deflator documentado e cautela com mudanças metodológicas.
 3. **Trabalho:** TODO importadores agregados RAIS/CAGED, estoque anual e saldo mensal em telas distintas.
 4. **Educação:** TODO agregação do Censo Escolar e IDEB por etapa/rede; supressão de células sensíveis.

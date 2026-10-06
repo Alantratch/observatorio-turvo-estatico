@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "id": 9922,
+    "nome": "Domicílios particulares permanentes ocupados, moradores em domicílios particulares permanentes ocupados e média de moradores em domicílios particulares permanentes ocupados, segundo a situação do domicílio",
+    "URL": "https://sidra.ibge.gov.br/tabela/9922",
+    "pesquisa": "Censo Demográfico",
+    "assunto": "Domicílios",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2022,
+      "fim": 2022
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N102",
+        "N1",
+        "N10",
+        "N2",
+        "N6",
+        "N11",
+        "N3"
+      ],
+      "Especial": [
+        "N134",
+        "N131"
+      ],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 381,
+        "nome": "Domicílios particulares permanentes ocupados",
+        "unidade": "Domicílios",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 382,
+        "nome": "Moradores em domicílios particulares permanentes ocupados",
+        "unidade": "Pessoas",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 5930,
+        "nome": "Média de moradores em domicílios particulares permanentes ocupados",
+        "unidade": "Pessoas",
+        "sumarizacao": []
+      }
+    ],
+    "classificacoes": [
+      {
+        "id": 1,
+        "nome": "Situação do domicílio",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 6795,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 1,
+            "nome": "Urbana",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 2,
+            "nome": "Rural",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "14/11/2024"
+    }
+  ],
+  "response": [
+    {
+      "id": "381",
+      "variavel": "Domicílios particulares permanentes ocupados",
+      "unidade": "Domicílios",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "1",
+              "nome": "Situação do domicílio",
+              "categoria": {
+                "6795": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "5015"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "382",
+      "variavel": "Moradores em domicílios particulares permanentes ocupados",
+      "unidade": "Pessoas",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "1",
+              "nome": "Situação do domicílio",
+              "categoria": {
+                "6795": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "14225"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5930",
+      "variavel": "Média de moradores em domicílios particulares permanentes ocupados",
+      "unidade": "Pessoas",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "1",
+              "nome": "Situação do domicílio",
+              "categoria": {
+                "6795": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2022": "2.84"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/periodos/2022/variaveis/381%7C382%7C5930?localidades=N6%5B4127965%5D&classificacao=1%5B6795%5D"
+}

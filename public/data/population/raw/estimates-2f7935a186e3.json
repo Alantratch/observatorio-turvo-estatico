@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "id": 6579,
+    "nome": "População residente estimada",
+    "URL": "https://sidra.ibge.gov.br/tabela/6579",
+    "pesquisa": "Estimativas de População",
+    "assunto": "Geral",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2001,
+      "fim": 2026
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N6",
+        "N3"
+      ],
+      "Especial": [],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 9324,
+        "nome": "População residente estimada",
+        "unidade": "Pessoas",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      }
+    ],
+    "classificacoes": []
+  },
+  "periods": [
+    {
+      "id": "2001",
+      "literals": [
+        "2001"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2002",
+      "literals": [
+        "2002"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2003",
+      "literals": [
+        "2003"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2004",
+      "literals": [
+        "2004"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2005",
+      "literals": [
+        "2005"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2006",
+      "literals": [
+        "2006"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2008",
+      "literals": [
+        "2008"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2009",
+      "literals": [
+        "2009"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2011",
+      "literals": [
+        "2011"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2012",
+      "literals": [
+        "2012"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2013",
+      "literals": [
+        "2013"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2014",
+      "literals": [
+        "2014"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2015",
+      "literals": [
+        "2015"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2016",
+      "literals": [
+        "2016"
+      ],
+      "modificacao": "30/08/2017"
+    },
+    {
+      "id": "2017",
+      "literals": [
+        "2017"
+      ],
+      "modificacao": "05/09/2022"
+    },
+    {
+      "id": "2018",
+      "literals": [
+        "2018"
+      ],
+      "modificacao": "05/09/2022"
+    },
+    {
+      "id": "2019",
+      "literals": [
+        "2019"
+      ],
+      "modificacao": "05/09/2022"
+    },
+    {
+      "id": "2020",
+      "literals": [
+        "2020"
+      ],
+      "modificacao": "05/09/2022"
+    },
+    {
+      "id": "2021",
+      "literals": [
+        "2021"
+      ],
+      "modificacao": "24/06/2024"
+    },
+    {
+      "id": "2024",
+      "literals": [
+        "2024"
+      ],
+      "modificacao": "30/12/2024"
+    },
+    {
+      "id": "2025",
+      "literals": [
+        "2025"
+      ],
+      "modificacao": "28/08/2026"
+    },
+    {
+      "id": "2026",
+      "literals": [
+        "2026"
+      ],
+      "modificacao": "28/08/2026"
+    }
+  ],
+  "response": [
+    {
+      "id": "9324",
+      "variavel": "População residente estimada",
+      "unidade": "Pessoas",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2001": "14578",
+                "2002": "14611",
+                "2003": "14648",
+                "2004": "14727",
+                "2005": "14771",
+                "2006": "14814",
+                "2008": "14391",
+                "2009": "14363",
+                "2011": "13717",
+                "2012": "13628",
+                "2013": "13937",
+                "2014": "13860",
+                "2015": "13785",
+                "2016": "13712",
+                "2017": "13640",
+                "2018": "13340",
+                "2019": "13215",
+                "2020": "13095",
+                "2021": "12977",
+                "2024": "14443",
+                "2025": "14101",
+                "2026": "14110"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2001%7C2002%7C2003%7C2004%7C2005%7C2006%7C2008%7C2009%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2024%7C2025%7C2026/variaveis/9324?localidades=N6%5B4127965%5D"
+}
