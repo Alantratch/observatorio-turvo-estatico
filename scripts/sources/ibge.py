@@ -24,8 +24,8 @@ def check_metadata(meta, variables, classifications):
             raise ValueError(f'Categorias divergentes na classificação {identifier}')
 
 
-def aggregate_url(table, periods, variables, classifications):
-    params = {'localidades': f'N6[{CODE}]'}
+def aggregate_url(table, periods, variables, classifications, code=CODE):
+    params = {'localidades': f'N6[{code}]'}
     if classifications:
         params['classificacao'] = '|'.join(f'{key}[{",".join(values)}]' for key, values in classifications.items())
     return f'{BASE}/{table}/periodos/{quote("|".join(periods))}/variaveis/{quote("|".join(variables))}?{urlencode(params)}'
@@ -86,7 +86,7 @@ class IBGE:
         self.metadata_cache = {}
         self.period_cache = {}
 
-    def aggregate(self, identifier, table, variables, classifications, periods=None, allow_missing=False, transformations=(), methodology=''):
+    def aggregate(self, identifier, table, variables, classifications, periods=None, allow_missing=False, transformations=(), methodology='', code=CODE):
         metadata_url = f'{BASE}/{table}/metadados'
         if table not in self.metadata_cache:
             self.metadata_cache[table] = request_json(metadata_url)
@@ -102,9 +102,9 @@ class IBGE:
         periods = sorted(available) if periods is None else periods
         if not periods or any(p not in available for p in periods):
             raise ValueError('Período não publicado')
-        url = aggregate_url(table, periods, variables, classifications)
+        url = aggregate_url(table, periods, variables, classifications, code)
         payload = request_json(url)
-        rows = parse_aggregates(payload, variables, periods, classifications, allow_missing=allow_missing)
+        rows = parse_aggregates(payload, variables, periods, classifications, code=code, allow_missing=allow_missing)
         self.raw[identifier] = {'metadata': meta, 'periods': published, 'response': payload, 'url': url, 'collectedAt': self.collected_at}
-        self.sources.append({'id': identifier, 'agency': 'IBGE', 'research': meta['pesquisa'], 'table': table, 'title': meta['nome'], 'variables': [{'id': key, 'name': name, 'unit': unit} for key, (name, unit) in variables.items()], 'classifications': [{'id': key, 'categories': values} for key, values in classifications.items()], 'periods': periods, 'reference': ', '.join(periods), 'url': url, 'officialUrl': f'https://sidra.ibge.gov.br/tabela/{table}', 'metadataUrl': metadata_url, 'collectedAt': self.collected_at, 'transformations': list(transformations) + ["Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."], 'methodology': methodology})
+        self.sources.append({'id': identifier, 'municipalityCode': code, 'agency': 'IBGE', 'research': meta['pesquisa'], 'table': table, 'title': meta['nome'], 'variables': [{'id': key, 'name': name, 'unit': unit} for key, (name, unit) in variables.items()], 'classifications': [{'id': key, 'categories': values} for key, values in classifications.items()], 'periods': periods, 'reference': ', '.join(periods), 'url': url, 'officialUrl': f'https://sidra.ibge.gov.br/tabela/{table}', 'metadataUrl': metadata_url, 'collectedAt': self.collected_at, 'transformations': list(transformations) + ["Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."], 'methodology': methodology})
         return rows

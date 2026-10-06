@@ -36,6 +36,19 @@ python3 scripts/etl.py --module population --offline
 
 A comparação oficial 2010–2022 usa população 2010 territorialmente compatibilizada, diferente do Censo 2010 original. Densidade censitária 2022 não é recalculada com área 2025. Veja [documentação completa de População](docs/modulos/populacao.md) para fontes, IDs, fórmulas e limites.
 
+## Economia: PIB e estrutura municipal
+
+Página própria com PIB e variação nominal (2002–2023), PIB per capita oficial (2010–2023), VAB e participações setoriais (2002–2021), impostos separados e comparação com Guarapuava, Pitanga e Laranjal. Há gráficos, tabelas acessíveis, narrativas determinísticas, referências independentes, fontes e downloads JSON/CSV. **Setores 2021 não são apresentados como composição do PIB 2023.**
+
+A tabela 5938 é coletada pela API de Agregados v3. A variável 543 é impostos em mil reais; PIB per capita vem da pesquisa 38/indicador 47001 da API Pesquisas, sem divisão por população de outro módulo. O dataset multidimensional economy.json e respostas brutas mantêm todos os metadados e precisão oficial. Veja [documentação de Economia](docs/modulos/economia.md).
+
+```sh
+# Atualizar somente Economia, sem consultar População ou outros módulos:
+python3 scripts/etl.py --module economy
+# Validar os snapshots de Economia sem rede:
+python3 scripts/etl.py --module economy --offline
+```
+
 ## Atualizar os dados
 
 ```sh
@@ -44,7 +57,7 @@ npm run data:update
 python3 scripts/etl.py --offline
 ```
 
-O ETL consulta SIDRA para Turvo, Guarapuava, Laranjal e Pitanga, com timeout, três tentativas e validação de município, variável, unidade e valores. Se uma consulta falhar, mantém o último snapshot válido e registra falha em `collection.failures`. A tentativa mais recente está em `collection.attemptedAt`; a coleta do valor preservado fica em `collectedAt`. Não troca uma série oficial por demonstrações.
+O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, Laranjal e Pitanga; o conector inicial SIDRA mantém os demais indicadores, com timeout, três tentativas e validação de município, variável, unidade e valores. Se uma consulta falhar, mantém o último snapshot válido e registra falha em `collection.failures`. A tentativa mais recente está em `collection.attemptedAt`; a coleta do valor preservado fica em `collectedAt`. Não troca uma série oficial por demonstrações.
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
@@ -56,7 +69,7 @@ Dados nos demais módulos são explicitamente **fictícios**, destinados a demon
 | --- | --- | --- |
 | Visão Geral | Cards oficiais, gráficos e referências | Destaques editoriais e mapa |
 | População | Página própria: Censo, estimativas, idade/sexo, cor/raça, urbano/rural, domicílios e território | Comparador regional no novo schema |
-| Economia / PIB | SIDRA 5938 | PIB per capita e setores do valor adicionado |
+| Economia / PIB | PIB, per capita, variação nominal, VAB/setores, impostos, história e comparação regional | Novas divulgações e benchmark estadual compatível |
 | Trabalho e Emprego | Demo RAIS/CAGED | Importadores e saldo mensal |
 | Educação | Demo Censo Escolar | Matrículas, IDEB e rede escolar |
 | Saúde | Demo CNES | Estabelecimentos, cobertura e indicadores |
@@ -77,17 +90,23 @@ src/
   lib/data.ts               # Carregamento e formatação
   App.tsx                   # Composição das páginas e estados
   modules/population/       # Página, gráficos, metadados e schema de População
+  modules/economy/          # Página e gráficos próprios, comparação e metodologia
 public/data/
   indicators.json           # Snapshots de Turvo + demonstrações identificadas
   comparison.json           # Snapshots oficiais dos municípios comparados
   population.json           # Dados multidimensionais de População
+  economy.json              # PIB, per capita, setores, impostos e comparações
+  economy/                  # Respostas oficiais auditáveis
+  gdp*.csv                  # PIB e per capita, gerados pelo ETL
+  economy-sectors.csv        # VAB e participações setoriais
   population/               # Malha municipal e respostas brutas auditáveis
 scripts/etl.py              # Orquestração incremental de ETLs
 scripts/common.py           # HTTP, números e escrita atômica
 scripts/sources/ibge.py      # Metadados e parsing completo de agregados
 scripts/modules/population.py # Coleta e validação do módulo População
+scripts/modules/economy.py    # Coleta e validação do módulo Economia
 tests/test_etl.py           # Conversão, integridade e comportamento em falhas
-.github/workflows/          # CI, coleta semanal e deploy opcional
+docs/github-actions/        # Templates de CI, coleta semanal e deploy opcional (ativar abaixo)
 ```
 
 Vite + React + TypeScript permite evolução incremental de componentes e módulos, com build puramente estático. Gráficos usam Recharts; ícones, Lucide. Rotas por hash evitam exigir reescrita do servidor e funcionam em hospedagem estática. Python usa apenas a biblioteca padrão. Veja [arquitetura](docs/arquitetura.md), [fontes](docs/fontes.md) e [roadmap](docs/roadmap.md).

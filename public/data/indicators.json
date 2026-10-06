@@ -44,18 +44,45 @@
       "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
     },
     {
-      "id": "gdp",
+      "id": "economy-leading-sector",
+      "title": "Principal atividade econômica",
+      "value": 33.85,
+      "unit": "% do VAB",
+      "reference": "2021",
+      "sourceId": "accounts-4127965",
+      "source": "IBGE / Produto Interno Bruto dos Municípios · Tabela 5938",
+      "agency": "IBGE",
+      "municipalityCode": "4127965",
+      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4127965%5D",
+      "methodology": "gdp-municipal-reference-2010-current-prices",
+      "status": "real",
+      "concept": "Indústria",
       "module": "economy",
+      "series": [
+        {
+          "period": "2021",
+          "value": 33.85
+        }
+      ],
+      "note": "Indústria"
+    },
+    {
+      "id": "gdp",
       "title": "Produto Interno Bruto (PIB)",
       "value": 697870000.0,
       "unit": "R$",
-      "source": "IBGE / SIDRA · Tabela 5938",
-      "agency": "IBGE",
       "reference": "2023",
-      "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/4127965/v/37/p/all",
-      "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+      "sourceId": "accounts-4127965",
+      "source": "IBGE / Produto Interno Bruto dos Municípios · Tabela 5938",
+      "agency": "IBGE",
       "municipalityCode": "4127965",
+      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4127965%5D",
+      "methodology": "gdp-municipal-reference-2010-current-prices",
       "status": "real",
+      "concept": "Valor dos bens e serviços finais produzidos no território; preços correntes.",
+      "module": "economy",
       "series": [
         {
           "period": "2002",
@@ -146,7 +173,107 @@
           "value": 697870000.0
         }
       ],
-      "note": "PIB nominal. Valores em mil reais convertidos para reais."
+      "note": "Valor dos bens e serviços finais produzidos no território; preços correntes."
+    },
+    {
+      "id": "gdp-nominal-change",
+      "title": "Variação nominal do PIB",
+      "value": 10.156836994336448,
+      "unit": "%",
+      "reference": "2023",
+      "sourceId": "accounts-4127965",
+      "source": "IBGE / Produto Interno Bruto dos Municípios · Tabela 5938",
+      "agency": "IBGE",
+      "municipalityCode": "4127965",
+      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4127965%5D",
+      "methodology": "gdp-municipal-reference-2010-current-prices",
+      "status": "real",
+      "concept": "Comparação 2022–2023; (atual/anterior − 1) × 100; sem descontar inflação.",
+      "module": "economy",
+      "series": [
+        {
+          "period": "2023",
+          "value": 10.156836994336448
+        }
+      ],
+      "note": "Comparação 2022–2023; (atual/anterior − 1) × 100; sem descontar inflação."
+    },
+    {
+      "id": "gdp-per-capita",
+      "title": "PIB per capita",
+      "value": 49038.74,
+      "unit": "R$ por habitante",
+      "reference": "2023",
+      "sourceId": "capita-4127965",
+      "source": "IBGE / Produto Interno Bruto dos Municípios · Indicador 47001",
+      "agency": "IBGE",
+      "municipalityCode": "4127965",
+      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/47001/resultados/4127965",
+      "methodology": "gdp-municipal-reference-2010-current-prices",
+      "status": "real",
+      "concept": "Valor oficial do IBGE; não representa salário ou renda média dos moradores.",
+      "module": "economy",
+      "series": [
+        {
+          "period": "2010",
+          "value": 14594.71
+        },
+        {
+          "period": "2011",
+          "value": 16199.39
+        },
+        {
+          "period": "2012",
+          "value": 17500.83
+        },
+        {
+          "period": "2013",
+          "value": 20089.39
+        },
+        {
+          "period": "2014",
+          "value": 22086.36
+        },
+        {
+          "period": "2015",
+          "value": 23243.64
+        },
+        {
+          "period": "2016",
+          "value": 27665.0
+        },
+        {
+          "period": "2017",
+          "value": 31278.84
+        },
+        {
+          "period": "2018",
+          "value": 33160.13
+        },
+        {
+          "period": "2019",
+          "value": 32637.85
+        },
+        {
+          "period": "2020",
+          "value": 41508.69
+        },
+        {
+          "period": "2021",
+          "value": 46360.63
+        },
+        {
+          "period": "2022",
+          "value": 44517.15
+        },
+        {
+          "period": "2023",
+          "value": 49038.74
+        }
+      ],
+      "note": "Valor oficial do IBGE; não representa salário ou renda média dos moradores."
     },
     {
       "id": "enrolment",

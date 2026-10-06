@@ -1,0 +1,1069 @@
+{
+  "metadata": {
+    "id": 5938,
+    "nome": "Produto interno bruto a preços correntes, impostos, líquidos de subsídios, sobre produtos a preços correntes e valor adicionado bruto a preços correntes total e por atividade econômica, e respectivas participações - Referência 2010",
+    "URL": "https://sidra.ibge.gov.br/tabela/5938",
+    "pesquisa": "Produto Interno Bruto dos Municípios",
+    "assunto": "Contas Nacionais e Regionais",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2002,
+      "fim": 2023
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N8",
+        "N9",
+        "N6",
+        "N3"
+      ],
+      "Especial": [],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 37,
+        "nome": "Produto Interno Bruto a preços correntes",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 553,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 552,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 497,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 530,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 496,
+        "nome": "Participação do produto interno bruto a preços correntes no produto interno bruto a preços correntes do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 543,
+        "nome": "Impostos, líquidos de subsídios, sobre produtos a preços correntes",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 571,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 570,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 545,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 551,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 544,
+        "nome": "Participação dos impostos, líquidos de subsídios, sobre produtos a preços correntes nos impostos, líquidos de subsídios, sobre produtos a preços correntes do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 498,
+        "nome": "Valor adicionado bruto a preços correntes total",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 555,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 554,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 500,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 546,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 499,
+        "nome": "Participação do valor adicionado bruto a preços correntes total no valor adicionado bruto a preços correntes total do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 513,
+        "nome": "Valor adicionado bruto a preços correntes da agropecuária",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 516,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 557,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 556,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 515,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 547,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 514,
+        "nome": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes da agropecuária do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 517,
+        "nome": "Valor adicionado bruto a preços correntes da indústria",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 520,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 559,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 558,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 519,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 548,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 518,
+        "nome": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes da indústria do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6575,
+        "nome": "Valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6574,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6571,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da microrregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6570,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6572,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6569,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 6573,
+        "nome": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 525,
+        "nome": "Valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social",
+        "unidade": "Mil Reais",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 528,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes total",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 563,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da microrregião geográfic",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 562,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da mesorregião geográfica",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 527,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da unidade da federação",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 550,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social da grande região",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 526,
+        "nome": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social do Brasil",
+        "unidade": "%",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      }
+    ],
+    "classificacoes": []
+  },
+  "periods": [
+    {
+      "id": "2002",
+      "literals": [
+        "2002"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2003",
+      "literals": [
+        "2003"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2004",
+      "literals": [
+        "2004"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2005",
+      "literals": [
+        "2005"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2006",
+      "literals": [
+        "2006"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2007",
+      "literals": [
+        "2007"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2008",
+      "literals": [
+        "2008"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2009",
+      "literals": [
+        "2009"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2010",
+      "literals": [
+        "2010"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2011",
+      "literals": [
+        "2011"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2012",
+      "literals": [
+        "2012"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2013",
+      "literals": [
+        "2013"
+      ],
+      "modificacao": "14/12/2016"
+    },
+    {
+      "id": "2014",
+      "literals": [
+        "2014"
+      ],
+      "modificacao": "14/12/2017"
+    },
+    {
+      "id": "2015",
+      "literals": [
+        "2015"
+      ],
+      "modificacao": "10/01/2019"
+    },
+    {
+      "id": "2016",
+      "literals": [
+        "2016"
+      ],
+      "modificacao": "13/12/2019"
+    },
+    {
+      "id": "2017",
+      "literals": [
+        "2017"
+      ],
+      "modificacao": "17/12/2021"
+    },
+    {
+      "id": "2018",
+      "literals": [
+        "2018"
+      ],
+      "modificacao": "16/12/2022"
+    },
+    {
+      "id": "2019",
+      "literals": [
+        "2019"
+      ],
+      "modificacao": "15/12/2023"
+    },
+    {
+      "id": "2020",
+      "literals": [
+        "2020"
+      ],
+      "modificacao": "15/12/2023"
+    },
+    {
+      "id": "2021",
+      "literals": [
+        "2021"
+      ],
+      "modificacao": "19/12/2025"
+    },
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "19/12/2025"
+    },
+    {
+      "id": "2023",
+      "literals": [
+        "2023"
+      ],
+      "modificacao": "19/12/2025"
+    }
+  ],
+  "response": [
+    {
+      "id": "37",
+      "variavel": "Produto Interno Bruto a preços correntes",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "177270",
+                "2003": "235074",
+                "2004": "232807",
+                "2005": "222878",
+                "2006": "251838",
+                "2007": "277487",
+                "2008": "345181",
+                "2009": "360374",
+                "2010": "351704",
+                "2011": "421176",
+                "2012": "501373",
+                "2013": "618452",
+                "2014": "693377",
+                "2015": "700989",
+                "2016": "817084",
+                "2017": "815559",
+                "2018": "893397",
+                "2019": "865767",
+                "2020": "1094113",
+                "2021": "1140790",
+                "2022": "1371478",
+                "2023": "1448744"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "543",
+      "variavel": "Impostos, líquidos de subsídios, sobre produtos a preços correntes",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "11825",
+                "2003": "14968",
+                "2004": "15951",
+                "2005": "17096",
+                "2006": "18386",
+                "2007": "16510",
+                "2008": "22995",
+                "2009": "22112",
+                "2010": "22379",
+                "2011": "27002",
+                "2012": "33448",
+                "2013": "42787",
+                "2014": "46031",
+                "2015": "52587",
+                "2016": "57281",
+                "2017": "65674",
+                "2018": "70457",
+                "2019": "69463",
+                "2020": "74523",
+                "2021": "89985",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "498",
+      "variavel": "Valor adicionado bruto a preços correntes total",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "165445",
+                "2003": "220105",
+                "2004": "216856",
+                "2005": "205782",
+                "2006": "233452",
+                "2007": "260977",
+                "2008": "322185",
+                "2009": "338262",
+                "2010": "329325",
+                "2011": "394174",
+                "2012": "467925",
+                "2013": "575665",
+                "2014": "647346",
+                "2015": "648403",
+                "2016": "759803",
+                "2017": "749885",
+                "2018": "822940",
+                "2019": "796304",
+                "2020": "1019591",
+                "2021": "1050804",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "513",
+      "variavel": "Valor adicionado bruto a preços correntes da agropecuária",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "58748",
+                "2003": "85856",
+                "2004": "74774",
+                "2005": "54169",
+                "2006": "64945",
+                "2007": "76037",
+                "2008": "102571",
+                "2009": "98900",
+                "2010": "85731",
+                "2011": "115445",
+                "2012": "132475",
+                "2013": "172800",
+                "2014": "202179",
+                "2015": "156345",
+                "2016": "217043",
+                "2017": "174312",
+                "2018": "212319",
+                "2019": "183842",
+                "2020": "355191",
+                "2021": "359232",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "516",
+      "variavel": "Participação do valor adicionado bruto a preços correntes da agropecuária no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "35.51",
+                "2003": "39.01",
+                "2004": "34.48",
+                "2005": "26.32",
+                "2006": "27.82",
+                "2007": "29.14",
+                "2008": "31.84",
+                "2009": "29.24",
+                "2010": "26.03",
+                "2011": "29.29",
+                "2012": "28.31",
+                "2013": "30.02",
+                "2014": "31.23",
+                "2015": "24.11",
+                "2016": "28.57",
+                "2017": "23.25",
+                "2018": "25.80",
+                "2019": "23.09",
+                "2020": "34.84",
+                "2021": "34.19",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "517",
+      "variavel": "Valor adicionado bruto a preços correntes da indústria",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "14916",
+                "2003": "14048",
+                "2004": "14324",
+                "2005": "14648",
+                "2006": "14813",
+                "2007": "17204",
+                "2008": "21020",
+                "2009": "23212",
+                "2010": "28353",
+                "2011": "32578",
+                "2012": "43323",
+                "2013": "47032",
+                "2014": "58706",
+                "2015": "64411",
+                "2016": "70830",
+                "2017": "73633",
+                "2018": "82831",
+                "2019": "72989",
+                "2020": "95429",
+                "2021": "102086",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "520",
+      "variavel": "Participação do valor adicionado bruto a preços correntes da indústria no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "9.02",
+                "2003": "6.38",
+                "2004": "6.61",
+                "2005": "7.12",
+                "2006": "6.35",
+                "2007": "6.59",
+                "2008": "6.52",
+                "2009": "6.86",
+                "2010": "8.61",
+                "2011": "8.26",
+                "2012": "9.26",
+                "2013": "8.17",
+                "2014": "9.07",
+                "2015": "9.93",
+                "2016": "9.32",
+                "2017": "9.82",
+                "2018": "10.07",
+                "2019": "9.17",
+                "2020": "9.36",
+                "2021": "9.72",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6575",
+      "variavel": "Valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "57554",
+                "2003": "81583",
+                "2004": "88907",
+                "2005": "93280",
+                "2006": "106464",
+                "2007": "115241",
+                "2008": "138342",
+                "2009": "149121",
+                "2010": "144423",
+                "2011": "167143",
+                "2012": "204019",
+                "2013": "257511",
+                "2014": "277471",
+                "2015": "309023",
+                "2016": "341740",
+                "2017": "363074",
+                "2018": "392930",
+                "2019": "400367",
+                "2020": "428385",
+                "2021": "441483",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6574",
+      "variavel": "Participação do valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social, no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "34.79",
+                "2003": "37.07",
+                "2004": "41.00",
+                "2005": "45.33",
+                "2006": "45.60",
+                "2007": "44.16",
+                "2008": "42.94",
+                "2009": "44.08",
+                "2010": "43.85",
+                "2011": "42.40",
+                "2012": "43.60",
+                "2013": "44.73",
+                "2014": "42.86",
+                "2015": "47.66",
+                "2016": "44.98",
+                "2017": "48.42",
+                "2018": "47.75",
+                "2019": "50.28",
+                "2020": "42.02",
+                "2021": "42.01",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "525",
+      "variavel": "Valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "34228",
+                "2003": "38619",
+                "2004": "38851",
+                "2005": "43685",
+                "2006": "47230",
+                "2007": "52495",
+                "2008": "60253",
+                "2009": "67029",
+                "2010": "70819",
+                "2011": "79008",
+                "2012": "88109",
+                "2013": "98322",
+                "2014": "108990",
+                "2015": "118625",
+                "2016": "130190",
+                "2017": "138866",
+                "2018": "134861",
+                "2019": "139106",
+                "2020": "140586",
+                "2021": "148003",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "528",
+      "variavel": "Participação do valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social no valor adicionado bruto a preços correntes total",
+      "unidade": "%",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2002": "20.69",
+                "2003": "17.55",
+                "2004": "17.92",
+                "2005": "21.23",
+                "2006": "20.23",
+                "2007": "20.11",
+                "2008": "18.70",
+                "2009": "19.82",
+                "2010": "21.50",
+                "2011": "20.04",
+                "2012": "18.83",
+                "2013": "17.08",
+                "2014": "16.84",
+                "2015": "18.29",
+                "2016": "17.13",
+                "2017": "18.52",
+                "2018": "16.39",
+                "2019": "17.47",
+                "2020": "13.79",
+                "2021": "14.08",
+                "2022": "...",
+                "2023": "..."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4119608%5D"
+}
