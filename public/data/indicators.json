@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "municipality": {
+    "code": "4127965",
+    "name": "Turvo",
+    "state": "PR"
+  },
+  "indicators": [
+    {
+      "id": "soy",
+      "module": "agriculture",
+      "title": "Produção de soja",
+      "value": 52000,
+      "unit": "toneladas",
+      "source": "Produção Agrícola Municipal / SIDRA",
+      "agency": "IBGE",
+      "reference": "Exemplo fictício",
+      "url": "https://sidra.ibge.gov.br/tabela/5457",
+      "collectedAt": null,
+      "municipalityCode": "4127965",
+      "status": "mock",
+      "series": [
+        {
+          "period": "2020",
+          "value": 41600.0
+        },
+        {
+          "period": "2021",
+          "value": 44720.0
+        },
+        {
+          "period": "2022",
+          "value": 43160.0
+        },
+        {
+          "period": "2023",
+          "value": 48880.0
+        },
+        {
+          "period": "2024",
+          "value": 52000
+        }
+      ],
+      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    },
+    {
+      "id": "gdp",
+      "module": "economy",
+      "title": "Produto Interno Bruto (PIB)",
+      "value": 697870000.0,
+      "unit": "R$",
+      "source": "IBGE / SIDRA · Tabela 5938",
+      "agency": "IBGE",
+      "reference": "2023",
+      "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/4127965/v/37/p/all",
+      "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2002",
+          "value": 66579000.0
+        },
+        {
+          "period": "2003",
+          "value": 101538000.0
+        },
+        {
+          "period": "2004",
+          "value": 117658000.0
+        },
+        {
+          "period": "2005",
+          "value": 130290000.0
+        },
+        {
+          "period": "2006",
+          "value": 134961000.0
+        },
+        {
+          "period": "2007",
+          "value": 145369000.0
+        },
+        {
+          "period": "2008",
+          "value": 143077000.0
+        },
+        {
+          "period": "2009",
+          "value": 181190000.0
+        },
+        {
+          "period": "2010",
+          "value": 201962000.0
+        },
+        {
+          "period": "2011",
+          "value": 222207000.0
+        },
+        {
+          "period": "2012",
+          "value": 238501000.0
+        },
+        {
+          "period": "2013",
+          "value": 279986000.0
+        },
+        {
+          "period": "2014",
+          "value": 306117000.0
+        },
+        {
+          "period": "2015",
+          "value": 320414000.0
+        },
+        {
+          "period": "2016",
+          "value": 379343000.0
+        },
+        {
+          "period": "2017",
+          "value": 426643000.0
+        },
+        {
+          "period": "2018",
+          "value": 442356000.0
+        },
+        {
+          "period": "2019",
+          "value": 431309000.0
+        },
+        {
+          "period": "2020",
+          "value": 543556000.0
+        },
+        {
+          "period": "2021",
+          "value": 601622000.0
+        },
+        {
+          "period": "2022",
+          "value": 633524000.0
+        },
+        {
+          "period": "2023",
+          "value": 697870000.0
+        }
+      ],
+      "note": "PIB nominal. Valores em mil reais convertidos para reais."
+    },
+    {
+      "id": "enrolment",
+      "module": "education",
+      "title": "Matrículas na educação básica",
+      "value": 2800,
+      "unit": "matrículas",
+      "source": "Censo Escolar",
+      "agency": "INEP",
+      "reference": "Exemplo fictício",
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar",
+      "collectedAt": null,
+      "municipalityCode": "4127965",
+      "status": "mock",
+      "series": [
+        {
+          "period": "2020",
+          "value": 2240.0
+        },
+        {
+          "period": "2021",
+          "value": 2408.0
+        },
+        {
+          "period": "2022",
+          "value": 2324.0
+        },
+        {
+          "period": "2023",
+          "value": 2632.0
+        },
+        {
+          "period": "2024",
+          "value": 2800
+        }
+      ],
+      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    },
+    {
+      "id": "caged-balance",
+      "module": "employment",
+      "title": "Saldo de empregos",
+      "value": 84,
+      "unit": "vínculos",
+      "source": "Novo CAGED",
+      "agency": "MTE",
+      "reference": "Exemplo fictício",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
+      "collectedAt": null,
+      "municipalityCode": "4127965",
+      "status": "mock",
+      "series": [
+        {
+          "period": "2020",
+          "value": 67.2
+        },
+        {
+          "period": "2021",
+          "value": 72.24
+        },
+        {
+          "period": "2022",
+          "value": 69.72
+        },
+        {
+          "period": "2023",
+          "value": 78.96
+        },
+        {
+          "period": "2024",
+          "value": 84
+        }
+      ],
+      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    },
+    {
+      "id": "formal-jobs",
+      "module": "employment",
+      "title": "Vínculos formais",
+      "value": 3200,
+      "unit": "vínculos",
+      "source": "RAIS",
+      "agency": "MTE",
+      "reference": "Exemplo fictício",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais",
+      "collectedAt": null,
+      "municipalityCode": "4127965",
+      "status": "mock",
+      "series": [
+        {
+          "period": "2020",
+          "value": 2560.0
+        },
+        {
+          "period": "2021",
+          "value": 2752.0
+        },
+        {
+          "period": "2022",
+          "value": 2656.0
+        },
+        {
+          "period": "2023",
+          "value": 3008.0
+        },
+        {
+          "period": "2024",
+          "value": 3200
+        }
+      ],
+      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    },
+    {
+      "id": "revenue",
+      "module": "finance",
+      "title": "Receita orçamentária",
+      "value": 95000000,
+      "unit": "R$",
+      "source": "SICONFI",
+      "agency": "Tesouro Nacional",
+      "reference": "Exemplo fictício",
+      "url": "https://siconfi.tesouro.gov.br/",
+      "collectedAt": null,
+      "municipalityCode": "4127965",
+      "status": "mock",
+      "series": [
+        {
+          "period": "2020",
+          "value": 76000000.0
+        },
+        {
+          "period": "2021",
+          "value": 81700000.0
+        },
+        {
+          "period": "2022",
+          "value": 78850000.0
+        },
+        {
+          "period": "2023",
+          "value": 89300000.0
+        },
+        {
+          "period": "2024",
+          "value": 95000000
+        }
+      ],
+      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    },
+    {
+      "id": "health-units",
+      "module": "health",
+      "title": "Estabelecimentos de saúde",
+      "value": 12,
+      "unit": "estabelecimentos",
+      "source": "CNES / DATASUS",
+      "agency": "Ministério da Saúde",
+      "reference": "Exemplo fictício",
+      "url": "https://cnes.datasus.gov.br/",
+      "collectedAt": null,
+      "municipalityCode": "4127965",
+      "status": "mock",
+      "series": [
+        {
+          "period": "2020",
+          "value": 9.6
+        },
+        {
+          "period": "2021",
+          "value": 10.32
+        },
+        {
+          "period": "2022",
+          "value": 9.96
+        },
+        {
+          "period": "2023",
+          "value": 11.28
+        },
+        {
+          "period": "2024",
+          "value": 12
+        }
+      ],
+      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    },
+    {
+      "id": "area",
+      "module": "population",
+      "title": "Área territorial",
+      "value": 938.966,
+      "unit": "km²",
+      "source": "IBGE / SIDRA · Tabela 4714",
+      "agency": "IBGE",
+      "reference": "2022",
+      "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4127965/v/6318/p/2022",
+      "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2022",
+          "value": 938.966
+        }
+      ],
+      "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+    },
+    {
+      "id": "density",
+      "module": "population",
+      "title": "Densidade demográfica",
+      "value": 15.16,
+      "unit": "hab/km²",
+      "source": "IBGE / SIDRA · Tabela 4714",
+      "agency": "IBGE",
+      "reference": "2022",
+      "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4127965/v/614/p/2022",
+      "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2022",
+          "value": 15.16
+        }
+      ],
+      "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+    },
+    {
+      "id": "population",
+      "module": "population",
+      "title": "População residente",
+      "value": 14231.0,
+      "unit": "pessoas",
+      "source": "IBGE / SIDRA · Tabela 4714",
+      "agency": "IBGE",
+      "reference": "2022",
+      "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4127965/v/93/p/2022",
+      "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2022",
+          "value": 14231.0
+        }
+      ],
+      "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+    },
+    {
+      "id": "contracts",
+      "module": "procurement",
+      "title": "Contratações publicadas",
+      "value": 45,
+      "unit": "contratações",
+      "source": "PNCP",
+      "agency": "MGI",
+      "reference": "Exemplo fictício",
+      "url": "https://pncp.gov.br/app/editais",
+      "collectedAt": null,
+      "municipalityCode": "4127965",
+      "status": "mock",
+      "series": [
+        {
+          "period": "2020",
+          "value": 36.0
+        },
+        {
+          "period": "2021",
+          "value": 38.7
+        },
+        {
+          "period": "2022",
+          "value": 37.35
+        },
+        {
+          "period": "2023",
+          "value": 42.3
+        },
+        {
+          "period": "2024",
+          "value": 45
+        }
+      ],
+      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    }
+  ],
+  "collection": {
+    "attemptedAt": "2026-10-06T14:11:57.713922+00:00",
+    "failures": []
+  }
+}

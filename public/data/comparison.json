@@ -1,0 +1,521 @@
+{
+  "4109401": {
+    "name": "Guarapuava",
+    "indicators": [
+      {
+        "id": "population",
+        "module": "population",
+        "title": "População residente",
+        "value": 182093.0,
+        "unit": "pessoas",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/93/p/2022",
+        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+        "municipalityCode": "4109401",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 182093.0
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "area",
+        "module": "population",
+        "title": "Área territorial",
+        "value": 3168.087,
+        "unit": "km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/6318/p/2022",
+        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+        "municipalityCode": "4109401",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 3168.087
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "density",
+        "module": "population",
+        "title": "Densidade demográfica",
+        "value": 57.48,
+        "unit": "hab/km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/614/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4109401",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 57.48
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "gdp",
+        "module": "economy",
+        "title": "Produto Interno Bruto (PIB)",
+        "value": 9864113000.0,
+        "unit": "R$",
+        "source": "IBGE / SIDRA · Tabela 5938",
+        "agency": "IBGE",
+        "reference": "2023",
+        "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/4109401/v/37/p/all",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4109401",
+        "status": "real",
+        "series": [
+          {
+            "period": "2002",
+            "value": 1043406000.0
+          },
+          {
+            "period": "2003",
+            "value": 1414696000.0
+          },
+          {
+            "period": "2004",
+            "value": 1613752000.0
+          },
+          {
+            "period": "2005",
+            "value": 1618878000.0
+          },
+          {
+            "period": "2006",
+            "value": 1689411000.0
+          },
+          {
+            "period": "2007",
+            "value": 2038658000.0
+          },
+          {
+            "period": "2008",
+            "value": 2130899000.0
+          },
+          {
+            "period": "2009",
+            "value": 2243906000.0
+          },
+          {
+            "period": "2010",
+            "value": 2507593000.0
+          },
+          {
+            "period": "2011",
+            "value": 2913277000.0
+          },
+          {
+            "period": "2012",
+            "value": 3439875000.0
+          },
+          {
+            "period": "2013",
+            "value": 4139712000.0
+          },
+          {
+            "period": "2014",
+            "value": 4428627000.0
+          },
+          {
+            "period": "2015",
+            "value": 4776925000.0
+          },
+          {
+            "period": "2016",
+            "value": 5239647000.0
+          },
+          {
+            "period": "2017",
+            "value": 5608156000.0
+          },
+          {
+            "period": "2018",
+            "value": 6115717000.0
+          },
+          {
+            "period": "2019",
+            "value": 6106298000.0
+          },
+          {
+            "period": "2020",
+            "value": 7519722000.0
+          },
+          {
+            "period": "2021",
+            "value": 8309024000.0
+          },
+          {
+            "period": "2022",
+            "value": 9378785000.0
+          },
+          {
+            "period": "2023",
+            "value": 9864113000.0
+          }
+        ],
+        "note": "PIB nominal. Valores em mil reais convertidos para reais."
+      }
+    ]
+  },
+  "4119608": {
+    "name": "Pitanga",
+    "indicators": [
+      {
+        "id": "population",
+        "module": "population",
+        "title": "População residente",
+        "value": 33567.0,
+        "unit": "pessoas",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/93/p/2022",
+        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+        "municipalityCode": "4119608",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 33567.0
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "area",
+        "module": "population",
+        "title": "Área territorial",
+        "value": 1663.747,
+        "unit": "km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/6318/p/2022",
+        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+        "municipalityCode": "4119608",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 1663.747
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "density",
+        "module": "population",
+        "title": "Densidade demográfica",
+        "value": 20.18,
+        "unit": "hab/km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/614/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4119608",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 20.18
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "gdp",
+        "module": "economy",
+        "title": "Produto Interno Bruto (PIB)",
+        "value": 1448744000.0,
+        "unit": "R$",
+        "source": "IBGE / SIDRA · Tabela 5938",
+        "agency": "IBGE",
+        "reference": "2023",
+        "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/4119608/v/37/p/all",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4119608",
+        "status": "real",
+        "series": [
+          {
+            "period": "2002",
+            "value": 177270000.0
+          },
+          {
+            "period": "2003",
+            "value": 235074000.0
+          },
+          {
+            "period": "2004",
+            "value": 232807000.0
+          },
+          {
+            "period": "2005",
+            "value": 222878000.0
+          },
+          {
+            "period": "2006",
+            "value": 251838000.0
+          },
+          {
+            "period": "2007",
+            "value": 277487000.0
+          },
+          {
+            "period": "2008",
+            "value": 345181000.0
+          },
+          {
+            "period": "2009",
+            "value": 360374000.0
+          },
+          {
+            "period": "2010",
+            "value": 351704000.0
+          },
+          {
+            "period": "2011",
+            "value": 421176000.0
+          },
+          {
+            "period": "2012",
+            "value": 501373000.0
+          },
+          {
+            "period": "2013",
+            "value": 618452000.0
+          },
+          {
+            "period": "2014",
+            "value": 693377000.0
+          },
+          {
+            "period": "2015",
+            "value": 700989000.0
+          },
+          {
+            "period": "2016",
+            "value": 817084000.0
+          },
+          {
+            "period": "2017",
+            "value": 815559000.0
+          },
+          {
+            "period": "2018",
+            "value": 893397000.0
+          },
+          {
+            "period": "2019",
+            "value": 865767000.0
+          },
+          {
+            "period": "2020",
+            "value": 1094113000.0
+          },
+          {
+            "period": "2021",
+            "value": 1140790000.0
+          },
+          {
+            "period": "2022",
+            "value": 1371478000.0
+          },
+          {
+            "period": "2023",
+            "value": 1448744000.0
+          }
+        ],
+        "note": "PIB nominal. Valores em mil reais convertidos para reais."
+      }
+    ]
+  },
+  "4113254": {
+    "name": "Laranjal",
+    "indicators": [
+      {
+        "id": "population",
+        "module": "population",
+        "title": "População residente",
+        "value": 5600.0,
+        "unit": "pessoas",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/93/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4113254",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 5600.0
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "area",
+        "module": "population",
+        "title": "Área territorial",
+        "value": 559.439,
+        "unit": "km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/6318/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4113254",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 559.439
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "density",
+        "module": "population",
+        "title": "Densidade demográfica",
+        "value": 10.01,
+        "unit": "hab/km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/614/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4113254",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 10.01
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "gdp",
+        "module": "economy",
+        "title": "Produto Interno Bruto (PIB)",
+        "value": 125483000.0,
+        "unit": "R$",
+        "source": "IBGE / SIDRA · Tabela 5938",
+        "agency": "IBGE",
+        "reference": "2023",
+        "url": "https://apisidra.ibge.gov.br/values/t/5938/n6/4113254/v/37/p/all",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4113254",
+        "status": "real",
+        "series": [
+          {
+            "period": "2002",
+            "value": 17297000.0
+          },
+          {
+            "period": "2003",
+            "value": 20559000.0
+          },
+          {
+            "period": "2004",
+            "value": 22572000.0
+          },
+          {
+            "period": "2005",
+            "value": 24201000.0
+          },
+          {
+            "period": "2006",
+            "value": 26637000.0
+          },
+          {
+            "period": "2007",
+            "value": 28960000.0
+          },
+          {
+            "period": "2008",
+            "value": 36141000.0
+          },
+          {
+            "period": "2009",
+            "value": 38720000.0
+          },
+          {
+            "period": "2010",
+            "value": 40100000.0
+          },
+          {
+            "period": "2011",
+            "value": 48834000.0
+          },
+          {
+            "period": "2012",
+            "value": 54575000.0
+          },
+          {
+            "period": "2013",
+            "value": 62215000.0
+          },
+          {
+            "period": "2014",
+            "value": 68367000.0
+          },
+          {
+            "period": "2015",
+            "value": 76475000.0
+          },
+          {
+            "period": "2016",
+            "value": 82688000.0
+          },
+          {
+            "period": "2017",
+            "value": 84016000.0
+          },
+          {
+            "period": "2018",
+            "value": 82465000.0
+          },
+          {
+            "period": "2019",
+            "value": 84472000.0
+          },
+          {
+            "period": "2020",
+            "value": 100926000.0
+          },
+          {
+            "period": "2021",
+            "value": 113016000.0
+          },
+          {
+            "period": "2022",
+            "value": 111089000.0
+          },
+          {
+            "period": "2023",
+            "value": 125483000.0
+          }
+        ],
+        "note": "PIB nominal. Valores em mil reais convertidos para reais."
+      }
+    ]
+  }
+}
