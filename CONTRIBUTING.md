@@ -1,6 +1,6 @@
 # Como contribuir
 
-Abra uma issue com módulo, fonte e resultado esperado. Envie alterações em branches e pull requests pequenos. Use Node 22 e Python 3.10+; execute `npm ci`, `npm test` e `npm run build`.
+Abra uma issue com módulo, fonte e resultado esperado. Envie alterações em branches e pull requests pequenos. Use Node 22 e Python 3.10+; instale as dependências de testes/planilhas com `python -m pip install -r scripts/requirements-education.txt`; execute `npm ci`, `npm test` e `npm run build`.
 
 Para adicionar um indicador, use o contrato de `src/lib/types.ts`, fonte HTTPS, órgão, período, unidade, código IBGE e coleta. Demonstração deve ter `status=mock`, data de coleta null e nota explícita. Nunca apresentar números fictícios como oficiais. Não substituir falhas ou supressões por zero.
 

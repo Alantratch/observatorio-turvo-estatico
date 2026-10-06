@@ -4,7 +4,7 @@ Observatório municipal **independente**, modular e open-source de Turvo/PR, có
 
 ## Rodar localmente
 
-Requisitos: Node.js 22+, npm e Python 3.10+ (sem bibliotecas Python externas).
+Requisitos: Node.js 22+, npm e Python 3.10+. Educação/testes usam as dependências XLSX abaixo; o build do site não exige Python.
 
 ```sh
 npm ci
@@ -14,12 +14,15 @@ npm run dev
 Abra o endereço informado pelo Vite. Para compilar e inspecionar a versão de produção:
 
 ```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r scripts/requirements-education.txt
 npm test
 npm run build
 npm run preview
 ```
 
-O build funciona **sem acessar fontes públicas**, usando os snapshots versionados. O navegador consulta apenas arquivos estáticos; não acessa SIDRA ou microdados MTE diretamente.
+O build funciona **sem acessar fontes públicas**, usando os snapshots versionados. O navegador consulta apenas arquivos estáticos; não acessa SIDRA, INEP ou microdados MTE diretamente.
 
 ## População: módulo completo
 
@@ -66,7 +69,23 @@ python3 scripts/etl.py --module employment --source caged --force --cache .mte-c
 python3 scripts/etl.py --module employment --offline
 ```
 
-O processamento de arquivos oficiais `.7z` usa **7-Zip** (`7zip` no Ubuntu, `7z`/`7zz` ou variável `MTE_7ZIP`). Python continua sem bibliotecas externas. Arquivos são lidos em streaming e descartados ao final, exceto quando houver cache explicitamente solicitado fora de `public/data`. A atualização semanal `all` não baixa microdados de Trabalho; há um workflow mensal próprio como template. Veja [conceitos, layouts, fontes, validações e operação de Trabalho e Emprego](docs/modulos/trabalho-emprego.md).
+O processamento de arquivos oficiais `.7z` usa **7-Zip** (`7zip` no Ubuntu, `7z`/`7zz` ou variável `MTE_7ZIP`). O conector MTE continua usando apenas a biblioteca padrão do Python. Arquivos são lidos em streaming e descartados ao final, exceto quando houver cache explicitamente solicitado fora de `public/data`. A atualização semanal `all` não baixa microdados de Trabalho; há um workflow mensal próprio como template. Veja [conceitos, layouts, fontes, validações e operação de Trabalho e Emprego](docs/modulos/trabalho-emprego.md).
+
+## Educação: Censo, aprendizagem e rede escolar
+
+Página específica com **Censo Escolar 2015–2025**, **IDEB por etapa/rede desde 2005**, **SAEB 2025**, **Criança Alfabetizada 2023–2025**, formação/esforço/regularidade docente, rendimento, distorção idade-série, alunos por turma, horas-aula, catálogo de escolas e onze recursos de infraestrutura. Os mocks de Educação foram substituídos por dados INEP; há gráficos, tabelas acessíveis, filtros de rede, comparação com municípios vizinhos e Paraná no IDEB, fontes e seis downloads CSV mais JSON.
+
+Censo 2025: **3.230 matrículas, 17 escolas (9 municipais, 7 estaduais, 1 privada)**. A Sinopse valida matrículas, escolas e turmas em 60 controles exatos. **250 docentes únicos** são lidos diretamente da Sinopse, distintos das 290 docências somadas por escola. Educação especial/profissional não são adicionadas ao total; ausentes/supressões permanecem sem valor.
+
+```sh
+# Dentro do ambiente Python com requirements-education instalado:
+python scripts/etl.py --module education
+python scripts/etl.py --module education --offline
+# Revisões, com cache explícito não público:
+python scripts/etl.py --module education --force --cache .inep-cache
+```
+
+Sem nova publicação, não baixa arquivos nacionais nem altera o snapshot. Histórico dos indicadores anuais, participação SAEB e mapa com coordenadas oficiais ficam documentados como próximos passos. Veja [fontes, layouts, campos, escolas, decisões e operação de Educação](docs/modulos/educacao.md).
 
 ## Atualizar os dados
 
@@ -80,7 +99,7 @@ O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, L
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
-Dados em Educação, Saúde, Finanças, Contratações e Agropecuária são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
+Dados em Saúde, Finanças, Contratações e Agropecuária são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
 
 ## Módulos
 
@@ -90,7 +109,7 @@ Dados em Educação, Saúde, Finanças, Contratações e Agropecuária são expl
 | População | Página própria: Censo, estimativas, idade/sexo, cor/raça, urbano/rural, domicílios e território | Comparador regional no novo schema |
 | Economia / PIB | PIB, per capita, variação nominal, VAB/setores, impostos, história e comparação regional | Novas divulgações e benchmark estadual compatível |
 | Trabalho e Emprego | RAIS anual/estrutura/remuneração e CAGED mensal ajustado, CNAE/CBO, comparação, downloads | Conferência municipal ISPER, estabelecimentos e história salarial |
-| Educação | Demo Censo Escolar | Matrículas, IDEB e rede escolar |
+| Educação | Censo 2015–2025, IDEB/SAEB/alfabetização, indicadores anuais 2025, escolas, infraestrutura e downloads | Históricos anuais/SAEB, participação SAEB e mapa com coordenadas verificadas |
 | Saúde | Demo CNES | Estabelecimentos, cobertura e indicadores |
 | Finanças Públicas | Demo SICONFI | DCA/RREO/RGF normalizados |
 | Contratações / PNCP | Demo | Coleta paginada e filtro municipal validado |
@@ -111,13 +130,15 @@ src/
   modules/population/       # Página, gráficos, metadados e schema de População
   modules/economy/          # Página e gráficos próprios, comparação e metodologia
   modules/employment/       # RAIS/CAGED separados, gráficos, tabelas e metodologia
+  modules/education/        # Censo/avaliações/redes/escolas/infraestrutura próprios
 public/data/
   indicators.json           # Snapshots de Turvo + demonstrações identificadas
   comparison.json           # Snapshots oficiais dos municípios comparados
   population.json           # Dados multidimensionais de População
   economy.json              # PIB, per capita, setores, impostos e comparações
   employment.json           # RAIS e CAGED multidimensionais, quatro municípios
-  exports/                  # CSVs de emprego, gerados pelo ETL
+  education.json            # Censo, escolas, avaliações, indicadores e fontes INEP
+  exports/                  # CSVs de emprego e Educação, gerados pelo ETL
   metadata/employment/      # Controles oficiais municipais RAIS
   economy/                  # Respostas oficiais auditáveis
   gdp*.csv                  # PIB e per capita, gerados pelo ETL
@@ -130,11 +151,13 @@ scripts/modules/population.py # Coleta e validação do módulo População
 scripts/modules/economy.py    # Coleta e validação do módulo Economia
 scripts/sources/mte.py         # Transporte, descoberta, layouts e streaming MTE
 scripts/modules/employment.py # RAIS, CAGED, ajustes, privacidade e exportação
+scripts/sources/inep.py        # Descoberta e transporte INEP, CSV/ZIP/XLSX
+scripts/modules/education.py  # Agregados escolares, avaliações e validação
 tests/test_etl.py           # Conversão, integridade e comportamento em falhas
 docs/github-actions/        # Templates de CI, coleta semanal e deploy opcional (ativar abaixo)
 ```
 
-Vite + React + TypeScript permite evolução incremental de componentes e módulos, com build puramente estático. Gráficos usam Recharts; ícones, Lucide. Rotas por hash evitam exigir reescrita do servidor e funcionam em hospedagem estática. Python usa apenas a biblioteca padrão. Veja [arquitetura](docs/arquitetura.md), [fontes](docs/fontes.md) e [roadmap](docs/roadmap.md).
+Vite + React + TypeScript permite evolução incremental de componentes e módulos, com build puramente estático. Gráficos usam Recharts; ícones, Lucide. Rotas por hash evitam exigir reescrita do servidor e funcionam em hospedagem estática. Python usa a biblioteca padrão nos conectores IBGE/MTE e openpyxl para as planilhas oficiais INEP. Veja [arquitetura](docs/arquitetura.md), [fontes](docs/fontes.md) e [roadmap](docs/roadmap.md).
 
 ## Ativar as automações no GitHub
 
@@ -168,7 +191,7 @@ Configuração oficial: https://developers.cloudflare.com/pages/framework-guides
 
 Alternativa por GitHub Actions: crie um projeto Pages de upload direto chamado `observatorio-turvo-estatico` e configure os secrets `CLOUDFLARE_API_TOKEN` (escopo limitado a Pages) e `CLOUDFLARE_ACCOUNT_ID`. O workflow de deploy compila e publica com Wrangler. Sem secrets, compila e informa que a publicação foi pulada. **Escolha um único modo de deploy** para evitar publicações duplicadas. O provisionamento da conta Cloudflare não é feito pelo repositório.
 
-O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Commits feitos com `GITHUB_TOKEN` não acionam novos workflows de push; por isso o próprio workflow de coleta compila e publica quando há secrets Cloudflare. Em integração Git, se o provedor não disparar build para commits do bot, use o modo Actions. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
+O template de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Commits feitos com `GITHUB_TOKEN` não acionam novos workflows de push; por isso o próprio workflow de coleta compila e publica quando há secrets Cloudflare. Em integração Git, se o provedor não disparar build para commits do bot, use o modo Actions. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
 
 ## Custo e segurança
 
