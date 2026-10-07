@@ -125,6 +125,37 @@ class FireTests(unittest.TestCase):
         self.assertTrue(any(r[0] == "202702" for r in rows))
         self.assertTrue(any(r[0] == "2025" and r[2] for r in rows))
 
+    def test_annual_archive_supersedes_revised_monthly_ids(self):
+        annual = {
+            "data": {
+                "reference": "2025",
+                "availableThrough": "2025-12-31",
+                "observations": [
+                    {
+                        "id": "official-a",
+                        "municipalityCode": "4127965",
+                        "date": "2025-01-02T13:20:00+00:00",
+                    }
+                ],
+            }
+        }
+        monthly = {
+            "data": {
+                "reference": "202501",
+                "availableThrough": "2025-01-31",
+                "observations": [
+                    {
+                        "id": "reissued-id",
+                        "municipalityCode": "4127965",
+                        "date": "2025-01-02T13:20:00+00:00",
+                    }
+                ],
+            }
+        }
+        block = e.fire_block([annual, monthly], "4127965", {"value": 100})
+        self.assertEqual(block["annual"][0]["count"], 1)
+        self.assertTrue(block["annual"][0]["complete"])
+
 
 class LandTests(unittest.TestCase):
     def rows(self):

@@ -207,6 +207,17 @@ def land_block(rows, code, denominator):
 
 
 def fire_block(resources, code, denominator):
+    # A complete reference archive supersedes the monthly exports for that year.
+    # Avoid mixing two independently revised exports of the same observations.
+    annual_refs = {
+        r["data"]["reference"] for r in resources if len(r["data"]["reference"]) == 4
+    }
+    resources = [
+        r
+        for r in resources
+        if len(r["data"]["reference"]) == 4
+        or r["data"]["reference"][:4] not in annual_refs
+    ]
     records = {}
     references = set()
     through = None
