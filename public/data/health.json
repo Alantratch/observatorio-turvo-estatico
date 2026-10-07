@@ -1,0 +1,4365 @@
+{
+  "schemaVersion": 1,
+  "municipality": {
+    "code": "4127965",
+    "name": "Turvo",
+    "state": "PR"
+  },
+  "summary": {
+    "registered": 54,
+    "active": 31,
+    "inactive": 23,
+    "public": 12,
+    "municipal": 12,
+    "ubs": 6,
+    "hospitals": 1,
+    "urgent": 1,
+    "byType": [
+      {
+        "label": "CONSULTORIO ISOLADO",
+        "count": 11
+      },
+      {
+        "label": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "count": 6
+      },
+      {
+        "label": "FARMACIA",
+        "count": 5
+      },
+      {
+        "label": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "count": 2
+      },
+      {
+        "label": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "count": 2
+      },
+      {
+        "label": "CENTRAL DE GESTAO EM SAUDE",
+        "count": 1
+      },
+      {
+        "label": "CENTRO DE APOIO A SAUDE DA FAMILIA",
+        "count": 1
+      },
+      {
+        "label": "HOSPITAL GERAL",
+        "count": 1
+      },
+      {
+        "label": "POLO ACADEMIA DA SAUDE",
+        "count": 1
+      },
+      {
+        "label": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",
+        "count": 1
+      }
+    ],
+    "byManagement": [
+      {
+        "label": "Municipal",
+        "count": 29
+      },
+      {
+        "label": "Dupla",
+        "count": 1
+      },
+      {
+        "label": "Estadual",
+        "count": 1
+      }
+    ],
+    "byOwnership": [
+      {
+        "label": "Privada",
+        "count": 15
+      },
+      {
+        "label": "Pública",
+        "count": 12
+      },
+      {
+        "label": "Sem fins lucrativos",
+        "count": 4
+      }
+    ],
+    "sus": {
+      "ambulatoryYes": 11,
+      "ambulatoryNo": 20,
+      "ambulatoryUnknown": 0,
+      "ambulatoryPercent": 35.48,
+      "ambulatoryPercentStatus": "derived",
+      "ambulatoryPercentFormula": "ambulatoryYes / active * 100",
+      "generalTotal": null,
+      "generalUnknown": 20
+    },
+    "reference": "2026-10-07",
+    "competence": null,
+    "status": "real",
+    "sourceId": "cnes"
+  },
+  "network": {
+    "status": "real",
+    "sourceId": "cnes",
+    "reference": "2026-10-07",
+    "referenceType": "dailySnapshot",
+    "competence": null,
+    "unit": "estabelecimentos",
+    "establishments": [
+      {
+        "cnes": "4057155",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "ASSOCIACAO CRISTA BENEFICENTE DE TURVO",
+        "typeCode": "39",
+        "type": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "management": "Municipal",
+        "legalNatureCode": "3999",
+        "ownership": "Sem fins lucrativos",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA DR JOAO FERREIRA NEVES 450",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150122",
+        "coordinates": {
+          "latitude": -25.04256,
+          "longitude": -51.53652
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964057155",
+        "mapEligible": true
+      },
+      {
+        "cnes": "4206916",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "BASE DESCENTRALIZADA SAMU BRAVO TURVO",
+        "typeCode": "42",
+        "type": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": true,
+        "hospital": false,
+        "address": "RUA MARIA BETTEGA 152",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0466087176,
+          "longitude": -51.5410709381
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": null,
+          "support": true,
+          "surgicalCenter": null,
+          "obstetricCenter": null,
+          "neonatalCenter": null
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964206916",
+        "mapEligible": true
+      },
+      {
+        "cnes": "8143390",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "CENTRO ESPECIALIZADO MULTIPROFISSIONAL GIRASSOL",
+        "typeCode": "36",
+        "type": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "DOUTOR JOAO FERREIRA NEVES 600",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150037",
+        "coordinates": {
+          "latitude": -25.042632,
+          "longitude": -51.53581
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127968143390",
+        "mapEligible": true
+      },
+      {
+        "cnes": "3417816",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "CLINICA MEDICA ASSOCIACAO CRISTA BENEFICENTE DE TURVO",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "3999",
+        "ownership": "Sem fins lucrativos",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA DOS EXPEDICIONARIOS 780",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0451118384,
+          "longitude": -51.5374875069
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127963417816",
+        "mapEligible": true
+      },
+      {
+        "cnes": "5345499",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "CLINICA MUNICIPAL DE REABILITACAO RAUL RICKLI EMULTI",
+        "typeCode": "71",
+        "type": "CENTRO DE APOIO A SAUDE DA FAMILIA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZE DE MAIO 795",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.04701,
+          "longitude": -51.53866
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127965345499",
+        "mapEligible": true
+      },
+      {
+        "cnes": "8544409",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "DINAMICA CLINICA ESPECIALIZADA EM SAUDE E BEM ESTAR",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "ELIAS RICKLI 593",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.043815,
+          "longitude": -51.537043
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": null,
+          "support": false,
+          "surgicalCenter": null,
+          "obstetricCenter": null,
+          "neonatalCenter": null
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127968544409",
+        "mapEligible": true
+      },
+      {
+        "cnes": "5981441",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "ESCOLA EMILIO MUDREY D INF E ENS FUND NA MOD EDUC ESPECIAL",
+        "typeCode": "36",
+        "type": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "management": "Estadual",
+        "legalNatureCode": "3999",
+        "ownership": "Sem fins lucrativos",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA MARIA BETTEGA 221",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0461227199,
+          "longitude": -51.5414357185
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127965981441",
+        "mapEligible": true
+      },
+      {
+        "cnes": "4141423",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "ESSENCIALY CLINICA MULTIDISCIPLINAR",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA NOSSA SENHORA APARECIDA 529",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0418458565,
+          "longitude": -51.5390968323
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964141423",
+        "mapEligible": true
+      },
+      {
+        "cnes": "8456798",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "F B ODONTOLOGIA",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZE DE MAIO 01",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150001",
+        "coordinates": {
+          "latitude": -25.039097,
+          "longitude": -51.540553
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127968456798",
+        "mapEligible": true
+      },
+      {
+        "cnes": "0804177",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "FARMACIA IDEAL",
+        "typeCode": "43",
+        "type": "FARMACIA",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "NOSSA SENHORA APARECIDA 43",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0419624,
+          "longitude": -51.5387708
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960804177",
+        "mapEligible": true
+      },
+      {
+        "cnes": "4122038",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "FARMACIA MUNICIPAL",
+        "typeCode": "43",
+        "type": "FARMACIA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZEDE MAIO 732",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.042185,
+          "longitude": -51.540109
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964122038",
+        "mapEligible": true
+      },
+      {
+        "cnes": "8240396",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "FARMACIA NOSSA SENHORA APARECIDA DE TURVO",
+        "typeCode": "43",
+        "type": "FARMACIA",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "PARANA 679",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150007",
+        "coordinates": {
+          "latitude": -25.039381,
+          "longitude": -51.539578
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127968240396",
+        "mapEligible": true
+      },
+      {
+        "cnes": "0991902",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "HIPERFARMA TURVO",
+        "typeCode": "43",
+        "type": "FARMACIA",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA 12 DE MAIO 610",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0419958808,
+          "longitude": -51.540202354
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960991902",
+        "mapEligible": true
+      },
+      {
+        "cnes": "2741962",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "HOSPITAL BOM PASTOR",
+        "typeCode": "05",
+        "type": "HOSPITAL GERAL",
+        "management": "Dupla",
+        "legalNatureCode": "3999",
+        "ownership": "Sem fins lucrativos",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": false,
+        "urgent": false,
+        "hospital": true,
+        "address": "PARANA 710",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.043517739,
+          "longitude": -51.5392041206
+        },
+        "services": {
+          "ambulatory": true,
+          "hospital": true,
+          "support": true,
+          "surgicalCenter": true,
+          "obstetricCenter": true,
+          "neonatalCenter": true
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962741962",
+        "mapEligible": true
+      },
+      {
+        "cnes": "4418921",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "INSTITUTO DE FISIOTERAPIA NOSSA SENHORA APARECIDA",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA 12 DE MAIO 110",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.047552,
+          "longitude": -51.539091
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964418921",
+        "mapEligible": true
+      },
+      {
+        "cnes": "2742160",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "LABORATORIO DE ANALISES CLINICAS SAO CAMILO",
+        "typeCode": "39",
+        "type": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "management": "Municipal",
+        "legalNatureCode": "2135",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "DOS EXPEDICIONARIOS 634",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.042142,
+          "longitude": -51.538123
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742160",
+        "mapEligible": true
+      },
+      {
+        "cnes": "0804363",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MENTE E MOVIMENTO",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "ROBERTO RICKLI SOBRINHO 97",
+        "neighborhood": "JARDIM ALEGRE",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0401933921,
+          "longitude": -51.5445899963
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960804363",
+        "mapEligible": true
+      },
+      {
+        "cnes": "0802891",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "ODONTOLOGIA MULTICLINICA",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA VEREADOR RENE RICKLI 666",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0384048172,
+          "longitude": -51.5442037582
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960802891",
+        "mapEligible": true
+      },
+      {
+        "cnes": "0204056",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "POLO ACADEMIA DA SAUDE",
+        "typeCode": "74",
+        "type": "POLO ACADEMIA DA SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA MARIA BETTEGA 231",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.046148,
+          "longitude": -51.540201
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960204056",
+        "mapEligible": true
+      },
+      {
+        "cnes": "4873793",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "RGS SERVICOS MEDICOS",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA NOSSA SENHORA APARECIDA 282",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.041999,
+          "longitude": -51.538589
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964873793",
+        "mapEligible": true
+      },
+      {
+        "cnes": "4072669",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "RM FARMA POPULAR",
+        "typeCode": "43",
+        "type": "FARMACIA",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "12 DE MAIO 877",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0433868,
+          "longitude": -51.540075
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": null,
+          "support": false,
+          "surgicalCenter": null,
+          "obstetricCenter": null,
+          "neonatalCenter": null
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964072669",
+        "mapEligible": true
+      },
+      {
+        "cnes": "6763510",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "SMS DE TURVO",
+        "typeCode": "68",
+        "type": "CENTRAL DE GESTAO EM SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZE DE MAIO 795",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150016",
+        "coordinates": {
+          "latitude": -25.047017,
+          "longitude": -51.538975
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": null,
+          "support": false,
+          "surgicalCenter": null,
+          "obstetricCenter": null,
+          "neonatalCenter": null
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127966763510",
+        "mapEligible": true
+      },
+      {
+        "cnes": "8314462",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "STUDIO PERSONAL VIVI AMARAL",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2135",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA MOACIR JULIO SILVESTRE 952",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150001",
+        "coordinates": {
+          "latitude": -25.04503,
+          "longitude": -51.53935
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127968314462",
+        "mapEligible": true
+      },
+      {
+        "cnes": "2743248",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "UBS CACHOEIRA DOS TURCOS",
+        "typeCode": "02",
+        "type": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": true,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZE DE MAIO S/N",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.046858,
+          "longitude": -51.539076
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962743248",
+        "mapEligible": true
+      },
+      {
+        "cnes": "2742306",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "UBS FAXINAL DA BOA VISTA",
+        "typeCode": "02",
+        "type": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": true,
+        "urgent": false,
+        "hospital": false,
+        "address": "FAXINAL DA BOA VISTA S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -24.949137,
+          "longitude": -51.375064
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742306",
+        "mapEligible": true
+      },
+      {
+        "cnes": "2741423",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "UBS IRACY APARECIDA DE CAMPOS SEDE",
+        "typeCode": "02",
+        "type": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": true,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZE DE MAIO 795",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.046941,
+          "longitude": -51.539032
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962741423",
+        "mapEligible": true
+      },
+      {
+        "cnes": "0937355",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "UBS JARDIM FILADELFIA",
+        "typeCode": "02",
+        "type": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": true,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA AGENOR ALMEIDA CAMARGO 329",
+        "neighborhood": "JARDIM FILADELFIA",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.038401,
+          "longitude": -51.534913
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960937355",
+        "mapEligible": true
+      },
+      {
+        "cnes": "2742322",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "UBS PASSA QUATRO",
+        "typeCode": "02",
+        "type": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": true,
+        "urgent": false,
+        "hospital": false,
+        "address": "PASSA QUATRO S/N",
+        "neighborhood": "INTERIOR",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -24.869868,
+          "longitude": -51.442451
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742322",
+        "mapEligible": true
+      },
+      {
+        "cnes": "2743280",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "UBS SAUDADE",
+        "typeCode": "02",
+        "type": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": true,
+        "sus": true,
+        "ubs": true,
+        "urgent": false,
+        "hospital": false,
+        "address": "SAUDADE S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.027273,
+          "longitude": -51.643845
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962743280",
+        "mapEligible": true
+      },
+      {
+        "cnes": "4126858",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "VITALCLIN",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "ELIAS RICKLI 488",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.044025,
+          "longitude": -51.5376138
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964126858",
+        "mapEligible": true
+      },
+      {
+        "cnes": "5808545",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "VITTABELLI FISIOTERAPIA ESPECIALIZADA",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": true,
+        "deactivationCode": null,
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA ELIAS RICKLI 488",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.04367,
+          "longitude": -51.537888
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127965808545",
+        "mapEligible": true
+      },
+      {
+        "cnes": "5345510",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "CEOM CENTRO DE ESPECIALIDADES ODONTOLOGICAS MUNICIPAL",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Dupla",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZE DE MAIO 795",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127965345510",
+        "mapEligible": false
+      },
+      {
+        "cnes": "0831700",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "CLINICA ATRAVESSAMENTOS ESPACO DE PSICOLOGIA",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": false,
+        "deactivationCode": "04",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA ROBERTO RICKLI SOBRINHO 189",
+        "neighborhood": "JARDIM ALEGRE",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0400961876,
+          "longitude": -51.5439248085
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960831700",
+        "mapEligible": false
+      },
+      {
+        "cnes": "9594213",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "F B ODONTOLOGIA",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "4000",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": false,
+        "deactivationCode": "04",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "AVENIDA DOZE DE MAIO 01",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150016",
+        "coordinates": {
+          "latitude": -25.039097,
+          "longitude": -51.540553
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127969594213",
+        "mapEligible": false
+      },
+      {
+        "cnes": "4195574",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "LABORATORIO THOMSON",
+        "typeCode": "39",
+        "type": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "management": "Estadual",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": false,
+        "deactivationCode": "08",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA PARANA 643",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0461106,
+          "longitude": -51.5383373
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964195574",
+        "mapEligible": false
+      },
+      {
+        "cnes": "7017367",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MAG SAUDE",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": false,
+        "deactivationCode": "10",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA DAS PALMEIRAS S/N",
+        "neighborhood": "VILA IBEMA",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.043,
+          "longitude": -51.53
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127967017367",
+        "mapEligible": false
+      },
+      {
+        "cnes": "6311865",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO ARVOREDO",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "ARVOREDO S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127966311865",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2742292",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO BANHADO VERMELHO",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "BANHADO VERMELHO S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742292",
+        "mapEligible": false
+      },
+      {
+        "cnes": "5345529",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO CACHOEIRINHA",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "CACHOEIRINHA S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127965345529",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2742284",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO CAMBUCICA",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "CAMBUCICA S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742284",
+        "mapEligible": false
+      },
+      {
+        "cnes": "5345545",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO CARRIEL",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "CARRIEL S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127965345545",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2742314",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO COLONIA VELHA",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "04",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "COLONIA VELHA S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742314",
+        "mapEligible": false
+      },
+      {
+        "cnes": "6311989",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO CURITIBINHA",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "CURITIBINHA S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127966311989",
+        "mapEligible": false
+      },
+      {
+        "cnes": "5345537",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO FAXINAL DOS VIDAL",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "FAXINAL DOS VIDAL S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127965345537",
+        "mapEligible": false
+      },
+      {
+        "cnes": "6311970",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO ILHAS BANDEIRAS",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "ILHAS BANDEIRAS S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127966311970",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2742330",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO PASSO GRANDE",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1244",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "04",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "PASSO GRANDE S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742330",
+        "mapEligible": false
+      },
+      {
+        "cnes": "6311962",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "MINI POSTO RIO BONITO",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RIO BONITO S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127966311962",
+        "mapEligible": false
+      },
+      {
+        "cnes": "4057147",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "ORTOCLIN",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "2062",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": false,
+        "deactivationCode": "11",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA DR JOAO FERREIRA NEVES 485",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.039718,
+          "longitude": -51.5396965
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127964057147",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2742357",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "P S ARROIO FUNDO",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "ZONA RURAL S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962742357",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2743256",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "PS FAXINAL DA BOA VISTA",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "FAXINAL DA BOA VISTA S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962743256",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2743264",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "PS PORTERINHA",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "PORTEIRINHA S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962743264",
+        "mapEligible": false
+      },
+      {
+        "cnes": "2743272",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "PS RIO PEDRINHO",
+        "typeCode": "01",
+        "type": "POSTO DE SAUDE",
+        "management": "Municipal",
+        "legalNatureCode": "1031",
+        "ownership": "Pública",
+        "municipalOwnership": true,
+        "active": false,
+        "deactivationCode": "07",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RIO PEDRINHO S/N",
+        "neighborhood": "ZONA RURAL",
+        "postalCode": "85150000",
+        "coordinates": null,
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127962743272",
+        "mapEligible": false
+      },
+      {
+        "cnes": "6311873",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "UBSI ALDEIA INDIGENA MARRECAS",
+        "typeCode": "72",
+        "type": "UNIDADE DE ATENCAO A SAUDE INDIGENA",
+        "management": "Municipal",
+        "legalNatureCode": "1015",
+        "ownership": "Pública",
+        "municipalOwnership": false,
+        "active": false,
+        "deactivationCode": "08",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RESERVA INDIGENA S/N",
+        "neighborhood": "MARRECAS",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0695844927,
+          "longitude": -51.4034843445
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": true,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127966311873",
+        "mapEligible": false
+      },
+      {
+        "cnes": "0758868",
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "name": "VITAL CLIN",
+        "typeCode": "22",
+        "type": "CONSULTORIO ISOLADO",
+        "management": "Municipal",
+        "legalNatureCode": "4000",
+        "ownership": "Privada",
+        "municipalOwnership": false,
+        "active": false,
+        "deactivationCode": "04",
+        "ambulatorySus": false,
+        "sus": null,
+        "ubs": false,
+        "urgent": false,
+        "hospital": false,
+        "address": "RUA ELIAS RICKLI 488",
+        "neighborhood": "CENTRO",
+        "postalCode": "85150000",
+        "coordinates": {
+          "latitude": -25.0441738495,
+          "longitude": -51.538168788
+        },
+        "services": {
+          "ambulatory": false,
+          "hospital": false,
+          "support": false,
+          "surgicalCenter": false,
+          "obstetricCenter": false,
+          "neonatalCenter": false
+        },
+        "sourceId": "cnes",
+        "cnesUrl": "https://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4127960758868",
+        "mapEligible": false
+      }
+    ],
+    "nationalRowsRead": 638236,
+    "activeDefinition": "Exportação diária. Ativo = CO_MOTIVO_DESAB vazio, não comprovação de funcionamento ou atendimento em tempo real.",
+    "susDefinition": "CO_AMBULATORIAL_SUS informa atendimento ambulatorial ao SUS. NAO não prova ausência de outros serviços SUS. Total geral de atendimento SUS permanece indisponível."
+  },
+  "primaryCare": {
+    "status": "real",
+    "sourceId": "cnes",
+    "reference": "2026-10-07",
+    "competence": null,
+    "ubs": 6,
+    "teams": {
+      "status": "unavailable",
+      "title": "Equipes de Atenção Primária",
+      "value": null,
+      "reference": null,
+      "competence": null,
+      "municipalityCode": "4127965",
+      "agency": "Ministério da Saúde",
+      "collectedAt": null,
+      "url": "https://egestoraps.saude.gov.br/",
+      "reason": "A API atual não oferece série municipal validada de equipes nesta integração. UBS não são equipes."
+    },
+    "coverage": {
+      "status": "unavailable",
+      "title": "Cobertura da Atenção Primária",
+      "value": null,
+      "reference": null,
+      "competence": null,
+      "municipalityCode": "4127965",
+      "agency": "Ministério da Saúde",
+      "collectedAt": null,
+      "url": "https://egestoraps.saude.gov.br/",
+      "reason": "Não foi localizada uma exportação pública automatizável com metodologia atual validada. Não estimamos cobertura por número de equipes."
+    }
+  },
+  "beds": {
+    "status": "real",
+    "reference": "202608",
+    "competence": "202608",
+    "unit": "leitos",
+    "sourceId": "beds",
+    "records": [
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202601",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202601",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202601",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202601",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202601",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202601",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202601",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202602",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202602",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202602",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202602",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202602",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202602",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202602",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202603",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202603",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202603",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202603",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202603",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202603",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202603",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202604",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202604",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202604",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202604",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202604",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202604",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202604",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202605",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202605",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202605",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202605",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202605",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202605",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202605",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202606",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202606",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202606",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202606",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202606",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202606",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202606",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202607",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202607",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202607",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202607",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202607",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "8479275",
+        "name": "HOSPITAL UNIMED GUARAPUAVA",
+        "reference": "202607",
+        "existing": 1,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202607",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202607",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "0213845",
+        "name": "HOSPITAL REGIONAL DE GUARAPUAVA",
+        "reference": "202608",
+        "existing": 147,
+        "sus": 137,
+        "icuExisting": 10,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2741989",
+        "name": "HOSPITAL DE CARIDADE SAO VICENTE DE PAULO",
+        "reference": "202608",
+        "existing": 220,
+        "sus": 140,
+        "icuExisting": 44,
+        "icuSus": 37,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "2742047",
+        "name": "INSTITUTO VIRMOND",
+        "reference": "202608",
+        "existing": 168,
+        "sus": 144,
+        "icuExisting": 20,
+        "icuSus": 19,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3139301",
+        "name": "HOSPITAL SEMMELWEIS",
+        "reference": "202608",
+        "existing": 20,
+        "sus": 12,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "3403416",
+        "name": "MADE CLINICA",
+        "reference": "202608",
+        "existing": 8,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "state": "PR",
+        "cnes": "8479275",
+        "name": "HOSPITAL UNIMED GUARAPUAVA",
+        "reference": "202608",
+        "existing": 1,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "state": "PR",
+        "cnes": "2742098",
+        "name": "HOSPITAL SAO VICENTE DE PAULO",
+        "reference": "202608",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "state": "PR",
+        "cnes": "2741962",
+        "name": "HOSPITAL BOM PASTOR",
+        "reference": "202608",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "sourceId": "beds"
+      }
+    ],
+    "series": [
+      {
+        "municipalityCode": "4127965",
+        "reference": "202601",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "reference": "202602",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "reference": "202603",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "reference": "202604",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "reference": "202605",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "reference": "202606",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "reference": "202607",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4127965",
+        "reference": "202608",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202601",
+        "existing": 563,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 5,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202602",
+        "existing": 563,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 5,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202603",
+        "existing": 563,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 5,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202604",
+        "existing": 563,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 5,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202605",
+        "existing": 563,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 5,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202606",
+        "existing": 563,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 5,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202607",
+        "existing": 564,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 6,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4109401",
+        "reference": "202608",
+        "existing": 564,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 6,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202601",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202602",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202603",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202604",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202605",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202606",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202607",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4119608",
+        "reference": "202608",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202601",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202602",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202603",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202604",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202605",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202606",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202607",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      },
+      {
+        "municipalityCode": "4113254",
+        "reference": "202608",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      }
+    ],
+    "nationalRowsRead": 57608,
+    "summary": {
+      "municipalityCode": "4127965",
+      "reference": "202608",
+      "existing": 49,
+      "sus": 49,
+      "icuExisting": 0,
+      "icuSus": 0,
+      "hospitals": 1,
+      "zeroConfirmed": false,
+      "sourceId": "beds"
+    }
+  },
+  "region": {
+    "status": "real",
+    "sourceId": "region",
+    "reference": "2026-10-06",
+    "code": "41005",
+    "name": "5ª RS GUARAPUAVA",
+    "macroCode": "4107",
+    "macroName": "MACRORREGIONAL LESTE"
+  },
+  "professionals": {
+    "status": "unavailable",
+    "title": "Vínculos profissionais",
+    "value": null,
+    "reference": null,
+    "competence": null,
+    "municipalityCode": "4127965",
+    "agency": "Ministério da Saúde",
+    "collectedAt": null,
+    "url": "https://apidadosabertos.saude.gov.br/v1/",
+    "reason": "O endpoint antigo foi descontinuado. O endpoint atual exige validação de competência, vínculos e CBO; não publicamos listagem nominal."
+  },
+  "production": {
+    "status": "unavailable",
+    "title": "Produção assistencial SIA/SIH",
+    "value": null,
+    "reference": null,
+    "competence": null,
+    "municipalityCode": "4127965",
+    "agency": "Ministério da Saúde",
+    "collectedAt": null,
+    "url": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
+    "reason": "Etapa posterior: definir território de atendimento ou residência antes de agregar procedimentos e internações."
+  },
+  "epidemiology": {
+    "status": "unavailable",
+    "title": "Vigilância e indicadores de saúde",
+    "value": null,
+    "reference": null,
+    "competence": null,
+    "municipalityCode": "4127965",
+    "agency": "Ministério da Saúde",
+    "collectedAt": null,
+    "url": "https://dadosabertos.saude.gov.br/",
+    "reason": "Etapa posterior: usar agregados oficiais e política documentada de divulgação de células pequenas."
+  },
+  "comparison": [
+    {
+      "municipalityCode": "4127965",
+      "name": "Turvo",
+      "state": "PR",
+      "network": {
+        "registered": 54,
+        "active": 31,
+        "inactive": 23,
+        "public": 12,
+        "municipal": 12,
+        "ubs": 6,
+        "hospitals": 1,
+        "urgent": 1,
+        "byType": [
+          {
+            "label": "CONSULTORIO ISOLADO",
+            "count": 11
+          },
+          {
+            "label": "CENTRO DE SAUDE/UNIDADE BASICA",
+            "count": 6
+          },
+          {
+            "label": "FARMACIA",
+            "count": 5
+          },
+          {
+            "label": "CLINICA/CENTRO DE ESPECIALIDADE",
+            "count": 2
+          },
+          {
+            "label": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+            "count": 2
+          },
+          {
+            "label": "CENTRAL DE GESTAO EM SAUDE",
+            "count": 1
+          },
+          {
+            "label": "CENTRO DE APOIO A SAUDE DA FAMILIA",
+            "count": 1
+          },
+          {
+            "label": "HOSPITAL GERAL",
+            "count": 1
+          },
+          {
+            "label": "POLO ACADEMIA DA SAUDE",
+            "count": 1
+          },
+          {
+            "label": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",
+            "count": 1
+          }
+        ],
+        "byManagement": [
+          {
+            "label": "Municipal",
+            "count": 29
+          },
+          {
+            "label": "Dupla",
+            "count": 1
+          },
+          {
+            "label": "Estadual",
+            "count": 1
+          }
+        ],
+        "byOwnership": [
+          {
+            "label": "Privada",
+            "count": 15
+          },
+          {
+            "label": "Pública",
+            "count": 12
+          },
+          {
+            "label": "Sem fins lucrativos",
+            "count": 4
+          }
+        ],
+        "sus": {
+          "ambulatoryYes": 11,
+          "ambulatoryNo": 20,
+          "ambulatoryUnknown": 0,
+          "ambulatoryPercent": 35.48,
+          "ambulatoryPercentStatus": "derived",
+          "ambulatoryPercentFormula": "ambulatoryYes / active * 100",
+          "generalTotal": null,
+          "generalUnknown": 20
+        },
+        "reference": "2026-10-07",
+        "competence": null,
+        "status": "real",
+        "sourceId": "cnes"
+      },
+      "beds": {
+        "municipalityCode": "4127965",
+        "reference": "202608",
+        "existing": 49,
+        "sus": 49,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      }
+    },
+    {
+      "municipalityCode": "4109401",
+      "name": "Guarapuava",
+      "state": "PR",
+      "network": {
+        "registered": 795,
+        "active": 732,
+        "inactive": 63,
+        "public": 77,
+        "municipal": 63,
+        "ubs": 44,
+        "hospitals": 9,
+        "urgent": 7,
+        "byType": [
+          {
+            "label": "CONSULTORIO ISOLADO",
+            "count": 410
+          },
+          {
+            "label": "POLICLINICA",
+            "count": 87
+          },
+          {
+            "label": "CLINICA/CENTRO DE ESPECIALIDADE",
+            "count": 76
+          },
+          {
+            "label": "CENTRO DE SAUDE/UNIDADE BASICA",
+            "count": 44
+          },
+          {
+            "label": "FARMACIA",
+            "count": 44
+          },
+          {
+            "label": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+            "count": 40
+          },
+          {
+            "label": "HOSPITAL GERAL",
+            "count": 6
+          },
+          {
+            "label": "CENTRO DE ATENCAO PSICOSSOCIAL",
+            "count": 4
+          },
+          {
+            "label": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",
+            "count": 4
+          },
+          {
+            "label": "HOSPITAL/DIA - ISOLADO",
+            "count": 3
+          },
+          {
+            "label": "CENTRAL DE ABASTECIMENTO",
+            "count": 2
+          },
+          {
+            "label": "CENTRAL DE GESTAO EM SAUDE",
+            "count": 2
+          },
+          {
+            "label": "CENTRAL DE REGULACAO MEDICA DAS URGENCIAS",
+            "count": 1
+          },
+          {
+            "label": "CENTRO DE ATENCAO HEMOTERAPIA E OU HEMATOLOGICA",
+            "count": 1
+          },
+          {
+            "label": "CENTRO DE IMUNIZACAO",
+            "count": 1
+          },
+          {
+            "label": "COOPERATIVA OU EMPRESA DE CESSAO DE TRABALHADORES NA SAUDE",
+            "count": 1
+          },
+          {
+            "label": "PRONTO ATENDIMENTO",
+            "count": 1
+          },
+          {
+            "label": "PRONTO SOCORRO GERAL",
+            "count": 1
+          },
+          {
+            "label": "SERVICO DE ATENCAO DOMICILIAR ISOLADO(HOME CARE)",
+            "count": 1
+          },
+          {
+            "label": "TELESSAUDE",
+            "count": 1
+          },
+          {
+            "label": "UNIDADE DE ATENCAO A SAUDE INDIGENA",
+            "count": 1
+          },
+          {
+            "label": "UNIDADE MOVEL TERRESTRE",
+            "count": 1
+          }
+        ],
+        "byManagement": [
+          {
+            "label": "Municipal",
+            "count": 701
+          },
+          {
+            "label": "Estadual",
+            "count": 25
+          },
+          {
+            "label": "Dupla",
+            "count": 6
+          }
+        ],
+        "byOwnership": [
+          {
+            "label": "Privada",
+            "count": 644
+          },
+          {
+            "label": "Pública",
+            "count": 77
+          },
+          {
+            "label": "Sem fins lucrativos",
+            "count": 11
+          }
+        ],
+        "sus": {
+          "ambulatoryYes": 111,
+          "ambulatoryNo": 621,
+          "ambulatoryUnknown": 0,
+          "ambulatoryPercent": 15.16,
+          "ambulatoryPercentStatus": "derived",
+          "ambulatoryPercentFormula": "ambulatoryYes / active * 100",
+          "generalTotal": null,
+          "generalUnknown": 621
+        },
+        "reference": "2026-10-07",
+        "competence": null,
+        "status": "real",
+        "sourceId": "cnes"
+      },
+      "beds": {
+        "municipalityCode": "4109401",
+        "reference": "202608",
+        "existing": 564,
+        "sus": 433,
+        "icuExisting": 74,
+        "icuSus": 56,
+        "hospitals": 6,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      }
+    },
+    {
+      "municipalityCode": "4119608",
+      "name": "Pitanga",
+      "state": "PR",
+      "network": {
+        "registered": 126,
+        "active": 109,
+        "inactive": 17,
+        "public": 19,
+        "municipal": 18,
+        "ubs": 1,
+        "hospitals": 1,
+        "urgent": 2,
+        "byType": [
+          {
+            "label": "CONSULTORIO ISOLADO",
+            "count": 57
+          },
+          {
+            "label": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+            "count": 17
+          },
+          {
+            "label": "CLINICA/CENTRO DE ESPECIALIDADE",
+            "count": 10
+          },
+          {
+            "label": "POSTO DE SAUDE",
+            "count": 10
+          },
+          {
+            "label": "FARMACIA",
+            "count": 8
+          },
+          {
+            "label": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",
+            "count": 2
+          },
+          {
+            "label": "CENTRAL DE GESTAO EM SAUDE",
+            "count": 1
+          },
+          {
+            "label": "CENTRO DE ATENCAO PSICOSSOCIAL",
+            "count": 1
+          },
+          {
+            "label": "CENTRO DE SAUDE/UNIDADE BASICA",
+            "count": 1
+          },
+          {
+            "label": "HOSPITAL GERAL",
+            "count": 1
+          },
+          {
+            "label": "POLICLINICA",
+            "count": 1
+          }
+        ],
+        "byManagement": [
+          {
+            "label": "Municipal",
+            "count": 106
+          },
+          {
+            "label": "Dupla",
+            "count": 2
+          },
+          {
+            "label": "Estadual",
+            "count": 1
+          }
+        ],
+        "byOwnership": [
+          {
+            "label": "Privada",
+            "count": 87
+          },
+          {
+            "label": "Pública",
+            "count": 19
+          },
+          {
+            "label": "Sem fins lucrativos",
+            "count": 3
+          }
+        ],
+        "sus": {
+          "ambulatoryYes": 32,
+          "ambulatoryNo": 77,
+          "ambulatoryUnknown": 0,
+          "ambulatoryPercent": 29.36,
+          "ambulatoryPercentStatus": "derived",
+          "ambulatoryPercentFormula": "ambulatoryYes / active * 100",
+          "generalTotal": null,
+          "generalUnknown": 77
+        },
+        "reference": "2026-10-07",
+        "competence": null,
+        "status": "real",
+        "sourceId": "cnes"
+      },
+      "beds": {
+        "municipalityCode": "4119608",
+        "reference": "202608",
+        "existing": 95,
+        "sus": 82,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 1,
+        "zeroConfirmed": false,
+        "sourceId": "beds"
+      }
+    },
+    {
+      "municipalityCode": "4113254",
+      "name": "Laranjal",
+      "state": "PR",
+      "network": {
+        "registered": 4,
+        "active": 4,
+        "inactive": 0,
+        "public": 3,
+        "municipal": 3,
+        "ubs": 1,
+        "hospitals": 0,
+        "urgent": 0,
+        "byType": [
+          {
+            "label": "CENTRAL DE GESTAO EM SAUDE",
+            "count": 1
+          },
+          {
+            "label": "CENTRO DE SAUDE/UNIDADE BASICA",
+            "count": 1
+          },
+          {
+            "label": "CLINICA/CENTRO DE ESPECIALIDADE",
+            "count": 1
+          },
+          {
+            "label": "POLO ACADEMIA DA SAUDE",
+            "count": 1
+          }
+        ],
+        "byManagement": [
+          {
+            "label": "Municipal",
+            "count": 3
+          },
+          {
+            "label": "Estadual",
+            "count": 1
+          }
+        ],
+        "byOwnership": [
+          {
+            "label": "Pública",
+            "count": 3
+          },
+          {
+            "label": "Sem fins lucrativos",
+            "count": 1
+          }
+        ],
+        "sus": {
+          "ambulatoryYes": 3,
+          "ambulatoryNo": 1,
+          "ambulatoryUnknown": 0,
+          "ambulatoryPercent": 75.0,
+          "ambulatoryPercentStatus": "derived",
+          "ambulatoryPercentFormula": "ambulatoryYes / active * 100",
+          "generalTotal": null,
+          "generalUnknown": 1
+        },
+        "reference": "2026-10-07",
+        "competence": null,
+        "status": "real",
+        "sourceId": "cnes"
+      },
+      "beds": {
+        "municipalityCode": "4113254",
+        "reference": "202608",
+        "existing": 0,
+        "sus": 0,
+        "icuExisting": 0,
+        "icuSus": 0,
+        "hospitals": 0,
+        "zeroConfirmed": true,
+        "sourceId": "beds"
+      }
+    }
+  ],
+  "map": {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -51.2977,
+            -25.0655
+          ],
+          [
+            -51.2986,
+            -25.0601
+          ],
+          [
+            -51.3086,
+            -25.0548
+          ],
+          [
+            -51.3135,
+            -25.0466
+          ],
+          [
+            -51.3157,
+            -25.029
+          ],
+          [
+            -51.3294,
+            -25.0166
+          ],
+          [
+            -51.3266,
+            -25.0035
+          ],
+          [
+            -51.3353,
+            -24.9975
+          ],
+          [
+            -51.3242,
+            -24.9858
+          ],
+          [
+            -51.3359,
+            -24.9761
+          ],
+          [
+            -51.3261,
+            -24.965
+          ],
+          [
+            -51.3297,
+            -24.9605
+          ],
+          [
+            -51.3279,
+            -24.948
+          ],
+          [
+            -51.3394,
+            -24.9425
+          ],
+          [
+            -51.3327,
+            -24.9309
+          ],
+          [
+            -51.3434,
+            -24.9269
+          ],
+          [
+            -51.3696,
+            -24.9286
+          ],
+          [
+            -51.3827,
+            -24.9186
+          ],
+          [
+            -51.3894,
+            -24.923
+          ],
+          [
+            -51.4106,
+            -24.9181
+          ],
+          [
+            -51.4056,
+            -24.9106
+          ],
+          [
+            -51.3996,
+            -24.9095
+          ],
+          [
+            -51.4028,
+            -24.897
+          ],
+          [
+            -51.3952,
+            -24.8907
+          ],
+          [
+            -51.3934,
+            -24.8774
+          ],
+          [
+            -51.3715,
+            -24.8741
+          ],
+          [
+            -51.3713,
+            -24.8561
+          ],
+          [
+            -51.3819,
+            -24.8444
+          ],
+          [
+            -51.3789,
+            -24.8353
+          ],
+          [
+            -51.3694,
+            -24.8362
+          ],
+          [
+            -51.3708,
+            -24.8226
+          ],
+          [
+            -51.362,
+            -24.819
+          ],
+          [
+            -51.3657,
+            -24.8089
+          ],
+          [
+            -51.3548,
+            -24.7981
+          ],
+          [
+            -51.3481,
+            -24.7974
+          ],
+          [
+            -51.3437,
+            -24.7901
+          ],
+          [
+            -51.3348,
+            -24.7941
+          ],
+          [
+            -51.3202,
+            -24.7894
+          ],
+          [
+            -51.3162,
+            -24.782
+          ],
+          [
+            -51.3294,
+            -24.7673
+          ],
+          [
+            -51.3328,
+            -24.7596
+          ],
+          [
+            -51.3488,
+            -24.7638
+          ],
+          [
+            -51.3606,
+            -24.7591
+          ],
+          [
+            -51.3742,
+            -24.7733
+          ],
+          [
+            -51.3852,
+            -24.7549
+          ],
+          [
+            -51.3949,
+            -24.7643
+          ],
+          [
+            -51.4101,
+            -24.7563
+          ],
+          [
+            -51.4197,
+            -24.7593
+          ],
+          [
+            -51.4299,
+            -24.7725
+          ],
+          [
+            -51.4233,
+            -24.7838
+          ],
+          [
+            -51.4367,
+            -24.7979
+          ],
+          [
+            -51.4436,
+            -24.798
+          ],
+          [
+            -51.441,
+            -24.8138
+          ],
+          [
+            -51.4302,
+            -24.8195
+          ],
+          [
+            -51.4539,
+            -24.8269
+          ],
+          [
+            -51.4479,
+            -24.8369
+          ],
+          [
+            -51.4597,
+            -24.837
+          ],
+          [
+            -51.4599,
+            -24.8437
+          ],
+          [
+            -51.4699,
+            -24.8468
+          ],
+          [
+            -51.4616,
+            -24.8548
+          ],
+          [
+            -51.4521,
+            -24.8544
+          ],
+          [
+            -51.4454,
+            -24.8584
+          ],
+          [
+            -51.4453,
+            -24.869
+          ],
+          [
+            -51.4571,
+            -24.8721
+          ],
+          [
+            -51.4578,
+            -24.8804
+          ],
+          [
+            -51.4633,
+            -24.8859
+          ],
+          [
+            -51.4723,
+            -24.8871
+          ],
+          [
+            -51.47,
+            -24.8963
+          ],
+          [
+            -51.4785,
+            -24.8959
+          ],
+          [
+            -51.4891,
+            -24.9091
+          ],
+          [
+            -51.4919,
+            -24.9159
+          ],
+          [
+            -51.5041,
+            -24.9141
+          ],
+          [
+            -51.5158,
+            -24.9188
+          ],
+          [
+            -51.5118,
+            -24.9343
+          ],
+          [
+            -51.5067,
+            -24.9418
+          ],
+          [
+            -51.5092,
+            -24.9472
+          ],
+          [
+            -51.5191,
+            -24.9435
+          ],
+          [
+            -51.5321,
+            -24.9506
+          ],
+          [
+            -51.5378,
+            -24.943
+          ],
+          [
+            -51.5439,
+            -24.9525
+          ],
+          [
+            -51.556,
+            -24.9625
+          ],
+          [
+            -51.5688,
+            -24.9637
+          ],
+          [
+            -51.5704,
+            -24.9741
+          ],
+          [
+            -51.5769,
+            -24.9807
+          ],
+          [
+            -51.5817,
+            -24.9728
+          ],
+          [
+            -51.5887,
+            -24.9718
+          ],
+          [
+            -51.5884,
+            -24.9821
+          ],
+          [
+            -51.5981,
+            -24.9851
+          ],
+          [
+            -51.6197,
+            -24.9849
+          ],
+          [
+            -51.6224,
+            -24.9901
+          ],
+          [
+            -51.617,
+            -24.9987
+          ],
+          [
+            -51.6315,
+            -24.9984
+          ],
+          [
+            -51.6478,
+            -25.0025
+          ],
+          [
+            -51.6591,
+            -25.0135
+          ],
+          [
+            -51.6777,
+            -25.0303
+          ],
+          [
+            -51.6805,
+            -25.0422
+          ],
+          [
+            -51.6868,
+            -25.052
+          ],
+          [
+            -51.6965,
+            -25.0455
+          ],
+          [
+            -51.7045,
+            -25.0471
+          ],
+          [
+            -51.715,
+            -25.0428
+          ],
+          [
+            -51.7349,
+            -25.0394
+          ],
+          [
+            -51.7495,
+            -25.0422
+          ],
+          [
+            -51.7586,
+            -25.0343
+          ],
+          [
+            -51.7677,
+            -25.034
+          ],
+          [
+            -51.7729,
+            -25.0237
+          ],
+          [
+            -51.7793,
+            -25.0287
+          ],
+          [
+            -51.7747,
+            -25.0544
+          ],
+          [
+            -51.7683,
+            -25.0546
+          ],
+          [
+            -51.762,
+            -25.0656
+          ],
+          [
+            -51.7549,
+            -25.0687
+          ],
+          [
+            -51.7449,
+            -25.0642
+          ],
+          [
+            -51.7371,
+            -25.0704
+          ],
+          [
+            -51.7304,
+            -25.08
+          ],
+          [
+            -51.7231,
+            -25.0762
+          ],
+          [
+            -51.708,
+            -25.0753
+          ],
+          [
+            -51.7029,
+            -25.0713
+          ],
+          [
+            -51.6896,
+            -25.0881
+          ],
+          [
+            -51.6759,
+            -25.0825
+          ],
+          [
+            -51.671,
+            -25.094
+          ],
+          [
+            -51.651,
+            -25.0927
+          ],
+          [
+            -51.6411,
+            -25.1033
+          ],
+          [
+            -51.6307,
+            -25.1112
+          ],
+          [
+            -51.6164,
+            -25.1164
+          ],
+          [
+            -51.6063,
+            -25.1249
+          ],
+          [
+            -51.6125,
+            -25.1469
+          ],
+          [
+            -51.6222,
+            -25.1543
+          ],
+          [
+            -51.6213,
+            -25.1591
+          ],
+          [
+            -51.559,
+            -25.177
+          ],
+          [
+            -51.543,
+            -25.1637
+          ],
+          [
+            -51.5196,
+            -25.1671
+          ],
+          [
+            -51.5031,
+            -25.1577
+          ],
+          [
+            -51.4867,
+            -25.1549
+          ],
+          [
+            -51.4795,
+            -25.1559
+          ],
+          [
+            -51.4536,
+            -25.1421
+          ],
+          [
+            -51.4445,
+            -25.1396
+          ],
+          [
+            -51.4396,
+            -25.1463
+          ],
+          [
+            -51.4198,
+            -25.1507
+          ],
+          [
+            -51.4117,
+            -25.1367
+          ],
+          [
+            -51.4075,
+            -25.1441
+          ],
+          [
+            -51.398,
+            -25.1409
+          ],
+          [
+            -51.4031,
+            -25.1351
+          ],
+          [
+            -51.3988,
+            -25.1181
+          ],
+          [
+            -51.3937,
+            -25.1238
+          ],
+          [
+            -51.3864,
+            -25.1133
+          ],
+          [
+            -51.2944,
+            -25.1077
+          ],
+          [
+            -51.302,
+            -25.0902
+          ],
+          [
+            -51.2992,
+            -25.078
+          ],
+          [
+            -51.3036,
+            -25.0728
+          ],
+          [
+            -51.2977,
+            -25.0655
+          ]
+        ]
+      ]
+    },
+    "geometryReference": "2022",
+    "geometrySourceUrl": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4127965?formato=application/vnd.geo+json&qualidade=minima&intrarregiao=municipio",
+    "coordinateConcept": "Coordenadas declaradas no CNES; conferência no polígono IBGE não valida o endereço. Pontos podem coincidir ou ter imprecisão.",
+    "shown": 31
+  },
+  "sources": [
+    {
+      "id": "cnes",
+      "source": "Ministério da Saúde / DATASUS / CNES",
+      "agency": "Ministério da Saúde",
+      "dataset": "CNES - Cadastro Nacional de Estabelecimentos de Saúde",
+      "catalogUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/CNES/cnes_estabelecimentos_csv.zip",
+      "resourceId": "78b91d79-bb6d-43ad-bda5-f015e3575a84",
+      "publishedAt": "2026-10-07T03:21:54.341210",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCodes": [
+        "4127965",
+        "4109401",
+        "4119608",
+        "4113254"
+      ],
+      "unit": "estabelecimentos",
+      "format": "CSV/ZIP",
+      "sha256": "937c57d0eb7bc43cb053a395420646bb0c92f726dee1b0f79511966b104123f2",
+      "bytes": 56431718,
+      "typeClassificationUrl": "https://cnes2.datasus.gov.br/Mod_Ind_Unidade.asp?VEstado=00",
+      "reference": "2026-10-07",
+      "competence": null,
+      "concept": "Exportação diária. Ativo = CO_MOTIVO_DESAB vazio, não comprovação de funcionamento ou atendimento em tempo real.",
+      "transformation": "Filtro CO_IBGE de 6 dígitos e UF 41; CNES restaurado para 7 dígitos e deduplicado; natureza jurídica distinta da gestão; atendimento SUS limitado a CO_AMBULATORIAL_SUS."
+    },
+    {
+      "id": "beds",
+      "source": "Ministério da Saúde / DATASUS / CNES",
+      "agency": "Ministério da Saúde",
+      "dataset": "Hospitais e Leitos",
+      "catalogUrl": "https://dadosabertos.saude.gov.br/dataset/hospitais-e-leitos",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_csv_2026.zip",
+      "resourceId": "5ac78b13-649f-4b09-8a92-0ae829a56d50",
+      "publishedAt": "2026-09-20T23:20:59.376947",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCodes": [
+        "4127965",
+        "4109401",
+        "4119608",
+        "4113254"
+      ],
+      "unit": "leitos",
+      "format": "CSV/ZIP",
+      "sha256": "dd503f45f1909101806edce9b606ea01aa48a9022a4436e204fe094952b392df",
+      "bytes": 4365216,
+      "reference": "202608",
+      "competence": "202608",
+      "concept": "Capacidade hospitalar cadastrada; não vagas instantâneas.",
+      "transformation": "Arquivo nacional completo lido até EOF; filtro PR/municípios, motivo de desabilitação vazio, deduplicação por CNES e competência. UTI mostrada separadamente, nunca adicionada ao total."
+    },
+    {
+      "id": "region",
+      "source": "Ministério da Saúde / Regionalização do SUS",
+      "agency": "Ministério da Saúde",
+      "dataset": "Macrorregião e Região de Saúde",
+      "catalogUrl": "https://dadosabertos.saude.gov.br/dataset/macrorregiao-de-saude",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/dbgeral/macroregiao_de_saude_csv.zip",
+      "resourceId": "3bd28e64-0a82-44d9-8de1-4894634f2b6a",
+      "publishedAt": "2026-10-06T19:00:15.349963",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCodes": [
+        "4127965",
+        "4109401",
+        "4119608",
+        "4113254"
+      ],
+      "unit": "identificação territorial",
+      "format": "CSV/ZIP",
+      "sha256": "44e57c7b31855478ba11e21421b6eb8848df4744446da82d6e54c8eac3ced16b",
+      "bytes": 85086,
+      "reference": "2026-10-06",
+      "competence": null,
+      "concept": "Divisão regional oficial do SUS, sem inferência por proximidade.",
+      "transformation": "Filtro cod_municipio=412796 e sg_uf=PR. População da base regional não é denominador dos indicadores."
+    }
+  ],
+  "collection": {
+    "attemptedAt": "2026-10-07T11:40:01.775389+00:00",
+    "failures": []
+  }
+}

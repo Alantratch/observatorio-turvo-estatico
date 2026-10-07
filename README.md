@@ -87,6 +87,19 @@ python scripts/etl.py --module education --force --cache .inep-cache
 
 Sem nova publicação, não baixa arquivos nacionais nem altera o snapshot. Histórico dos indicadores anuais, participação SAEB e mapa com coordenadas oficiais ficam documentados como próximos passos. Veja [fontes, layouts, campos, escolas, decisões e operação de Educação](docs/modulos/educacao.md).
 
+## Saúde: rede assistencial CNES
+
+Página própria com cadastro oficial de 07/10/2026: **31 estabelecimentos sem motivo de desativação, 12 públicos, 6 UBS, 1 hospital e 1 unidade móvel de urgência**. O campo específico de atendimento ambulatorial SUS registra **11 SIM**; não representa o total geral de serviços SUS. **49 leitos existentes e 49 SUS na competência agosto/2026**, com série janeiro–agosto/2026. Cadastro diário não tem competência mensal; suas datas são exibidas separadamente.
+
+Catálogo pesquisável, filtros por situação/natureza/SUS ambulatorial, endereços, links CNES verificados, mapa institucional com coordenadas oficiais e limite IBGE, comparação com Guarapuava/Pitanga/Laranjal, tabelas acessíveis e downloads JSON/CSV. ETL mensal próprio preserva o último snapshot em falhas e não publica bases nacionais ou dados individuais. Equipes/cobertura APS, profissionais e produção/epidemiologia são pendências explícitas, sem valores fictícios. [Fontes, campos, contagens, endpoints e limites](docs/modulos/saude.md).
+
+```sh
+python3 scripts/etl.py --module health
+python3 scripts/etl.py --module health --offline
+```
+
+Ativação mensal preparada em [health.yml](docs/github-actions/health.yml), seguindo a limitação de permissão de workflows já documentada. Nenhuma nova dependência ou serviço pago.
+
 ## Atualizar os dados
 
 ```sh
@@ -99,7 +112,7 @@ O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, L
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
-Dados em Saúde, Finanças, Contratações e Agropecuária são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
+Dados em Finanças, Contratações e Agropecuária são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
 
 ## Módulos
 
@@ -110,7 +123,7 @@ Dados em Saúde, Finanças, Contratações e Agropecuária são explicitamente *
 | Economia / PIB | PIB, per capita, variação nominal, VAB/setores, impostos, história e comparação regional | Novas divulgações e benchmark estadual compatível |
 | Trabalho e Emprego | RAIS anual/estrutura/remuneração e CAGED mensal ajustado, CNAE/CBO, comparação, downloads | Conferência municipal ISPER, estabelecimentos e história salarial |
 | Educação | Censo 2015–2025, IDEB/SAEB/alfabetização, indicadores anuais 2025, escolas, infraestrutura e downloads | Históricos anuais/SAEB, participação SAEB e mapa com coordenadas verificadas |
-| Saúde | Demo CNES | Estabelecimentos, cobertura e indicadores |
+| Saúde | CNES/DATASUS real | Rede, UBS, SUS ambulatorial, leitos, mapa, comparação; equipes/cobertura pendentes |
 | Finanças Públicas | Demo SICONFI | DCA/RREO/RGF normalizados |
 | Contratações / PNCP | Demo | Coleta paginada e filtro municipal validado |
 | Agropecuária | Demo PAM | PAM/PPM, produtos e unidades |
