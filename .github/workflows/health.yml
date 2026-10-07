@@ -1,0 +1,72 @@
+name: Atualizar Saúde CNES
+on:
+  schedule:
+    - cron: '37 11 7 * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Verificar revisões e reprocessar a mesma publicação
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+jobs:
+  health:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-education.txt
+      # Monthly run discovers HTML catalogs first. Already processed resource id+URL+publication
+      # is skipped: no national download and no timestamp-only snapshot commit.
+      # National CNES/bed archives are temporary and never cached as public artifacts.
+      - name: Coletar novas publicações e preservar dados válidos
+        id: collect
+        continue-on-error: true
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          args=(--module health)
+          if [ "$FORCE" = 'true' ]; then args+=(--force); fi
+          python scripts/etl.py "${args[@]}"
+      - run: python scripts/etl.py --module health --offline
+      - name: Detectar mudanças nos arquivos do módulo
+        id: changes
+        run: |
+          git add -- 'public/data/health.json' 'public/data/exports/health-*.csv' 'public/data/indicators.json'
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.changes.outputs.changed == 'true'
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+        if: steps.changes.outputs.changed == 'true'
+      - run: npm test
+        if: steps.changes.outputs.changed == 'true'
+      - run: npm run build
+        if: steps.changes.outputs.changed == 'true'
+      - name: Versionar dados somente após validação
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data: atualizar publicações Saúde CNES'
+          # Push normal: se main avançar durante a coleta, falhar sem sobrescrever.
+          git push origin HEAD:main
+      - name: Sinalizar falha depois de preservar snapshot e relatório
+        if: always() && steps.collect.outcome == 'failure'
+        run: exit 1

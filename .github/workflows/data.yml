@@ -1,0 +1,61 @@
+name: Atualizar dados públicos
+on:
+  schedule:
+    - cron: '17 9 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-education.txt
+      - name: Coletar e preservar snapshots
+        id: collect
+        continue-on-error: true
+        run: python scripts/etl.py
+      - run: python scripts/etl.py --offline
+      - name: Detectar mudanças nos arquivos do módulo
+        id: changes
+        run: |
+          git add -- 'public/data/indicators.json' 'public/data/comparison.json' 'public/data/population.json' 'public/data/economy.json' 'public/data/population' 'public/data/economy' 'public/data/population-*.csv' 'public/data/gdp*.csv' 'public/data/economy-sectors.csv'
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.changes.outputs.changed == 'true'
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+        if: steps.changes.outputs.changed == 'true'
+      - run: npm test
+        if: steps.changes.outputs.changed == 'true'
+      - run: npm run build
+        if: steps.changes.outputs.changed == 'true'
+      - name: Versionar dados somente após validação
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data: atualizar snapshots públicos'
+          # Push normal: se main avançar durante a coleta, falhar sem sobrescrever.
+          git push origin HEAD:main
+      - name: Sinalizar falha após preservar e publicar o relatório
+        if: always() && steps.collect.outcome == 'failure'
+        run: |
+          echo '::error::Coleta incompleta; último snapshot preservado. Consulte collection.failures em population.json e economy.json.'
+          exit 1
