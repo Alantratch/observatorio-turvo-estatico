@@ -1,0 +1,88 @@
+{
+  "data": {
+    "observations": [
+      {
+        "id": "6d19856f-0356-391a-8db5-4bf657a72ad8",
+        "municipalityCode": "4109401",
+        "date": "2026-04-06T19:06:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.14168,
+        "longitude": -51.33558,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "11f48fb0-ec8c-34cf-86b3-4ddddf66c439",
+        "municipalityCode": "4109401",
+        "date": "2026-04-11T19:02:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.46766,
+        "longitude": -51.51314,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "ee581e31-07ad-38d4-b2f9-8c6bc5b7b261",
+        "municipalityCode": "4109401",
+        "date": "2026-04-11T19:02:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.27551,
+        "longitude": -51.40134,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "47be6bbf-a8d8-3085-90c0-3fb628cc577e",
+        "municipalityCode": "4109401",
+        "date": "2026-04-11T19:02:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.46623,
+        "longitude": -51.50345,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "de43c891-6b96-327f-9afc-ad5a1d1d737f",
+        "municipalityCode": "4127965",
+        "date": "2026-04-21T18:49:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.92153,
+        "longitude": -51.43998,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "39bace3b-4057-386b-b4ff-f93bcae178bb",
+        "municipalityCode": "4127965",
+        "date": "2026-04-21T18:49:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.92153,
+        "longitude": -51.43999,
+        "biome": "Mata Atlântica"
+      }
+    ],
+    "availableThrough": "2026-04-30",
+    "reference": "202604",
+    "coverage": "monthly-export",
+    "satellite": "AQUA_M-T"
+  },
+  "source": {
+    "id": "fire-202604",
+    "agency": "INPE",
+    "dataset": "Programa Queimadas — satélite de referência",
+    "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/focos_mensal_br_202604.csv",
+    "reference": "202604",
+    "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+    "unit": "focos de calor",
+    "municipalityCodes": [
+      "4127965",
+      "4109401",
+      "4119608",
+      "4113254"
+    ],
+    "satellite": "AQUA_M-T",
+    "catalogUrl": "https://data.inpe.br/queimadas/pages/secao_downloads/dados-abertos/",
+    "transformation": "Filtro código IBGE (mensal) ou nome+UF (anual de referência); somente AQUA_M-T; deduplicação pelo ID oficial; UTC.",
+    "sha256": "f5f148015c66e6af18b8878f535b8b3d35556a56a77df955b896c478594f999c"
+  },
+  "http": {
+    "ETag": "\"4ccb31-656cfbfa8e580\"",
+    "Last-Modified": "Fri, 17 Jul 2026 14:55:34 GMT",
+    "Content-Length": "5032753"
+  }
+}

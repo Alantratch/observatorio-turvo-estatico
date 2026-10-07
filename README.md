@@ -4,7 +4,7 @@ Observatório municipal **independente**, modular e open-source de Turvo/PR, có
 
 ## Rodar localmente
 
-Requisitos: Node.js 22+, npm e Python 3.10+. Educação/testes usam as dependências XLSX abaixo; o build usa Python padrão para verificar a privacidade do snapshot social, sem bibliotecas adicionais.
+Requisitos: Node.js 22+, npm e Python 3.11+. Educação e Meio Ambiente/testes usam as dependências abaixo; o build usa Python padrão para verificar a privacidade do snapshot social, sem bibliotecas adicionais.
 
 ```sh
 npm ci
@@ -16,13 +16,27 @@ Abra o endereço informado pelo Vite. Para compilar e inspecionar a versão de p
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
-python -m pip install -r scripts/requirements-education.txt
+python -m pip install -r scripts/requirements-environment.txt
 npm test
 npm run build
 npm run preview
 ```
 
 O build funciona **sem acessar fontes públicas**, usando os snapshots versionados. O navegador consulta apenas arquivos estáticos; não acessa SIDRA, INEP ou microdados MTE diretamente.
+
+## Meio Ambiente
+
+O módulo `environment` substitui Contratações na navegação. Integra MapBiomas Coleção 11 (1985–2025), focos INPE AQUA_M-T (2020–2026 parcial), estações ANA dentro/fora do município, bioma IBGE e interseções de UCs CNUC. Tem histórico, mapas vetoriais leves, comparação com Guarapuava/Pitanga/Laranjal e quatro CSVs com metadados. Vegetação nativa exclui silvicultura; focos não são incêndios ou hectares queimados. Medições sem exportação pública validada aparecem como indisponíveis.
+
+```sh
+python scripts/etl.py --module environment --offline
+python scripts/etl.py --module environment --environment-source land
+python scripts/etl.py --module environment --environment-source fire
+python scripts/etl.py --module environment --environment-source water
+python scripts/etl.py --module environment --environment-source protection
+```
+
+`all` do ETL geral permanece leve e não inclui esse módulo. A rotina ambiental própria verifica INPE semanalmente e todas as fontes mensalmente; publica somente mudanças validadas. Não exige MCP, GEE, token ANA ou Worker. Shapely/Pyproj são usados somente no ETL/testes para localização de estações e recorte de UCs. O build do Pages continua sem essas bibliotecas. Veja [fontes, resultados, fórmulas, arquivos e pendências](docs/modulos/meio-ambiente.md).
 
 ## População: módulo completo
 
@@ -119,7 +133,7 @@ CadSUAS de 25/09/2026 informa 1 CRAS, 1 CREAS, 2 centros de convivência, 1 acol
 
 ```sh
 # Dependências XLSX compartilhadas com Educação:
-python -m pip install -r scripts/requirements-education.txt
+python -m pip install -r scripts/requirements-environment.txt
 python scripts/etl.py --module social --cache .mds-cache
 python scripts/etl.py --module social --offline
 python scripts/check_social_privacy.py
@@ -152,7 +166,7 @@ Dados em Finanças e Contratações são explicitamente **fictícios**, destinad
 | Educação | Censo 2015–2025, IDEB/SAEB/alfabetização, indicadores anuais 2025, escolas, infraestrutura e downloads | Históricos anuais/SAEB, participação SAEB e mapa com coordenadas verificadas |
 | Saúde | CNES/DATASUS real | Rede, UBS, SUS ambulatorial, leitos, mapa, comparação; equipes/cobertura pendentes |
 | Finanças Públicas | Demo SICONFI | DCA/RREO/RGF normalizados |
-| Contratações / PNCP | Demo | Coleta paginada e filtro municipal validado |
+| Meio Ambiente | Real + derivados; medições pendentes | MapBiomas 11, INPE, cadastro ANA, CNUC e bioma IBGE |
 | Agropecuária | PAM/PPM/PEVS reais, história, comparações, Censo 2017 e downloads | Uso das terras/condição do produtor no Censo e ranking estadual |
 | Assistência Social | CadÚnico, renda/qualidade, Bolsa Família, BPC, rede SUAS, PAIF/RMA, comparação e proteção de dados | PAEFI/RMA, indicadores SUAS/IVCAD, fluxos e coordenadas institucionais |
 | Catálogo de Dados | Busca, metadados, download JSON | CSV, dicionário e séries por fonte |

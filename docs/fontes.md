@@ -11,8 +11,8 @@ Turvo/PR: código IBGE **4127965**. Em outras bases, o identificador pode ter se
 | Saúde | Ministério da Saúde / DATASUS / CNES | [Catálogo CNES](https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude) | Rede diária, leitos mensais, regionalização e comparação integrados; [metodologia, campos e fontes](modulos/saude.md) |
 | Assistência Social | MDS/SAGICAD/SNAS · serviço municipal RI/VIS DATA, CadSUAS, Censo SUAS e RMA | [Fontes e endpoints](modulos/assistencia-social.md) | Integrado; referências próprias, somente agregados seguros |
 | Finanças | Tesouro / SICONFI | https://siconfi.tesouro.gov.br/ | TODO; demonstração |
-| Contratações | MGI / PNCP | https://pncp.gov.br/ | TODO; demonstração |
-| Agropecuária | IBGE PAM / PPM | https://sidra.ibge.gov.br/tabela/5457 | TODO; demonstração |
+| Meio Ambiente | MapBiomas, INPE, ANA, IBGE e MMA/CNUC | [Fontes e endpoints](modulos/meio-ambiente.md) | Cobertura, fogo, estações, bioma e interseções de UCs integrados |
+| Agropecuária | IBGE PAM / PPM / PEVS e Censo | [Fontes](modulos/agropecuaria.md) | Integrado |
 
 ## Consultas SIDRA
 
@@ -28,7 +28,7 @@ Padrão: `https://apisidra.ibge.gov.br/values/t/{tabela}/n6/{codigo}/v/{variavel
 
 RAIS/CAGED: distinguir estoque anual de vínculos e fluxos mensais de admissões/desligamentos; verificar mudanças metodológicas e código territorial. Não baixar microdados massivos no navegador.
 
-INEP: distinguir município da escola e residência, rede administrativa e etapa; não expor registros pessoais. DATASUS: definir competência e cobertura; CNES conta estabelecimentos, não população atendida. SICONFI: validar conta contábil, anexo, exercício e estágio da receita/despesa. PNCP: ler documentação de filtros, paginação e unidade compradora; não confundir total contratado com quantidade de editais. PAM/PPM: selecionar produtos e unidades compatíveis antes de somar.
+INEP: distinguir município da escola e residência, rede administrativa e etapa; não expor registros pessoais. DATASUS: definir competência e cobertura; CNES conta estabelecimentos, não população atendida. SICONFI: validar conta contábil, anexo, exercício e estágio da receita/despesa. PAM/PPM: selecionar produtos e unidades compatíveis antes de somar.
 
 Valores fictícios têm `status=mock`, referência “Exemplo fictício”, sem data de coleta. Estão no catálogo para desenvolvimento e nunca nas comparações temáticas de valores oficiais. TODO: substituir por `unavailable` em uma edição institucional antes de divulgação oficial.
 
@@ -67,3 +67,7 @@ Exportação diária CNES, arquivo anual Hospitais e Leitos com competências me
 ## Assistência Social / MDS
 
 [Documentação completa](modulos/assistencia-social.md): serviço público municipal com filtros `mes_mu`, código MDS de seis dígitos e campos explícitos; dados conferidos nos relatórios RI. Cadastro Único e Bolsa Família setembro/2026; BPC Fonte Pagadora agosto/2026, sem mistura com residência. CadSUAS por data de extração, Censo SUAS 2025 por edição anual, RMA CRAS 2025 somente Base tratada. IBGE 6579/9324 fornece denominadores 2026 para proporção aproximada administrativa (não pobreza/cobertura oficial). Não acessa bases identificadas, RH ou sistemas internos. JSON/CSV somente agregados; supressão 1–4 e complementar, schema permitido e verificação obrigatória no build. Indicadores SUAS/IVCAD e PAEFI permanecem pendentes.
+
+## Meio Ambiente
+
+[Documentação completa](modulos/meio-ambiente.md): MapBiomas Coleção 11/estatísticas municipais, INPE Programa Queimadas AQUA_M-T, inventário ANA/SNIRH, malha/área/bioma IBGE e poligonais MMA/CNUC distribuídas pelo IBAMA. Quantidades derivadas identificadas; indisponibilidade não vira zero. Analisados clientes INPE/ANA do MCP Brasil; API histórica INPE respondeu 404 e telemetria Hidroweb 401. O ETL usa arquivos públicos atuais e serviços cartográficos oficiais, sem dependência do MCP.

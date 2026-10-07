@@ -1,0 +1,817 @@
+{
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "municipality": {
+      "const": {
+        "code": "4127965",
+        "name": "Turvo",
+        "state": "PR"
+      }
+    },
+    "summary": {
+      "type": "object"
+    },
+    "landCover": {
+      "$ref": "#/$defs/landCover"
+    },
+    "vegetation": {
+      "$ref": "#/$defs/vegetation"
+    },
+    "fire": {
+      "$ref": "#/$defs/fire"
+    },
+    "water": {
+      "$ref": "#/$defs/water"
+    },
+    "protectedAreas": {
+      "$ref": "#/$defs/protectedAreas"
+    },
+    "climate": {
+      "$ref": "#/$defs/missing"
+    },
+    "burnedArea": {
+      "$ref": "#/$defs/missing"
+    },
+    "deforestation": {
+      "$ref": "#/$defs/missing"
+    },
+    "comparisons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "municipalityCode": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "landCover": {
+            "$ref": "#/$defs/landCover"
+          }
+        },
+        "required": [
+          "municipalityCode",
+          "name",
+          "landCover"
+        ]
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "geometry": {
+      "type": "object"
+    },
+    "collection": {
+      "type": "object",
+      "properties": {
+        "attemptedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "lastSuccessAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "failures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "policy": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "attemptedAt",
+        "lastSuccessAt",
+        "failures",
+        "policy"
+      ]
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "municipality",
+    "summary",
+    "landCover",
+    "vegetation",
+    "fire",
+    "water",
+    "protectedAreas",
+    "climate",
+    "burnedArea",
+    "deforestation",
+    "comparisons",
+    "sources",
+    "geometry",
+    "collection"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Meio Ambiente de Turvo/PR, versão 1",
+  "$defs": {
+    "missing": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "const": "unavailable"
+        },
+        "value": {
+          "type": "null"
+        },
+        "reference": {
+          "type": "null"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "status",
+        "value",
+        "reference",
+        "reason",
+        "url"
+      ]
+    },
+    "areaPoint": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$"
+        },
+        "areaHa": {
+          "type": "number",
+          "minimum": 0
+        },
+        "sharePercent": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "year",
+        "areaHa",
+        "sharePercent"
+      ]
+    },
+    "class": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hierarchy": {
+          "type": "string"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "collection": {
+          "type": "string"
+        },
+        "unit": {
+          "const": "ha"
+        },
+        "color": {
+          "type": "string"
+        },
+        "latest": {
+          "$ref": "#/$defs/areaPoint"
+        },
+        "series": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/areaPoint"
+          }
+        }
+      },
+      "required": [
+        "code",
+        "name",
+        "hierarchy",
+        "level",
+        "collection",
+        "unit",
+        "color",
+        "latest",
+        "series"
+      ]
+    },
+    "area": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number",
+          "minimum": 0
+        },
+        "unit": {
+          "const": "km²"
+        },
+        "reference": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "reference",
+        "url"
+      ]
+    },
+    "landCover": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/missing"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "real"
+            },
+            "reference": {
+              "type": "string",
+              "pattern": "^[0-9]{4}$"
+            },
+            "classes": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/class"
+              }
+            },
+            "history": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "year": {
+                    "type": "string",
+                    "pattern": "^[0-9]{4}$"
+                  },
+                  "native": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "forest": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "farming": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "farmingWithoutPlantation": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "plantation": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "urban": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "water": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "pasture": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "agriculture": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "year",
+                  "native",
+                  "forest",
+                  "farming",
+                  "farmingWithoutPlantation",
+                  "plantation",
+                  "urban",
+                  "water",
+                  "pasture",
+                  "agriculture"
+                ]
+              }
+            },
+            "mappedAreaHa": {
+              "type": "number",
+              "minimum": 0
+            },
+            "municipalArea": {
+              "$ref": "#/$defs/area"
+            },
+            "areaDifferencePercent": {
+              "type": "number"
+            },
+            "shareMethodology": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "reference",
+            "classes",
+            "history",
+            "mappedAreaHa",
+            "municipalArea",
+            "areaDifferencePercent",
+            "shareMethodology"
+          ]
+        }
+      ]
+    },
+    "fireAnnual": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "complete": {
+          "type": "boolean"
+        },
+        "coverageMonths": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 12
+        },
+        "through": {
+          "type": "string",
+          "format": "date"
+        },
+        "per1000Km2": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "year",
+        "count",
+        "complete",
+        "coverageMonths",
+        "through",
+        "per1000Km2"
+      ]
+    },
+    "fireMonth": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "period": {
+              "type": "string",
+              "pattern": "^[0-9]{4}-[0-9]{2}$"
+            },
+            "count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "available": {
+              "const": true
+            }
+          },
+          "required": [
+            "period",
+            "count",
+            "available"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "period": {
+              "type": "string",
+              "pattern": "^[0-9]{4}-[0-9]{2}$"
+            },
+            "count": {
+              "type": "null"
+            },
+            "available": {
+              "const": false
+            }
+          },
+          "required": [
+            "period",
+            "count",
+            "available"
+          ]
+        }
+      ]
+    },
+    "fire": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/missing"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "real"
+            },
+            "reference": {
+              "type": "string"
+            },
+            "satellite": {
+              "const": "AQUA_M-T"
+            },
+            "annual": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/fireAnnual"
+              }
+            },
+            "monthly": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/fireMonth"
+              }
+            },
+            "points": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "municipalityCode": {
+                    "type": "string",
+                    "enum": [
+                      "4127965",
+                      "4109401",
+                      "4119608",
+                      "4113254"
+                    ]
+                  },
+                  "date": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "satellite": {
+                    "const": "AQUA_M-T"
+                  },
+                  "latitude": {
+                    "type": "number",
+                    "minimum": -27,
+                    "maximum": -22
+                  },
+                  "longitude": {
+                    "type": "number",
+                    "minimum": -55,
+                    "maximum": -48
+                  }
+                },
+                "required": [
+                  "id",
+                  "municipalityCode",
+                  "date",
+                  "satellite",
+                  "latitude",
+                  "longitude"
+                ]
+              }
+            },
+            "currentYear": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/fireAnnual"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "previousYear": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/fireAnnual"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "normalization": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "const": "derived"
+                },
+                "formula": {
+                  "type": "string"
+                },
+                "denominator": {
+                  "$ref": "#/$defs/area"
+                }
+              },
+              "required": [
+                "status",
+                "formula",
+                "denominator"
+              ]
+            }
+          },
+          "required": [
+            "status",
+            "reference",
+            "satellite",
+            "annual",
+            "monthly",
+            "points",
+            "currentYear",
+            "previousYear",
+            "normalization"
+          ]
+        }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "agency": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dataset": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "collectedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "transformation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "agency",
+        "dataset",
+        "url",
+        "reference",
+        "collectedAt",
+        "unit",
+        "transformation"
+      ]
+    },
+    "water": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/missing"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "real"
+            },
+            "stations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "code": {
+                    "type": "string",
+                    "pattern": "^[0-9]{8}$"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "enum": [
+                      "Fluviométrica",
+                      "Pluviométrica"
+                    ]
+                  },
+                  "latitude": {
+                    "type": "number"
+                  },
+                  "longitude": {
+                    "type": "number"
+                  },
+                  "location": {
+                    "enum": [
+                      "inside",
+                      "regional"
+                    ]
+                  },
+                  "agency": {
+                    "type": "string"
+                  },
+                  "distanceToCentroidKm": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "code",
+                  "name",
+                  "type",
+                  "latitude",
+                  "longitude",
+                  "location",
+                  "agency",
+                  "distanceToCentroidKm"
+                ]
+              }
+            },
+            "measurements": {
+              "$ref": "#/$defs/missing"
+            },
+            "methodology": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "stations",
+            "measurements",
+            "methodology"
+          ]
+        }
+      ]
+    },
+    "protectedAreas": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/missing"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "derived"
+            },
+            "units": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "code": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "intersectionHa": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "registryMentionsTurvo": {
+                    "type": "boolean"
+                  },
+                  "geometry": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "code",
+                  "name",
+                  "intersectionHa",
+                  "registryMentionsTurvo",
+                  "geometry"
+                ]
+              }
+            },
+            "unionAreaHa": {
+              "type": "number",
+              "minimum": 0
+            },
+            "sharePercent": {
+              "type": "number",
+              "minimum": 0
+            },
+            "declaredMunicipalityCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "biomes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "biomeReference": {
+              "type": "string"
+            },
+            "biomeSourceUrl": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "status",
+            "units",
+            "unionAreaHa",
+            "sharePercent",
+            "declaredMunicipalityCount",
+            "biomes",
+            "biomeReference",
+            "biomeSourceUrl"
+          ]
+        }
+      ]
+    },
+    "vegetation": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/missing"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "derived"
+            },
+            "nativeCodes": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "not": {
+                  "const": 9
+                }
+              }
+            },
+            "nativeAreaHa": {
+              "type": "number",
+              "minimum": 0
+            },
+            "forestAreaHa": {
+              "type": "number",
+              "minimum": 0
+            },
+            "plantationAreaHa": {
+              "type": "number",
+              "minimum": 0
+            },
+            "methodology": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "nativeCodes",
+            "nativeAreaHa",
+            "forestAreaHa",
+            "plantationAreaHa",
+            "methodology"
+          ]
+        }
+      ]
+    }
+  }
+}

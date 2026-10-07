@@ -1,0 +1,5 @@
+-r requirements-education.txt
+shapely==2.1.2
+pyproj==3.7.2
+# Formal schema validation in the environment tests (build remains stdlib-only).
+jsonschema==4.25.1

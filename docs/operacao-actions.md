@@ -12,8 +12,11 @@ Cloudflare Pages publica pela integração Git. Nenhuma rotina usa Wrangler, sec
 | `health.yml` | CNES/DATASUS | Dia 7, 11:37 | Dia 7, 08:37 |
 | `agriculture.yml` | PAM, PPM, PEVS e Censo Agropecuário | Dia 9, 11:43 | Dia 9, 08:43 |
 | `social.yml` | MDS/SUAS | Dia 12, 12:17 | Dia 12, 09:17 |
+| `environment.yml` | INPE; todas as fontes ambientais | Quinta 09:23; dia 14 12:23 | Quinta 06:23; dia 14 09:23 |
 
-Finanças e PNCP ainda são demonstrações; não há coletor automático desses módulos. `all` cobre somente o conector inicial, População e Economia. A CI valida offline todos os demais snapshots separadamente. Remuneração RAIS continua manual para evitar baixar o arquivo regional grande automaticamente. Uma nova competência CAGED reprocessa a janela de 24 meses e pode consumir tempo; o limite de execução é de 180 minutos e não representa garantia de conclusão.
+Finanças ainda é demonstração, sem coletor automático. Meio Ambiente substituiu Contratações. `all` cobre somente o conector inicial, População e Economia. A CI valida offline todos os demais snapshots separadamente. Remuneração RAIS continua manual para evitar baixar o arquivo regional grande automaticamente. Uma nova competência CAGED reprocessa a janela de 24 meses e pode consumir tempo; o limite de execução é de 180 minutos e não representa garantia de conclusão.
+
+O workflow ambiental aceita `source=all/land/fire/water/protection` no disparo manual. Arquivos nacionais ficam em diretório temporário com limite de 160 MB por arquivo; apenas os quatro municípios selecionados são normalizados. HEAD/ETag/Last-Modified evitam novos downloads sem revisão. Não se usa cache persistente de bases nacionais no Actions. Inventário ANA é mensal enquanto não houver telemetria pública validada. Timeout: 35 minutos. Todas as rotinas instalam `requirements-environment.txt` porque os testes completos incluem recorte geográfico.
 
 ## Publicação e falhas
 
