@@ -1,0 +1,301 @@
+municipalityCode,productId,product,kind,reference,metric,value,unit,status,rawSymbol,sourceId,variableId
+4127965,3939-2670,Bovino,,2016,herd,46200,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2017,herd,44500,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2018,herd,41380,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2019,herd,42621,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2020,herd,38810,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2021,herd,38700,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2022,herd,38150,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2023,herd,38260,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2024,herd,37640,Cabeças,real,,herds,105
+4127965,3939-2670,Bovino,,2025,herd,36000,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2016,herd,35,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2017,herd,40,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2018,herd,40,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2019,herd,35,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2020,herd,25,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2021,herd,27,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2022,herd,30,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2023,herd,90,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2024,herd,50,Cabeças,real,,herds,105
+4127965,3939-2675,Bubalino,,2025,herd,80,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2016,herd,2250,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2017,herd,1900,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2018,herd,2000,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2019,herd,1900,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2020,herd,1620,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2021,herd,1700,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2022,herd,1480,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2023,herd,1420,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2024,herd,1350,Cabeças,real,,herds,105
+4127965,3939-2672,Equino,,2025,herd,1260,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2016,herd,3600,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2017,herd,3100,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2018,herd,3400,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2019,herd,3468,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2020,herd,3800,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2021,herd,3500,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2022,herd,4200,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2023,herd,3800,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2024,herd,3550,Cabeças,real,,herds,105
+4127965,3939-32794,Suíno - total,,2025,herd,3100,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2016,herd,400,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2017,herd,930,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2018,herd,500,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2019,herd,510,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2020,herd,570,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2021,herd,520,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2022,herd,600,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2023,herd,546,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2024,herd,510,Cabeças,real,,herds,105
+4127965,3939-32795,Suíno - matrizes de suínos,,2025,herd,450,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2016,herd,1450,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2017,herd,1200,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2018,herd,1100,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2019,herd,1000,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2020,herd,600,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2021,herd,590,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2022,herd,700,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2023,herd,610,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2024,herd,530,Cabeças,real,,herds,105
+4127965,3939-2681,Caprino,,2025,herd,450,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2016,herd,6300,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2017,herd,5500,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2018,herd,5900,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2019,herd,6900,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2020,herd,5900,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2021,herd,6000,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2022,herd,6340,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2023,herd,6150,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2024,herd,5940,Cabeças,real,,herds,105
+4127965,3939-2677,Ovino,,2025,herd,5760,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2016,herd,34930,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2017,herd,51000,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2018,herd,47600,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2019,herd,48552,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2020,herd,54100,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2021,herd,54300,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2022,herd,52500,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2023,herd,50500,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2024,herd,51600,Cabeças,real,,herds,105
+4127965,3939-32796,Galináceos - total,,2025,herd,56000,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2016,herd,14970,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2017,herd,15300,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2018,herd,14200,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2019,herd,14484,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2020,herd,16000,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2021,herd,16100,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2022,herd,15800,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2023,herd,15168,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2024,herd,15499,Cabeças,real,,herds,105
+4127965,3939-32793,Galináceos - galinhas,,2025,herd,16800,Cabeças,real,,herds,105
+4127965,74-2682,Leite,,2016,production,21200,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2016,productionValue,26288000,R$,real,,animal,215
+4127965,74-2682,Leite,,2017,production,20000,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2017,productionValue,26000000,R$,real,,animal,215
+4127965,74-2682,Leite,,2018,production,19300,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2018,productionValue,24897000,R$,real,,animal,215
+4127965,74-2682,Leite,,2019,production,21400,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2019,productionValue,28248000,R$,real,,animal,215
+4127965,74-2682,Leite,,2020,production,24700,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2020,productionValue,40755000,R$,real,,animal,215
+4127965,74-2682,Leite,,2021,production,24957,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2021,productionValue,51910000,R$,real,,animal,215
+4127965,74-2682,Leite,,2022,production,24300,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2022,productionValue,53460000,R$,real,,animal,215
+4127965,74-2682,Leite,,2023,production,25160,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2023,productionValue,64410000,R$,real,,animal,215
+4127965,74-2682,Leite,,2024,production,27530,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2024,productionValue,75983000,R$,real,,animal,215
+4127965,74-2682,Leite,,2025,production,26500,Mil litros,real,,animal,106
+4127965,74-2682,Leite,,2025,productionValue,71020000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2016,production,60,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2016,productionValue,144000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2017,production,56,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2017,productionValue,157000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2018,production,57,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2018,productionValue,143000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2019,production,58,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2019,productionValue,145000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2020,production,65,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2020,productionValue,211000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2021,production,65,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2021,productionValue,255000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2022,production,66,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2022,productionValue,271000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2023,production,64,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2023,productionValue,308000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2024,production,65,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2024,productionValue,301000,R$,real,,animal,215
+4127965,74-2685,Ovos de galinha,,2025,production,71,Mil dúzias,real,,animal,106
+4127965,74-2685,Ovos de galinha,,2025,productionValue,350000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2016,production,40000,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2016,productionValue,340000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2017,production,47000,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2017,productionValue,430000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2018,production,43500,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2018,productionValue,522000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2019,production,56000,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2019,productionValue,710000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2020,production,73000,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2020,productionValue,1168000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2021,production,71000,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2021,productionValue,1207000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2022,production,66000,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2022,productionValue,1139000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2023,production,80000,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2023,productionValue,1520000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2024,production,97600,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2024,productionValue,2147000,R$,real,,animal,215
+4127965,74-2687,Mel de abelha,,2025,production,102200,Quilogramas,real,,animal,106
+4127965,74-2687,Mel de abelha,,2025,productionValue,2453000,R$,real,,animal,215
+4127965,74-2684,Lã,,2016,production,14102,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2016,productionValue,39000,R$,real,,animal,215
+4127965,74-2684,Lã,,2017,production,6400,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2017,productionValue,20000,R$,real,,animal,215
+4127965,74-2684,Lã,,2018,production,5400,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2018,productionValue,15000,R$,real,,animal,215
+4127965,74-2684,Lã,,2019,production,5500,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2019,productionValue,15000,R$,real,,animal,215
+4127965,74-2684,Lã,,2020,production,4800,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2020,productionValue,11000,R$,real,,animal,215
+4127965,74-2684,Lã,,2021,production,4810,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2021,productionValue,14000,R$,real,,animal,215
+4127965,74-2684,Lã,,2022,production,4600,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2022,productionValue,15000,R$,real,,animal,215
+4127965,74-2684,Lã,,2023,production,2700,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2023,productionValue,9000,R$,real,,animal,215
+4127965,74-2684,Lã,,2024,production,2100,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2024,productionValue,8000,R$,real,,animal,215
+4127965,74-2684,Lã,,2025,production,2200,Quilogramas,real,,animal,106
+4127965,74-2684,Lã,,2025,productionValue,11000,R$,real,,animal,215
+4127965,3940-32861,Carpa,,2016,production,5300,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2016,productionValue,45000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2017,production,5000,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2017,productionValue,46000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2018,production,4900,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2018,productionValue,39000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2019,production,5400,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2019,productionValue,33000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2020,production,5500,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2020,productionValue,50000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2021,production,5400,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2021,productionValue,54000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2022,production,5600,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2022,productionValue,57000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2023,production,5400,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2023,productionValue,65000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2024,production,5200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2024,productionValue,68000,R$,real,,aquaculture,215
+4127965,3940-32861,Carpa,,2025,production,5100,Quilogramas,real,,aquaculture,4146
+4127965,3940-32861,Carpa,,2025,productionValue,82000,R$,real,,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2016,production,300,Quilogramas,real,,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2016,productionValue,3000,R$,real,,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2017,production,302,Quilogramas,real,,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2017,productionValue,4000,R$,real,,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2018,production,200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2018,productionValue,2000,R$,real,,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2019,production,200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2019,productionValue,1000,R$,real,,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2020,production,200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2020,productionValue,2000,R$,real,,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2021,production,210,Quilogramas,real,,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2021,productionValue,2000,R$,real,,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2022,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2022,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2023,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2023,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2024,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2024,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32870,Pacu e patinga,,2025,production,130,Quilogramas,real,,aquaculture,4146
+4127965,3940-32870,Pacu e patinga,,2025,productionValue,2000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2016,production,400,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2016,productionValue,4000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2017,production,400,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2017,productionValue,5000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2018,production,300,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2018,productionValue,3000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2019,production,200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2019,productionValue,1000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2020,production,200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2020,productionValue,2000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2021,production,190,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2021,productionValue,2000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2022,production,230,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2022,productionValue,3000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2023,production,200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2023,productionValue,3000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2024,production,190,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2024,productionValue,3000,R$,real,,aquaculture,215
+4127965,3940-32875,"Tambacu, tambatinga",,2025,production,180,Quilogramas,real,,aquaculture,4146
+4127965,3940-32875,"Tambacu, tambatinga",,2025,productionValue,3000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2016,production,4300,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2016,productionValue,43000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2017,production,4500,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2017,productionValue,52000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2018,production,4200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2018,productionValue,44000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2019,production,5000,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2019,productionValue,25000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2020,production,5200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2020,productionValue,42000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2021,production,5500,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2021,productionValue,50000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2022,production,6000,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2022,productionValue,55000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2023,production,7700,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2023,productionValue,77000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2024,production,10800,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2024,productionValue,130000,R$,real,,aquaculture,215
+4127965,3940-32877,Tilápia,,2025,production,12300,Quilogramas,real,,aquaculture,4146
+4127965,3940-32877,Tilápia,,2025,productionValue,185000,R$,real,,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2016,production,500,Quilogramas,real,,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2016,productionValue,5000,R$,real,,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2017,production,400,Quilogramas,real,,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2017,productionValue,5000,R$,real,,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2018,production,250,Quilogramas,real,,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2018,productionValue,3000,R$,real,,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2019,production,200,Quilogramas,real,,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2019,productionValue,1000,R$,real,,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2020,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2020,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2021,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2021,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2022,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2022,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2023,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2023,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2024,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2024,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32878,Traíra e trairão,,2025,production,0,Quilogramas,real,-,aquaculture,4146
+4127965,3940-32878,Traíra e trairão,,2025,productionValue,0,R$,real,-,aquaculture,215
+4127965,3940-32881,Outros peixes,,2016,production,750,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2016,productionValue,6000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2017,production,800,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2017,productionValue,8000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2018,production,600,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2018,productionValue,5000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2019,production,550,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2019,productionValue,5000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2020,production,450,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2020,productionValue,5000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2021,production,420,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2021,productionValue,5000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2022,production,490,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2022,productionValue,6000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2023,production,400,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2023,productionValue,6000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2024,production,430,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2024,productionValue,7000,R$,real,,aquaculture,215
+4127965,3940-32881,Outros peixes,,2025,production,390,Quilogramas,real,,aquaculture,4146
+4127965,3940-32881,Outros peixes,,2025,productionValue,8000,R$,real,,aquaculture,215
+4127965,94,Vacas ordenhadas,,2016,milkedCows,5600,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2017,milkedCows,5300,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2018,milkedCows,4850,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2019,milkedCows,5831,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2020,milkedCows,6730,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2021,milkedCows,6800,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2022,milkedCows,6250,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2023,milkedCows,6400,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2024,milkedCows,6350,Cabeças,real,,milkedCows,107
+4127965,94,Vacas ordenhadas,,2025,milkedCows,5980,Cabeças,real,,milkedCows,107

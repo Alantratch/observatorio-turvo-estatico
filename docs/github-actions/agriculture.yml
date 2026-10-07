@@ -1,0 +1,62 @@
+# Copiar para .github/workflows/agriculture.yml com permissão de escrita de workflows.
+name: Atualizar Agropecuária IBGE
+on:
+  schedule:
+    - cron: '43 11 9 * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+jobs:
+  agriculture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-education.txt
+      # Reconsultar a janela inteira, incorporando revisões retroativas.
+      # Só cinco territórios; nenhuma base nacional ou microdado no repositório.
+      - name: Coletar bases IBGE e preservar última entrega válida
+        id: collect
+        continue-on-error: true
+        run: python scripts/etl.py --module agriculture
+      - run: python scripts/etl.py --module agriculture --offline
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Versionar mudanças da Agropecuária
+        id: publish
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/agriculture.json public/data/agriculture public/data/exports/agriculture-*.csv public/data/indicators.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: atualizar PAM PPM PEVS e Censo Agropecuário'
+            git push
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: observatorio-agropecuaria
+          path: dist
+      - name: Deploy Cloudflare Pages quando configurado
+        if: steps.publish.outputs.changed == 'true' && steps.collect.outcome == 'success'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            npx wrangler@4 pages deploy dist --project-name observatorio-turvo-estatico --branch "${{ github.ref_name }}"
+          fi
+      - name: Sinalizar coleta com falha após preservar snapshot
+        if: steps.collect.outcome == 'failure'
+        run: exit 1

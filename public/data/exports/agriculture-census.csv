@@ -1,0 +1,11 @@
+municipalityCode,reference,metric,value,unit,status,sourceId
+4127965,2017,establishments,1219,Unidades,real,census
+4127965,2017,area,52113,Hectares,real,census
+4127965,2017,people,2804,Pessoas,real,censusPeople
+4127965,2017,familyEstablishments,859,Unidades,real,census
+4127965,2017,familyArea,11634,Hectares,real,census
+4127965,2017,familyPeople,1829,Pessoas,real,censusPeople
+4127965,2017,nonFamilyEstablishments,360,Unidades,real,census
+4127965,2017,nonFamilyArea,40479,Hectares,real,census
+4127965,2017,nonFamilyPeople,975,Pessoas,real,censusPeople
+4127965,2017,familyShare,70.467596390484,%,derived,derived

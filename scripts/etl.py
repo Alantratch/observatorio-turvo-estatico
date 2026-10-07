@@ -89,7 +89,7 @@ def validate(data):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment', 'education', 'health'], default='all', help='Atualizar um módulo ou todos')
+    parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment', 'education', 'health', 'agriculture'], default='all', help='Atualizar um módulo ou todos')
     parser.add_argument('--offline', action='store_true', help='Validar snapshot sem consultar APIs')
     parser.add_argument('--source', choices=['all','rais','caged'], default='all', help='Somente Trabalho: bases independentes')
     parser.add_argument('--force', action='store_true', help='Reprocessar mesma divulgação e incorporar revisões')
@@ -117,5 +117,8 @@ if __name__ == '__main__':
     if options.module == 'health':
         from scripts.modules.health import update as update_health
         failures += update_health(DATA, options.offline, options.force, options.cache)['collection']['failures']
+    if options.module == 'agriculture':
+        from scripts.modules.agriculture import update as update_agriculture
+        failures += update_agriculture(DATA, options.offline)['collection']['failures']
     if failures and not options.offline:
         raise SystemExit(1)  # Snapshot remains usable; signal failed refresh.

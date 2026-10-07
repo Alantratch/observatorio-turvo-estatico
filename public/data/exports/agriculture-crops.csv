@@ -1,0 +1,1701 @@
+municipalityCode,productId,product,kind,reference,metric,value,unit,status,rawSymbol,sourceId,variableId
+4127965,5457-40129,Abacate,Permanente,2016,production,0,Toneladas,real,-,pam,214
+4127965,5457-40129,Abacate,Permanente,2016,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40129,Abacate,Permanente,2016,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40129,Abacate,Permanente,2016,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40129,Abacate,Permanente,2016,productionValue,0,R$,real,-,pam,215
+4127965,5457-40129,Abacate,Permanente,2017,production,0,Toneladas,real,-,pam,214
+4127965,5457-40129,Abacate,Permanente,2017,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40129,Abacate,Permanente,2017,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40129,Abacate,Permanente,2017,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40129,Abacate,Permanente,2017,productionValue,0,R$,real,-,pam,215
+4127965,5457-40129,Abacate,Permanente,2018,production,0,Toneladas,real,-,pam,214
+4127965,5457-40129,Abacate,Permanente,2018,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40129,Abacate,Permanente,2018,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40129,Abacate,Permanente,2018,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40129,Abacate,Permanente,2018,productionValue,0,R$,real,-,pam,215
+4127965,5457-40129,Abacate,Permanente,2019,production,0,Toneladas,real,-,pam,214
+4127965,5457-40129,Abacate,Permanente,2019,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40129,Abacate,Permanente,2019,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40129,Abacate,Permanente,2019,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40129,Abacate,Permanente,2019,productionValue,0,R$,real,-,pam,215
+4127965,5457-40129,Abacate,Permanente,2020,production,21,Toneladas,real,,pam,214
+4127965,5457-40129,Abacate,Permanente,2020,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40129,Abacate,Permanente,2020,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40129,Abacate,Permanente,2020,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40129,Abacate,Permanente,2020,productionValue,61000,R$,real,,pam,215
+4127965,5457-40129,Abacate,Permanente,2021,production,21,Toneladas,real,,pam,214
+4127965,5457-40129,Abacate,Permanente,2021,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40129,Abacate,Permanente,2021,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40129,Abacate,Permanente,2021,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40129,Abacate,Permanente,2021,productionValue,71000,R$,real,,pam,215
+4127965,5457-40129,Abacate,Permanente,2022,production,20,Toneladas,real,,pam,214
+4127965,5457-40129,Abacate,Permanente,2022,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40129,Abacate,Permanente,2022,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40129,Abacate,Permanente,2022,yield,20000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40129,Abacate,Permanente,2022,productionValue,65000,R$,real,,pam,215
+4127965,5457-40129,Abacate,Permanente,2023,production,22,Toneladas,real,,pam,214
+4127965,5457-40129,Abacate,Permanente,2023,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40129,Abacate,Permanente,2023,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40129,Abacate,Permanente,2023,yield,22000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40129,Abacate,Permanente,2023,productionValue,57000,R$,real,,pam,215
+4127965,5457-40129,Abacate,Permanente,2024,production,19,Toneladas,real,,pam,214
+4127965,5457-40129,Abacate,Permanente,2024,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40129,Abacate,Permanente,2024,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40129,Abacate,Permanente,2024,yield,19000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40129,Abacate,Permanente,2024,productionValue,104000,R$,real,,pam,215
+4127965,5457-40129,Abacate,Permanente,2025,production,21,Toneladas,real,,pam,214
+4127965,5457-40129,Abacate,Permanente,2025,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40129,Abacate,Permanente,2025,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40129,Abacate,Permanente,2025,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40129,Abacate,Permanente,2025,productionValue,87000,R$,real,,pam,215
+4127965,5457-83388,Abóbora,Temporária,2016,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2016,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2016,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2016,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2016,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2017,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2017,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2017,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2017,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2017,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2018,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2018,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2018,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2018,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2018,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2019,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2019,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2019,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2019,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2019,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2020,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2020,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2020,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2020,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2020,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2021,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2021,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2021,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2021,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2021,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2022,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2022,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2022,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2022,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2022,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2023,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2023,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2023,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2023,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2023,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2024,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83388,Abóbora,Temporária,2024,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2024,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83388,Abóbora,Temporária,2024,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83388,Abóbora,Temporária,2024,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83388,Abóbora,Temporária,2025,production,370,Toneladas,real,,pam,214
+4127965,5457-83388,Abóbora,Temporária,2025,plantedOrIntendedArea,19,Hectares,real,,pam,8331
+4127965,5457-83388,Abóbora,Temporária,2025,harvestedArea,19,Hectares,real,,pam,216
+4127965,5457-83388,Abóbora,Temporária,2025,yield,19474,Quilogramas por Hectare,real,,pam,112
+4127965,5457-83388,Abóbora,Temporária,2025,productionValue,725000,R$,real,,pam,215
+4127965,5457-83389,Alface,Temporária,2016,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2016,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2016,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2016,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2016,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2017,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2017,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2017,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2017,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2017,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2018,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2018,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2018,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2018,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2018,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2019,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2019,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2019,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2019,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2019,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2020,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2020,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2020,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2020,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2020,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2021,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2021,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2021,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2021,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2021,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2022,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2022,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2022,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2022,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2022,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2023,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2023,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2023,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2023,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2023,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2024,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83389,Alface,Temporária,2024,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83389,Alface,Temporária,2024,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83389,Alface,Temporária,2024,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83389,Alface,Temporária,2024,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83389,Alface,Temporária,2025,production,80,Toneladas,real,,pam,214
+4127965,5457-83389,Alface,Temporária,2025,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-83389,Alface,Temporária,2025,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-83389,Alface,Temporária,2025,yield,16000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-83389,Alface,Temporária,2025,productionValue,254000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2016,production,1,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2016,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2016,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2016,yield,1000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2016,productionValue,5000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2017,production,4,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2017,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2017,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2017,yield,2000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2017,productionValue,34000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2018,production,3,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2018,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2018,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2018,yield,3000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2018,productionValue,14000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2019,production,5,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2019,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2019,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2019,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2019,productionValue,89000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2020,production,5,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2020,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2020,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2020,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2020,productionValue,87000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2021,production,5,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2021,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2021,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2021,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2021,productionValue,71000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2022,production,5,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2022,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2022,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2022,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2022,productionValue,59000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2023,production,2,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2023,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2023,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2023,yield,2000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2023,productionValue,25000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2024,production,3,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2024,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2024,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2024,yield,1000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2024,productionValue,51000,R$,real,,pam,215
+4127965,5457-40100,Alho,Temporária,2025,production,5,Toneladas,real,,pam,214
+4127965,5457-40100,Alho,Temporária,2025,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40100,Alho,Temporária,2025,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40100,Alho,Temporária,2025,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40100,Alho,Temporária,2025,productionValue,93000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2016,production,5,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2016,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2016,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2016,yield,1667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2016,productionValue,12000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2017,production,3,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2017,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2017,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2017,yield,1500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2017,productionValue,6000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2018,production,2,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2018,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2018,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2018,yield,2000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2018,productionValue,4000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2019,production,3,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2019,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2019,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2019,yield,1500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2019,productionValue,6000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2020,production,3,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2020,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2020,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2020,yield,1500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2020,productionValue,9000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2021,production,3,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2021,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2021,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2021,yield,1500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2021,productionValue,11000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2022,production,2,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2022,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2022,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2022,yield,2000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2022,productionValue,6000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2023,production,1,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2023,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2023,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2023,yield,1000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2023,productionValue,4000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2024,production,1,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2024,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2024,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2024,yield,1000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2024,productionValue,4000,R$,real,,pam,215
+4127965,5457-40101,Amendoim (em casca),Temporária,2025,production,1,Toneladas,real,,pam,214
+4127965,5457-40101,Amendoim (em casca),Temporária,2025,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40101,Amendoim (em casca),Temporária,2025,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40101,Amendoim (em casca),Temporária,2025,yield,1000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40101,Amendoim (em casca),Temporária,2025,productionValue,3000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2016,production,35,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2016,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2016,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2016,yield,2333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2016,productionValue,36000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2017,production,24,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2017,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2017,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2017,yield,2400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2017,productionValue,24000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2018,production,26,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2018,plantedOrIntendedArea,12,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2018,harvestedArea,12,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2018,yield,2167,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2018,productionValue,20000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2019,production,18,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2019,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2019,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2019,yield,2250,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2019,productionValue,14000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2020,production,12,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2020,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2020,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2020,yield,2400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2020,productionValue,14000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2021,production,12,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2021,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2021,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2021,yield,2400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2021,productionValue,20000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2022,production,8,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2022,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2022,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2022,yield,2000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2022,productionValue,12000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2023,production,7,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2023,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2023,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2023,yield,2333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2023,productionValue,11000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2024,production,4,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2024,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2024,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2024,yield,2000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2024,productionValue,10000,R$,real,,pam,215
+4127965,5457-40102,Arroz (em casca),Temporária,2025,production,5,Toneladas,real,,pam,214
+4127965,5457-40102,Arroz (em casca),Temporária,2025,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40102,Arroz (em casca),Temporária,2025,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40102,Arroz (em casca),Temporária,2025,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40102,Arroz (em casca),Temporária,2025,productionValue,8000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2016,production,900,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2016,plantedOrIntendedArea,250,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2016,harvestedArea,250,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2016,yield,3600,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2016,productionValue,359000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2017,production,1030,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2017,plantedOrIntendedArea,520,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2017,harvestedArea,520,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2017,yield,1981,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2017,productionValue,239000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2018,production,286,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2018,plantedOrIntendedArea,140,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2018,harvestedArea,130,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2018,yield,2200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2018,productionValue,79000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2019,production,480,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2019,plantedOrIntendedArea,320,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2019,harvestedArea,192,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2019,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2019,productionValue,202000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2020,production,675,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2020,plantedOrIntendedArea,270,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2020,harvestedArea,270,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2020,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2020,productionValue,402000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2021,production,531,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2021,plantedOrIntendedArea,320,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2021,harvestedArea,320,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2021,yield,1659,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2021,productionValue,447000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2022,production,755,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2022,plantedOrIntendedArea,320,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2022,harvestedArea,320,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2022,yield,2359,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2022,productionValue,939000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2023,production,700,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2023,plantedOrIntendedArea,280,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2023,harvestedArea,280,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2023,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2023,productionValue,449000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2024,production,675,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2024,plantedOrIntendedArea,270,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2024,harvestedArea,270,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2024,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2024,productionValue,510000,R$,real,,pam,215
+4127965,5457-40103,Aveia (em grão),Temporária,2025,production,629,Toneladas,real,,pam,214
+4127965,5457-40103,Aveia (em grão),Temporária,2025,plantedOrIntendedArea,300,Hectares,real,,pam,8331
+4127965,5457-40103,Aveia (em grão),Temporária,2025,harvestedArea,300,Hectares,real,,pam,216
+4127965,5457-40103,Aveia (em grão),Temporária,2025,yield,2097,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40103,Aveia (em grão),Temporária,2025,productionValue,611000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2016,production,0,Toneladas,real,-,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2016,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2016,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2016,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2016,productionValue,0,R$,real,-,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2017,production,0,Toneladas,real,-,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2017,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2017,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2017,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2017,productionValue,0,R$,real,-,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2018,production,25,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2018,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2018,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2018,yield,12500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2018,productionValue,17000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2019,production,24,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2019,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2019,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2019,yield,12000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2019,productionValue,15000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2020,production,38,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2020,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2020,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2020,yield,12667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2020,productionValue,38000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2021,production,38,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2021,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2021,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2021,yield,12667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2021,productionValue,53000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2022,production,49,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2022,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2022,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2022,yield,12250,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2022,productionValue,74000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2023,production,77,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2023,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2023,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2023,yield,15400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2023,productionValue,102000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2024,production,82,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2024,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2024,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2024,yield,16400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2024,productionValue,132000,R$,real,,pam,215
+4127965,5457-40136,Banana (cacho),Permanente,2025,production,95,Toneladas,real,,pam,214
+4127965,5457-40136,Banana (cacho),Permanente,2025,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40136,Banana (cacho),Permanente,2025,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40136,Banana (cacho),Permanente,2025,yield,15833,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40136,Banana (cacho),Permanente,2025,productionValue,151000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2016,production,374,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2016,plantedOrIntendedArea,17,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2016,harvestedArea,17,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2016,yield,22000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2016,productionValue,340000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2017,production,330,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2017,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2017,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2017,yield,22000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2017,productionValue,660000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2018,production,180,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2018,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2018,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2018,yield,18000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2018,productionValue,230000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2019,production,135,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2019,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2019,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2019,yield,16875,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2019,productionValue,169000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2020,production,150,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2020,plantedOrIntendedArea,9,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2020,harvestedArea,9,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2020,yield,16667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2020,productionValue,225000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2021,production,152,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2021,plantedOrIntendedArea,9,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2021,harvestedArea,9,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2021,yield,16889,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2021,productionValue,401000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2022,production,140,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2022,plantedOrIntendedArea,9,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2022,harvestedArea,9,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2022,yield,15556,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2022,productionValue,392000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2023,production,150,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2023,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2023,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2023,yield,15000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2023,productionValue,360000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2024,production,170,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2024,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2024,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2024,yield,15455,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2024,productionValue,357000,R$,real,,pam,215
+4127965,5457-40104,Batata-doce,Temporária,2025,production,155,Toneladas,real,,pam,214
+4127965,5457-40104,Batata-doce,Temporária,2025,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40104,Batata-doce,Temporária,2025,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40104,Batata-doce,Temporária,2025,yield,15500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40104,Batata-doce,Temporária,2025,productionValue,496000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2016,production,0,Toneladas,real,-,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2016,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2016,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2016,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2016,productionValue,0,R$,real,-,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2017,production,682,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2017,plantedOrIntendedArea,20,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2017,harvestedArea,20,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2017,yield,34100,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2017,productionValue,477000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2018,production,1292,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2018,plantedOrIntendedArea,45,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2018,harvestedArea,45,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2018,yield,28711,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2018,productionValue,1053000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2019,production,1922,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2019,plantedOrIntendedArea,65,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2019,harvestedArea,65,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2019,yield,29569,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2019,productionValue,3380000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2020,production,1767,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2020,plantedOrIntendedArea,65,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2020,harvestedArea,65,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2020,yield,27185,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2020,productionValue,2745000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2021,production,2040,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2021,plantedOrIntendedArea,70,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2021,harvestedArea,70,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2021,yield,29143,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2021,productionValue,2719000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2022,production,2215,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2022,plantedOrIntendedArea,74,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2022,harvestedArea,74,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2022,yield,29932,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2022,productionValue,4802000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2023,production,2280,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2023,plantedOrIntendedArea,80,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2023,harvestedArea,80,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2023,yield,28500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2023,productionValue,4949000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2024,production,4748,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2024,plantedOrIntendedArea,155,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2024,harvestedArea,155,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2024,yield,30632,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2024,productionValue,16156000,R$,real,,pam,215
+4127965,5457-40105,Batata-inglesa,Temporária,2025,production,5090,Toneladas,real,,pam,214
+4127965,5457-40105,Batata-inglesa,Temporária,2025,plantedOrIntendedArea,160,Hectares,real,,pam,8331
+4127965,5457-40105,Batata-inglesa,Temporária,2025,harvestedArea,160,Hectares,real,,pam,216
+4127965,5457-40105,Batata-inglesa,Temporária,2025,yield,31813,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40105,Batata-inglesa,Temporária,2025,productionValue,8014000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2016,production,156,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2016,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2016,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2016,yield,52000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2016,productionValue,10000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2017,production,156,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2017,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2017,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2017,yield,52000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2017,productionValue,11000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2018,production,159,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2018,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2018,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2018,yield,53000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2018,productionValue,10000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2019,production,156,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2019,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2019,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2019,yield,52000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2019,productionValue,10000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2020,production,156,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2020,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2020,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2020,yield,52000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2020,productionValue,11000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2021,production,156,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2021,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2021,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2021,yield,52000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2021,productionValue,17000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2022,production,160,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2022,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2022,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2022,yield,53333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2022,productionValue,18000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2023,production,204,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2023,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2023,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2023,yield,51000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2023,productionValue,24000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2024,production,156,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2024,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2024,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2024,yield,52000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2024,productionValue,20000,R$,real,,pam,215
+4127965,5457-40106,Cana-de-açúcar,Temporária,2025,production,220,Toneladas,real,,pam,214
+4127965,5457-40106,Cana-de-açúcar,Temporária,2025,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40106,Cana-de-açúcar,Temporária,2025,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40106,Cana-de-açúcar,Temporária,2025,yield,55000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40106,Cana-de-açúcar,Temporária,2025,productionValue,30000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2016,production,45,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2016,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2016,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2016,yield,15000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2016,productionValue,54000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2017,production,105,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2017,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2017,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2017,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2017,productionValue,121000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2018,production,72,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2018,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2018,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2018,yield,18000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2018,productionValue,103000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2019,production,126,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2019,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2019,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2019,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2019,productionValue,201000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2020,production,126,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2020,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2020,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2020,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2020,productionValue,201000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2021,production,126,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2021,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2021,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2021,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2021,productionValue,154000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2022,production,360,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2022,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2022,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2022,yield,36000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2022,productionValue,1066000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2023,production,350,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2023,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2023,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2023,yield,35000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2023,productionValue,906000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2024,production,200,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2024,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2024,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2024,yield,25000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2024,productionValue,637000,R$,real,,pam,215
+4127965,5457-40107,Cebola,Temporária,2025,production,264,Toneladas,real,,pam,214
+4127965,5457-40107,Cebola,Temporária,2025,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40107,Cebola,Temporária,2025,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40107,Cebola,Temporária,2025,yield,33000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40107,Cebola,Temporária,2025,productionValue,299000,R$,real,,pam,215
+4127965,5457-83391,Cenoura,Temporária,2016,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2016,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2016,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2016,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2016,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2017,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2017,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2017,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2017,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2017,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2018,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2018,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2018,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2018,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2018,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2019,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2019,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2019,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2019,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2019,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2020,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2020,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2020,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2020,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2020,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2021,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2021,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2021,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2021,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2021,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2022,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2022,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2022,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2022,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2022,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2023,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2023,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2023,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2023,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2023,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2024,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83391,Cenoura,Temporária,2024,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2024,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83391,Cenoura,Temporária,2024,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83391,Cenoura,Temporária,2024,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83391,Cenoura,Temporária,2025,production,25,Toneladas,real,,pam,214
+4127965,5457-83391,Cenoura,Temporária,2025,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-83391,Cenoura,Temporária,2025,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-83391,Cenoura,Temporária,2025,yield,12500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-83391,Cenoura,Temporária,2025,productionValue,41000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2016,production,0,Toneladas,real,-,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2016,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2016,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2016,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2016,productionValue,0,R$,real,-,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2017,production,208,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2017,plantedOrIntendedArea,130,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2017,harvestedArea,130,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2017,yield,1600,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2017,productionValue,180000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2018,production,208,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2018,plantedOrIntendedArea,130,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2018,harvestedArea,130,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2018,yield,1600,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2018,productionValue,180000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2019,production,158,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2019,plantedOrIntendedArea,110,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2019,harvestedArea,110,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2019,yield,1436,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2019,productionValue,105000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2020,production,159,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2020,plantedOrIntendedArea,110,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2020,harvestedArea,110,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2020,yield,1445,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2020,productionValue,145000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2021,production,143,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2021,plantedOrIntendedArea,110,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2021,harvestedArea,110,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2021,yield,1300,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2021,productionValue,207000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2022,production,155,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2022,plantedOrIntendedArea,95,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2022,harvestedArea,95,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2022,yield,1632,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2022,productionValue,299000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2023,production,144,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2023,plantedOrIntendedArea,80,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2023,harvestedArea,80,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2023,yield,1800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2023,productionValue,192000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2024,production,126,Toneladas,real,,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2024,plantedOrIntendedArea,70,Hectares,real,,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2024,harvestedArea,70,Hectares,real,,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2024,yield,1800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2024,productionValue,172000,R$,real,,pam,215
+4127965,5457-40108,Centeio (em grão),Temporária,2025,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-40108,Centeio (em grão),Temporária,2025,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-40108,Centeio (em grão),Temporária,2025,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-40108,Centeio (em grão),Temporária,2025,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-40108,Centeio (em grão),Temporária,2025,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2016,production,1060,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2016,plantedOrIntendedArea,200,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2016,harvestedArea,200,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2016,yield,5300,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2016,productionValue,668000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2017,production,1450,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2017,plantedOrIntendedArea,450,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2017,harvestedArea,450,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2017,yield,3222,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2017,productionValue,870000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2018,production,873,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2018,plantedOrIntendedArea,180,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2018,harvestedArea,180,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2018,yield,4850,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2018,productionValue,837000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2019,production,1499,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2019,plantedOrIntendedArea,360,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2019,harvestedArea,360,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2019,yield,4164,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2019,productionValue,1498000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2020,production,1364,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2020,plantedOrIntendedArea,310,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2020,harvestedArea,310,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2020,yield,4400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2020,productionValue,1767000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2021,production,2037,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2021,plantedOrIntendedArea,470,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2021,harvestedArea,470,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2021,yield,4334,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2021,productionValue,3392000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2022,production,2150,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2022,plantedOrIntendedArea,480,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2022,harvestedArea,480,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2022,yield,4479,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2022,productionValue,3870000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2023,production,1740,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2023,plantedOrIntendedArea,600,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2023,harvestedArea,600,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2023,yield,2900,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2023,productionValue,2532000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2024,production,2470,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2024,plantedOrIntendedArea,560,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2024,harvestedArea,560,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2024,yield,4411,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2024,productionValue,3406000,R$,real,,pam,215
+4127965,5457-40109,Cevada (em grão),Temporária,2025,production,1480,Toneladas,real,,pam,214
+4127965,5457-40109,Cevada (em grão),Temporária,2025,plantedOrIntendedArea,370,Hectares,real,,pam,8331
+4127965,5457-40109,Cevada (em grão),Temporária,2025,harvestedArea,370,Hectares,real,,pam,216
+4127965,5457-40109,Cevada (em grão),Temporária,2025,yield,4000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40109,Cevada (em grão),Temporária,2025,productionValue,1995000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2016,production,4100,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2016,plantedOrIntendedArea,370,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2016,harvestedArea,370,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2016,yield,11081,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2016,productionValue,3887000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2017,production,5300,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2017,plantedOrIntendedArea,380,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2017,harvestedArea,380,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2017,yield,13947,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2017,productionValue,4415000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2018,production,1399,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2018,plantedOrIntendedArea,380,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2018,harvestedArea,380,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2018,yield,3682,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2018,productionValue,1553000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2019,production,2640,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2019,plantedOrIntendedArea,117,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2019,harvestedArea,117,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2019,yield,22564,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2019,productionValue,3165000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2020,production,3450,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2020,plantedOrIntendedArea,150,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2020,harvestedArea,150,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2020,yield,23000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2020,productionValue,4037000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2021,production,3480,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2021,plantedOrIntendedArea,150,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2021,harvestedArea,150,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2021,yield,23200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2021,productionValue,5317000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2022,production,15700,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2022,plantedOrIntendedArea,682,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2022,harvestedArea,682,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2022,yield,23021,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2022,productionValue,24994000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2023,production,19700,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2023,plantedOrIntendedArea,852,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2023,harvestedArea,852,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2023,yield,23122,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2023,productionValue,30212000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2024,production,22600,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2024,plantedOrIntendedArea,852,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2024,harvestedArea,852,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2024,yield,26526,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2024,productionValue,31699000,R$,real,,pam,215
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2025,production,25100,Toneladas,real,,pam,214
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2025,plantedOrIntendedArea,852,Hectares,real,,pam,8331
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2025,harvestedArea,852,Hectares,real,,pam,216
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2025,yield,29460,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40147,Erva-mate (folha verde),Permanente,2025,productionValue,31701000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2016,production,850,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2016,plantedOrIntendedArea,630,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2016,harvestedArea,400,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2016,yield,2125,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2016,productionValue,2976000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2017,production,1207,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2017,plantedOrIntendedArea,660,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2017,harvestedArea,660,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2017,yield,1829,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2017,productionValue,3039000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2018,production,1119,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2018,plantedOrIntendedArea,690,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2018,harvestedArea,660,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2018,yield,1695,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2018,productionValue,2543000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2019,production,1207,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2019,plantedOrIntendedArea,680,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2019,harvestedArea,680,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2019,yield,1775,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2019,productionValue,2618000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2020,production,1103,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2020,plantedOrIntendedArea,610,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2020,harvestedArea,610,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2020,yield,1808,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2020,productionValue,4444000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2021,production,1402,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2021,plantedOrIntendedArea,720,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2021,harvestedArea,720,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2021,yield,1947,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2021,productionValue,6029000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2022,production,3765,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2022,plantedOrIntendedArea,1950,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2022,harvestedArea,1950,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2022,yield,1931,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2022,productionValue,16863000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2023,production,2364,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2023,plantedOrIntendedArea,1360,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2023,harvestedArea,1360,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2023,yield,1738,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2023,productionValue,9928000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2024,production,2805,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2024,plantedOrIntendedArea,1750,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2024,harvestedArea,1750,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2024,yield,1603,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2024,productionValue,11811000,R$,real,,pam,215
+4127965,5457-40112,Feijão (em grão),Temporária,2025,production,2923,Toneladas,real,,pam,214
+4127965,5457-40112,Feijão (em grão),Temporária,2025,plantedOrIntendedArea,2100,Hectares,real,,pam,8331
+4127965,5457-40112,Feijão (em grão),Temporária,2025,harvestedArea,2100,Hectares,real,,pam,216
+4127965,5457-40112,Feijão (em grão),Temporária,2025,yield,1392,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40112,Feijão (em grão),Temporária,2025,productionValue,7908000,R$,real,,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2016,production,22,Toneladas,real,,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2016,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2016,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2016,yield,2200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2016,productionValue,191000,R$,real,,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2017,production,35,Toneladas,real,,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2017,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2017,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2017,yield,2333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2017,productionValue,237000,R$,real,,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2018,production,0,Toneladas,real,-,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2018,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2018,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2018,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2018,productionValue,0,R$,real,-,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2019,production,33,Toneladas,real,,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2019,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2019,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2019,yield,2200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2019,productionValue,309000,R$,real,,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2020,production,33,Toneladas,real,,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2020,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2020,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2020,yield,2200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2020,productionValue,268000,R$,real,,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2021,production,38,Toneladas,real,,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2021,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2021,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2021,yield,2533,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2021,productionValue,370000,R$,real,,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2022,production,40,Toneladas,real,,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2022,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2022,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2022,yield,2667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2022,productionValue,595000,R$,real,,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2023,production,0,Toneladas,real,-,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2023,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2023,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2023,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2023,productionValue,0,R$,real,-,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2024,production,0,Toneladas,real,-,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2024,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2024,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2024,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2024,productionValue,0,R$,real,-,pam,215
+4127965,5457-40113,Fumo (em folha),Temporária,2025,production,0,Toneladas,real,-,pam,214
+4127965,5457-40113,Fumo (em folha),Temporária,2025,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40113,Fumo (em folha),Temporária,2025,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40113,Fumo (em folha),Temporária,2025,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40113,Fumo (em folha),Temporária,2025,productionValue,0,R$,real,-,pam,215
+4127965,5457-40151,Laranja,Permanente,2016,production,185,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2016,plantedOrIntendedArea,10,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2016,harvestedArea,10,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2016,yield,18500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2016,productionValue,154000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2017,production,200,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2017,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2017,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2017,yield,18182,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2017,productionValue,128000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2018,production,185,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2018,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2018,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2018,yield,16818,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2018,productionValue,247000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2019,production,190,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2019,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2019,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2019,yield,17273,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2019,productionValue,234000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2020,production,195,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2020,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2020,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2020,yield,17727,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2020,productionValue,268000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2021,production,197,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2021,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2021,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2021,yield,17909,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2021,productionValue,305000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2022,production,190,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2022,plantedOrIntendedArea,12,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2022,harvestedArea,12,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2022,yield,15833,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2022,productionValue,304000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2023,production,190,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2023,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2023,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2023,yield,17273,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2023,productionValue,167000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2024,production,165,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2024,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2024,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2024,yield,15000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2024,productionValue,241000,R$,real,,pam,215
+4127965,5457-40151,Laranja,Permanente,2025,production,180,Toneladas,real,,pam,214
+4127965,5457-40151,Laranja,Permanente,2025,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40151,Laranja,Permanente,2025,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40151,Laranja,Permanente,2025,yield,16364,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40151,Laranja,Permanente,2025,productionValue,501000,R$,real,,pam,215
+4127965,5457-40152,Limão,Permanente,2016,production,0,Toneladas,real,-,pam,214
+4127965,5457-40152,Limão,Permanente,2016,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40152,Limão,Permanente,2016,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40152,Limão,Permanente,2016,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40152,Limão,Permanente,2016,productionValue,0,R$,real,-,pam,215
+4127965,5457-40152,Limão,Permanente,2017,production,0,Toneladas,real,-,pam,214
+4127965,5457-40152,Limão,Permanente,2017,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40152,Limão,Permanente,2017,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40152,Limão,Permanente,2017,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40152,Limão,Permanente,2017,productionValue,0,R$,real,-,pam,215
+4127965,5457-40152,Limão,Permanente,2018,production,0,Toneladas,real,-,pam,214
+4127965,5457-40152,Limão,Permanente,2018,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40152,Limão,Permanente,2018,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40152,Limão,Permanente,2018,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40152,Limão,Permanente,2018,productionValue,0,R$,real,-,pam,215
+4127965,5457-40152,Limão,Permanente,2019,production,0,Toneladas,real,-,pam,214
+4127965,5457-40152,Limão,Permanente,2019,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40152,Limão,Permanente,2019,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40152,Limão,Permanente,2019,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40152,Limão,Permanente,2019,productionValue,0,R$,real,-,pam,215
+4127965,5457-40152,Limão,Permanente,2020,production,13,Toneladas,real,,pam,214
+4127965,5457-40152,Limão,Permanente,2020,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40152,Limão,Permanente,2020,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40152,Limão,Permanente,2020,yield,13000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40152,Limão,Permanente,2020,productionValue,40000,R$,real,,pam,215
+4127965,5457-40152,Limão,Permanente,2021,production,13,Toneladas,real,,pam,214
+4127965,5457-40152,Limão,Permanente,2021,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40152,Limão,Permanente,2021,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40152,Limão,Permanente,2021,yield,13000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40152,Limão,Permanente,2021,productionValue,26000,R$,real,,pam,215
+4127965,5457-40152,Limão,Permanente,2022,production,11,Toneladas,real,,pam,214
+4127965,5457-40152,Limão,Permanente,2022,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40152,Limão,Permanente,2022,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40152,Limão,Permanente,2022,yield,11000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40152,Limão,Permanente,2022,productionValue,23000,R$,real,,pam,215
+4127965,5457-40152,Limão,Permanente,2023,production,13,Toneladas,real,,pam,214
+4127965,5457-40152,Limão,Permanente,2023,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40152,Limão,Permanente,2023,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40152,Limão,Permanente,2023,yield,13000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40152,Limão,Permanente,2023,productionValue,21000,R$,real,,pam,215
+4127965,5457-40152,Limão,Permanente,2024,production,12,Toneladas,real,,pam,214
+4127965,5457-40152,Limão,Permanente,2024,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40152,Limão,Permanente,2024,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40152,Limão,Permanente,2024,yield,12000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40152,Limão,Permanente,2024,productionValue,20000,R$,real,,pam,215
+4127965,5457-40152,Limão,Permanente,2025,production,14,Toneladas,real,,pam,214
+4127965,5457-40152,Limão,Permanente,2025,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40152,Limão,Permanente,2025,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40152,Limão,Permanente,2025,yield,14000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40152,Limão,Permanente,2025,productionValue,29000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2016,production,2205,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2016,plantedOrIntendedArea,105,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2016,harvestedArea,105,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2016,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2016,productionValue,835000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2017,production,2120,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2017,plantedOrIntendedArea,106,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2017,harvestedArea,106,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2017,yield,20000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2017,productionValue,1346000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2018,production,2615,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2018,plantedOrIntendedArea,125,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2018,harvestedArea,125,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2018,yield,20920,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2018,productionValue,2484000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2019,production,2100,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2019,plantedOrIntendedArea,105,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2019,harvestedArea,105,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2019,yield,20000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2019,productionValue,1065000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2020,production,2100,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2020,plantedOrIntendedArea,120,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2020,harvestedArea,105,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2020,yield,20000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2020,productionValue,1469000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2021,production,2400,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2021,plantedOrIntendedArea,120,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2021,harvestedArea,120,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2021,yield,20000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2021,productionValue,2640000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2022,production,2600,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2022,plantedOrIntendedArea,125,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2022,harvestedArea,125,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2022,yield,20800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2022,productionValue,2127000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2023,production,2800,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2023,plantedOrIntendedArea,140,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2023,harvestedArea,140,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2023,yield,20000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2023,productionValue,2233000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2024,production,2730,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2024,plantedOrIntendedArea,130,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2024,harvestedArea,130,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2024,yield,21000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2024,productionValue,4122000,R$,real,,pam,215
+4127965,5457-40119,Mandioca,Temporária,2025,production,2780,Toneladas,real,,pam,214
+4127965,5457-40119,Mandioca,Temporária,2025,plantedOrIntendedArea,133,Hectares,real,,pam,8331
+4127965,5457-40119,Mandioca,Temporária,2025,harvestedArea,130,Hectares,real,,pam,216
+4127965,5457-40119,Mandioca,Temporária,2025,yield,21385,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40119,Mandioca,Temporária,2025,productionValue,1535000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2016,production,0,Toneladas,real,-,pam,214
+4127965,5457-40263,Maracujá,Permanente,2016,plantedOrIntendedArea,0,Hectares,real,-,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2016,harvestedArea,0,Hectares,real,-,pam,216
+4127965,5457-40263,Maracujá,Permanente,2016,yield,0,Quilogramas por Hectare,real,-,pam,112
+4127965,5457-40263,Maracujá,Permanente,2016,productionValue,0,R$,real,-,pam,215
+4127965,5457-40263,Maracujá,Permanente,2017,production,40,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2017,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2017,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2017,yield,8000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2017,productionValue,60000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2018,production,44,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2018,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2018,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2018,yield,7333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2018,productionValue,140000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2019,production,43,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2019,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2019,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2019,yield,7167,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2019,productionValue,101000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2020,production,120,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2020,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2020,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2020,yield,8000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2020,productionValue,336000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2021,production,123,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2021,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2021,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2021,yield,8200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2021,productionValue,677000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2022,production,140,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2022,plantedOrIntendedArea,12,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2022,harvestedArea,12,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2022,yield,11667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2022,productionValue,784000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2023,production,110,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2023,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2023,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2023,yield,13750,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2023,productionValue,319000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2024,production,220,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2024,plantedOrIntendedArea,15,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2024,harvestedArea,15,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2024,yield,14667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2024,productionValue,1357000,R$,real,,pam,215
+4127965,5457-40263,Maracujá,Permanente,2025,production,280,Toneladas,real,,pam,214
+4127965,5457-40263,Maracujá,Permanente,2025,plantedOrIntendedArea,18,Hectares,real,,pam,8331
+4127965,5457-40263,Maracujá,Permanente,2025,harvestedArea,18,Hectares,real,,pam,216
+4127965,5457-40263,Maracujá,Permanente,2025,yield,15556,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40263,Maracujá,Permanente,2025,productionValue,1456000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2016,production,50,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2016,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2016,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2016,yield,25000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2016,productionValue,55000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2017,production,28,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2017,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2017,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2017,yield,28000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2017,productionValue,31000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2018,production,29,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2018,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2018,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2018,yield,14500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2018,productionValue,24000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2019,production,65,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2019,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2019,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2019,yield,21667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2019,productionValue,55000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2020,production,840,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2020,plantedOrIntendedArea,30,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2020,harvestedArea,30,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2020,yield,28000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2020,productionValue,1260000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2021,production,846,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2021,plantedOrIntendedArea,30,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2021,harvestedArea,30,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2021,yield,28200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2021,productionValue,1481000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2022,production,385,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2022,plantedOrIntendedArea,30,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2022,harvestedArea,30,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2022,yield,12833,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2022,productionValue,693000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2023,production,290,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2023,plantedOrIntendedArea,9,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2023,harvestedArea,9,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2023,yield,32222,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2023,productionValue,389000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2024,production,360,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2024,plantedOrIntendedArea,11,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2024,harvestedArea,11,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2024,yield,32727,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2024,productionValue,720000,R$,real,,pam,215
+4127965,5457-40120,Melancia,Temporária,2025,production,430,Toneladas,real,,pam,214
+4127965,5457-40120,Melancia,Temporária,2025,plantedOrIntendedArea,13,Hectares,real,,pam,8331
+4127965,5457-40120,Melancia,Temporária,2025,harvestedArea,13,Hectares,real,,pam,216
+4127965,5457-40120,Melancia,Temporária,2025,yield,33077,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40120,Melancia,Temporária,2025,productionValue,925000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2016,production,18065,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2016,plantedOrIntendedArea,2450,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2016,harvestedArea,2450,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2016,yield,7373,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2016,productionValue,10153000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2017,production,29118,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2017,plantedOrIntendedArea,3310,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2017,harvestedArea,3310,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2017,yield,8797,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2017,productionValue,11947000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2018,production,20109,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2018,plantedOrIntendedArea,2370,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2018,harvestedArea,2370,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2018,yield,8485,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2018,productionValue,8700000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2019,production,19921,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2019,plantedOrIntendedArea,2683,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2019,harvestedArea,2683,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2019,yield,7425,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2019,productionValue,9897000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2020,production,20674,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2020,plantedOrIntendedArea,2280,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2020,harvestedArea,2280,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2020,yield,9068,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2020,productionValue,16300000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2021,production,19100,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2021,plantedOrIntendedArea,2800,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2021,harvestedArea,2600,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2021,yield,7346,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2021,productionValue,26263000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2022,production,23600,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2022,plantedOrIntendedArea,3225,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2022,harvestedArea,3225,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2022,yield,7318,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2022,productionValue,31514000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2023,production,27960,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2023,plantedOrIntendedArea,2900,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2023,harvestedArea,2900,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2023,yield,9641,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2023,productionValue,36623000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2024,production,20196,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2024,plantedOrIntendedArea,2360,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2024,harvestedArea,2360,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2024,yield,8558,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2024,productionValue,17395000,R$,real,,pam,215
+4127965,5457-40122,Milho (em grão),Temporária,2025,production,21801,Toneladas,real,,pam,214
+4127965,5457-40122,Milho (em grão),Temporária,2025,plantedOrIntendedArea,2160,Hectares,real,,pam,8331
+4127965,5457-40122,Milho (em grão),Temporária,2025,harvestedArea,2160,Hectares,real,,pam,216
+4127965,5457-40122,Milho (em grão),Temporária,2025,yield,10093,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40122,Milho (em grão),Temporária,2025,productionValue,20471000,R$,real,,pam,215
+4127965,5457-83394,Milho verde,Temporária,2016,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2016,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2016,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2016,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2016,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2017,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2017,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2017,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2017,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2017,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2018,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2018,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2018,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2018,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2018,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2019,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2019,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2019,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2019,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2019,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2020,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2020,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2020,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2020,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2020,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2021,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2021,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2021,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2021,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2021,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2022,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2022,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2022,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2022,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2022,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2023,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2023,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2023,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2023,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2023,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2024,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83394,Milho verde,Temporária,2024,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2024,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83394,Milho verde,Temporária,2024,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83394,Milho verde,Temporária,2024,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83394,Milho verde,Temporária,2025,production,26,Toneladas,real,,pam,214
+4127965,5457-83394,Milho verde,Temporária,2025,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-83394,Milho verde,Temporária,2025,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-83394,Milho verde,Temporária,2025,yield,13000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-83394,Milho verde,Temporária,2025,productionValue,113000,R$,real,,pam,215
+4127965,5457-83396,Morango,Temporária,2016,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2016,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2016,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2016,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2016,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2017,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2017,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2017,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2017,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2017,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2018,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2018,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2018,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2018,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2018,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2019,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2019,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2019,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2019,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2019,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2020,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2020,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2020,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2020,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2020,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2021,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2021,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2021,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2021,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2021,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2022,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2022,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2022,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2022,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2022,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2023,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2023,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2023,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2023,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2023,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2024,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83396,Morango,Temporária,2024,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83396,Morango,Temporária,2024,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83396,Morango,Temporária,2024,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83396,Morango,Temporária,2024,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83396,Morango,Temporária,2025,production,70,Toneladas,real,,pam,214
+4127965,5457-83396,Morango,Temporária,2025,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-83396,Morango,Temporária,2025,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-83396,Morango,Temporária,2025,yield,35000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-83396,Morango,Temporária,2025,productionValue,1442000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2016,production,48,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2016,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2016,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2016,yield,8000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2016,productionValue,112000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2017,production,45,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2017,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2017,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2017,yield,7500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2017,productionValue,107000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2018,production,40,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2018,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2018,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2018,yield,6667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2018,productionValue,113000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2019,production,42,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2019,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2019,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2019,yield,7000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2019,productionValue,133000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2020,production,44,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2020,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2020,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2020,yield,7333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2020,productionValue,155000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2021,production,45,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2021,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2021,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2021,yield,7500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2021,productionValue,171000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2022,production,39,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2022,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2022,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2022,yield,6500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2022,productionValue,207000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2023,production,40,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2023,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2023,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2023,yield,6667,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2023,productionValue,212000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2024,production,21,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2024,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2024,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2024,yield,4200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2024,productionValue,120000,R$,real,,pam,215
+4127965,5457-40268,Pêssego,Permanente,2025,production,33,Toneladas,real,,pam,214
+4127965,5457-40268,Pêssego,Permanente,2025,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40268,Pêssego,Permanente,2025,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40268,Pêssego,Permanente,2025,yield,8250,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40268,Pêssego,Permanente,2025,productionValue,216000,R$,real,,pam,215
+4127965,5457-83398,Repolho,Temporária,2016,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2016,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2016,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2016,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2016,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2017,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2017,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2017,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2017,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2017,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2018,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2018,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2018,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2018,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2018,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2019,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2019,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2019,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2019,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2019,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2020,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2020,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2020,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2020,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2020,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2021,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2021,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2021,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2021,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2021,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2022,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2022,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2022,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2022,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2022,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2023,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2023,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2023,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2023,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2023,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2024,production,,Toneladas,unavailable,...,pam,214
+4127965,5457-83398,Repolho,Temporária,2024,plantedOrIntendedArea,,Hectares,unavailable,...,pam,8331
+4127965,5457-83398,Repolho,Temporária,2024,harvestedArea,,Hectares,unavailable,...,pam,216
+4127965,5457-83398,Repolho,Temporária,2024,yield,,Quilogramas por Hectare,unavailable,...,pam,112
+4127965,5457-83398,Repolho,Temporária,2024,productionValue,,R$,unavailable,...,pam,215
+4127965,5457-83398,Repolho,Temporária,2025,production,300,Toneladas,real,,pam,214
+4127965,5457-83398,Repolho,Temporária,2025,plantedOrIntendedArea,12,Hectares,real,,pam,8331
+4127965,5457-83398,Repolho,Temporária,2025,harvestedArea,12,Hectares,real,,pam,216
+4127965,5457-83398,Repolho,Temporária,2025,yield,25000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-83398,Repolho,Temporária,2025,productionValue,267000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2016,production,43645,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2016,plantedOrIntendedArea,13650,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2016,harvestedArea,13650,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2016,yield,3197,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2016,productionValue,50622000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2017,production,53505,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2017,plantedOrIntendedArea,14500,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2017,harvestedArea,14500,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2017,yield,3690,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2017,productionValue,54940000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2018,production,54950,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2018,plantedOrIntendedArea,15700,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2018,harvestedArea,15700,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2018,yield,3500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2018,productionValue,60885000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2019,production,52289,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2019,plantedOrIntendedArea,15470,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2019,harvestedArea,15470,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2019,yield,3380,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2019,productionValue,59606000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2020,production,63121,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2020,plantedOrIntendedArea,15980,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2020,harvestedArea,15980,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2020,yield,3950,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2020,productionValue,110861000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2021,production,60800,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2021,plantedOrIntendedArea,16000,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2021,harvestedArea,16000,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2021,yield,3800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2021,productionValue,156864000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2022,production,53500,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2022,plantedOrIntendedArea,16400,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2022,harvestedArea,16400,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2022,yield,3262,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2022,productionValue,154080000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2023,production,63360,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2023,plantedOrIntendedArea,16270,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2023,harvestedArea,16270,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2023,yield,3894,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2023,productionValue,141715000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2024,production,64220,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2024,plantedOrIntendedArea,16900,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2024,harvestedArea,16900,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2024,yield,3800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2024,productionValue,126899000,R$,real,,pam,215
+4127965,5457-40124,Soja (em grão),Temporária,2025,production,70297,Toneladas,real,,pam,214
+4127965,5457-40124,Soja (em grão),Temporária,2025,plantedOrIntendedArea,16870,Hectares,real,,pam,8331
+4127965,5457-40124,Soja (em grão),Temporária,2025,harvestedArea,16870,Hectares,real,,pam,216
+4127965,5457-40124,Soja (em grão),Temporária,2025,yield,4167,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40124,Soja (em grão),Temporária,2025,productionValue,139258000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2016,production,17,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2016,plantedOrIntendedArea,1,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2016,harvestedArea,1,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2016,yield,17000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2016,productionValue,22000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2017,production,31,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2017,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2017,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2017,yield,15500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2017,productionValue,41000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2018,production,28,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2018,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2018,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2018,yield,14000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2018,productionValue,19000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2019,production,26,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2019,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2019,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2019,yield,13000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2019,productionValue,20000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2020,production,27,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2020,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2020,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2020,yield,13500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2020,productionValue,38000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2021,production,27,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2021,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2021,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2021,yield,13500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2021,productionValue,29000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2022,production,37,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2022,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2022,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2022,yield,12333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2022,productionValue,48000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2023,production,34,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2023,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2023,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2023,yield,17000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2023,productionValue,63000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2024,production,32,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2024,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2024,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2024,yield,16000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2024,productionValue,53000,R$,real,,pam,215
+4127965,5457-40271,Tangerina,Permanente,2025,production,55,Toneladas,real,,pam,214
+4127965,5457-40271,Tangerina,Permanente,2025,plantedOrIntendedArea,3,Hectares,real,,pam,8331
+4127965,5457-40271,Tangerina,Permanente,2025,harvestedArea,3,Hectares,real,,pam,216
+4127965,5457-40271,Tangerina,Permanente,2025,yield,18333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40271,Tangerina,Permanente,2025,productionValue,123000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2016,production,100,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2016,plantedOrIntendedArea,2,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2016,harvestedArea,2,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2016,yield,50000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2016,productionValue,214000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2017,production,522,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2017,plantedOrIntendedArea,9,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2017,harvestedArea,9,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2017,yield,58000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2017,productionValue,785000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2018,production,192,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2018,plantedOrIntendedArea,5,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2018,harvestedArea,5,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2018,yield,38400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2018,productionValue,678000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2019,production,678,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2019,plantedOrIntendedArea,14,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2019,harvestedArea,14,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2019,yield,48429,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2019,productionValue,1975000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2020,production,488,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2020,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2020,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2020,yield,61000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2020,productionValue,1154000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2021,production,232,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2021,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2021,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2021,yield,58000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2021,productionValue,690000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2022,production,190,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2022,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2022,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2022,yield,47500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2022,productionValue,714000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2023,production,320,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2023,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2023,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2023,yield,53333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2023,productionValue,1289000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2024,production,208,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2024,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2024,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2024,yield,52000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2024,productionValue,675000,R$,real,,pam,215
+4127965,5457-40126,Tomate,Temporária,2025,production,236,Toneladas,real,,pam,214
+4127965,5457-40126,Tomate,Temporária,2025,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40126,Tomate,Temporária,2025,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40126,Tomate,Temporária,2025,yield,59000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40126,Tomate,Temporária,2025,productionValue,730000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2016,production,4620,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2016,plantedOrIntendedArea,1320,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2016,harvestedArea,1320,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2016,yield,3500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2016,productionValue,3049000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2017,production,2209,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2017,plantedOrIntendedArea,1100,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2017,harvestedArea,1100,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2017,yield,2008,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2017,productionValue,1222000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2018,production,3080,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2018,plantedOrIntendedArea,1100,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2018,harvestedArea,1100,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2018,yield,2800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2018,productionValue,2350000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2019,production,2492,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2019,plantedOrIntendedArea,890,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2019,harvestedArea,890,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2019,yield,2800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2019,productionValue,1859000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2020,production,5580,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2020,plantedOrIntendedArea,1800,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2020,harvestedArea,1800,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2020,yield,3100,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2020,productionValue,5567000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2021,production,7182,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2021,plantedOrIntendedArea,2100,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2021,harvestedArea,2100,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2021,yield,3420,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2021,productionValue,9969000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2022,production,8000,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2022,plantedOrIntendedArea,2400,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2022,harvestedArea,2400,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2022,yield,3333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2022,productionValue,12640000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2023,production,5500,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2023,plantedOrIntendedArea,2250,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2023,harvestedArea,2200,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2023,yield,2500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2023,productionValue,6441000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2024,production,3472,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2024,plantedOrIntendedArea,1240,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2024,harvestedArea,1240,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2024,yield,2800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2024,productionValue,4096000,R$,real,,pam,215
+4127965,5457-40127,Trigo (em grão),Temporária,2025,production,3701,Toneladas,real,,pam,214
+4127965,5457-40127,Trigo (em grão),Temporária,2025,plantedOrIntendedArea,1240,Hectares,real,,pam,8331
+4127965,5457-40127,Trigo (em grão),Temporária,2025,harvestedArea,1240,Hectares,real,,pam,216
+4127965,5457-40127,Trigo (em grão),Temporária,2025,yield,2985,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40127,Trigo (em grão),Temporária,2025,productionValue,4508000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2016,production,175,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2016,plantedOrIntendedArea,50,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2016,harvestedArea,50,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2016,yield,3500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2016,productionValue,66000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2017,production,60,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2017,plantedOrIntendedArea,25,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2017,harvestedArea,25,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2017,yield,2400,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2017,productionValue,19000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2018,production,105,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2018,plantedOrIntendedArea,30,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2018,harvestedArea,30,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2018,yield,3500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2018,productionValue,62000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2019,production,459,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2019,plantedOrIntendedArea,120,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2019,harvestedArea,120,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2019,yield,3825,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2019,productionValue,271000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2020,production,350,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2020,plantedOrIntendedArea,120,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2020,harvestedArea,120,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2020,yield,2917,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2020,productionValue,364000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2021,production,280,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2021,plantedOrIntendedArea,120,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2021,harvestedArea,120,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2021,yield,2333,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2021,productionValue,318000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2022,production,190,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2022,plantedOrIntendedArea,52,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2022,harvestedArea,52,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2022,yield,3654,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2022,productionValue,255000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2023,production,644,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2023,plantedOrIntendedArea,230,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2023,harvestedArea,230,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2023,yield,2800,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2023,productionValue,713000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2024,production,640,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2024,plantedOrIntendedArea,200,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2024,harvestedArea,200,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2024,yield,3200,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2024,productionValue,713000,R$,real,,pam,215
+4127965,5457-40128,Triticale (em grão),Temporária,2025,production,151,Toneladas,real,,pam,214
+4127965,5457-40128,Triticale (em grão),Temporária,2025,plantedOrIntendedArea,50,Hectares,real,,pam,8331
+4127965,5457-40128,Triticale (em grão),Temporária,2025,harvestedArea,50,Hectares,real,,pam,216
+4127965,5457-40128,Triticale (em grão),Temporária,2025,yield,3020,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40128,Triticale (em grão),Temporária,2025,productionValue,141000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2016,production,59,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2016,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2016,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2016,yield,7375,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2016,productionValue,188000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2017,production,62,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2017,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2017,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2017,yield,7750,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2017,productionValue,186000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2018,production,54,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2018,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2018,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2018,yield,6750,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2018,productionValue,196000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2019,production,58,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2019,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2019,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2019,yield,7250,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2019,productionValue,248000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2020,production,60,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2020,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2020,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2020,yield,7500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2020,productionValue,326000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2021,production,62,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2021,plantedOrIntendedArea,8,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2021,harvestedArea,8,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2021,yield,7750,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2021,productionValue,407000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2022,production,61,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2022,plantedOrIntendedArea,7,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2022,harvestedArea,7,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2022,yield,8714,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2022,productionValue,406000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2023,production,48,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2023,plantedOrIntendedArea,6,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2023,harvestedArea,6,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2023,yield,8000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2023,productionValue,343000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2024,production,34,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2024,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2024,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2024,yield,8500,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2024,productionValue,324000,R$,real,,pam,215
+4127965,5457-40274,Uva,Permanente,2025,production,36,Toneladas,real,,pam,214
+4127965,5457-40274,Uva,Permanente,2025,plantedOrIntendedArea,4,Hectares,real,,pam,8331
+4127965,5457-40274,Uva,Permanente,2025,harvestedArea,4,Hectares,real,,pam,216
+4127965,5457-40274,Uva,Permanente,2025,yield,9000,Quilogramas por Hectare,real,,pam,112
+4127965,5457-40274,Uva,Permanente,2025,productionValue,334000,R$,real,,pam,215

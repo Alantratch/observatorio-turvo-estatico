@@ -1,0 +1,341 @@
+municipalityCode,productId,product,kind,reference,metric,value,unit,status,rawSymbol,sourceId,variableId
+4127965,289-3402,1 - Alimentícios,,2016,production,4300,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2016,productionValue,5016000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2017,production,4350,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2017,productionValue,5453000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2018,production,4750,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2018,productionValue,6088000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2019,production,6413,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2019,productionValue,7524000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2020,production,8310,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2020,productionValue,12180000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2021,production,14120,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2021,productionValue,21916000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2022,production,271,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2022,productionValue,1054000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2023,production,340,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2023,productionValue,2210000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2024,production,440,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2024,productionValue,3520000,R$,real,,extraction,145
+4127965,289-3402,1 - Alimentícios,,2025,production,311,Toneladas,real,,extraction,144
+4127965,289-3402,1 - Alimentícios,,2025,productionValue,3110000,R$,real,,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2016,production,4100,Toneladas,real,,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2016,productionValue,4510000,R$,real,,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2017,production,4050,Toneladas,real,,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2017,productionValue,4658000,R$,real,,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2018,production,4500,Toneladas,real,,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2018,productionValue,5400000,R$,real,,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2019,production,6160,Toneladas,real,,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2019,productionValue,6838000,R$,real,,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2020,production,8050,Toneladas,real,,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2020,productionValue,11270000,R$,real,,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2021,production,13800,Toneladas,real,,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2021,productionValue,20700000,R$,real,,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2022,production,0,Toneladas,real,-,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2022,productionValue,0,R$,real,-,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2023,production,0,Toneladas,real,-,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2023,productionValue,0,R$,real,-,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2024,production,0,Toneladas,real,-,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2024,productionValue,0,R$,real,-,extraction,145
+4127965,289-3406,1.8 - Erva-mate,,2025,production,0,Toneladas,real,-,extraction,144
+4127965,289-3406,1.8 - Erva-mate,,2025,productionValue,0,R$,real,-,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2016,production,200,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2016,productionValue,506000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2017,production,300,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2017,productionValue,795000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2018,production,250,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2018,productionValue,688000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2019,production,253,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2019,productionValue,687000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2020,production,260,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2020,productionValue,910000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2021,production,320,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2021,productionValue,1216000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2022,production,271,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2022,productionValue,1054000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2023,production,340,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2023,productionValue,2210000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2024,production,440,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2024,productionValue,3520000,R$,real,,extraction,145
+4127965,289-3409,1.14 - Pinhão,,2025,production,311,Toneladas,real,,extraction,144
+4127965,289-3409,1.14 - Pinhão,,2025,productionValue,3110000,R$,real,,extraction,145
+4127965,289-3434,7.2 - Lenha,,2016,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2016,productionValue,0,R$,real,-,extraction,145
+4127965,289-3434,7.2 - Lenha,,2017,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2017,productionValue,0,R$,real,-,extraction,145
+4127965,289-3434,7.2 - Lenha,,2018,production,8000,Metros cúbicos,real,,extraction,144
+4127965,289-3434,7.2 - Lenha,,2018,productionValue,256000,R$,real,,extraction,145
+4127965,289-3434,7.2 - Lenha,,2019,production,7840,Metros cúbicos,real,,extraction,144
+4127965,289-3434,7.2 - Lenha,,2019,productionValue,236000,R$,real,,extraction,145
+4127965,289-3434,7.2 - Lenha,,2020,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2020,productionValue,0,R$,real,-,extraction,145
+4127965,289-3434,7.2 - Lenha,,2021,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2021,productionValue,0,R$,real,-,extraction,145
+4127965,289-3434,7.2 - Lenha,,2022,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2022,productionValue,0,R$,real,-,extraction,145
+4127965,289-3434,7.2 - Lenha,,2023,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2023,productionValue,0,R$,real,-,extraction,145
+4127965,289-3434,7.2 - Lenha,,2024,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2024,productionValue,0,R$,real,-,extraction,145
+4127965,289-3434,7.2 - Lenha,,2025,production,0,Metros cúbicos,real,-,extraction,144
+4127965,289-3434,7.2 - Lenha,,2025,productionValue,0,R$,real,-,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2016,production,15600,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2016,productionValue,3136000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2017,production,14000,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2017,productionValue,2870000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2018,production,1800,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2018,productionValue,468000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2019,production,1758,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2019,productionValue,443000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2020,production,2600,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2020,productionValue,676000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2021,production,3800,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2021,productionValue,1064000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2022,production,4200,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2022,productionValue,1214000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2023,production,4000,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2023,productionValue,1180000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2024,production,4100,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2024,productionValue,1423000,R$,real,,extraction,145
+4127965,289-3435,7.3 - Madeira em tora,,2025,production,3300,Metros cúbicos,real,,extraction,144
+4127965,289-3435,7.3 - Madeira em tora,,2025,productionValue,2049000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2016,production,1200,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2016,productionValue,180000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2017,production,500,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2017,productionValue,78000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2018,production,480,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2018,productionValue,82000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2019,production,468,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2019,productionValue,79000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2020,production,300,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2020,productionValue,54000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2021,production,380,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2021,productionValue,72000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2022,production,400,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2022,productionValue,80000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2023,production,350,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2023,productionValue,71000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2024,production,380,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2024,productionValue,94000,R$,real,,extraction,145
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2025,production,340,Metros cúbicos,real,,extraction,144
+4127965,289-3448,9.1 - Pinheiro brasileiro (nó de pinho),,2025,productionValue,280000,R$,real,,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2016,production,0,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2016,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2017,production,0,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2017,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2018,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2018,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2019,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2019,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2020,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2020,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2021,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2021,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2022,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2022,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2023,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2023,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2024,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2024,productionValue,0,R$,real,-,extraction,145
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2025,production,1,Mil árvores,real,,extraction,144
+4127965,289-3449,9.2 - Pinheiro brasileiro (árvores abatidas),,2025,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2016,production,700,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2016,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2017,production,1000,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2017,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2018,production,1800,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2018,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2019,production,1674,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2019,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2020,production,2600,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2020,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2021,production,3800,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2021,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2022,production,4200,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2022,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2023,production,4000,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2023,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2024,production,4100,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2024,productionValue,0,R$,real,-,extraction,145
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2025,production,3300,Metros cúbicos,real,,extraction,144
+4127965,289-3450,9.3 - Pinheiro brasileiro (madeira em tora),,2025,productionValue,0,R$,real,-,extraction,145
+4127965,291-3456,1.2 - Lenha,,2016,production,66000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2016,productionValue,1650000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2017,production,16050,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2017,productionValue,414000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2018,production,72000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2018,productionValue,2376000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2019,production,70560,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2019,productionValue,2117000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2020,production,60000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2020,productionValue,2460000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2021,production,75000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2021,productionValue,3225000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2022,production,78000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2022,productionValue,3510000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2023,production,72000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2023,productionValue,3960000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2024,production,70000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2024,productionValue,3885000,R$,real,,silviculture,143
+4127965,291-3456,1.2 - Lenha,,2025,production,65000,Metros cúbicos,real,,silviculture,142
+4127965,291-3456,1.2 - Lenha,,2025,productionValue,3949000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2016,production,62400,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2016,productionValue,1571000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2017,production,12600,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2017,productionValue,328000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2018,production,72000,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2018,productionValue,2376000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2019,production,70560,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2019,productionValue,2117000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2020,production,60000,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2020,productionValue,2460000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2021,production,75000,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2021,productionValue,3225000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2022,production,78000,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2022,productionValue,3510000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2023,production,72000,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2023,productionValue,3960000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2024,production,70000,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2024,productionValue,3885000,R$,real,,silviculture,143
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2025,production,65000,Metros cúbicos,real,,silviculture,142
+4127965,291-33250,1.2.3 - Lenha de eucalipto,,2025,productionValue,3949000,R$,real,,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2016,production,3600,Metros cúbicos,real,,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2016,productionValue,79000,R$,real,,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2017,production,3450,Metros cúbicos,real,,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2017,productionValue,86000,R$,real,,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2018,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2018,productionValue,0,R$,real,-,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2019,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2019,productionValue,0,R$,real,-,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2020,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2020,productionValue,0,R$,real,-,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2021,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2021,productionValue,0,R$,real,-,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2022,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2022,productionValue,0,R$,real,-,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2023,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2023,productionValue,0,R$,real,-,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2024,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2024,productionValue,0,R$,real,-,silviculture,143
+4127965,291-33251,1.2.5 - Lenha de pinus,,2025,production,0,Metros cúbicos,real,-,silviculture,142
+4127965,291-33251,1.2.5 - Lenha de pinus,,2025,productionValue,0,R$,real,-,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2016,production,260100,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2016,productionValue,22207000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2017,production,115000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2017,productionValue,9770000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2018,production,274000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2018,productionValue,22720000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2019,production,268038,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2019,productionValue,21549000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2020,production,179000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2020,productionValue,15972000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2021,production,182000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2021,productionValue,16237000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2022,production,247000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2022,productionValue,24737000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2023,production,231000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2023,productionValue,26514000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2024,production,303000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2024,productionValue,42150000,R$,real,,silviculture,143
+4127965,291-3457,1.3 - Madeira em tora,,2025,production,302000,Metros cúbicos,real,,silviculture,142
+4127965,291-3457,1.3 - Madeira em tora,,2025,productionValue,46703000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2016,production,70000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2016,productionValue,3780000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2017,production,40000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2017,productionValue,2240000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2018,production,134000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2018,productionValue,8040000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2019,production,130918,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2019,productionValue,8392000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2020,production,90000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2020,productionValue,6480000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2021,production,114000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2021,productionValue,8892000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2022,production,106000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2022,productionValue,8692000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2023,production,45000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2023,productionValue,4194000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2024,production,20000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2024,productionValue,2000000,R$,real,,silviculture,143
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2025,production,14000,Metros cúbicos,real,,silviculture,142
+4127965,291-3458,1.3.1 - Madeira em tora para papel e celulose,,2025,productionValue,3500000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2016,production,70000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2016,productionValue,3780000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2017,production,40000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2017,productionValue,2240000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2018,production,134000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2018,productionValue,8040000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2019,production,130918,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2019,productionValue,8392000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2020,production,90000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2020,productionValue,6480000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2021,production,114000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2021,productionValue,8892000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2022,production,106000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2022,productionValue,8692000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2023,production,45000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2023,productionValue,4194000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2024,production,20000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2024,productionValue,2000000,R$,real,,silviculture,143
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2025,production,14000,Metros cúbicos,real,,silviculture,142
+4127965,291-33254,1.3.1.5 - Madeira em tora de pinus para papel e celulose,,2025,productionValue,3500000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2016,production,190100,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2016,productionValue,18427000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2017,production,75000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2017,productionValue,7530000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2018,production,140000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2018,productionValue,14680000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2019,production,137120,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2019,productionValue,13157000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2020,production,89000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2020,productionValue,9492000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2021,production,68000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2021,productionValue,7345000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2022,production,141000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2022,productionValue,16045000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2023,production,186000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2023,productionValue,22320000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2024,production,283000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2024,productionValue,40150000,R$,real,,silviculture,143
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2025,production,288000,Metros cúbicos,real,,silviculture,142
+4127965,291-3459,1.3.2 - Madeira em tora para outras finalidades,,2025,productionValue,43203000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2016,production,2100,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2016,productionValue,191000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2017,production,15000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2017,productionValue,1410000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2018,production,20000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2018,productionValue,1960000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2019,production,19520,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2019,productionValue,1738000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2020,production,10000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2020,productionValue,960000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2021,production,15000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2021,productionValue,1515000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2022,production,17000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2022,productionValue,1785000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2023,production,16000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2023,productionValue,1920000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2024,production,18000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2024,productionValue,2520000,R$,real,,silviculture,143
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2025,production,14000,Metros cúbicos,real,,silviculture,142
+4127965,291-33256,1.3.2.3 - Madeira em tora de eucalipto para outras finalidades,,2025,productionValue,2103000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2016,production,188000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2016,productionValue,18236000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2017,production,60000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2017,productionValue,6120000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2018,production,120000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2018,productionValue,12720000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2019,production,117600,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2019,productionValue,11419000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2020,production,79000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2020,productionValue,8532000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2021,production,53000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2021,productionValue,5830000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2022,production,124000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2022,productionValue,14260000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2023,production,170000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2023,productionValue,20400000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2024,production,265000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2024,productionValue,37630000,R$,real,,silviculture,143
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2025,production,274000,Metros cúbicos,real,,silviculture,142
+4127965,291-33257,1.3.2.5 - Madeira em tora de pinus para outras finalidades,,2025,productionValue,41100000,R$,real,,silviculture,143

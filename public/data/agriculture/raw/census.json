@@ -1,0 +1,980 @@
+{
+  "metadata": {
+    "id": 6754,
+    "nome": "Número de estabelecimentos agropecuários e Área dos estabelecimentos agropecuários, por tipologia, condição legal das terras, grupos de atividade econômica e grupos de área total",
+    "URL": "https://sidra.ibge.gov.br/tabela/6754",
+    "pesquisa": "Censo Agropecuário",
+    "assunto": "Características dos produtores agropecuários ",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2017,
+      "fim": 2017
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N8",
+        "N9",
+        "N6",
+        "N3"
+      ],
+      "Especial": [
+        "N132",
+        "N133"
+      ],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 183,
+        "nome": "Número de estabelecimentos agropecuários",
+        "unidade": "Unidades",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 184,
+        "nome": "Área dos estabelecimentos agropecuários",
+        "unidade": "Hectares",
+        "sumarizacao": [
+          "nivelTerritorial"
+        ]
+      }
+    ],
+    "classificacoes": [
+      {
+        "id": 829,
+        "nome": "Tipologia",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 46302,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 46303,
+            "nome": "Agricultura familiar - não",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 46304,
+            "nome": "Agricultura familiar - sim",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 46305,
+            "nome": "Agricultura familiar - Pronaf B",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 46306,
+            "nome": "Agricultura familiar - Pronaf V",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 46307,
+            "nome": "Agricultura familiar - não pronafiano",
+            "unidade": null,
+            "nivel": 2
+          },
+          {
+            "id": 46422,
+            "nome": "Pronamp - sim",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 46423,
+            "nome": "Pronamp - não",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      },
+      {
+        "id": 221,
+        "nome": "Condição legal das terras",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 111195,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 111134,
+            "nome": "Próprias",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111135,
+            "nome": "Concedidas por órgão fundiário ainda sem titulação definitiva",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111136,
+            "nome": "Arrendadas",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111137,
+            "nome": "Em parceria",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 41157,
+            "nome": "Em regime de comodato",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111138,
+            "nome": "Ocupadas",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      },
+      {
+        "id": 12517,
+        "nome": "Grupos de atividade econômica",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 113601,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 111519,
+            "nome": "Produção de lavouras temporárias",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111520,
+            "nome": "Horticultura e floricultura",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111521,
+            "nome": "Produção de lavouras permanentes",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111522,
+            "nome": "Produção de sementes e mudas certificadas",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111523,
+            "nome": "Pecuária e criação de outros animais",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111524,
+            "nome": "Produção florestal - florestas plantadas",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111525,
+            "nome": "Produção florestal - florestas nativas",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 114349,
+            "nome": "Pesca",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111526,
+            "nome": "Aquicultura",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      },
+      {
+        "id": 220,
+        "nome": "Grupos de área total",
+        "sumarizacao": {
+          "status": true,
+          "excecao": []
+        },
+        "categorias": [
+          {
+            "id": 110085,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 111543,
+            "nome": "Mais de 0 a menos de 0,1 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111544,
+            "nome": "De 0,1 a menos de 0,2 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111545,
+            "nome": "De 0,2 a menos de 0,5 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111546,
+            "nome": "De 0,5 a menos de 1 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111547,
+            "nome": "De 1 a menos de 2 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111548,
+            "nome": "De 2 a menos de 3 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111549,
+            "nome": "De 3 a menos de 4 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111550,
+            "nome": "De 4 a menos de 5 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111551,
+            "nome": "De 5 a menos de 10 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111552,
+            "nome": "De 10 a menos de 20 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111553,
+            "nome": "De 20 a menos de 50 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111554,
+            "nome": "De 50 a menos de 100 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111555,
+            "nome": "De 100 a menos de 200 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111556,
+            "nome": "De 200 a menos de 500 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111557,
+            "nome": "De 500 a menos de 1.000 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111558,
+            "nome": "De 1.000 a menos de 2.500 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 41139,
+            "nome": "De 2.500 a menos de 10.000 ha",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 40645,
+            "nome": "De 10.000 ha e mais",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 111560,
+            "nome": "Produtor sem área",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2017",
+      "literals": [
+        "2017"
+      ],
+      "modificacao": "06/08/2020"
+    }
+  ],
+  "response": [
+    {
+      "id": "183",
+      "variavel": "Número de estabelecimentos agropecuários",
+      "unidade": "Unidades",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "829",
+              "nome": "Tipologia",
+              "categoria": {
+                "46302": "Total"
+              }
+            },
+            {
+              "id": "221",
+              "nome": "Condição legal das terras",
+              "categoria": {
+                "111195": "Total"
+              }
+            },
+            {
+              "id": "12517",
+              "nome": "Grupos de atividade econômica",
+              "categoria": {
+                "113601": "Total"
+              }
+            },
+            {
+              "id": "220",
+              "nome": "Grupos de área total",
+              "categoria": {
+                "110085": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2017": "1219"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2017": "2134"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2017": "3008"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2017": "814"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2017": "305154"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "829",
+              "nome": "Tipologia",
+              "categoria": {
+                "46303": "Agricultura familiar - não"
+              }
+            },
+            {
+              "id": "221",
+              "nome": "Condição legal das terras",
+              "categoria": {
+                "111195": "Total"
+              }
+            },
+            {
+              "id": "12517",
+              "nome": "Grupos de atividade econômica",
+              "categoria": {
+                "113601": "Total"
+              }
+            },
+            {
+              "id": "220",
+              "nome": "Grupos de área total",
+              "categoria": {
+                "110085": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2017": "360"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2017": "837"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2017": "676"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2017": "123"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2017": "76266"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "829",
+              "nome": "Tipologia",
+              "categoria": {
+                "46304": "Agricultura familiar - sim"
+              }
+            },
+            {
+              "id": "221",
+              "nome": "Condição legal das terras",
+              "categoria": {
+                "111195": "Total"
+              }
+            },
+            {
+              "id": "12517",
+              "nome": "Grupos de atividade econômica",
+              "categoria": {
+                "113601": "Total"
+              }
+            },
+            {
+              "id": "220",
+              "nome": "Grupos de área total",
+              "categoria": {
+                "110085": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2017": "859"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2017": "1297"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2017": "2332"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2017": "691"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2017": "228888"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "variavel": "Área dos estabelecimentos agropecuários",
+      "unidade": "Hectares",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "829",
+              "nome": "Tipologia",
+              "categoria": {
+                "46302": "Total"
+              }
+            },
+            {
+              "id": "221",
+              "nome": "Condição legal das terras",
+              "categoria": {
+                "111195": "Total"
+              }
+            },
+            {
+              "id": "12517",
+              "nome": "Grupos de atividade econômica",
+              "categoria": {
+                "113601": "Total"
+              }
+            },
+            {
+              "id": "220",
+              "nome": "Grupos de área total",
+              "categoria": {
+                "110085": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2017": "52113"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2017": "207561"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2017": "130423"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2017": "48535"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2017": "14741967"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "829",
+              "nome": "Tipologia",
+              "categoria": {
+                "46303": "Agricultura familiar - não"
+              }
+            },
+            {
+              "id": "221",
+              "nome": "Condição legal das terras",
+              "categoria": {
+                "111195": "Total"
+              }
+            },
+            {
+              "id": "12517",
+              "nome": "Grupos de atividade econômica",
+              "categoria": {
+                "113601": "Total"
+              }
+            },
+            {
+              "id": "220",
+              "nome": "Grupos de área total",
+              "categoria": {
+                "110085": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2017": "40479"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2017": "181413"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2017": "90940"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2017": "36178"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2017": "11182128"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "829",
+              "nome": "Tipologia",
+              "categoria": {
+                "46304": "Agricultura familiar - sim"
+              }
+            },
+            {
+              "id": "221",
+              "nome": "Condição legal das terras",
+              "categoria": {
+                "111195": "Total"
+              }
+            },
+            {
+              "id": "12517",
+              "nome": "Grupos de atividade econômica",
+              "categoria": {
+                "113601": "Total"
+              }
+            },
+            {
+              "id": "220",
+              "nome": "Grupos de área total",
+              "categoria": {
+                "110085": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2017": "11634"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2017": "26148"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2017": "39483"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2017": "12357"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2017": "3559838"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6754/periodos/2017/variaveis/183%7C184?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=829%5B46302%2C46303%2C46304%5D%7C221%5B111195%5D%7C12517%5B113601%5D%7C220%5B110085%5D",
+  "collectedAt": "2026-10-07T11:59:51.319170+00:00"
+}

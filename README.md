@@ -100,6 +100,17 @@ python3 scripts/etl.py --module health --offline
 
 Ativação mensal preparada em [health.yml](docs/github-actions/health.yml), seguindo a limitação de permissão de workflows já documentada. Nenhuma nova dependência ou serviço pago.
 
+## Agropecuária: PAM, PPM, PEVS e Censo
+
+Página própria com 32 culturas de Turvo em 2025, séries 2016–2025, rankings por valor/área/quantidade/rendimento, rebanhos, leite/ovos/mel/lã, aquicultura, extração vegetal, silvicultura e Censo Agropecuário 2017. Há comparações com Guarapuava, Pitanga, Laranjal e Paraná, filtros, tabelas acessíveis, downloads e respostas oficiais para auditoria. **Não há mock neste módulo.** Cultivo e extração de erva-mate permanecem separados; valor da produção não é PIB/VAB, e unidades físicas não são misturadas.
+
+```sh
+python3 scripts/etl.py --module agriculture
+python3 scripts/etl.py --module agriculture --offline
+```
+
+A rotina explicitamente mensal verifica os dez períodos para aceitar revisões; arquivos idênticos não geram mudanças. Falhas preservam a entrega anterior. Veja [Agropecuária](docs/modulos/agropecuaria.md) para tabelas/variáveis, unidades especiais, resultados, arquivos, fórmulas, sigilo e TODOs. [Workflow mensal preparado](docs/github-actions/agriculture.yml), com a mesma limitação de escrita de workflows já documentada. Site estático, nenhum serviço ou dependência adicional.
+
 ## Atualizar os dados
 
 ```sh
@@ -112,7 +123,7 @@ O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, L
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
-Dados em Finanças, Contratações e Agropecuária são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
+Dados em Finanças e Contratações são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
 
 ## Módulos
 
@@ -126,7 +137,7 @@ Dados em Finanças, Contratações e Agropecuária são explicitamente **fictíc
 | Saúde | CNES/DATASUS real | Rede, UBS, SUS ambulatorial, leitos, mapa, comparação; equipes/cobertura pendentes |
 | Finanças Públicas | Demo SICONFI | DCA/RREO/RGF normalizados |
 | Contratações / PNCP | Demo | Coleta paginada e filtro municipal validado |
-| Agropecuária | Demo PAM | PAM/PPM, produtos e unidades |
+| Agropecuária | PAM/PPM/PEVS reais, história, comparações, Censo 2017 e downloads | Uso das terras/condição do produtor no Censo e ranking estadual |
 | Comparador Municipal | Comparação SIDRA de três municípios | Seleção ampliada, taxas comparáveis |
 | Catálogo de Dados | Busca, metadados, download JSON | CSV, dicionário e séries por fonte |
 | Sobre / Metodologia | Conceitos, atualização e limites | Registro de revisões metodológicas |
@@ -143,6 +154,7 @@ src/
   modules/population/       # Página, gráficos, metadados e schema de População
   modules/economy/          # Página e gráficos próprios, comparação e metodologia
   modules/employment/       # RAIS/CAGED separados, gráficos, tabelas e metodologia
+  modules/agriculture/      # Culturas, pecuária, florestas, Censo e comparador
   modules/education/        # Censo/avaliações/redes/escolas/infraestrutura próprios
 public/data/
   indicators.json           # Snapshots de Turvo + demonstrações identificadas
