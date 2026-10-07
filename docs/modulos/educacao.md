@@ -205,6 +205,6 @@ Etapas com matrículas positivas em Turvo: creche, pré-escola, fundamental (ini
 
 `npm run build`: TypeScript e Vite aprovados; site gerado em dist, sem requisição a INEP durante build. Página conferida em desktop e celular 390×844; filtro municipal: 1.793 matrículas / 9 escolas / 150 docentes; busca FRIDA: uma escola. Sem erros no console ou transbordamento horizontal da página; tabelas têm rolagem própria. Seis CSVs respondem HTTP 200 e correspondem aos arquivos exportados. Código/snapshots de População, Economia e Trabalho e todos os indicadores não educacionais foram conferidos como idênticos à base desta alteração.
 
-Automação mensal e dependência XLSX dos testes estão preparadas como templates. Ainda não estão ativadas: a credencial GitHub desta sessão não tem escopo workflow. Não foi realizado deploy em uma conta Cloudflare; o build é compatível com Pages, sem Worker.
+Automação mensal instalada em [education.yml](../../.github/workflows/education.yml), com dependência XLSX, validação offline e testes/build antes do commit. Deploy exclusivamente pela integração Git do Cloudflare Pages. Veja [operação das Actions](../operacao-actions.md).
 
 ![Prévia do módulo Educação](educacao-preview.png)

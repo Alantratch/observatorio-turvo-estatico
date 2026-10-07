@@ -69,7 +69,7 @@ python3 scripts/etl.py --module employment --source caged --force --cache .mte-c
 python3 scripts/etl.py --module employment --offline
 ```
 
-O processamento de arquivos oficiais `.7z` usa **7-Zip** (`7zip` no Ubuntu, `7z`/`7zz` ou variável `MTE_7ZIP`). O conector MTE continua usando apenas a biblioteca padrão do Python. Arquivos são lidos em streaming e descartados ao final, exceto quando houver cache explicitamente solicitado fora de `public/data`. A atualização semanal `all` não baixa microdados de Trabalho; há um workflow mensal próprio como template. Veja [conceitos, layouts, fontes, validações e operação de Trabalho e Emprego](docs/modulos/trabalho-emprego.md).
+O processamento de arquivos oficiais `.7z` usa **7-Zip** (`7zip` no Ubuntu, `7z`/`7zz` ou variável `MTE_7ZIP`). O conector MTE continua usando apenas a biblioteca padrão do Python. Arquivos são lidos em streaming e descartados ao final, exceto quando houver cache explicitamente solicitado fora de `public/data`. A atualização semanal `all` não baixa microdados de Trabalho; há um workflow mensal próprio em `.github/workflows/employment.yml`. Veja [conceitos, layouts, fontes, validações e operação de Trabalho e Emprego](docs/modulos/trabalho-emprego.md).
 
 ## Educação: Censo, aprendizagem e rede escolar
 
@@ -98,7 +98,7 @@ python3 scripts/etl.py --module health
 python3 scripts/etl.py --module health --offline
 ```
 
-Ativação mensal preparada em [health.yml](docs/github-actions/health.yml), seguindo a limitação de permissão de workflows já documentada. Nenhuma nova dependência ou serviço pago.
+Atualização mensal em [health.yml](.github/workflows/health.yml). Nenhuma nova dependência ou serviço pago.
 
 ## Agropecuária: PAM, PPM, PEVS e Censo
 
@@ -109,7 +109,7 @@ python3 scripts/etl.py --module agriculture
 python3 scripts/etl.py --module agriculture --offline
 ```
 
-A rotina explicitamente mensal verifica os dez períodos para aceitar revisões; arquivos idênticos não geram mudanças. Falhas preservam a entrega anterior. Veja [Agropecuária](docs/modulos/agropecuaria.md) para tabelas/variáveis, unidades especiais, resultados, arquivos, fórmulas, sigilo e TODOs. [Workflow mensal preparado](docs/github-actions/agriculture.yml), com a mesma limitação de escrita de workflows já documentada. Site estático, nenhum serviço ou dependência adicional.
+A rotina explicitamente mensal verifica os dez períodos para aceitar revisões; arquivos idênticos não geram mudanças. Falhas preservam a entrega anterior. Veja [Agropecuária](docs/modulos/agropecuaria.md) para tabelas/variáveis, unidades especiais, resultados, arquivos, fórmulas, sigilo e TODOs. [Workflow mensal](.github/workflows/agriculture.yml). Site estático, nenhum serviço ou dependência adicional.
 
 ## Assistência Social: cadastro, benefícios, rede e atendimento
 
@@ -125,7 +125,7 @@ python scripts/etl.py --module social --offline
 python scripts/check_social_privacy.py
 ```
 
-Somente agregados, sem registros individuais ou recortes sensíveis. **O build bloqueia campos pessoais/desconhecidos e contagens pequenas sem proteção**, incluindo CSVs. RMA PAEFI, IDCRAS/IDCREAS/IDConselho, IVCAD, fluxos recentes, famílias unipessoais e coordenadas de mapas continuam indisponíveis até validação. [Fontes, endpoints, schema, privacidade e pendências](docs/modulos/assistencia-social.md). [Atualização mensal preparada](docs/github-actions/social.yml); instalação do workflow exige a permissão já documentada, portanto ainda não está ativa.
+Somente agregados, sem registros individuais ou recortes sensíveis. **O build bloqueia campos pessoais/desconhecidos e contagens pequenas sem proteção**, incluindo CSVs. RMA PAEFI, IDCRAS/IDCREAS/IDConselho, IVCAD, fluxos recentes, famílias unipessoais e coordenadas de mapas continuam indisponíveis até validação. [Fontes, endpoints, schema, privacidade e pendências](docs/modulos/assistencia-social.md). [Atualização mensal](.github/workflows/social.yml).
 
 ## Atualizar os dados
 
@@ -135,7 +135,7 @@ npm run data:update
 python3 scripts/etl.py --offline
 ```
 
-O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, Laranjal e Pitanga; o conector inicial SIDRA mantém os demais indicadores, com timeout, três tentativas e validação de município, variável, unidade e valores. Se uma consulta falhar, mantém o último snapshot válido e registra falha em `collection.failures`. A tentativa mais recente está em `collection.attemptedAt`; a coleta do valor preservado fica em `collectedAt`. Não troca uma série oficial por demonstrações.
+O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, Laranjal e Pitanga; o conector inicial SIDRA mantém os demais indicadores, com timeout, três tentativas e validação de município, variável, unidade e valores. Se uma consulta falhar, mantém o último snapshot válido e registra falha em `collection.failures`. A tentativa que publicou uma alteração ou falha está em `collection.attemptedAt` (consultas sem novidade ficam no log); a coleta do valor preservado fica em `collectedAt`. Não troca uma série oficial por demonstrações.
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
@@ -196,27 +196,21 @@ scripts/modules/employment.py # RAIS, CAGED, ajustes, privacidade e exportação
 scripts/sources/inep.py        # Descoberta e transporte INEP, CSV/ZIP/XLSX
 scripts/modules/education.py  # Agregados escolares, avaliações e validação
 tests/test_etl.py           # Conversão, integridade e comportamento em falhas
-docs/github-actions/        # Templates de CI e coleta de dados (ativar abaixo)
+.github/workflows/          # CI e coleta de dados ativas
+docs/github-actions/        # Cópias de referência dos workflows
 ```
 
 Vite + React + TypeScript permite evolução incremental de componentes e módulos, com build puramente estático. Gráficos usam Recharts; ícones, Lucide. Rotas por hash evitam exigir reescrita do servidor e funcionam em hospedagem estática. Python usa a biblioteca padrão nos conectores IBGE/MTE e openpyxl para as planilhas oficiais INEP. Veja [arquitetura](docs/arquitetura.md), [fontes](docs/fontes.md) e [roadmap](docs/roadmap.md).
 
-## Ativar as automações no GitHub
+## Automações no GitHub
 
-Os workflows estão prontos em `docs/github-actions/`. A autenticação usada na criação do repositório não tinha o escopo `workflow`, e o GitHub recusou o envio para `.github/workflows/`. Por isso **as automações ainda não estão ativas no repositório remoto**.
+Os sete workflows estão instalados em `.github/workflows/`: CI e seis rotinas de atualização. `docs/github-actions/` mantém cópias de referência idênticas; ao alterar uma rotina, atualize os dois arquivos. O deploy fica exclusivamente com a integração Git do Cloudflare Pages.
 
-Para ativá-las numa cópia atualizada do repositório:
+Na aba Actions, escolha a rotina e use **Run workflow → main** para execução manual. A CI executa em PRs e commits na `main`; os coletores executam somente por agenda ou comando manual na `main`. Eles usam `GITHUB_TOKEN` com `contents: write`; nenhum secret adicional é necessário. Uma coleta parcial preserva dados anteriores e sinaliza falha após validar/versionar o que for seguro publicar.
 
-```sh
-gh auth refresh -h github.com -s workflow
-mkdir -p .github/workflows
-cp docs/github-actions/*.yml .github/workflows/
-git add .github/workflows
-git commit -m "ci: ativar validação e atualização de dados"
-git push
-```
+A credencial local usada originalmente não tinha escopo `workflow`; a instalação foi realizada pelo conector GitHub. Para futuras alterações por CLI, use uma credencial com permissão de workflows. Não copie a antiga rotina Wrangler de deploy do PR #13.
 
-Depois confira a aba Actions. O envio exige uma credencial com permissão para workflows. Até ativar, execute a atualização manualmente pelo comando local. O workflow de coleta publica o snapshot preservado e o relatório de falha antes de sinalizar erro ao GitHub.
+O fluxo valida antes do commit, ignora mudanças somente nas datas de coleta e dispensa instalação Node/build quando os dados permanecem iguais. Calendário completo, comportamento em falhas, concorrência e diagnóstico: [operação das Actions](docs/operacao-actions.md).
 
 ## Deploy no Cloudflare Pages
 
@@ -233,7 +227,7 @@ Configuração oficial: https://developers.cloudflare.com/pages/framework-guides
 
 GitHub Actions ficam restritas a validação e coleta/commit de snapshots. Não configure `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` nem variável de projeto Pages para os workflows.
 
-O template de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Esses workflows coletam/validam/committam snapshots; o deploy de produção acontece no Cloudflare Pages quando o commit chega na `main`. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
+A rotina de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. A rotina mensal de Trabalho verifica CAGED e a tabela anual RAIS no dia 3 às 10:31 UTC; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Esses workflows coletam/validam/committam snapshots; o deploy de produção acontece no Cloudflare Pages quando o commit chega na `main`. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
 
 ## Custo e segurança
 
@@ -243,7 +237,7 @@ Não coloque tokens em `public/` ou variáveis `VITE_*`: o build publica esses v
 
 ## Qualidade e contribuição
 
-`npm test` valida o ETL e os dados locais. `npm run build` verifica TypeScript e gera os arquivos estáticos. CI executa ambos e salva o artefato `dist`. [CONTRIBUTING](CONTRIBUTING.md) explica como ampliar um módulo e revisar fontes.
+`npm test` valida o ETL e os dados locais. `npm run build` verifica TypeScript e gera os arquivos estáticos. CI executa ambos, sem armazenar `dist` ou publicar o site. [CONTRIBUTING](CONTRIBUTING.md) explica como ampliar um módulo e revisar fontes.
 
 Licença MIT para o código. Os dados mantêm os termos e atribuições de cada órgão; a licença do código não altera a licença dos dados de terceiros.
 

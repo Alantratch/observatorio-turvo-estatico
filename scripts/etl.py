@@ -1,5 +1,6 @@
 """ETL SIDRA sem dependências externas. Falhas preservam o último snapshot válido."""
 import argparse
+import copy
 import math
 import sys
 from datetime import datetime, timezone
@@ -7,7 +8,7 @@ from pathlib import Path
 
 # Support both `python scripts/etl.py` and imports in offline unit tests.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from scripts.common import atomic_write, read, request_json
+from scripts.common import atomic_write, read, request_json, preserve_collection_times
 from scripts.modules.population import update as update_population
 from scripts.modules.economy import update as update_economy
 from scripts.modules.employment import update as update_employment
@@ -40,6 +41,8 @@ def normalize(rows, spec, code, collected_at):
 def update(offline=False):
     catalog = read(DATA / 'indicators.json', {'schemaVersion': 1, 'municipality': {'code': '4127965', 'name': 'Turvo', 'state': 'PR'}, 'indicators': [], 'collection': {'attemptedAt': None, 'failures': []}})
     peers = read(DATA / 'comparison.json', {})
+    original_catalog = copy.deepcopy(catalog)
+    original_peers = copy.deepcopy(peers)
     if offline:
         validate(catalog)
         return catalog
@@ -48,6 +51,9 @@ def update(offline=False):
     for code, name in MUNICIPALITIES.items():
         items = catalog['indicators'] if code == '4127965' else peers.setdefault(code, {'name': name, 'indicators': []})['indicators']
         for spec in SOURCES:
+            # Dedicated snapshots own their catalog entries.
+            if code == '4127965' and spec[1] == 'population' and (DATA / 'population.json').exists():
+                continue
             # The dedicated module owns GDP once its validated snapshot exists.
             if spec[1] == 'economy' and (DATA / 'economy.json').exists():
                 continue
@@ -66,6 +72,8 @@ def update(offline=False):
     catalog['collection'] = {'attemptedAt': now, 'failures': failures}
     catalog['indicators'].sort(key=lambda i: (i['module'], i['id']))
     validate(catalog)
+    if peers == original_peers:
+        catalog = preserve_collection_times(catalog, original_catalog)
     atomic_write(DATA / 'indicators.json', catalog)
     atomic_write(DATA / 'comparison.json', peers)
     if failures: print(f'{len(failures)} falhas; snapshots anteriores preservados.')
@@ -87,7 +95,7 @@ def validate(data):
         if item['value'] is not None: assert math.isfinite(item['value'])
         for point in item['series']: assert math.isfinite(point['value'])
 
-if __name__ == '__main__':
+def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment', 'education', 'health', 'agriculture', 'social'], default='all', help='Atualizar um módulo ou todos')
     parser.add_argument('--offline', action='store_true', help='Validar snapshot sem consultar APIs')
@@ -100,10 +108,10 @@ if __name__ == '__main__':
     parser.add_argument('--education-year', type=int, help='Ano do Censo/indicadores anuais; avaliações usam edição própria mais recente')
     parser.add_argument('--history-start', type=int, default=2015, help='Início do histórico educacional')
     parser.add_argument('--window', type=int, choices=[12,24], default=24)
-    options = parser.parse_args()
-    if options.module == 'all':
-        update(options.offline)
+    options = parser.parse_args(argv)
     failures = []
+    if options.module == 'all':
+        failures += update(options.offline)['collection']['failures']
     if options.module in ('all', 'population'):
         failures += update_population(DATA, options.offline)['collection']['failures']
     if options.module in ('all', 'economy'):
@@ -123,5 +131,8 @@ if __name__ == '__main__':
     if options.module == 'social':
         from scripts.modules.social import update as update_social
         failures += update_social(DATA, options.offline, options.force, options.cache)['collection']['failures']
-    if failures and not options.offline:
-        raise SystemExit(1)  # Snapshot remains usable; signal failed refresh.
+    return 1 if failures and not options.offline else 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())  # Snapshots remain usable; failed refresh is reported.

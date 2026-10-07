@@ -83,7 +83,7 @@ Entregas:
 - `public/data/indicators.json`: seis destaques oficiais; mock `soy` removido. Indicadores dos outros módulos preservados.
 - Testes `tests/test_agriculture.py`, `tests/agriculture-data.test.mjs`, fixture PAM com células oficiais selecionadas; corrupção intencional somente nos testes.
 
-A rotina mensal está preparada em [agriculture.yml](../github-actions/agriculture.yml), inclui coleta, validação offline, testes, build e deploy Cloudflare opcional. **Template ainda não ativado**: a credencial GitHub desta sessão não tem permissão de escrita de workflows, limitação já existente. Com essa permissão, copiar para `.github/workflows/agriculture.yml`. Deploy pela integração Git do Cloudflare Pages usa build `npm run build`, saída `dist`, sem Worker, banco ou serviço pago obrigatório. Nenhuma nova dependência npm/Python foi adicionada.
+A rotina mensal está instalada em [agriculture.yml](../../.github/workflows/agriculture.yml), com coleta, validação offline e testes/build antes de versionar alterações. Não publica artefatos ou executa deploy. Cloudflare Pages usa a integração Git, build `npm run build` e saída `dist`, sem Worker, banco ou serviço pago obrigatório. Nenhuma nova dependência foi adicionada. Veja [operação das Actions](../operacao-actions.md).
 
 ## Referência MCP Brasil e próximos passos
 
