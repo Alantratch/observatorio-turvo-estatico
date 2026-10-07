@@ -3,69 +3,6 @@
     "name": "Guarapuava",
     "indicators": [
       {
-        "id": "population",
-        "module": "population",
-        "title": "População residente",
-        "value": 182093.0,
-        "unit": "pessoas",
-        "source": "IBGE / SIDRA · Tabela 4714",
-        "agency": "IBGE",
-        "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/93/p/2022",
-        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
-        "municipalityCode": "4109401",
-        "status": "real",
-        "series": [
-          {
-            "period": "2022",
-            "value": 182093.0
-          }
-        ],
-        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
-      },
-      {
-        "id": "area",
-        "module": "population",
-        "title": "Área territorial",
-        "value": 3168.087,
-        "unit": "km²",
-        "source": "IBGE / SIDRA · Tabela 4714",
-        "agency": "IBGE",
-        "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/6318/p/2022",
-        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
-        "municipalityCode": "4109401",
-        "status": "real",
-        "series": [
-          {
-            "period": "2022",
-            "value": 3168.087
-          }
-        ],
-        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
-      },
-      {
-        "id": "density",
-        "module": "population",
-        "title": "Densidade demográfica",
-        "value": 57.48,
-        "unit": "hab/km²",
-        "source": "IBGE / SIDRA · Tabela 4714",
-        "agency": "IBGE",
-        "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/614/p/2022",
-        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
-        "municipalityCode": "4109401",
-        "status": "real",
-        "series": [
-          {
-            "period": "2022",
-            "value": 57.48
-          }
-        ],
-        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
-      },
-      {
         "id": "gdp",
         "title": "Produto Interno Bruto (PIB)",
         "value": 9864113000.0,
@@ -296,29 +233,24 @@
           }
         ],
         "note": "Serviços, exceto administração pública"
-      }
-    ]
-  },
-  "4119608": {
-    "name": "Pitanga",
-    "indicators": [
+      },
       {
         "id": "population",
         "module": "population",
         "title": "População residente",
-        "value": 33567.0,
+        "value": 182093.0,
         "unit": "pessoas",
         "source": "IBGE / SIDRA · Tabela 4714",
         "agency": "IBGE",
         "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/93/p/2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/93/p/2022",
         "collectedAt": "2026-10-06T14:08:30.826178+00:00",
-        "municipalityCode": "4119608",
+        "municipalityCode": "4109401",
         "status": "real",
         "series": [
           {
             "period": "2022",
-            "value": 33567.0
+            "value": 182093.0
           }
         ],
         "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
@@ -327,19 +259,19 @@
         "id": "area",
         "module": "population",
         "title": "Área territorial",
-        "value": 1663.747,
+        "value": 3168.087,
         "unit": "km²",
         "source": "IBGE / SIDRA · Tabela 4714",
         "agency": "IBGE",
         "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/6318/p/2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/6318/p/2022",
         "collectedAt": "2026-10-06T14:08:30.826178+00:00",
-        "municipalityCode": "4119608",
+        "municipalityCode": "4109401",
         "status": "real",
         "series": [
           {
             "period": "2022",
-            "value": 1663.747
+            "value": 3168.087
           }
         ],
         "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
@@ -348,23 +280,28 @@
         "id": "density",
         "module": "population",
         "title": "Densidade demográfica",
-        "value": 20.18,
+        "value": 57.48,
         "unit": "hab/km²",
         "source": "IBGE / SIDRA · Tabela 4714",
         "agency": "IBGE",
         "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/614/p/2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4109401/v/614/p/2022",
         "collectedAt": "2026-10-06T14:11:57.713922+00:00",
-        "municipalityCode": "4119608",
+        "municipalityCode": "4109401",
         "status": "real",
         "series": [
           {
             "period": "2022",
-            "value": 20.18
+            "value": 57.48
           }
         ],
         "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
-      },
+      }
+    ]
+  },
+  "4119608": {
+    "name": "Pitanga",
+    "indicators": [
       {
         "id": "gdp",
         "title": "Produto Interno Bruto (PIB)",
@@ -596,29 +533,24 @@
           }
         ],
         "note": "Serviços, exceto administração pública"
-      }
-    ]
-  },
-  "4113254": {
-    "name": "Laranjal",
-    "indicators": [
+      },
       {
         "id": "population",
         "module": "population",
         "title": "População residente",
-        "value": 5600.0,
+        "value": 33567.0,
         "unit": "pessoas",
         "source": "IBGE / SIDRA · Tabela 4714",
         "agency": "IBGE",
         "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/93/p/2022",
-        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
-        "municipalityCode": "4113254",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/93/p/2022",
+        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+        "municipalityCode": "4119608",
         "status": "real",
         "series": [
           {
             "period": "2022",
-            "value": 5600.0
+            "value": 33567.0
           }
         ],
         "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
@@ -627,19 +559,19 @@
         "id": "area",
         "module": "population",
         "title": "Área territorial",
-        "value": 559.439,
+        "value": 1663.747,
         "unit": "km²",
         "source": "IBGE / SIDRA · Tabela 4714",
         "agency": "IBGE",
         "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/6318/p/2022",
-        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
-        "municipalityCode": "4113254",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/6318/p/2022",
+        "collectedAt": "2026-10-06T14:08:30.826178+00:00",
+        "municipalityCode": "4119608",
         "status": "real",
         "series": [
           {
             "period": "2022",
-            "value": 559.439
+            "value": 1663.747
           }
         ],
         "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
@@ -648,23 +580,28 @@
         "id": "density",
         "module": "population",
         "title": "Densidade demográfica",
-        "value": 10.01,
+        "value": 20.18,
         "unit": "hab/km²",
         "source": "IBGE / SIDRA · Tabela 4714",
         "agency": "IBGE",
         "reference": "2022",
-        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/614/p/2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4119608/v/614/p/2022",
         "collectedAt": "2026-10-06T14:11:57.713922+00:00",
-        "municipalityCode": "4113254",
+        "municipalityCode": "4119608",
         "status": "real",
         "series": [
           {
             "period": "2022",
-            "value": 10.01
+            "value": 20.18
           }
         ],
         "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
-      },
+      }
+    ]
+  },
+  "4113254": {
+    "name": "Laranjal",
+    "indicators": [
       {
         "id": "gdp",
         "title": "Produto Interno Bruto (PIB)",
@@ -896,6 +833,69 @@
           }
         ],
         "note": "Agropecuária"
+      },
+      {
+        "id": "population",
+        "module": "population",
+        "title": "População residente",
+        "value": 5600.0,
+        "unit": "pessoas",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/93/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4113254",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 5600.0
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "area",
+        "module": "population",
+        "title": "Área territorial",
+        "value": 559.439,
+        "unit": "km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/6318/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4113254",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 559.439
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
+      },
+      {
+        "id": "density",
+        "module": "population",
+        "title": "Densidade demográfica",
+        "value": 10.01,
+        "unit": "hab/km²",
+        "source": "IBGE / SIDRA · Tabela 4714",
+        "agency": "IBGE",
+        "reference": "2022",
+        "url": "https://apisidra.ibge.gov.br/values/t/4714/n6/4113254/v/614/p/2022",
+        "collectedAt": "2026-10-06T14:11:57.713922+00:00",
+        "municipalityCode": "4113254",
+        "status": "real",
+        "series": [
+          {
+            "period": "2022",
+            "value": 10.01
+          }
+        ],
+        "note": "Referência temporal conforme fonte; coleta não equivale à publicação."
       }
     ]
   }

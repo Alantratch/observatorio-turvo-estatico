@@ -742,7 +742,7 @@
       "source": "População Residente, Área territorial e Densidade demográfica",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Contagem de população residente no Censo Demográfico 2022.",
@@ -766,7 +766,7 @@
       "source": "População Residente, Área territorial e Densidade demográfica",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Densidade oficial censitária 2022. Não recalculada com a área territorial mais recente.",
@@ -790,7 +790,7 @@
       "source": "População residente estimada",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2001%7C2002%7C2003%7C2004%7C2005%7C2006%7C2008%7C2009%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2024%7C2025%7C2026/variaveis/9324?localidades=N6%5B4127965%5D",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Estimativa da população residente em 1º de julho; não é contagem censitária.",
@@ -814,7 +814,7 @@
       "source": "Área da unidade territorial",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Área da unidade territorial na edição anual informada pelo IBGE.",
@@ -972,7 +972,7 @@
     }
   ],
   "collection": {
-    "attemptedAt": "2026-10-06T14:11:57.713922+00:00",
+    "attemptedAt": "2026-10-07T17:37:11.956302+00:00",
     "failures": []
   }
 }

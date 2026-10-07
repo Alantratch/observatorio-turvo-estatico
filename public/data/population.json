@@ -16,7 +16,7 @@
       "source": "População residente estimada",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2001%7C2002%7C2003%7C2004%7C2005%7C2006%7C2008%7C2009%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2024%7C2025%7C2026/variaveis/9324?localidades=N6%5B4127965%5D",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Estimativa da população residente em 1º de julho; não é contagem censitária.",
@@ -32,7 +32,7 @@
       "source": "População Residente, Área territorial e Densidade demográfica",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Contagem de população residente no Censo Demográfico 2022.",
@@ -48,7 +48,7 @@
       "source": "População Residente, Área territorial e Densidade demográfica",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Densidade oficial censitária 2022. Não recalculada com a área territorial mais recente.",
@@ -64,7 +64,7 @@
       "source": "Área da unidade territorial",
       "agency": "IBGE",
       "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "municipalityCode": "4127965",
       "status": "real",
       "concept": "Área da unidade territorial na edição anual informada pelo IBGE.",
@@ -491,7 +491,7 @@
         "source": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
         "agency": "IBGE",
         "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
-        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "collectedAt": "2026-10-07T17:37:14.796919+00:00",
         "municipalityCode": "4127965",
         "status": "real",
         "concept": "Idade que separa a metade mais jovem da metade mais velha da população.",
@@ -507,7 +507,7 @@
         "source": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
         "agency": "IBGE",
         "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
-        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "collectedAt": "2026-10-07T17:37:14.796919+00:00",
         "municipalityCode": "4127965",
         "status": "real",
         "concept": "Pessoas de 60 anos ou mais por 100 pessoas de zero a 14 anos. Razão publicada pelo IBGE.",
@@ -523,7 +523,7 @@
         "source": "Índice de envelhecimento, idade mediana e razão de sexo, por cor ou raça",
         "agency": "IBGE",
         "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
-        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "collectedAt": "2026-10-07T17:37:14.796919+00:00",
         "municipalityCode": "4127965",
         "status": "real",
         "concept": "Número de homens por 100 mulheres na população considerada.",
@@ -562,7 +562,7 @@
         "source": "Domicílios particulares permanentes ocupados, moradores em domicílios particulares permanentes ocupados e média de moradores em domicílios particulares permanentes ocupados, segundo a situação do domicílio",
         "agency": "IBGE",
         "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/periodos/2022/variaveis/381%7C382%7C5930?localidades=N6%5B4127965%5D&classificacao=1%5B6795%5D",
-        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "collectedAt": "2026-10-07T17:37:14.796919+00:00",
         "municipalityCode": "4127965",
         "status": "real",
         "concept": "Domicílios particulares permanentes ocupados; exclui domicílios coletivos e improvisados.",
@@ -578,7 +578,7 @@
         "source": "Domicílios particulares permanentes ocupados, moradores em domicílios particulares permanentes ocupados e média de moradores em domicílios particulares permanentes ocupados, segundo a situação do domicílio",
         "agency": "IBGE",
         "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/periodos/2022/variaveis/381%7C382%7C5930?localidades=N6%5B4127965%5D&classificacao=1%5B6795%5D",
-        "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+        "collectedAt": "2026-10-07T17:37:14.796919+00:00",
         "municipalityCode": "4127965",
         "status": "real",
         "concept": "Média oficial de moradores em domicílios particulares permanentes ocupados.",
@@ -1216,6 +1216,7 @@
   "sources": [
     {
       "id": "census",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "4714",
@@ -1245,7 +1246,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93%7C6318%7C614?localidades=N6%5B4127965%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/4714",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/4714/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
       ],
@@ -1254,6 +1255,7 @@
     },
     {
       "id": "estimates",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Estimativas de População",
       "table": "6579",
@@ -1294,7 +1296,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2001%7C2002%7C2003%7C2004%7C2005%7C2006%7C2008%7C2009%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2024%7C2025%7C2026/variaveis/9324?localidades=N6%5B4127965%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/6579",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
       ],
@@ -1303,6 +1305,7 @@
     },
     {
       "id": "census-history",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "202",
@@ -1339,7 +1342,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/202/periodos/1970%7C1980%7C1991%7C2000%7C2010/variaveis/93?localidades=N6%5B4127965%5D&classificacao=2%5B0%5D%7C1%5B0%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/202",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/202/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Omitir apenas períodos explicitamente sem informação (...); preservar no arquivo bruto. Não interpolar.",
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada.",
@@ -1350,6 +1353,7 @@
     },
     {
       "id": "census-growth",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "4709",
@@ -1379,7 +1383,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/4709/periodos/2022/variaveis/93%7C5936%7C10605?localidades=N6%5B4127965%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/4709",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/4709/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Base 2010 compatibilizada = população 2022 − variação absoluta oficial. Percentual = variação absoluta / base compatibilizada × 100. Taxa geométrica: valor oficial, não recalculado.",
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
@@ -1389,6 +1393,7 @@
     },
     {
       "id": "age-sex",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "9606",
@@ -1450,7 +1455,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/periodos/2022/variaveis/93?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D%7C2%5B6794%2C4%2C5%5D%7C287%5B100362%2C93070%2C93084%2C93085%2C93086%2C93087%2C93088%2C93089%2C93090%2C93091%2C93092%2C93093%2C93094%2C93095%2C93096%2C93097%2C93098%2C49108%2C49109%2C60040%2C60041%2C6653%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/9606",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Somar somente categorias etárias disjuntas de nível 1 nos 11 grupos publicados na interface. Percentuais calculados sobre o total desta tabela.",
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
@@ -1460,6 +1465,7 @@
     },
     {
       "id": "race",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "9606",
@@ -1503,7 +1509,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/periodos/2022/variaveis/93?localidades=N6%5B4127965%5D&classificacao=86%5B95251%2C2776%2C2777%2C2778%2C2779%2C2780%5D%7C2%5B6794%5D%7C287%5B100362%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/9606",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9606/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Percentual = quantidade / total de cor ou raça desta tabela × 100.",
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
@@ -1513,6 +1519,7 @@
     },
     {
       "id": "demographic",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "9756",
@@ -1550,7 +1557,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/periodos/2010%7C2022/variaveis/9175%7C10613%7C8845?localidades=N6%5B4127965%5D&classificacao=86%5B95251%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/9756",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9756/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
       ],
@@ -1560,6 +1567,7 @@
     },
     {
       "id": "urban-rural",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "9923",
@@ -1588,7 +1596,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9923/periodos/2022/variaveis/93?localidades=N6%5B4127965%5D&classificacao=1%5B6795%2C1%2C2%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/9923",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9923/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Percentual = quantidade / total da tabela × 100.",
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
@@ -1598,6 +1606,7 @@
     },
     {
       "id": "households",
+      "municipalityCode": "4127965",
       "agency": "IBGE",
       "research": "Censo Demográfico",
       "table": "9922",
@@ -1634,7 +1643,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/periodos/2022/variaveis/381%7C382%7C5930?localidades=N6%5B4127965%5D&classificacao=1%5B6795%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/9922",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/9922/metadados",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [
         "Símbolo SIDRA '-' = zero absoluto (conversão explícita); X, .. e ... nunca são convertidos em zero. Resposta bruta preservada."
       ],
@@ -1662,7 +1671,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
       "officialUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167/resultados/4127965",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/29167",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [],
       "methodology": "Área territorial anual publicada pelo IBGE. Não utilizar como denominador da densidade censitária 2022.",
       "indicator": "29167",
@@ -1683,7 +1692,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/4127965",
       "officialUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/4127965",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/4127965",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [],
       "methodology": "Regiões imediata e intermediária conforme cadastro oficial do IBGE; não confundir com antigas microrregiões.",
       "rawPath": "population/raw/locality-53254d6c271c.json"
@@ -1703,15 +1712,15 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4127965?formato=application/vnd.geo%2Bjson&qualidade=intermediaria&periodo=2022",
       "officialUrl": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4127965?formato=application/vnd.geo%2Bjson&qualidade=intermediaria&periodo=2022",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4127965/metadados?periodo=2022",
-      "collectedAt": "2026-10-06T14:43:25.446789+00:00",
+      "collectedAt": "2026-10-07T17:37:14.796919+00:00",
       "transformations": [],
       "methodology": "Malha de referência 2022, qualidade intermediária fornecida pelo IBGE. Contorno informativo; não é limite cadastral de precisão e não representa necessariamente a área publicada em 2025.",
       "rawPath": "population/raw/municipal-boundary-2c1cb97f1a96.json"
     }
   ],
   "collection": {
-    "attemptedAt": "2026-10-06T14:43:25.446789+00:00",
-    "lastSuccessAt": "2026-10-06T14:43:25.446789+00:00",
+    "attemptedAt": "2026-10-07T17:37:14.796919+00:00",
+    "lastSuccessAt": "2026-10-07T17:37:14.796919+00:00",
     "failures": [],
     "policy": "Preservação integral do último snapshot se qualquer coleta/validação requerida falhar."
   }
