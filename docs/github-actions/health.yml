@@ -1,0 +1,73 @@
+# Copy to .github/workflows/health.yml with workflow write permission.
+name: Atualizar Saúde CNES
+on:
+  schedule:
+    - cron: '37 11 7 * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Verificar revisões e reprocessar a mesma publicação
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-education.txt
+      # Monthly run discovers HTML catalogs first. Already processed resource id+URL+publication
+      # is skipped: no national download and no timestamp-only snapshot commit.
+      # National CNES/bed archives are temporary and never cached as public artifacts.
+      - name: Coletar novas publicações e preservar dados válidos
+        id: collect
+        continue-on-error: true
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          args=(--module health)
+          if [ "$FORCE" = 'true' ]; then args+=(--force); fi
+          python scripts/etl.py "${args[@]}"
+      - run: python scripts/etl.py --module health --offline
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Versionar apenas mudanças efetivas de Saúde
+        id: publish
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/health.json public/data/exports/health-*.csv public/data/indicators.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: atualizar publicações Saúde CNES'
+            git push
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: observatorio-saude
+          path: dist
+      - name: Publicar no Cloudflare Pages quando há mudanças e configuração
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            npx wrangler@4 pages deploy dist --project-name observatorio-turvo-estatico --branch "${{ github.ref_name }}"
+          fi
+      - name: Sinalizar falha depois de preservar snapshot e relatório
+        if: steps.collect.outcome == 'failure'
+        run: exit 1

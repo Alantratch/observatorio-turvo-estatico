@@ -8,7 +8,7 @@ Turvo/PR: código IBGE **4127965**. Em outras bases, o identificador pode ter se
 | Economia | IBGE Agregados 5938 e Pesquisas 38/47001 | https://servicodados.ibge.gov.br/api/docs | PIB, per capita, VAB/setores, impostos e comparações integrados |
 | Trabalho | MTE/PDET · RAIS e Novo CAGED | https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho | Integrado: RAIS 2023–2025 e CAGED set/2024–ago/2026; metadados próprios |
 | Educação | INEP Censo Escolar, Sinopse, IDEB, SAEB, alfabetização e indicadores anuais | [INEP dados abertos](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos) | Integrado; [arquivos, campos, períodos e limites](modulos/educacao.md) |
-| Saúde | DATASUS / CNES | https://datasus.saude.gov.br/ e https://cnes.datasus.gov.br/ | TODO; demonstração |
+| Saúde | Ministério da Saúde / DATASUS / CNES | [Catálogo CNES](https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude) | Rede diária, leitos mensais, regionalização e comparação integrados; [metodologia, campos e fontes](modulos/saude.md) |
 | Finanças | Tesouro / SICONFI | https://siconfi.tesouro.gov.br/ | TODO; demonstração |
 | Contratações | MGI / PNCP | https://pncp.gov.br/ | TODO; demonstração |
 | Agropecuária | IBGE PAM / PPM | https://sidra.ibge.gov.br/tabela/5457 | TODO; demonstração |
@@ -54,3 +54,7 @@ Foram inspecionadas ferramentas IBGE, IPEADATA e BACEN do MCP Brasil e catálogo
 O total nacional de agosto/2026 coincide exatamente com o sumário oficial; a conferência independente municipal CAGED no ISPER/Perfil permanece pendente. Não publicamos estoque CAGED reconstruído nem taxas municipais de emprego/desemprego. SHA256, tamanho, coleta, referência, layouts e revisões estão em `employment.json`.
 
 O MCP Brasil foi inspecionado no commit `2efb258370b125bbf190884283ae10f209b9d335`: não há conector municipal RAIS/CAGED. O catálogo BACEN contém SGS 28561 (saldo CAGED nacional), PNAD e rendimento macro. Não foram atribuídos a Turvo. Oportunidade futura upstream `mte_trabalho`, documentada no módulo, sem servidor MCP obrigatório no site.
+
+## Saúde / CNES
+
+Exportação diária CNES, arquivo anual Hospitais e Leitos com competências mensais, regionalização oficial e tabela oficial de tipos. Publicação do arquivo não substitui competência; coleta é outra data. SUS disponível no cadastro é **ambulatorial**, sem extrapolação para atendimento geral. Gestão não é propriedade. [Documentação completa](modulos/saude.md) contém URLs, SHA-256 no snapshot, mapeamento de campos, consultas rejeitadas, comparação, critérios de situação, zeros confirmados e pendências APS. Fonte estatística: Ministério da Saúde/DATASUS/CNES; MCP Brasil apenas referência técnica.

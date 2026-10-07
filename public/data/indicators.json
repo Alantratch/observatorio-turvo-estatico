@@ -518,41 +518,130 @@
       "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
     },
     {
-      "id": "health-units",
+      "id": "health-ambulatory-sus",
       "module": "health",
-      "title": "Estabelecimentos de saúde",
-      "value": 12,
+      "title": "Estabelecimentos com atendimento ambulatorial SUS",
+      "value": 11,
       "unit": "estabelecimentos",
-      "source": "CNES / DATASUS",
+      "source": "Ministério da Saúde / DATASUS / CNES",
       "agency": "Ministério da Saúde",
-      "reference": "Exemplo fictício",
-      "url": "https://cnes.datasus.gov.br/",
-      "collectedAt": null,
+      "reference": "2026-10-07",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/CNES/cnes_estabelecimentos_csv.zip",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
       "municipalityCode": "4127965",
-      "status": "mock",
+      "status": "real",
       "series": [
         {
-          "period": "2020",
-          "value": 9.6
-        },
+          "period": "2026-10-07",
+          "value": 11
+        }
+      ],
+      "note": "Exportação diária. Ativo = CO_MOTIVO_DESAB vazio, não comprovação de funcionamento ou atendimento em tempo real. SUS restrito ao campo ambulatorial, não total geral."
+    },
+    {
+      "id": "health-beds",
+      "module": "health",
+      "title": "Leitos hospitalares cadastrados",
+      "value": 49,
+      "unit": "leitos",
+      "source": "Ministério da Saúde / DATASUS / CNES",
+      "agency": "Ministério da Saúde",
+      "reference": "202608",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_csv_2026.zip",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
         {
-          "period": "2021",
-          "value": 10.32
-        },
+          "period": "202608",
+          "value": 49
+        }
+      ],
+      "note": "Capacidade hospitalar cadastrada; não vagas instantâneas."
+    },
+    {
+      "id": "health-beds-sus",
+      "module": "health",
+      "title": "Leitos SUS cadastrados",
+      "value": 49,
+      "unit": "leitos",
+      "source": "Ministério da Saúde / DATASUS / CNES",
+      "agency": "Ministério da Saúde",
+      "reference": "202608",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_csv_2026.zip",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
         {
-          "period": "2022",
-          "value": 9.96
-        },
+          "period": "202608",
+          "value": 49
+        }
+      ],
+      "note": "Capacidade hospitalar cadastrada; não vagas instantâneas."
+    },
+    {
+      "id": "health-establishments",
+      "module": "health",
+      "title": "Estabelecimentos de saúde ativos",
+      "value": 31,
+      "unit": "estabelecimentos",
+      "source": "Ministério da Saúde / DATASUS / CNES",
+      "agency": "Ministério da Saúde",
+      "reference": "2026-10-07",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/CNES/cnes_estabelecimentos_csv.zip",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
         {
-          "period": "2023",
-          "value": 11.28
-        },
+          "period": "2026-10-07",
+          "value": 31
+        }
+      ],
+      "note": "Exportação diária. Ativo = CO_MOTIVO_DESAB vazio, não comprovação de funcionamento ou atendimento em tempo real."
+    },
+    {
+      "id": "health-public",
+      "module": "health",
+      "title": "Estabelecimentos públicos ativos",
+      "value": 12,
+      "unit": "estabelecimentos",
+      "source": "Ministério da Saúde / DATASUS / CNES",
+      "agency": "Ministério da Saúde",
+      "reference": "2026-10-07",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/CNES/cnes_estabelecimentos_csv.zip",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
         {
-          "period": "2024",
+          "period": "2026-10-07",
           "value": 12
         }
       ],
-      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+      "note": "Exportação diária. Ativo = CO_MOTIVO_DESAB vazio, não comprovação de funcionamento ou atendimento em tempo real."
+    },
+    {
+      "id": "health-ubs",
+      "module": "health",
+      "title": "Centros de Saúde / UBS ativos",
+      "value": 6,
+      "unit": "unidades",
+      "source": "Ministério da Saúde / DATASUS / CNES",
+      "agency": "Ministério da Saúde",
+      "reference": "2026-10-07",
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/CNES/cnes_estabelecimentos_csv.zip",
+      "collectedAt": "2026-10-07T11:40:01.775389+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2026-10-07",
+          "value": 6
+        }
+      ],
+      "note": "Exportação diária. Ativo = CO_MOTIVO_DESAB vazio, não comprovação de funcionamento ou atendimento em tempo real."
     },
     {
       "id": "population-census",
