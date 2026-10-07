@@ -135,7 +135,7 @@ npm run data:update
 python3 scripts/etl.py --offline
 ```
 
-O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, Laranjal e Pitanga; o conector inicial SIDRA mantém os demais indicadores, com timeout, três tentativas e validação de município, variável, unidade e valores. Se uma consulta falhar, mantém o último snapshot válido e registra falha em `collection.failures`. A tentativa mais recente está em `collection.attemptedAt`; a coleta do valor preservado fica em `collectedAt`. Não troca uma série oficial por demonstrações.
+O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, Laranjal e Pitanga; o conector inicial SIDRA mantém os demais indicadores, com timeout, três tentativas e validação de município, variável, unidade e valores. Se uma consulta falhar, mantém o último snapshot válido e registra falha em `collection.failures`. A tentativa que publicou uma alteração ou falha está em `collection.attemptedAt` (consultas sem novidade ficam no log); a coleta do valor preservado fica em `collectedAt`. Não troca uma série oficial por demonstrações.
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
@@ -218,6 +218,8 @@ git push
 
 Depois confira a aba Actions. O envio exige uma credencial com permissão para workflows. Até ativar, execute a atualização manualmente pelo comando local. O workflow de coleta publica o snapshot preservado e o relatório de falha antes de sinalizar erro ao GitHub.
 
+O fluxo valida antes do commit, ignora mudanças somente nas datas de coleta e dispensa instalação Node/build quando os dados permanecem iguais. Calendário completo, comportamento em falhas, concorrência e diagnóstico: [operação das Actions](docs/operacao-actions.md).
+
 ## Deploy no Cloudflare Pages
 
 Este repositório usa **apenas** a integração Git do Cloudflare Pages para produção: conecte no painel **Workers & Pages → Create → Pages → Connect to Git**.
@@ -233,7 +235,7 @@ Configuração oficial: https://developers.cloudflare.com/pages/framework-guides
 
 GitHub Actions ficam restritas a validação e coleta/commit de snapshots. Não configure `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` nem variável de projeto Pages para os workflows.
 
-O template de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Esses workflows coletam/validam/committam snapshots; o deploy de produção acontece no Cloudflare Pages quando o commit chega na `main`. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
+O template de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. O template mensal de Trabalho verifica CAGED e a tabela anual RAIS no dia 3 às 10:31 UTC; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Esses workflows coletam/validam/committam snapshots; o deploy de produção acontece no Cloudflare Pages quando o commit chega na `main`. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
 
 ## Custo e segurança
 
@@ -243,7 +245,7 @@ Não coloque tokens em `public/` ou variáveis `VITE_*`: o build publica esses v
 
 ## Qualidade e contribuição
 
-`npm test` valida o ETL e os dados locais. `npm run build` verifica TypeScript e gera os arquivos estáticos. CI executa ambos e salva o artefato `dist`. [CONTRIBUTING](CONTRIBUTING.md) explica como ampliar um módulo e revisar fontes.
+`npm test` valida o ETL e os dados locais. `npm run build` verifica TypeScript e gera os arquivos estáticos. CI executa ambos, sem armazenar `dist` ou publicar o site. [CONTRIBUTING](CONTRIBUTING.md) explica como ampliar um módulo e revisar fontes.
 
 Licença MIT para o código. Os dados mantêm os termos e atribuições de cada órgão; a licença do código não altera a licença dos dados de terceiros.
 

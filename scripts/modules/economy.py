@@ -7,7 +7,7 @@ import math
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from scripts.common import atomic_write, number, read, request_json
+from scripts.common import atomic_write, number, read, request_json, preserve_collection_times
 from scripts.sources.ibge import IBGE, CODE
 
 MUNICIPALITIES = {CODE: 'Turvo', '4109401': 'Guarapuava', '4119608': 'Pitanga', '4113254': 'Laranjal'}
@@ -281,6 +281,10 @@ def update(directory, offline=False):
             atomic_write(directory / relative, payload)
             next(s for s in candidate['sources'] if s['id'] == identifier)['rawPath'] = relative
         validate(candidate)
+        candidate = preserve_collection_times(candidate, previous)
+        if candidate is previous:
+            print("economy: fontes verificadas, sem alterações.")
+            return previous
         export_csv(candidate, directory)
         sync_catalog(candidate, directory)
         atomic_write(path, candidate)

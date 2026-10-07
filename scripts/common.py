@@ -62,3 +62,15 @@ def atomic_write(path, data):
 def read(path, default):
     path = Path(path)
     return json.loads(path.read_text(encoding='utf-8')) if path.exists() else default
+
+
+def preserve_collection_times(candidate, previous):
+    """Keep a validated snapshot when only collection timestamps changed."""
+    def content(value):
+        if isinstance(value, dict):
+            return {key: content(item) for key, item in value.items()
+                    if key not in {'collectedAt', 'attemptedAt', 'lastSuccessAt'}}
+        if isinstance(value, list):
+            return [content(item) for item in value]
+        return value
+    return previous if previous is not None and content(candidate) == content(previous) else candidate

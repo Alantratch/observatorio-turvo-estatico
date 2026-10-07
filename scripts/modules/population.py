@@ -7,7 +7,7 @@ import math
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scripts.common import atomic_write, number, read, request_json
+from scripts.common import atomic_write, number, read, request_json, preserve_collection_times
 from scripts.sources.ibge import CODE, IBGE
 
 # IDs and names checked against official metadata before integration (2026-10-06).
@@ -291,6 +291,10 @@ def update(directory, offline=False):
             atomic_write(directory / relative, payload)
             next(s for s in candidate['sources'] if s['id'] == identifier)['rawPath'] = relative
         validate(candidate)
+        candidate = preserve_collection_times(candidate, previous)
+        if candidate is previous:
+            print("population: fontes verificadas, sem alterações.")
+            return previous
         atomic_write(path, candidate)
     except Exception as exc:
         if previous is None:
