@@ -75,14 +75,6 @@ jobs:
         with:
           name: observatorio-trabalho
           path: dist
-      - name: Publicar no Cloudflare Pages, se configurado
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
-            npx wrangler@4 pages deploy dist --project-name observatorio-turvo-estatico --branch "${{ github.ref_name }}"
-          fi
       - name: Sinalizar falha após preservar snapshot e relatório
         if: steps.collect.outcome == 'failure'
         run: exit 1

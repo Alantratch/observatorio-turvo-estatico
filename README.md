@@ -196,7 +196,7 @@ scripts/modules/employment.py # RAIS, CAGED, ajustes, privacidade e exportação
 scripts/sources/inep.py        # Descoberta e transporte INEP, CSV/ZIP/XLSX
 scripts/modules/education.py  # Agregados escolares, avaliações e validação
 tests/test_etl.py           # Conversão, integridade e comportamento em falhas
-docs/github-actions/        # Templates de CI, coleta semanal e deploy opcional (ativar abaixo)
+docs/github-actions/        # Templates de CI e coleta de dados (ativar abaixo)
 ```
 
 Vite + React + TypeScript permite evolução incremental de componentes e módulos, com build puramente estático. Gráficos usam Recharts; ícones, Lucide. Rotas por hash evitam exigir reescrita do servidor e funcionam em hospedagem estática. Python usa a biblioteca padrão nos conectores IBGE/MTE e openpyxl para as planilhas oficiais INEP. Veja [arquitetura](docs/arquitetura.md), [fontes](docs/fontes.md) e [roadmap](docs/roadmap.md).
@@ -212,7 +212,7 @@ gh auth refresh -h github.com -s workflow
 mkdir -p .github/workflows
 cp docs/github-actions/*.yml .github/workflows/
 git add .github/workflows
-git commit -m "ci: ativar build, atualização e deploy"
+git commit -m "ci: ativar validação e atualização de dados"
 git push
 ```
 
@@ -220,26 +220,26 @@ Depois confira a aba Actions. O envio exige uma credencial com permissão para w
 
 ## Deploy no Cloudflare Pages
 
-Opção recomendada: conecte este repositório no painel **Workers & Pages → Create → Pages → Connect to Git**.
+Este repositório usa **apenas** a integração Git do Cloudflare Pages para produção: conecte no painel **Workers & Pages → Create → Pages → Connect to Git**.
 
 - Branch de produção: `main`.
 - Comando: `npm run build`.
 - Diretório de saída: `dist`.
 - Node.js: 22 (variável `NODE_VERSION=22` se necessário).
 - Diretório raiz: raiz do repositório.
-- Nenhum segredo ou Worker necessário ao site.
+- Nenhum segredo, Worker, banco ou serviço pago é necessário ao site.
 
 Configuração oficial: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/
 
-Alternativa por GitHub Actions: crie um projeto Pages de upload direto chamado `observatorio-turvo-estatico` e configure os secrets `CLOUDFLARE_API_TOKEN` (escopo limitado a Pages) e `CLOUDFLARE_ACCOUNT_ID`. O workflow de deploy compila e publica com Wrangler. Sem secrets, compila e informa que a publicação foi pulada. **Escolha um único modo de deploy** para evitar publicações duplicadas. O provisionamento da conta Cloudflare não é feito pelo repositório.
+GitHub Actions ficam restritas a validação e coleta/commit de snapshots. Não configure `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` nem variável de projeto Pages para os workflows.
 
-O template de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Commits feitos com `GITHUB_TOKEN` não acionam novos workflows de push; por isso o próprio workflow de coleta compila e publica quando há secrets Cloudflare. Em integração Git, se o provedor não disparar build para commits do bot, use o modo Actions. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
+O template de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Esses workflows coletam/validam/committam snapshots; o deploy de produção acontece no Cloudflare Pages quando o commit chega na `main`. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
 
 ## Custo e segurança
 
-MVP sem VPS, banco, autenticação ou backend permanente. Armazena somente pequenos agregados públicos. Pode operar nos planos gratuitos de Pages e GitHub Actions, respeitando quotas vigentes; não há garantia de gratuidade ilimitada. Domínio próprio é opcional. Não configurar serviços faturáveis é suficiente para o MVP; R2, D1 e Worker não são necessários. Fontes externas podem limitar requisições.
+MVP sem VPS, banco, autenticação ou backend permanente. Armazena somente pequenos agregados públicos. A arquitetura foi desenhada para caber nos planos gratuitos de Pages e GitHub Actions, respeitando quotas vigentes, sem promessa de gratuidade perpétua. Domínio próprio é opcional. Não configurar serviços faturáveis é suficiente para o MVP; R2, D1, Worker e runners pagos não são necessários. Fontes externas podem limitar requisições.
 
-Não coloque tokens em `public/` ou variáveis `VITE_*`: o build publica esses valores. Secrets de deploy ficam no GitHub. Cabeçalhos básicos de segurança estão em `public/_headers`. A fonte Google Fonts é opcional, com fallback local do sistema.
+Não coloque tokens em `public/` ou variáveis `VITE_*`: o build publica esses valores. Este fluxo não exige secrets de Cloudflare no GitHub Actions. Cabeçalhos básicos de segurança estão em `public/_headers`. A fonte Google Fonts é opcional, com fallback local do sistema.
 
 ## Qualidade e contribuição
 
