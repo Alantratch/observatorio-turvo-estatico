@@ -10,7 +10,7 @@ Cada etapa deve incluir conector, metadados, teste de normalização e revisão 
 6. **Finanças:** TODO conector SICONFI com anexos DCA/RREO/RGF, valores realizados e comparações per capita.
 7. **PNCP:** TODO coleta paginada, identificação territorial da unidade compradora, filtros e links dos contratos.
 8. **Agropecuária:** implementados PAM/PPM/PEVS 2016–2025, descoberta de culturas, áreas/rendimento/valor, efetivos, produtos animais/vacas ordenhadas, aquicultura, florestas separadas, Censo 2017/familiar/pessoas, comparações regionais/Paraná, metadados/raws, JSON/CSV e ETL mensal. Próximos passos: condição do produtor, uso das terras/irrigação/máquinas, ranking estadual completo e comparação censitária na interface. Veja [Agropecuária](modulos/agropecuaria.md).
-9. **Comparador:** TODO selecionar municípios do Paraná, construir benchmarks e gráficos comparáveis.
+9. **Assistência Social:** implementados CadÚnico/renda/qualidade, Bolsa Família, BPC Fonte Pagadora, CadSUAS/Censo 2025, PAIF/RMA tratado 2025, séries, comparação interna com denominadores IBGE, downloads e barreira de privacidade no build. Próximos passos: RMA CREAS/PAEFI, IDCRAS/IDCREAS/IDConselho, IVCAD municipal seguro, fluxos recentes/unipessoais, coordenadas oficiais e revisão de definições por edição. Veja [Assistência Social](modulos/assistencia-social.md). O comparador independente foi removido; evolução de comparações é transversal aos módulos.
 10. **Catálogo:** TODO exportar CSV, dicionário por campo, schema JSON formal e relatório de qualidade.
 11. **Metodologia:** TODO changelog de revisões, autoria da curadoria e processo público de correção.
 12. **Visão Geral:** TODO destaque dos módulos prontos, mapa, tendência apenas com séries verificadas.

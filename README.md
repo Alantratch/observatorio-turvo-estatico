@@ -4,7 +4,7 @@ Observatório municipal **independente**, modular e open-source de Turvo/PR, có
 
 ## Rodar localmente
 
-Requisitos: Node.js 22+, npm e Python 3.10+. Educação/testes usam as dependências XLSX abaixo; o build do site não exige Python.
+Requisitos: Node.js 22+, npm e Python 3.10+. Educação/testes usam as dependências XLSX abaixo; o build usa Python padrão para verificar a privacidade do snapshot social, sem bibliotecas adicionais.
 
 ```sh
 npm ci
@@ -111,6 +111,22 @@ python3 scripts/etl.py --module agriculture --offline
 
 A rotina explicitamente mensal verifica os dez períodos para aceitar revisões; arquivos idênticos não geram mudanças. Falhas preservam a entrega anterior. Veja [Agropecuária](docs/modulos/agropecuaria.md) para tabelas/variáveis, unidades especiais, resultados, arquivos, fórmulas, sigilo e TODOs. [Workflow mensal preparado](docs/github-actions/agriculture.yml), com a mesma limitação de escrita de workflows já documentada. Site estático, nenhum serviço ou dependência adicional.
 
+## Assistência Social: cadastro, benefícios, rede e atendimento
+
+Módulo **`social`**, próximo de Saúde; substitui a antiga página Comparador Municipal, preservando comparações internas dos demais módulos e `comparison.json`. Não há mock. **CadÚnico setembro/2026: 2.995 famílias, 7.696 pessoas e 94,02% de famílias com cadastro atualizado. Bolsa Família setembro/2026: 1.030 famílias, 2.790 pessoas, R$ 665.693,00 transferidos e média oficial de R$ 649,46. BPC pela Fonte Pagadora agosto/2026: 324 benefícios (128 pessoas idosas e 196 com deficiência).** Cada card informa sua própria referência.
+
+CadSUAS de 25/09/2026 informa 1 CRAS, 1 CREAS, 2 centros de convivência, 1 acolhimento e 1 Centro Dia/similares. Censo SUAS 2025 identifica cinco equipamentos respondentes (CRAS, CREAS, convivência, Centro Dia e posto cadastral), com endereços somente institucionais e serviços PAIF/PAEFI declarados. Bases e datas distintas não são reconciliadas artificialmente. RMA CRAS tratado 2025 apresenta PAIF mensal com cobertura dos formulários válidos; células pequenas ficam protegidas. Há renda por famílias/pessoas, atualização, séries de 24 meses, comparação aproximada de pessoas CadÚnico por 100 habitantes com denominador IBGE do mesmo ano, tabelas e cinco CSVs mais JSON.
+
+```sh
+# Dependências XLSX compartilhadas com Educação:
+python -m pip install -r scripts/requirements-education.txt
+python scripts/etl.py --module social --cache .mds-cache
+python scripts/etl.py --module social --offline
+python scripts/check_social_privacy.py
+```
+
+Somente agregados, sem registros individuais ou recortes sensíveis. **O build bloqueia campos pessoais/desconhecidos e contagens pequenas sem proteção**, incluindo CSVs. RMA PAEFI, IDCRAS/IDCREAS/IDConselho, IVCAD, fluxos recentes, famílias unipessoais e coordenadas de mapas continuam indisponíveis até validação. [Fontes, endpoints, schema, privacidade e pendências](docs/modulos/assistencia-social.md). [Atualização mensal preparada](docs/github-actions/social.yml); instalação do workflow exige a permissão já documentada, portanto ainda não está ativa.
+
 ## Atualizar os dados
 
 ```sh
@@ -123,7 +139,7 @@ O ETL de Economia consulta Agregados v3 e Pesquisas v1 para Turvo, Guarapuava, L
 
 Integrações iniciais: população residente, área territorial e densidade do Censo 2022 (tabela 4714); PIB total (tabela 5938, último período disponível). A disponibilidade efetiva está registrada no JSON. PIB em **mil reais** é multiplicado por 1.000. PIB é nominal, não deflacionado. Séries iniciais oficiais podem ter somente uma observação; não interpolamos anos inexistentes.
 
-Dados em Finanças e Contratações são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. O comparador usa apenas observações oficiais da mesma referência e unidade.
+Dados em Finanças e Contratações são explicitamente **fictícios**, destinados a demonstrar os componentes. Não use os valores demonstrativos para decisões ou publicações. As comparações internas dos módulos usam observações oficiais da mesma referência, conceito e unidade.
 
 ## Módulos
 
@@ -138,7 +154,7 @@ Dados em Finanças e Contratações são explicitamente **fictícios**, destinad
 | Finanças Públicas | Demo SICONFI | DCA/RREO/RGF normalizados |
 | Contratações / PNCP | Demo | Coleta paginada e filtro municipal validado |
 | Agropecuária | PAM/PPM/PEVS reais, história, comparações, Censo 2017 e downloads | Uso das terras/condição do produtor no Censo e ranking estadual |
-| Comparador Municipal | Comparação SIDRA de três municípios | Seleção ampliada, taxas comparáveis |
+| Assistência Social | CadÚnico, renda/qualidade, Bolsa Família, BPC, rede SUAS, PAIF/RMA, comparação e proteção de dados | PAEFI/RMA, indicadores SUAS/IVCAD, fluxos e coordenadas institucionais |
 | Catálogo de Dados | Busca, metadados, download JSON | CSV, dicionário e séries por fonte |
 | Sobre / Metodologia | Conceitos, atualização e limites | Registro de revisões metodológicas |
 
@@ -151,6 +167,7 @@ src/
   lib/types.ts              # Contrato normalizado de dados
   lib/data.ts               # Carregamento e formatação
   App.tsx                   # Composição das páginas e estados
+  modules/social/           # Cadastro, benefícios, rede SUAS, serviços e comparação
   modules/population/       # Página, gráficos, metadados e schema de População
   modules/economy/          # Página e gráficos próprios, comparação e metodologia
   modules/employment/       # RAIS/CAGED separados, gráficos, tabelas e metodologia

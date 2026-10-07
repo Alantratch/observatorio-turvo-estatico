@@ -864,6 +864,111 @@
         }
       ],
       "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+    },
+    {
+      "id": "social-bf-families",
+      "module": "social",
+      "title": "Famílias beneficiárias do Bolsa Família",
+      "value": 1030,
+      "unit": "famílias",
+      "source": "Programa Bolsa Família",
+      "agency": "MDS / SAGICAD / SNAS",
+      "reference": "202609",
+      "url": "https://aplicacoes.mds.gov.br/sagi/servicos/misocial?q=%2A%3A%2A&fq=tipo_s%3Ames_mu&fq=codigo_ibge%3A%28412796+OR+411960+OR+411325+OR+410940%29&fq=anomes_s%3A%5B202303+TO+202609%5D&wt=json&rows=400&sort=anomes_s+asc&fl=anomes_s%2Cbpc_ben_i%2Cbpc_idoso_ben_i%2Cbpc_idoso_val_s%2Cbpc_pcd_ben_i%2Cbpc_pcd_val_s%2Cbpc_val_s%2Ccadsuas_data_extracao_s%2Ccadsuas_qtd_centro_convivencia_i%2Ccadsuas_qtd_centro_dia_similares_i%2Ccadsuas_qtd_centro_pop_i%2Ccadsuas_qtd_cras_i%2Ccadsuas_qtd_creas_i%2Ccadsuas_qtd_unidade_acolhimento_i%2Ccadun_qtd_familias_atualizadas_i%2Ccadun_qtd_familias_cadastradas_baixa_renda_i%2Ccadun_qtd_familias_cadastradas_i%2Ccadun_qtd_familias_cadastradas_pobreza_pbf_i%2Ccadun_qtd_familias_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_qtd_pessoas_cadastradas_baixa_renda_i%2Ccadun_qtd_pessoas_cadastradas_i%2Ccadun_qtd_pessoas_cadastradas_pobreza_pbf_i%2Ccadun_qtd_pessoas_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_taxa_atualizacao_cadastral_d%2Ccodigo_ibge%2Cmunicipio%2Cpbf_vlr_medio_benef_f%2Cqtd_familias_beneficiarias_bolsa_familia%2Cqtd_pessoas_beneficiarias_bolsa_familia_i%2Csigla_uf%2Ctipo_s%2Cvalor_repassado_bolsa_familia",
+      "collectedAt": "2026-10-07T13:39:41.147042+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "202609",
+          "value": 1030
+        }
+      ],
+      "note": "Estatística administrativa municipal agregada; famílias e pessoas são unidades distintas. Não somar universos CadÚnico, Bolsa Família e BPC."
+    },
+    {
+      "id": "social-bf-transferred",
+      "module": "social",
+      "title": "Valor mensal transferido pelo Bolsa Família",
+      "value": 665693.0,
+      "unit": "R$",
+      "source": "Programa Bolsa Família",
+      "agency": "MDS / SAGICAD / SNAS",
+      "reference": "202609",
+      "url": "https://aplicacoes.mds.gov.br/sagi/servicos/misocial?q=%2A%3A%2A&fq=tipo_s%3Ames_mu&fq=codigo_ibge%3A%28412796+OR+411960+OR+411325+OR+410940%29&fq=anomes_s%3A%5B202303+TO+202609%5D&wt=json&rows=400&sort=anomes_s+asc&fl=anomes_s%2Cbpc_ben_i%2Cbpc_idoso_ben_i%2Cbpc_idoso_val_s%2Cbpc_pcd_ben_i%2Cbpc_pcd_val_s%2Cbpc_val_s%2Ccadsuas_data_extracao_s%2Ccadsuas_qtd_centro_convivencia_i%2Ccadsuas_qtd_centro_dia_similares_i%2Ccadsuas_qtd_centro_pop_i%2Ccadsuas_qtd_cras_i%2Ccadsuas_qtd_creas_i%2Ccadsuas_qtd_unidade_acolhimento_i%2Ccadun_qtd_familias_atualizadas_i%2Ccadun_qtd_familias_cadastradas_baixa_renda_i%2Ccadun_qtd_familias_cadastradas_i%2Ccadun_qtd_familias_cadastradas_pobreza_pbf_i%2Ccadun_qtd_familias_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_qtd_pessoas_cadastradas_baixa_renda_i%2Ccadun_qtd_pessoas_cadastradas_i%2Ccadun_qtd_pessoas_cadastradas_pobreza_pbf_i%2Ccadun_qtd_pessoas_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_taxa_atualizacao_cadastral_d%2Ccodigo_ibge%2Cmunicipio%2Cpbf_vlr_medio_benef_f%2Cqtd_familias_beneficiarias_bolsa_familia%2Cqtd_pessoas_beneficiarias_bolsa_familia_i%2Csigla_uf%2Ctipo_s%2Cvalor_repassado_bolsa_familia",
+      "collectedAt": "2026-10-07T13:39:41.147042+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "202609",
+          "value": 665693.0
+        }
+      ],
+      "note": "Estatística administrativa municipal agregada; famílias e pessoas são unidades distintas. Não somar universos CadÚnico, Bolsa Família e BPC."
+    },
+    {
+      "id": "social-bpc-total",
+      "module": "social",
+      "title": "Benefícios BPC · Fonte Pagadora",
+      "value": 324,
+      "unit": "benefícios",
+      "source": "BPC · Fonte Pagadora",
+      "agency": "MDS / SAGICAD / SNAS",
+      "reference": "202608",
+      "url": "https://aplicacoes.mds.gov.br/sagi/servicos/misocial?q=%2A%3A%2A&fq=tipo_s%3Ames_mu&fq=codigo_ibge%3A%28412796+OR+411960+OR+411325+OR+410940%29&fq=anomes_s%3A%5B202303+TO+202608%5D&wt=json&rows=400&sort=anomes_s+asc&fl=anomes_s%2Cbpc_ben_i%2Cbpc_idoso_ben_i%2Cbpc_idoso_val_s%2Cbpc_pcd_ben_i%2Cbpc_pcd_val_s%2Cbpc_val_s%2Ccadsuas_data_extracao_s%2Ccadsuas_qtd_centro_convivencia_i%2Ccadsuas_qtd_centro_dia_similares_i%2Ccadsuas_qtd_centro_pop_i%2Ccadsuas_qtd_cras_i%2Ccadsuas_qtd_creas_i%2Ccadsuas_qtd_unidade_acolhimento_i%2Ccadun_qtd_familias_atualizadas_i%2Ccadun_qtd_familias_cadastradas_baixa_renda_i%2Ccadun_qtd_familias_cadastradas_i%2Ccadun_qtd_familias_cadastradas_pobreza_pbf_i%2Ccadun_qtd_familias_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_qtd_pessoas_cadastradas_baixa_renda_i%2Ccadun_qtd_pessoas_cadastradas_i%2Ccadun_qtd_pessoas_cadastradas_pobreza_pbf_i%2Ccadun_qtd_pessoas_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_taxa_atualizacao_cadastral_d%2Ccodigo_ibge%2Cmunicipio%2Cpbf_vlr_medio_benef_f%2Cqtd_familias_beneficiarias_bolsa_familia%2Cqtd_pessoas_beneficiarias_bolsa_familia_i%2Csigla_uf%2Ctipo_s%2Cvalor_repassado_bolsa_familia",
+      "collectedAt": "2026-10-07T13:39:41.147042+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "202608",
+          "value": 324
+        }
+      ],
+      "note": "Estatística administrativa municipal agregada; famílias e pessoas são unidades distintas. Não somar universos CadÚnico, Bolsa Família e BPC."
+    },
+    {
+      "id": "social-cad-families",
+      "module": "social",
+      "title": "Famílias cadastradas no Cadastro Único",
+      "value": 2995,
+      "unit": "famílias",
+      "source": "Cadastro Único",
+      "agency": "MDS / SAGICAD / SNAS",
+      "reference": "202609",
+      "url": "https://aplicacoes.mds.gov.br/sagi/servicos/misocial?q=%2A%3A%2A&fq=tipo_s%3Ames_mu&fq=codigo_ibge%3A%28412796+OR+411960+OR+411325+OR+410940%29&fq=anomes_s%3A%5B202303+TO+202609%5D&wt=json&rows=400&sort=anomes_s+asc&fl=anomes_s%2Cbpc_ben_i%2Cbpc_idoso_ben_i%2Cbpc_idoso_val_s%2Cbpc_pcd_ben_i%2Cbpc_pcd_val_s%2Cbpc_val_s%2Ccadsuas_data_extracao_s%2Ccadsuas_qtd_centro_convivencia_i%2Ccadsuas_qtd_centro_dia_similares_i%2Ccadsuas_qtd_centro_pop_i%2Ccadsuas_qtd_cras_i%2Ccadsuas_qtd_creas_i%2Ccadsuas_qtd_unidade_acolhimento_i%2Ccadun_qtd_familias_atualizadas_i%2Ccadun_qtd_familias_cadastradas_baixa_renda_i%2Ccadun_qtd_familias_cadastradas_i%2Ccadun_qtd_familias_cadastradas_pobreza_pbf_i%2Ccadun_qtd_familias_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_qtd_pessoas_cadastradas_baixa_renda_i%2Ccadun_qtd_pessoas_cadastradas_i%2Ccadun_qtd_pessoas_cadastradas_pobreza_pbf_i%2Ccadun_qtd_pessoas_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_taxa_atualizacao_cadastral_d%2Ccodigo_ibge%2Cmunicipio%2Cpbf_vlr_medio_benef_f%2Cqtd_familias_beneficiarias_bolsa_familia%2Cqtd_pessoas_beneficiarias_bolsa_familia_i%2Csigla_uf%2Ctipo_s%2Cvalor_repassado_bolsa_familia",
+      "collectedAt": "2026-10-07T13:39:41.147042+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "202609",
+          "value": 2995
+        }
+      ],
+      "note": "Estatística administrativa municipal agregada; famílias e pessoas são unidades distintas. Não somar universos CadÚnico, Bolsa Família e BPC."
+    },
+    {
+      "id": "social-cad-people",
+      "module": "social",
+      "title": "Pessoas cadastradas no Cadastro Único",
+      "value": 7696,
+      "unit": "pessoas",
+      "source": "Cadastro Único",
+      "agency": "MDS / SAGICAD / SNAS",
+      "reference": "202609",
+      "url": "https://aplicacoes.mds.gov.br/sagi/servicos/misocial?q=%2A%3A%2A&fq=tipo_s%3Ames_mu&fq=codigo_ibge%3A%28412796+OR+411960+OR+411325+OR+410940%29&fq=anomes_s%3A%5B202303+TO+202609%5D&wt=json&rows=400&sort=anomes_s+asc&fl=anomes_s%2Cbpc_ben_i%2Cbpc_idoso_ben_i%2Cbpc_idoso_val_s%2Cbpc_pcd_ben_i%2Cbpc_pcd_val_s%2Cbpc_val_s%2Ccadsuas_data_extracao_s%2Ccadsuas_qtd_centro_convivencia_i%2Ccadsuas_qtd_centro_dia_similares_i%2Ccadsuas_qtd_centro_pop_i%2Ccadsuas_qtd_cras_i%2Ccadsuas_qtd_creas_i%2Ccadsuas_qtd_unidade_acolhimento_i%2Ccadun_qtd_familias_atualizadas_i%2Ccadun_qtd_familias_cadastradas_baixa_renda_i%2Ccadun_qtd_familias_cadastradas_i%2Ccadun_qtd_familias_cadastradas_pobreza_pbf_i%2Ccadun_qtd_familias_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_qtd_pessoas_cadastradas_baixa_renda_i%2Ccadun_qtd_pessoas_cadastradas_i%2Ccadun_qtd_pessoas_cadastradas_pobreza_pbf_i%2Ccadun_qtd_pessoas_cadastradas_rfpc_acima_meio_sm_i%2Ccadun_taxa_atualizacao_cadastral_d%2Ccodigo_ibge%2Cmunicipio%2Cpbf_vlr_medio_benef_f%2Cqtd_familias_beneficiarias_bolsa_familia%2Cqtd_pessoas_beneficiarias_bolsa_familia_i%2Csigla_uf%2Ctipo_s%2Cvalor_repassado_bolsa_familia",
+      "collectedAt": "2026-10-07T13:39:41.147042+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "202609",
+          "value": 7696
+        }
+      ],
+      "note": "Estatística administrativa municipal agregada; famílias e pessoas são unidades distintas. Não somar universos CadÚnico, Bolsa Família e BPC."
     }
   ],
   "collection": {

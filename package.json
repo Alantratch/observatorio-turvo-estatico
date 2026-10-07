@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc --noEmit && vite build",
+    "build": "python3 scripts/check_social_privacy.py && tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "test": "python3 -m unittest discover -s tests && node --test tests/*.test.mjs",
     "data:update": "python3 scripts/etl.py"
