@@ -72,7 +72,7 @@ Arquivos brutos têm nomes com hash do conteúdo, permitindo referenciar exatame
 
 Qualquer falha de fonte ou validação requerida preserva integralmente o snapshot anterior. Na primeira coleta, uma falha não publica números fictícios. A tentativa e a falha ficam registradas; o processo retorna código de erro para sinalizar a automação. Datas de coleta dos valores preservados não são alteradas. A gravação JSON é atômica; arquivos derivados podem ser reconstruídos do snapshot. O ETL não substitui valores oficiais por uma resposta incompleta.
 
-A automação semanal está pronta, mas depende da ativação dos workflows no repositório. Censo tem periodicidade censitária; estimativas e área são anuais; malha e cadastro dependem de publicação pelo órgão. Verificar semanalmente não cria referências semanais.
+A automação semanal está instalada em `.github/workflows/data.yml`. Censo tem periodicidade censitária; estimativas e área são anuais; malha e cadastro dependem de publicação pelo órgão. Verificar semanalmente não cria referências semanais.
 
 Downloads: JSON completo, CSVs de Censo, estimativas, idade/sexo e cor/raça; GeoJSON municipal. CSVs trazem referência e URL oficial da fonte. JSON e respostas brutas mantêm detalhes de classificações e transformações.
 

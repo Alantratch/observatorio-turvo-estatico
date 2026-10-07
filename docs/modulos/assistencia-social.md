@@ -108,11 +108,11 @@ npm run build
 - `src/modules/social/`: página, seções, gráficos/componentes, tipos, estados e estilos.
 - `public/data/social.json`: schema v1 sem mocks; `real`, `derived`, `unavailable`, `suppressed`.
 - `public/data/exports/social-{cadunico,bolsa-familia,bpc,suas,services}.csv`: só agregados/equipamentos.
-- `docs/github-actions/social.yml`: template mensal de coleta/validação/testes/build/commit opcional/deploy.
+- `.github/workflows/social.yml`: rotina mensal de coleta/validação/testes/build/commit; referência em `docs/github-actions/social.yml`.
 
 Reutilizamos HTTP JSON/retries (`scripts/common.py`), download limitado (`sources/datasus.py`), IBGE (`sources/ibge.py`), escrita atômica e publicação com rollback (`modules/health.py`). Arquivos anuais usam cache com ETag/Last-Modified/tamanho e SHA-256; sem validadores, novo download. Arquivos e conteúdo idênticos preservam timestamps; mudanças históricas/revisões são detectadas. Falhas não sobrescrevem snapshots, CSVs ou catálogo; saída não zero sinaliza falha da atualização.
 
-**GitHub Actions ainda não ativo:** a credencial disponível não tem permissão de escrita de workflows, como nas etapas anteriores. O template está pronto para instalação em `.github/workflows/social.yml` por credencial autorizada. Cloudflare Pages continua publicando pela integração Git, sem Worker ou serviço pago novo. Não chamar automação preparada de automação executada.
+Rotina mensal instalada em [social.yml](../../.github/workflows/social.yml). Valida snapshots e privacidade antes de versionar alterações; não armazena artefatos nem executa deploy. Cloudflare Pages publica pela integração Git, sem Worker ou serviço pago novo. Veja [operação das Actions](../operacao-actions.md).
 
 ## Pendências explícitas
 
