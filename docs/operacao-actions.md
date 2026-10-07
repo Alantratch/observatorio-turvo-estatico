@@ -2,7 +2,7 @@
 
 Cloudflare Pages publica pela integração Git. Nenhuma rotina usa Wrangler, secrets de Cloudflare ou upload de `dist`. O build nas rotinas de dados é uma validação antes do commit; só ocorre quando os arquivos do módulo mudam. Consultas sem novidade não fazem commit nem provocam um novo build do Pages. As datas de coleta do IBGE são preservadas quando dados e metadados permanecem iguais. Falhas continuam registradas; logs do Actions documentam tentativas sem alteração.
 
-## Calendário preparado
+## Calendário
 
 | Arquivo | Fontes | Agenda UTC | Brasília |
 | --- | --- | --- | --- |
@@ -28,7 +28,7 @@ O token automático tem `contents: write` apenas nos coletores, e a CI usa `cont
 
 ## Ativação e diagnóstico
 
-Os modelos ficam em `docs/github-actions/`. Para haver execução, precisam existir em `.github/workflows/` na branch padrão; veja a situação atual e os passos no README. Não copie workflows antigos de deploy, inclusive o PR #13, que contém Wrangler e ficou incompatível com a decisão de usar apenas Pages pela integração Git.
+As rotinas ficam em `.github/workflows/` na `main`, com cópias de referência em `docs/github-actions/`. Ambos devem ser mantidos idênticos. Agendamentos só executam a versão presente na branch padrão. Não copie workflows antigos de deploy, inclusive o PR #13, que contém Wrangler e ficou incompatível com a decisão de usar apenas Pages pela integração Git.
 
 Depois de ativar, abra Actions, escolha a rotina e use **Run workflow → main**. Confira coleta, validação e commit, ou ausência de mudanças. Não force a coleta pesada apenas para testar o agendamento. Agendas podem atrasar; em repositórios públicos, o GitHub pode desabilitá-las após 60 dias sem atividade. Em falha de fonte pública, repita após a fonte voltar. Em erro de dependência, validação ou duração, revise o log antes de repetir.
 
