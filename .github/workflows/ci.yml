@@ -22,12 +22,12 @@ jobs:
       - uses: actions/setup-python@v7.0.0
         with:
           python-version: '3.12'
-      - run: python -m pip install -r scripts/requirements-education.txt
+      - run: python -m pip install -r scripts/requirements-environment.txt
       - run: npm ci
       - run: npm test
       - name: Validar todos os snapshots sem consultas externas
         run: |
-          for module in all employment education health agriculture social; do
+          for module in all employment education health agriculture social environment; do
             python scripts/etl.py --module "$module" --offline
           done
       - run: npm run build
