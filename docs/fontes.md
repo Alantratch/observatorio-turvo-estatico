@@ -9,6 +9,7 @@ Turvo/PR: código IBGE **4127965**. Em outras bases, o identificador pode ter se
 | Trabalho | MTE/PDET · RAIS e Novo CAGED | https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho | Integrado: RAIS 2023–2025 e CAGED set/2024–ago/2026; metadados próprios |
 | Educação | INEP Censo Escolar, Sinopse, IDEB, SAEB, alfabetização e indicadores anuais | [INEP dados abertos](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos) | Integrado; [arquivos, campos, períodos e limites](modulos/educacao.md) |
 | Saúde | Ministério da Saúde / DATASUS / CNES | [Catálogo CNES](https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude) | Rede diária, leitos mensais, regionalização e comparação integrados; [metodologia, campos e fontes](modulos/saude.md) |
+| Assistência Social | MDS/SAGICAD/SNAS · serviço municipal RI/VIS DATA, CadSUAS, Censo SUAS e RMA | [Fontes e endpoints](modulos/assistencia-social.md) | Integrado; referências próprias, somente agregados seguros |
 | Finanças | Tesouro / SICONFI | https://siconfi.tesouro.gov.br/ | TODO; demonstração |
 | Contratações | MGI / PNCP | https://pncp.gov.br/ | TODO; demonstração |
 | Agropecuária | IBGE PAM / PPM | https://sidra.ibge.gov.br/tabela/5457 | TODO; demonstração |
@@ -29,7 +30,7 @@ RAIS/CAGED: distinguir estoque anual de vínculos e fluxos mensais de admissões
 
 INEP: distinguir município da escola e residência, rede administrativa e etapa; não expor registros pessoais. DATASUS: definir competência e cobertura; CNES conta estabelecimentos, não população atendida. SICONFI: validar conta contábil, anexo, exercício e estágio da receita/despesa. PNCP: ler documentação de filtros, paginação e unidade compradora; não confundir total contratado com quantidade de editais. PAM/PPM: selecionar produtos e unidades compatíveis antes de somar.
 
-Valores fictícios têm `status=mock`, referência “Exemplo fictício”, sem data de coleta. Estão no catálogo para desenvolvimento e nunca no comparador de valores oficiais. TODO: substituir por `unavailable` em uma edição institucional antes de divulgação oficial.
+Valores fictícios têm `status=mock`, referência “Exemplo fictício”, sem data de coleta. Estão no catálogo para desenvolvimento e nunca nas comparações temáticas de valores oficiais. TODO: substituir por `unavailable` em uma edição institucional antes de divulgação oficial.
 
 ## População aprofundada
 
@@ -62,3 +63,7 @@ Exportação diária CNES, arquivo anual Hospitais e Leitos com competências me
 ## Agropecuária / IBGE
 
 [Documentação completa](modulos/agropecuaria.md): PAM 5457 (214/8331/216/112/215), PPM 3939 (105), 74 (106/215), 94 (107), 3940 (4146/215), PEVS 289 (144/145), 291 (142/143), Censo Agropecuário 6754 (183/184) e 6884 (185). Metadados/variáveis/categorias e consultas oficiais Agregados v3 estão no snapshot e nos raws. Referências anuais 2016–2025; estrutura censitária 2017. Tipologia temporária/permanente: metadados 1612/1613. Mil reais viram reais nominais; unidades físicas seguem categorias e notas oficiais PAM (abacaxi/coco em mil frutos). Totais e subcategorias não são somados, cultivo e extração permanecem separados, sigilo nunca é inferido. Não há X neste recorte coletado, mas estados suppressed/notApplicable/unavailable/zero são distintos e testados. MCP Brasil é referência técnica, IBGE é a fonte estatística.
+
+## Assistência Social / MDS
+
+[Documentação completa](modulos/assistencia-social.md): serviço público municipal com filtros `mes_mu`, código MDS de seis dígitos e campos explícitos; dados conferidos nos relatórios RI. Cadastro Único e Bolsa Família setembro/2026; BPC Fonte Pagadora agosto/2026, sem mistura com residência. CadSUAS por data de extração, Censo SUAS 2025 por edição anual, RMA CRAS 2025 somente Base tratada. IBGE 6579/9324 fornece denominadores 2026 para proporção aproximada administrativa (não pobreza/cobertura oficial). Não acessa bases identificadas, RH ou sistemas internos. JSON/CSV somente agregados; supressão 1–4 e complementar, schema permitido e verificação obrigatória no build. Indicadores SUAS/IVCAD e PAEFI permanecem pendentes.
