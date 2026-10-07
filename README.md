@@ -196,27 +196,28 @@ scripts/modules/employment.py # RAIS, CAGED, ajustes, privacidade e exportação
 scripts/sources/inep.py        # Descoberta e transporte INEP, CSV/ZIP/XLSX
 scripts/modules/education.py  # Agregados escolares, avaliações e validação
 tests/test_etl.py           # Conversão, integridade e comportamento em falhas
-docs/github-actions/        # Templates de CI, coleta semanal e deploy opcional (ativar abaixo)
+docs/github-actions/        # Templates de coleta agendada e variações de deploy
 ```
 
 Vite + React + TypeScript permite evolução incremental de componentes e módulos, com build puramente estático. Gráficos usam Recharts; ícones, Lucide. Rotas por hash evitam exigir reescrita do servidor e funcionam em hospedagem estática. Python usa a biblioteca padrão nos conectores IBGE/MTE e openpyxl para as planilhas oficiais INEP. Veja [arquitetura](docs/arquitetura.md), [fontes](docs/fontes.md) e [roadmap](docs/roadmap.md).
 
-## Ativar as automações no GitHub
+## Automações no GitHub
 
-Os workflows estão prontos em `docs/github-actions/`. A autenticação usada na criação do repositório não tinha o escopo `workflow`, e o GitHub recusou o envio para `.github/workflows/`. Por isso **as automações ainda não estão ativas no repositório remoto**.
+Workflows ativos em `.github/workflows/`:
 
-Para ativá-las numa cópia atualizada do repositório:
+- `ci.yml`: executa em `pull_request`, `push` para `main` e `workflow_dispatch`; instala dependências Python/Node, roda `npm test` e `npm run build`, e publica o artefato `dist`.
+- `deploy.yml`: executa em `push` para `main` e `workflow_dispatch`; compila o site e publica no Cloudflare Pages quando os secrets estão configurados.
+
+Templates adicionais (coletas agendadas e variações de publicação) permanecem em `docs/github-actions/`.
+
+Para reproduzir localmente as validações do CI:
 
 ```sh
-gh auth refresh -h github.com -s workflow
-mkdir -p .github/workflows
-cp docs/github-actions/*.yml .github/workflows/
-git add .github/workflows
-git commit -m "ci: ativar build, atualização e deploy"
-git push
+npm ci
+python -m pip install -r scripts/requirements-education.txt
+npm test
+npm run build
 ```
-
-Depois confira a aba Actions. O envio exige uma credencial com permissão para workflows. Até ativar, execute a atualização manualmente pelo comando local. O workflow de coleta publica o snapshot preservado e o relatório de falha antes de sinalizar erro ao GitHub.
 
 ## Deploy no Cloudflare Pages
 
@@ -231,7 +232,7 @@ Opção recomendada: conecte este repositório no painel **Workers & Pages → C
 
 Configuração oficial: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/
 
-Alternativa por GitHub Actions: crie um projeto Pages de upload direto chamado `observatorio-turvo-estatico` e configure os secrets `CLOUDFLARE_API_TOKEN` (escopo limitado a Pages) e `CLOUDFLARE_ACCOUNT_ID`. O workflow de deploy compila e publica com Wrangler. Sem secrets, compila e informa que a publicação foi pulada. **Escolha um único modo de deploy** para evitar publicações duplicadas. O provisionamento da conta Cloudflare não é feito pelo repositório.
+Alternativa por GitHub Actions: configure os secrets `CLOUDFLARE_API_TOKEN` (escopo limitado a Pages) e `CLOUDFLARE_ACCOUNT_ID`. Opcionalmente defina a variável de repositório `CLOUDFLARE_PAGES_PROJECT` para sobrescrever o nome padrão `observatorio-turvo-estatico`. Sem secrets, o workflow compila e informa que a publicação foi pulada. **Escolha um único modo de deploy** para evitar publicações duplicadas. O provisionamento da conta Cloudflare não é feito pelo repositório.
 
 O template de Educação verifica o catálogo INEP no dia 5 às 11:19 UTC, baixa apenas novas edições e preserva arquivos/commits quando não há mudanças. Avaliações têm ciclos próprios; não entram na coleta semanal. O template mensal de Trabalho verifica CAGED no dia 3 às 10:31 UTC e permite RAIS manual; remuneração é uma opção explícita. A atualização semanal dos demais conectores executa segunda-feira às 09:17 UTC (06:17 em Brasília) e pode ser iniciada manualmente. Commits feitos com `GITHUB_TOKEN` não acionam novos workflows de push; por isso o próprio workflow de coleta compila e publica quando há secrets Cloudflare. Em integração Git, se o provedor não disparar build para commits do bot, use o modo Actions. Os agendamentos do GitHub podem atrasar e podem ser desabilitados por inatividade em repositórios públicos: consulte o histórico de Actions.
 
