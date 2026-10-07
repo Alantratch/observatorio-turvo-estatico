@@ -7,41 +7,130 @@
   },
   "indicators": [
     {
-      "id": "soy",
+      "id": "agriculture-2670",
       "module": "agriculture",
-      "title": "Produção de soja",
-      "value": 52000,
-      "unit": "toneladas",
-      "source": "Produção Agrícola Municipal / SIDRA",
+      "title": "Efetivo de bovinos",
+      "value": 36000,
+      "unit": "Cabeças",
+      "source": "IBGE / Pesquisa da Pecuária Municipal · Tabela 3939",
       "agency": "IBGE",
-      "reference": "Exemplo fictício",
-      "url": "https://sidra.ibge.gov.br/tabela/5457",
-      "collectedAt": null,
+      "reference": "2025",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/3939/periodos/2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023%7C2024%7C2025/variaveis/105?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=79%5B2670%2C2675%2C2672%2C32794%2C32795%2C2681%2C2677%2C32796%2C32793%2C2680%5D",
+      "collectedAt": "2026-10-07T11:59:51.319170+00:00",
       "municipalityCode": "4127965",
-      "status": "mock",
+      "status": "real",
       "series": [
         {
-          "period": "2020",
-          "value": 41600.0
-        },
-        {
-          "period": "2021",
-          "value": 44720.0
-        },
-        {
-          "period": "2022",
-          "value": 43160.0
-        },
-        {
-          "period": "2023",
-          "value": 48880.0
-        },
-        {
-          "period": "2024",
-          "value": 52000
+          "period": "2025",
+          "value": 36000
         }
       ],
-      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
+      "note": "Valor da produção não é PIB/VAB; pesquisas anuais e Censo estrutural têm referências distintas."
+    },
+    {
+      "id": "agriculture-2682",
+      "module": "agriculture",
+      "title": "Produção de leite",
+      "value": 26500,
+      "unit": "Mil litros",
+      "source": "IBGE / Pesquisa da Pecuária Municipal · Tabela 74",
+      "agency": "IBGE",
+      "reference": "2025",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/74/periodos/2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023%7C2024%7C2025/variaveis/106%7C215?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=80%5B0%2C2682%2C2685%2C2686%2C2687%2C2683%2C2684%5D",
+      "collectedAt": "2026-10-07T11:59:51.319170+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2025",
+          "value": 26500
+        }
+      ],
+      "note": "Valor da produção não é PIB/VAB; pesquisas anuais e Censo estrutural têm referências distintas."
+    },
+    {
+      "id": "agriculture-2685",
+      "module": "agriculture",
+      "title": "Produção de ovos de galinha",
+      "value": 71,
+      "unit": "Mil dúzias",
+      "source": "IBGE / Pesquisa da Pecuária Municipal · Tabela 74",
+      "agency": "IBGE",
+      "reference": "2025",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/74/periodos/2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023%7C2024%7C2025/variaveis/106%7C215?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=80%5B0%2C2682%2C2685%2C2686%2C2687%2C2683%2C2684%5D",
+      "collectedAt": "2026-10-07T11:59:51.319170+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2025",
+          "value": 71
+        }
+      ],
+      "note": "Valor da produção não é PIB/VAB; pesquisas anuais e Censo estrutural têm referências distintas."
+    },
+    {
+      "id": "agriculture-2687",
+      "module": "agriculture",
+      "title": "Produção de mel de abelha",
+      "value": 102200,
+      "unit": "Quilogramas",
+      "source": "IBGE / Pesquisa da Pecuária Municipal · Tabela 74",
+      "agency": "IBGE",
+      "reference": "2025",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/74/periodos/2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023%7C2024%7C2025/variaveis/106%7C215?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=80%5B0%2C2682%2C2685%2C2686%2C2687%2C2683%2C2684%5D",
+      "collectedAt": "2026-10-07T11:59:51.319170+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2025",
+          "value": 102200
+        }
+      ],
+      "note": "Valor da produção não é PIB/VAB; pesquisas anuais e Censo estrutural têm referências distintas."
+    },
+    {
+      "id": "agriculture-census-establishments",
+      "module": "agriculture",
+      "title": "Estabelecimentos agropecuários · Censo",
+      "value": 1219,
+      "unit": "Unidades",
+      "source": "IBGE / Censo Agropecuário · Tabela 6754",
+      "agency": "IBGE",
+      "reference": "2017",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6754/periodos/2017/variaveis/183%7C184?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=829%5B46302%2C46303%2C46304%5D%7C221%5B111195%5D%7C12517%5B113601%5D%7C220%5B110085%5D",
+      "collectedAt": "2026-10-07T11:59:51.319170+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2017",
+          "value": 1219
+        }
+      ],
+      "note": "Valor da produção não é PIB/VAB; pesquisas anuais e Censo estrutural têm referências distintas."
+    },
+    {
+      "id": "agriculture-pam-value",
+      "module": "agriculture",
+      "title": "Valor da produção agrícola · PAM",
+      "value": 224465000,
+      "unit": "R$",
+      "source": "IBGE / Produção Agrícola Municipal · Tabela 5457",
+      "agency": "IBGE",
+      "reference": "2025",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5457/periodos/2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023%7C2024%7C2025/variaveis/214%7C8331%7C216%7C112%7C215?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=782%5B0%2C40129%2C40092%2C83388%2C45982%2C83399%2C40329%2C83389%2C40130%2C40099%2C40100%2C40101%2C40102%2C40103%2C40131%2C40136%2C40104%2C40105%2C40137%2C40468%2C40138%2C40139%2C40140%2C40141%2C40330%2C40106%2C40331%2C83390%2C40142%2C40143%2C40107%2C83391%2C40108%2C40109%2C40144%2C83392%2C40145%2C83400%2C40146%2C40147%2C40110%2C40111%2C40112%2C40148%2C40113%2C83395%2C40114%2C40149%2C83401%2C40150%2C83393%2C40115%2C40151%2C40152%2C40116%2C40260%2C40117%2C40261%2C40118%2C40119%2C40262%2C40263%2C40264%2C40120%2C40121%2C40122%2C83394%2C83396%2C40265%2C40266%2C40267%2C40268%2C40269%2C83397%2C40123%2C83398%2C40270%2C40124%2C40125%2C40271%2C40126%2C40127%2C40128%2C40272%2C40273%2C40274%5D",
+      "collectedAt": "2026-10-07T11:59:51.319170+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "2025",
+          "value": 224465000
+        }
+      ],
+      "note": "Valor da produção não é PIB/VAB; pesquisas anuais e Censo estrutural têm referências distintas."
     },
     {
       "id": "economy-leading-sector",

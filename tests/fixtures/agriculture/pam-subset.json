@@ -1,0 +1,704 @@
+{
+  "metadata": {
+    "id": 5457,
+    "nome": "Área plantada ou destinada à colheita, área colhida, quantidade produzida, rendimento médio e valor da produção das lavouras temporárias e permanentes",
+    "URL": "https://sidra.ibge.gov.br/tabela/5457",
+    "pesquisa": "Produção Agrícola Municipal",
+    "assunto": "Lavouras temporárias e permanentes",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 1974,
+      "fim": 2025
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N8",
+        "N9",
+        "N6",
+        "N3"
+      ],
+      "Especial": [],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 8331,
+        "nome": "Área plantada ou destinada à colheita",
+        "unidade": "Hectares",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 1008331,
+        "nome": "Área plantada ou destinada à colheita - percentual do total geral",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 216,
+        "nome": "Área colhida",
+        "unidade": "Hectares",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 1000216,
+        "nome": "Área colhida - percentual do total geral",
+        "unidade": "%",
+        "sumarizacao": []
+      },
+      {
+        "id": 214,
+        "nome": "Quantidade produzida",
+        "unidade": "Toneladas",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 112,
+        "nome": "Rendimento médio da produção",
+        "unidade": "Quilogramas por Hectare",
+        "sumarizacao": []
+      },
+      {
+        "id": 215,
+        "nome": "Valor da produção",
+        "unidade": "Mil Cruzeiros [1974 a 1985, 1990 a 1992], Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2025]",
+        "sumarizacao": [
+          "periodo",
+          "nivelTerritorial"
+        ]
+      },
+      {
+        "id": 1000215,
+        "nome": "Valor da produção - percentual do total geral",
+        "unidade": "%",
+        "sumarizacao": []
+      }
+    ],
+    "classificacoes": [
+      {
+        "id": 782,
+        "nome": "Produto das lavouras temporárias e permanentes",
+        "sumarizacao": {
+          "status": true,
+          "excecao": [
+            214,
+            112
+          ]
+        },
+        "categorias": [
+          {
+            "id": 0,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": 0
+          },
+          {
+            "id": 40092,
+            "nome": "Abacaxi*",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 40119,
+            "nome": "Mandioca",
+            "unidade": null,
+            "nivel": 1
+          },
+          {
+            "id": 40124,
+            "nome": "Soja (em grão)",
+            "unidade": null,
+            "nivel": 1
+          }
+        ]
+      }
+    ]
+  },
+  "response": [
+    {
+      "id": "214",
+      "variavel": "Quantidade produzida",
+      "unidade": "Toneladas",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "0": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "..",
+                "2025": ".."
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40092": "Abacaxi*"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40119": "Mandioca"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "2730",
+                "2025": "2780"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40124": "Soja (em grão)"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "64220",
+                "2025": "70297"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8331",
+      "variavel": "Área plantada ou destinada à colheita",
+      "unidade": "Hectares",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "0": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "24574",
+                "2025": "24369"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40092": "Abacaxi*"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40119": "Mandioca"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "130",
+                "2025": "133"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40124": "Soja (em grão)"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "16900",
+                "2025": "16870"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "variavel": "Área colhida",
+      "unidade": "Hectares",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "0": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "24574",
+                "2025": "24366"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40092": "Abacaxi*"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40119": "Mandioca"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "130",
+                "2025": "130"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40124": "Soja (em grão)"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "16900",
+                "2025": "16870"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "variavel": "Rendimento médio da produção",
+      "unidade": "Quilogramas por Hectare",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "0": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "..",
+                "2025": ".."
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40092": "Abacaxi*"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40119": "Mandioca"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "21000",
+                "2025": "21385"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40124": "Soja (em grão)"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "3800",
+                "2025": "4167"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "variavel": "Valor da produção",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "0": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "221804",
+                "2025": "224465"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40092": "Abacaxi*"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40119": "Mandioca"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "4122",
+                "2025": "1535"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "782",
+              "nome": "Produto das lavouras temporárias e permanentes",
+              "categoria": {
+                "40124": "Soja (em grão)"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2024": "126899",
+                "2025": "139258"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

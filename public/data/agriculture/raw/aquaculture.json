@@ -1,0 +1,6723 @@
+{
+  "metadata": {
+    "id": 3940,
+    "nome": "Produção da aquicultura, por tipo de produto",
+    "URL": "https://sidra.ibge.gov.br/tabela/3940",
+    "pesquisa": "Pesquisa da Pecuária Municipal",
+    "assunto": "Pecuária",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 2013,
+      "fim": 2025
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N8",
+        "N9",
+        "N6",
+        "N3"
+      ],
+      "Especial": [],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 4146,
+        "nome": "Produção da aquicultura",
+        "unidade": "Vide categorias da classificação 'Tipo de produto da aquicultura'",
+        "sumarizacao": []
+      },
+      {
+        "id": 215,
+        "nome": "Valor da produção",
+        "unidade": "Mil Reais",
+        "sumarizacao": []
+      },
+      {
+        "id": 1000215,
+        "nome": "Valor da produção - percentual do total geral",
+        "unidade": "%",
+        "sumarizacao": []
+      }
+    ],
+    "classificacoes": [
+      {
+        "id": 654,
+        "nome": "Tipo de produto da aquicultura",
+        "sumarizacao": {
+          "status": true,
+          "excecao": [
+            4146
+          ]
+        },
+        "categorias": [
+          {
+            "id": 0,
+            "nome": "Total",
+            "unidade": null,
+            "nivel": -1
+          },
+          {
+            "id": 79366,
+            "nome": "Peixes",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32861,
+            "nome": "Carpa",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32865,
+            "nome": "Curimatã, curimbatá",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32866,
+            "nome": "Dourado",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32867,
+            "nome": "Jatuarana, piabanha e piracanjuba",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32868,
+            "nome": "Lambari",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32869,
+            "nome": "Matrinxã",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32870,
+            "nome": "Pacu e patinga",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32871,
+            "nome": "Piau, piapara, piauçu, piava",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32872,
+            "nome": "Pintado, cachara, cachapira e pintachara, surubim",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32873,
+            "nome": "Pirapitinga",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32874,
+            "nome": "Pirarucu",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32875,
+            "nome": "Tambacu, tambatinga",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32876,
+            "nome": "Tambaqui",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32877,
+            "nome": "Tilápia",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32878,
+            "nome": "Traíra e trairão",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32879,
+            "nome": "Truta",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32880,
+            "nome": "Tucunaré",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32881,
+            "nome": "Outros peixes",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32886,
+            "nome": "Alevinos",
+            "unidade": "Milheiros",
+            "nivel": -1
+          },
+          {
+            "id": 32887,
+            "nome": "Camarão",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32888,
+            "nome": "Larvas e pós-larvas de camarão",
+            "unidade": "Milheiros",
+            "nivel": -1
+          },
+          {
+            "id": 32889,
+            "nome": "Ostras, vieiras e mexilhões",
+            "unidade": "Quilogramas",
+            "nivel": -1
+          },
+          {
+            "id": 32890,
+            "nome": "Sementes de moluscos",
+            "unidade": "Milheiros",
+            "nivel": -1
+          },
+          {
+            "id": 32891,
+            "nome": "Outros produtos (rã, jacaré, siri, caranguejo, lagosta, etc)",
+            "unidade": "Nenhuma",
+            "nivel": -1
+          }
+        ]
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2013",
+      "literals": [
+        "2013"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2014",
+      "literals": [
+        "2014"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2015",
+      "literals": [
+        "2015"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2016",
+      "literals": [
+        "2016"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2017",
+      "literals": [
+        "2017"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2018",
+      "literals": [
+        "2018"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2019",
+      "literals": [
+        "2019"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2020",
+      "literals": [
+        "2020"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2021",
+      "literals": [
+        "2021"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "19/09/2024"
+    },
+    {
+      "id": "2023",
+      "literals": [
+        "2023"
+      ],
+      "modificacao": "18/09/2025"
+    },
+    {
+      "id": "2024",
+      "literals": [
+        "2024"
+      ],
+      "modificacao": "30/09/2026"
+    },
+    {
+      "id": "2025",
+      "literals": [
+        "2025"
+      ],
+      "modificacao": "30/09/2026"
+    }
+  ],
+  "response": [
+    {
+      "id": "4146",
+      "variavel": "Produção da aquicultura",
+      "unidade": "",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "0": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "..",
+                "2017": "..",
+                "2018": "..",
+                "2019": "..",
+                "2020": "..",
+                "2021": "..",
+                "2022": "..",
+                "2023": "..",
+                "2024": "..",
+                "2025": ".."
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "..",
+                "2017": "..",
+                "2018": "..",
+                "2019": "..",
+                "2020": "..",
+                "2021": "..",
+                "2022": "..",
+                "2023": "..",
+                "2024": "..",
+                "2025": ".."
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "..",
+                "2017": "..",
+                "2018": "..",
+                "2019": "..",
+                "2020": "..",
+                "2021": "..",
+                "2022": "..",
+                "2023": "..",
+                "2024": "..",
+                "2025": ".."
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "..",
+                "2017": "..",
+                "2018": "..",
+                "2019": "..",
+                "2020": "..",
+                "2021": "..",
+                "2022": "..",
+                "2023": "..",
+                "2024": "..",
+                "2025": ".."
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "..",
+                "2017": "..",
+                "2018": "..",
+                "2019": "..",
+                "2020": "..",
+                "2021": "..",
+                "2022": "..",
+                "2023": "..",
+                "2024": "..",
+                "2025": ".."
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "79366": "Peixes"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32861": "Carpa"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "5300",
+                "2017": "5000",
+                "2018": "4900",
+                "2019": "5400",
+                "2020": "5500",
+                "2021": "5400",
+                "2022": "5600",
+                "2023": "5400",
+                "2024": "5200",
+                "2025": "5100"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "30000",
+                "2017": "28000",
+                "2018": "26000",
+                "2019": "27000",
+                "2020": "25000",
+                "2021": "24700",
+                "2022": "28000",
+                "2023": "26000",
+                "2024": "25000",
+                "2025": "24000"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "10500",
+                "2017": "11000",
+                "2018": "11300",
+                "2019": "10500",
+                "2020": "11000",
+                "2021": "7000",
+                "2022": "7200",
+                "2023": "7000",
+                "2024": "4500",
+                "2025": "3100"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "2800",
+                "2017": "2950",
+                "2018": "3000",
+                "2019": "2800",
+                "2020": "3000",
+                "2021": "2800",
+                "2022": "2600",
+                "2023": "2500",
+                "2024": "2100",
+                "2025": "2400"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "2977987",
+                "2017": "2969033",
+                "2018": "2985002",
+                "2019": "3118101",
+                "2020": "3079002",
+                "2021": "2984453",
+                "2022": "2908396",
+                "2023": "2775081",
+                "2024": "2697984",
+                "2025": "2629984"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32865": "Curimatã, curimbatá"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "23450",
+                "2017": "54350",
+                "2018": "24370",
+                "2019": "20130",
+                "2020": "17290",
+                "2021": "21350",
+                "2022": "22040",
+                "2023": "11630",
+                "2024": "10095",
+                "2025": "10115"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32866": "Dourado"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "2700",
+                "2017": "6610",
+                "2018": "6820",
+                "2019": "6750",
+                "2020": "6240",
+                "2021": "3900",
+                "2022": "3208",
+                "2023": "3005",
+                "2024": "2675",
+                "2025": "2537"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32867": "Jatuarana, piabanha e piracanjuba"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32868": "Lambari"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "10765",
+                "2017": "10756",
+                "2018": "12316",
+                "2019": "13435",
+                "2020": "11908",
+                "2021": "8555",
+                "2022": "7840",
+                "2023": "7725",
+                "2024": "8029",
+                "2025": "8260"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32869": "Matrinxã"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "1500",
+                "2017": "3610",
+                "2018": "6150",
+                "2019": "5960",
+                "2020": "6050",
+                "2021": "5116",
+                "2022": "3168",
+                "2023": "3402",
+                "2024": "3851",
+                "2025": "992"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32870": "Pacu e patinga"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "300",
+                "2017": "302",
+                "2018": "200",
+                "2019": "200",
+                "2020": "200",
+                "2021": "210",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "130"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "500",
+                "2017": "600",
+                "2018": "500",
+                "2019": "400",
+                "2020": "500",
+                "2021": "530",
+                "2022": "900",
+                "2023": "800",
+                "2024": "850",
+                "2025": "720"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "6000",
+                "2017": "6100",
+                "2018": "6500",
+                "2019": "6400",
+                "2020": "7000",
+                "2021": "5000",
+                "2022": "2500",
+                "2023": "2400",
+                "2024": "2000",
+                "2025": "1900"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "250",
+                "2017": "230",
+                "2018": "200",
+                "2019": "230",
+                "2020": "250",
+                "2021": "210",
+                "2022": "100",
+                "2023": "110",
+                "2024": "95",
+                "2025": "100"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "1903140",
+                "2017": "2079994",
+                "2018": "1982483",
+                "2019": "1845432",
+                "2020": "1828437",
+                "2021": "1731950",
+                "2022": "1801839",
+                "2023": "1830392",
+                "2024": "1344743",
+                "2025": "1242808"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32871": "Piau, piapara, piauçu, piava"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "132230",
+                "2017": "183595",
+                "2018": "167050",
+                "2019": "170619",
+                "2020": "162974",
+                "2021": "129130",
+                "2022": "123096",
+                "2023": "112946",
+                "2024": "82597",
+                "2025": "80901"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32872": "Pintado, cachara, cachapira e pintachara, surubim"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "9050",
+                "2017": "25455",
+                "2018": "27550",
+                "2019": "17170",
+                "2020": "16380",
+                "2021": "7640",
+                "2022": "5020",
+                "2023": "4980",
+                "2024": "6560",
+                "2025": "5279"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32873": "Pirapitinga"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32874": "Pirarucu"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "8000",
+                "2017": "7000",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32875": "Tambacu, tambatinga"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "400",
+                "2017": "400",
+                "2018": "300",
+                "2019": "200",
+                "2020": "200",
+                "2021": "190",
+                "2022": "230",
+                "2023": "200",
+                "2024": "190",
+                "2025": "180"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "1000",
+                "2017": "600",
+                "2018": "500",
+                "2019": "500",
+                "2020": "600",
+                "2021": "580",
+                "2022": "750",
+                "2023": "600",
+                "2024": "650",
+                "2025": "590"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "300",
+                "2017": "280",
+                "2018": "260",
+                "2019": "280",
+                "2020": "200",
+                "2021": "50",
+                "2022": "55",
+                "2023": "50",
+                "2024": "45",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "155290",
+                "2017": "155360",
+                "2018": "139012",
+                "2019": "165764",
+                "2020": "179069",
+                "2021": "197256",
+                "2022": "183811",
+                "2023": "228267",
+                "2024": "342467",
+                "2025": "369374"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32876": "Tambaqui"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "2200",
+                "2017": "2390",
+                "2018": "3670",
+                "2019": "4050",
+                "2020": "9500",
+                "2021": "9200",
+                "2022": "4726",
+                "2023": "8190",
+                "2024": "6950",
+                "2025": "3100"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32877": "Tilápia"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "4300",
+                "2017": "4500",
+                "2018": "4200",
+                "2019": "5000",
+                "2020": "5200",
+                "2021": "5500",
+                "2022": "6000",
+                "2023": "7700",
+                "2024": "10800",
+                "2025": "12300"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "19000",
+                "2017": "18000",
+                "2018": "17000",
+                "2019": "18000",
+                "2020": "20000",
+                "2021": "21500",
+                "2022": "23500",
+                "2023": "25000",
+                "2024": "27000",
+                "2025": "29300"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "71400",
+                "2017": "73000",
+                "2018": "80000",
+                "2019": "85000",
+                "2020": "45000",
+                "2021": "50000",
+                "2022": "45000",
+                "2023": "37000",
+                "2024": "39200",
+                "2025": "39800"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "2800",
+                "2017": "3100",
+                "2018": "3680",
+                "2019": "4300",
+                "2020": "8000",
+                "2021": "8500",
+                "2022": "8200",
+                "2023": "8500",
+                "2024": "8600",
+                "2025": "7500"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "69926568",
+                "2017": "92336618",
+                "2018": "115236156",
+                "2019": "120407251",
+                "2020": "134474147",
+                "2021": "139284662",
+                "2022": "160263887",
+                "2023": "166071091",
+                "2024": "196666694",
+                "2025": "209329321"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32878": "Traíra e trairão"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "500",
+                "2017": "400",
+                "2018": "250",
+                "2019": "200",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "1500",
+                "2017": "1600",
+                "2018": "1400",
+                "2019": "1000",
+                "2020": "1000",
+                "2021": "1050",
+                "2022": "800",
+                "2023": "700",
+                "2024": "750",
+                "2025": "690"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "250",
+                "2017": "280",
+                "2018": "270",
+                "2019": "250",
+                "2020": "500",
+                "2021": "420",
+                "2022": "400",
+                "2023": "340",
+                "2024": "300",
+                "2025": "290"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "223827",
+                "2017": "223272",
+                "2018": "218251",
+                "2019": "212378",
+                "2020": "216851",
+                "2021": "203847",
+                "2022": "198395",
+                "2023": "195076",
+                "2024": "201728",
+                "2025": "212504"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32879": "Truta"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "140",
+                "2017": "1550",
+                "2018": "1625",
+                "2019": "1752",
+                "2020": "1808",
+                "2021": "1959",
+                "2022": "2448",
+                "2023": "2327",
+                "2024": "2285",
+                "2025": "2298"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32880": "Tucunaré"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "300",
+                "2017": "200",
+                "2018": "300",
+                "2019": "280",
+                "2020": "250",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32881": "Outros peixes"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "750",
+                "2017": "800",
+                "2018": "600",
+                "2019": "550",
+                "2020": "450",
+                "2021": "420",
+                "2022": "490",
+                "2023": "400",
+                "2024": "430",
+                "2025": "390"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "7650",
+                "2017": "8000",
+                "2018": "7400",
+                "2019": "6500",
+                "2020": "7000",
+                "2021": "7200",
+                "2022": "8100",
+                "2023": "7700",
+                "2024": "7500",
+                "2025": "6700"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "5100",
+                "2017": "4800",
+                "2018": "5000",
+                "2019": "4500",
+                "2020": "4100",
+                "2021": "3400",
+                "2022": "2000",
+                "2023": "1800",
+                "2024": "1500",
+                "2025": "900"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "410",
+                "2017": "400",
+                "2018": "330",
+                "2019": "300",
+                "2020": "240",
+                "2021": "200",
+                "2022": "230",
+                "2023": "210",
+                "2024": "190",
+                "2025": "180"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "527240",
+                "2017": "578147",
+                "2018": "466794",
+                "2019": "515989",
+                "2020": "408493",
+                "2021": "375347",
+                "2022": "326358",
+                "2023": "299326",
+                "2024": "272082",
+                "2025": "280644"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32886": "Alevinos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "510",
+                "2017": "550",
+                "2018": "300",
+                "2019": "500",
+                "2020": "500",
+                "2021": "480",
+                "2022": "1900",
+                "2023": "1810",
+                "2024": "1449",
+                "2025": "300"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "264519",
+                "2017": "309984",
+                "2018": "337385",
+                "2019": "424213",
+                "2020": "454681",
+                "2021": "446879",
+                "2022": "408412",
+                "2023": "557587",
+                "2024": "576680",
+                "2025": "536172"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32887": "Camarão"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "90000",
+                "2017": "120000",
+                "2018": "120023",
+                "2019": "80000",
+                "2020": "100000",
+                "2021": "102400",
+                "2022": "63390",
+                "2023": "62000",
+                "2024": "35000",
+                "2025": "40000"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32888": "Larvas e pós-larvas de camarão"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32889": "Ostras, vieiras e mexilhões"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "68934",
+                "2017": "77380",
+                "2018": "77482",
+                "2019": "171500",
+                "2020": "185185",
+                "2021": "189800",
+                "2022": "153802",
+                "2023": "166780",
+                "2024": "180990",
+                "2025": "190744"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32890": "Sementes de moluscos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32891": "Outros produtos (rã, jacaré, siri, caranguejo, lagosta, etc)"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "variavel": "Valor da produção",
+      "unidade": "Mil Reais",
+      "resultados": [
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "0": "Total"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "106",
+                "2017": "119",
+                "2018": "96",
+                "2019": "66",
+                "2020": "101",
+                "2021": "114",
+                "2022": "121",
+                "2023": "150",
+                "2024": "207",
+                "2025": "279"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "729",
+                "2017": "872",
+                "2018": "629",
+                "2019": "406",
+                "2020": "666",
+                "2021": "739",
+                "2022": "1342",
+                "2023": "1328",
+                "2024": "1282",
+                "2025": "1096"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "908",
+                "2017": "945",
+                "2018": "1057",
+                "2019": "1068",
+                "2020": "750",
+                "2021": "762",
+                "2022": "680",
+                "2023": "612",
+                "2024": "621",
+                "2025": "622"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "32",
+                "2017": "33",
+                "2018": "42",
+                "2019": "49",
+                "2020": "119",
+                "2021": "142",
+                "2022": "136",
+                "2023": "146",
+                "2024": "148",
+                "2025": "131"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "434189",
+                "2017": "538920",
+                "2018": "687489",
+                "2019": "720972",
+                "2020": "934462",
+                "2021": "1050896",
+                "2022": "1299710",
+                "2023": "1553377",
+                "2024": "2048081",
+                "2025": "2137179"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "79366": "Peixes"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "...",
+                "2017": "...",
+                "2018": "...",
+                "2019": "...",
+                "2020": "...",
+                "2021": "...",
+                "2022": "...",
+                "2023": "...",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32861": "Carpa"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "45",
+                "2017": "46",
+                "2018": "39",
+                "2019": "33",
+                "2020": "50",
+                "2021": "54",
+                "2022": "57",
+                "2023": "65",
+                "2024": "68",
+                "2025": "82"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "270",
+                "2017": "284",
+                "2018": "208",
+                "2019": "164",
+                "2020": "250",
+                "2021": "272",
+                "2022": "323",
+                "2023": "312",
+                "2024": "325",
+                "2025": "384"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "95",
+                "2017": "100",
+                "2018": "107",
+                "2019": "99",
+                "2020": "121",
+                "2021": "74",
+                "2022": "72",
+                "2023": "77",
+                "2024": "52",
+                "2025": "34"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "13",
+                "2017": "13",
+                "2018": "16",
+                "2019": "17",
+                "2020": "27",
+                "2021": "31",
+                "2022": "27",
+                "2023": "28",
+                "2024": "24",
+                "2025": "26"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "16195",
+                "2017": "17642",
+                "2018": "18504",
+                "2019": "20560",
+                "2020": "23329",
+                "2021": "25542",
+                "2022": "27586",
+                "2023": "30423",
+                "2024": "33599",
+                "2025": "34643"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32865": "Curimatã, curimbatá"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "114",
+                "2017": "366",
+                "2018": "125",
+                "2019": "116",
+                "2020": "121",
+                "2021": "223",
+                "2022": "306",
+                "2023": "137",
+                "2024": "121",
+                "2025": "125"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32866": "Dourado"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "53",
+                "2017": "129",
+                "2018": "133",
+                "2019": "135",
+                "2020": "137",
+                "2021": "87",
+                "2022": "73",
+                "2023": "68",
+                "2024": "67",
+                "2025": "52"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32867": "Jatuarana, piabanha e piracanjuba"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32868": "Lambari"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "67",
+                "2017": "68",
+                "2018": "92",
+                "2019": "102",
+                "2020": "107",
+                "2021": "87",
+                "2022": "94",
+                "2023": "95",
+                "2024": "104",
+                "2025": "122"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32869": "Matrinxã"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "15",
+                "2017": "37",
+                "2018": "52",
+                "2019": "55",
+                "2020": "61",
+                "2021": "57",
+                "2022": "39",
+                "2023": "43",
+                "2024": "52",
+                "2025": "12"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32870": "Pacu e patinga"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "3",
+                "2017": "4",
+                "2018": "2",
+                "2019": "1",
+                "2020": "2",
+                "2021": "2",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "2"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "6",
+                "2017": "7",
+                "2018": "5",
+                "2019": "3",
+                "2020": "5",
+                "2021": "6",
+                "2022": "10",
+                "2023": "10",
+                "2024": "13",
+                "2025": "12"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "54",
+                "2017": "56",
+                "2018": "62",
+                "2019": "60",
+                "2020": "70",
+                "2021": "53",
+                "2022": "25",
+                "2023": "26",
+                "2024": "23",
+                "2025": "21"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "1",
+                "2017": "1",
+                "2018": "1",
+                "2019": "2",
+                "2020": "3",
+                "2021": "2",
+                "2022": "1",
+                "2023": "1",
+                "2024": "1",
+                "2025": "1"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "12952",
+                "2017": "15451",
+                "2018": "15176",
+                "2019": "14666",
+                "2020": "16596",
+                "2021": "16420",
+                "2022": "21299",
+                "2023": "24022",
+                "2024": "19032",
+                "2025": "17153"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32871": "Piau, piapara, piauçu, piava"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "813",
+                "2017": "1216",
+                "2018": "1166",
+                "2019": "1166",
+                "2020": "1183",
+                "2021": "1097",
+                "2022": "1253",
+                "2023": "1314",
+                "2024": "1100",
+                "2025": "1328"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32872": "Pintado, cachara, cachapira e pintachara, surubim"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "152",
+                "2017": "439",
+                "2018": "480",
+                "2019": "329",
+                "2020": "337",
+                "2021": "151",
+                "2022": "107",
+                "2023": "119",
+                "2024": "94",
+                "2025": "71"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32873": "Pirapitinga"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32874": "Pirarucu"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "46",
+                "2017": "46",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32875": "Tambacu, tambatinga"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "4",
+                "2017": "5",
+                "2018": "3",
+                "2019": "1",
+                "2020": "2",
+                "2021": "2",
+                "2022": "3",
+                "2023": "3",
+                "2024": "3",
+                "2025": "3"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "11",
+                "2017": "8",
+                "2018": "5",
+                "2019": "3",
+                "2020": "6",
+                "2021": "7",
+                "2022": "9",
+                "2023": "7",
+                "2024": "10",
+                "2025": "9"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "2",
+                "2017": "2",
+                "2018": "2",
+                "2019": "2",
+                "2020": "2",
+                "2021": "1",
+                "2022": "1",
+                "2023": "1",
+                "2024": "1",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "1022",
+                "2017": "1057",
+                "2018": "948",
+                "2019": "1164",
+                "2020": "1359",
+                "2021": "1589",
+                "2022": "1602",
+                "2023": "2590",
+                "2024": "4459",
+                "2025": "4844"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32876": "Tambaqui"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "22",
+                "2017": "24",
+                "2018": "31",
+                "2019": "34",
+                "2020": "100",
+                "2021": "92",
+                "2022": "57",
+                "2023": "96",
+                "2024": "87",
+                "2025": "38"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32877": "Tilápia"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "43",
+                "2017": "52",
+                "2018": "44",
+                "2019": "25",
+                "2020": "42",
+                "2021": "50",
+                "2022": "55",
+                "2023": "77",
+                "2024": "130",
+                "2025": "185"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "190",
+                "2017": "270",
+                "2018": "221",
+                "2019": "86",
+                "2020": "160",
+                "2021": "194",
+                "2022": "222",
+                "2023": "246",
+                "2024": "324",
+                "2025": "440"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "714",
+                "2017": "745",
+                "2018": "840",
+                "2019": "867",
+                "2020": "518",
+                "2021": "600",
+                "2022": "563",
+                "2023": "488",
+                "2024": "529",
+                "2025": "557"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "13",
+                "2017": "14",
+                "2018": "20",
+                "2019": "26",
+                "2020": "80",
+                "2021": "102",
+                "2022": "100",
+                "2023": "111",
+                "2024": "116",
+                "2025": "98"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "353086",
+                "2017": "440750",
+                "2018": "586016",
+                "2019": "600131",
+                "2020": "788977",
+                "2021": "897497",
+                "2022": "1150896",
+                "2023": "1330446",
+                "2024": "1810593",
+                "2025": "1921436"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32878": "Traíra e trairão"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "5",
+                "2017": "5",
+                "2018": "3",
+                "2019": "1",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "13",
+                "2017": "15",
+                "2018": "11",
+                "2019": "7",
+                "2020": "11",
+                "2021": "14",
+                "2022": "11",
+                "2023": "10",
+                "2024": "12",
+                "2025": "12"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "1",
+                "2017": "1",
+                "2018": "1",
+                "2019": "1",
+                "2020": "5",
+                "2021": "5",
+                "2022": "4",
+                "2023": "4",
+                "2024": "4",
+                "2025": "3"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "1339",
+                "2017": "1391",
+                "2018": "1431",
+                "2019": "1538",
+                "2020": "1729",
+                "2021": "1809",
+                "2022": "2051",
+                "2023": "2073",
+                "2024": "2368",
+                "2025": "2835"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32879": "Truta"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "1",
+                "2017": "9",
+                "2018": "11",
+                "2019": "14",
+                "2020": "17",
+                "2021": "23",
+                "2022": "33",
+                "2023": "33",
+                "2024": "33",
+                "2025": "36"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32880": "Tucunaré"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "2",
+                "2017": "2",
+                "2018": "2",
+                "2019": "2",
+                "2020": "2",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32881": "Outros peixes"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "6",
+                "2017": "8",
+                "2018": "5",
+                "2019": "5",
+                "2020": "5",
+                "2021": "5",
+                "2022": "6",
+                "2023": "6",
+                "2024": "7",
+                "2025": "8"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "61",
+                "2017": "76",
+                "2018": "74",
+                "2019": "65",
+                "2020": "84",
+                "2021": "94",
+                "2022": "111",
+                "2023": "109",
+                "2024": "120",
+                "2025": "134"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "46",
+                "2017": "44",
+                "2018": "48",
+                "2019": "42",
+                "2020": "41",
+                "2021": "36",
+                "2022": "20",
+                "2023": "20",
+                "2024": "17",
+                "2025": "10"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "2",
+                "2017": "2",
+                "2018": "2",
+                "2019": "2",
+                "2020": "2",
+                "2021": "2",
+                "2022": "3",
+                "2023": "3",
+                "2024": "2",
+                "2025": "2"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "2970",
+                "2017": "3316",
+                "2018": "2950",
+                "2019": "3428",
+                "2020": "3133",
+                "2021": "3086",
+                "2022": "2993",
+                "2023": "2993",
+                "2024": "3143",
+                "2025": "3589"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32886": "Alevinos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "179",
+                "2017": "212",
+                "2018": "105",
+                "2019": "79",
+                "2020": "150",
+                "2021": "154",
+                "2022": "656",
+                "2023": "634",
+                "2024": "478",
+                "2025": "105"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "43426",
+                "2017": "54290",
+                "2018": "57994",
+                "2019": "74262",
+                "2020": "93341",
+                "2021": "99037",
+                "2022": "87443",
+                "2023": "152589",
+                "2024": "167024",
+                "2025": "145415"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32887": "Camarão"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "1080",
+                "2017": "1750",
+                "2018": "1440",
+                "2019": "1198",
+                "2020": "1583",
+                "2021": "1588",
+                "2022": "1293",
+                "2023": "1550",
+                "2024": "700",
+                "2025": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32888": "Larvas e pós-larvas de camarão"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32889": "Ostras, vieiras e mexilhões"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "827",
+                "2017": "929",
+                "2018": "931",
+                "2019": "2058",
+                "2020": "2335",
+                "2021": "2496",
+                "2022": "2307",
+                "2023": "3974",
+                "2024": "4163",
+                "2025": "3815"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32890": "Sementes de moluscos"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            }
+          ]
+        },
+        {
+          "classificacoes": [
+            {
+              "id": "654",
+              "nome": "Tipo de produto da aquicultura",
+              "categoria": {
+                "32891": "Outros produtos (rã, jacaré, siri, caranguejo, lagosta, etc)"
+              }
+            }
+          ],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "-",
+                "2017": "-",
+                "2018": "-",
+                "2019": "-",
+                "2020": "-",
+                "2021": "-",
+                "2022": "-",
+                "2023": "-",
+                "2024": "-",
+                "2025": "-"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "8",
+                "2017": "8",
+                "2018": "8",
+                "2019": "12",
+                "2020": "13",
+                "2021": "15",
+                "2022": "281",
+                "2023": "812",
+                "2024": "1343",
+                "2025": "667"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/3940/periodos/2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023%7C2024%7C2025/variaveis/4146%7C215?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D&classificacao=654%5B0%2C79366%2C32861%2C32865%2C32866%2C32867%2C32868%2C32869%2C32870%2C32871%2C32872%2C32873%2C32874%2C32875%2C32876%2C32877%2C32878%2C32879%2C32880%2C32881%2C32886%2C32887%2C32888%2C32889%2C32890%2C32891%5D",
+  "collectedAt": "2026-10-07T11:59:51.319170+00:00"
+}

@@ -1,0 +1,205 @@
+{
+  "confirmedAt": "2026-10-07",
+  "discoveryUrl": "https://servicodados.ibge.gov.br/api/v3/agregados",
+  "tables": {
+    "pam": {
+      "table": "5457",
+      "research": "Produção Agrícola Municipal",
+      "classification": "782",
+      "metrics": {
+        "production": {
+          "variable": "214",
+          "name": "Quantidade produzida",
+          "metadataUnit": "Toneladas"
+        },
+        "plantedOrIntendedArea": {
+          "variable": "8331",
+          "name": "Área plantada ou destinada à colheita",
+          "metadataUnit": "Hectares"
+        },
+        "harvestedArea": {
+          "variable": "216",
+          "name": "Área colhida",
+          "metadataUnit": "Hectares"
+        },
+        "yield": {
+          "variable": "112",
+          "name": "Rendimento médio da produção",
+          "metadataUnit": "Quilogramas por Hectare"
+        },
+        "productionValue": {
+          "variable": "215",
+          "name": "Valor da produção",
+          "metadataUnit": "Mil Cruzeiros [1974 a 1985, 1990 a 1992], Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2025]"
+        }
+      }
+    },
+    "herds": {
+      "table": "3939",
+      "research": "Pesquisa da Pecuária Municipal",
+      "classification": "79",
+      "metrics": {
+        "herd": {
+          "variable": "105",
+          "name": "Efetivo dos rebanhos",
+          "metadataUnit": "Cabeças"
+        }
+      }
+    },
+    "animal": {
+      "table": "74",
+      "research": "Pesquisa da Pecuária Municipal",
+      "classification": "80",
+      "metrics": {
+        "production": {
+          "variable": "106",
+          "name": "Produção de origem animal",
+          "metadataUnit": "Vide categorias da classificação 'Tipo de produto de origem animal'"
+        },
+        "productionValue": {
+          "variable": "215",
+          "name": "Valor da produção",
+          "metadataUnit": "Mil Cruzeiros [1974 a 1985, 1990 a 1992], Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2025]"
+        }
+      }
+    },
+    "milkedCows": {
+      "table": "94",
+      "research": "Pesquisa da Pecuária Municipal",
+      "classification": null,
+      "metrics": {
+        "milkedCows": {
+          "variable": "107",
+          "name": "Vacas ordenhadas",
+          "metadataUnit": "Cabeças"
+        }
+      }
+    },
+    "aquaculture": {
+      "table": "3940",
+      "research": "Pesquisa da Pecuária Municipal",
+      "classification": "654",
+      "metrics": {
+        "production": {
+          "variable": "4146",
+          "name": "Produção da aquicultura",
+          "metadataUnit": "Vide categorias da classificação 'Tipo de produto da aquicultura'"
+        },
+        "productionValue": {
+          "variable": "215",
+          "name": "Valor da produção",
+          "metadataUnit": "Mil Reais"
+        }
+      }
+    },
+    "extraction": {
+      "table": "289",
+      "research": "Produção da Extração Vegetal e da Silvicultura",
+      "classification": "193",
+      "metrics": {
+        "production": {
+          "variable": "144",
+          "name": "Quantidade produzida na extração vegetal",
+          "metadataUnit": "Vide categorias da classificação 'Tipo de produto extrativo'"
+        },
+        "productionValue": {
+          "variable": "145",
+          "name": "Valor da produção na extração vegetal",
+          "metadataUnit": "Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros [1990 a 1992], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2025]"
+        }
+      }
+    },
+    "silviculture": {
+      "table": "291",
+      "research": "Produção da Extração Vegetal e da Silvicultura",
+      "classification": "194",
+      "metrics": {
+        "production": {
+          "variable": "142",
+          "name": "Quantidade produzida na silvicultura",
+          "metadataUnit": "Vide categorias da classificação 'Tipo de produto da silvicultura'"
+        },
+        "productionValue": {
+          "variable": "143",
+          "name": "Valor da produção na silvicultura",
+          "metadataUnit": "Mil Cruzados [1986 a 1988], Mil Cruzados Novos [1989], Mil Cruzeiros [1990 a 1992], Mil Cruzeiros Reais [1993], Mil Reais [1994 a 2025]"
+        }
+      }
+    },
+    "census": {
+      "table": "6754",
+      "research": "Censo Agropecuário",
+      "classification": "829",
+      "metrics": {
+        "establishments": {
+          "variable": "183",
+          "name": "Número de estabelecimentos agropecuários",
+          "metadataUnit": "Unidades"
+        },
+        "area": {
+          "variable": "184",
+          "name": "Área dos estabelecimentos agropecuários",
+          "metadataUnit": "Hectares"
+        }
+      },
+      "classifications": {
+        "829": {
+          "46302": "Total",
+          "46303": "Agricultura familiar - não",
+          "46304": "Agricultura familiar - sim"
+        },
+        "221": {
+          "111195": "Total"
+        },
+        "12517": {
+          "113601": "Total"
+        },
+        "220": {
+          "110085": "Total"
+        }
+      }
+    },
+    "censusPeople": {
+      "table": "6884",
+      "research": "Censo Agropecuário",
+      "classification": "829",
+      "metrics": {
+        "people": {
+          "variable": "185",
+          "name": "Pessoal ocupado em estabelecimentos agropecuários",
+          "metadataUnit": "Pessoas"
+        }
+      },
+      "classifications": {
+        "829": {
+          "46302": "Total",
+          "46303": "Agricultura familiar - não",
+          "46304": "Agricultura familiar - sim"
+        },
+        "2": {
+          "6794": "Total"
+        },
+        "223": {
+          "46571": "Total"
+        },
+        "218": {
+          "46502": "Total"
+        },
+        "12517": {
+          "113601": "Total"
+        }
+      }
+    }
+  },
+  "pamUnitExceptions": {
+    "40092": {
+      "production": "Mil frutos",
+      "yield": "Frutos por Hectare"
+    },
+    "40145": {
+      "production": "Mil frutos",
+      "yield": "Frutos por Hectare"
+    }
+  },
+  "pamUnitNotesUrl": "https://sidra.ibge.gov.br/pesquisa/pam/tabelas"
+}

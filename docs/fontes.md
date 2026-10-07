@@ -58,3 +58,7 @@ O MCP Brasil foi inspecionado no commit `2efb258370b125bbf190884283ae10f209b9d33
 ## Saúde / CNES
 
 Exportação diária CNES, arquivo anual Hospitais e Leitos com competências mensais, regionalização oficial e tabela oficial de tipos. Publicação do arquivo não substitui competência; coleta é outra data. SUS disponível no cadastro é **ambulatorial**, sem extrapolação para atendimento geral. Gestão não é propriedade. [Documentação completa](modulos/saude.md) contém URLs, SHA-256 no snapshot, mapeamento de campos, consultas rejeitadas, comparação, critérios de situação, zeros confirmados e pendências APS. Fonte estatística: Ministério da Saúde/DATASUS/CNES; MCP Brasil apenas referência técnica.
+
+## Agropecuária / IBGE
+
+[Documentação completa](modulos/agropecuaria.md): PAM 5457 (214/8331/216/112/215), PPM 3939 (105), 74 (106/215), 94 (107), 3940 (4146/215), PEVS 289 (144/145), 291 (142/143), Censo Agropecuário 6754 (183/184) e 6884 (185). Metadados/variáveis/categorias e consultas oficiais Agregados v3 estão no snapshot e nos raws. Referências anuais 2016–2025; estrutura censitária 2017. Tipologia temporária/permanente: metadados 1612/1613. Mil reais viram reais nominais; unidades físicas seguem categorias e notas oficiais PAM (abacaxi/coco em mil frutos). Totais e subcategorias não são somados, cultivo e extração permanecem separados, sigilo nunca é inferido. Não há X neste recorte coletado, mas estados suppressed/notApplicable/unavailable/zero são distintos e testados. MCP Brasil é referência técnica, IBGE é a fonte estatística.

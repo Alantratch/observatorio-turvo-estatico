@@ -1,0 +1,527 @@
+{
+  "metadata": {
+    "id": 94,
+    "nome": "Vacas ordenhadas",
+    "URL": "https://sidra.ibge.gov.br/tabela/94",
+    "pesquisa": "Pesquisa da Pecuária Municipal",
+    "assunto": "Pecuária",
+    "periodicidade": {
+      "frequencia": "anual",
+      "inicio": 1974,
+      "fim": 2025
+    },
+    "nivelTerritorial": {
+      "Administrativo": [
+        "N1",
+        "N2",
+        "N8",
+        "N9",
+        "N6",
+        "N3"
+      ],
+      "Especial": [],
+      "IBGE": []
+    },
+    "variaveis": [
+      {
+        "id": 107,
+        "nome": "Vacas ordenhadas",
+        "unidade": "Cabeças",
+        "sumarizacao": []
+      }
+    ],
+    "classificacoes": []
+  },
+  "periods": [
+    {
+      "id": "1974",
+      "literals": [
+        "1974"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1975",
+      "literals": [
+        "1975"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1976",
+      "literals": [
+        "1976"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1977",
+      "literals": [
+        "1977"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1978",
+      "literals": [
+        "1978"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1979",
+      "literals": [
+        "1979"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1980",
+      "literals": [
+        "1980"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1981",
+      "literals": [
+        "1981"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1982",
+      "literals": [
+        "1982"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1983",
+      "literals": [
+        "1983"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1984",
+      "literals": [
+        "1984"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1985",
+      "literals": [
+        "1985"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1986",
+      "literals": [
+        "1986"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1987",
+      "literals": [
+        "1987"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1988",
+      "literals": [
+        "1988"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1989",
+      "literals": [
+        "1989"
+      ],
+      "modificacao": "30/04/2008"
+    },
+    {
+      "id": "1990",
+      "literals": [
+        "1990"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1991",
+      "literals": [
+        "1991"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1992",
+      "literals": [
+        "1992"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1993",
+      "literals": [
+        "1993"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1994",
+      "literals": [
+        "1994"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1995",
+      "literals": [
+        "1995"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1996",
+      "literals": [
+        "1996"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1997",
+      "literals": [
+        "1997"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1998",
+      "literals": [
+        "1998"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "1999",
+      "literals": [
+        "1999"
+      ],
+      "modificacao": "01/01/0001"
+    },
+    {
+      "id": "2000",
+      "literals": [
+        "2000"
+      ],
+      "modificacao": "12/11/2001"
+    },
+    {
+      "id": "2001",
+      "literals": [
+        "2001"
+      ],
+      "modificacao": "28/11/2002"
+    },
+    {
+      "id": "2002",
+      "literals": [
+        "2002"
+      ],
+      "modificacao": "21/02/2005"
+    },
+    {
+      "id": "2003",
+      "literals": [
+        "2003"
+      ],
+      "modificacao": "25/11/2004"
+    },
+    {
+      "id": "2004",
+      "literals": [
+        "2004"
+      ],
+      "modificacao": "06/12/2005"
+    },
+    {
+      "id": "2005",
+      "literals": [
+        "2005"
+      ],
+      "modificacao": "11/12/2006"
+    },
+    {
+      "id": "2006",
+      "literals": [
+        "2006"
+      ],
+      "modificacao": "19/12/2007"
+    },
+    {
+      "id": "2007",
+      "literals": [
+        "2007"
+      ],
+      "modificacao": "26/11/2008"
+    },
+    {
+      "id": "2008",
+      "literals": [
+        "2008"
+      ],
+      "modificacao": "14/12/2010"
+    },
+    {
+      "id": "2009",
+      "literals": [
+        "2009"
+      ],
+      "modificacao": "14/12/2010"
+    },
+    {
+      "id": "2010",
+      "literals": [
+        "2010"
+      ],
+      "modificacao": "26/10/2011"
+    },
+    {
+      "id": "2011",
+      "literals": [
+        "2011"
+      ],
+      "modificacao": "18/10/2012"
+    },
+    {
+      "id": "2012",
+      "literals": [
+        "2012"
+      ],
+      "modificacao": "10/10/2013"
+    },
+    {
+      "id": "2013",
+      "literals": [
+        "2013"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2014",
+      "literals": [
+        "2014"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2015",
+      "literals": [
+        "2015"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2016",
+      "literals": [
+        "2016"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2017",
+      "literals": [
+        "2017"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2018",
+      "literals": [
+        "2018"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2019",
+      "literals": [
+        "2019"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2020",
+      "literals": [
+        "2020"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2021",
+      "literals": [
+        "2021"
+      ],
+      "modificacao": "21/09/2023"
+    },
+    {
+      "id": "2022",
+      "literals": [
+        "2022"
+      ],
+      "modificacao": "19/09/2024"
+    },
+    {
+      "id": "2023",
+      "literals": [
+        "2023"
+      ],
+      "modificacao": "18/09/2025"
+    },
+    {
+      "id": "2024",
+      "literals": [
+        "2024"
+      ],
+      "modificacao": "30/09/2026"
+    },
+    {
+      "id": "2025",
+      "literals": [
+        "2025"
+      ],
+      "modificacao": "30/09/2026"
+    }
+  ],
+  "response": [
+    {
+      "id": "107",
+      "variavel": "Vacas ordenhadas",
+      "unidade": "Cabeças",
+      "resultados": [
+        {
+          "classificacoes": [],
+          "series": [
+            {
+              "localidade": {
+                "id": "4127965",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Turvo (PR)"
+              },
+              "serie": {
+                "2016": "5600",
+                "2017": "5300",
+                "2018": "4850",
+                "2019": "5831",
+                "2020": "6730",
+                "2021": "6800",
+                "2022": "6250",
+                "2023": "6400",
+                "2024": "6350",
+                "2025": "5980"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4109401",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Guarapuava (PR)"
+              },
+              "serie": {
+                "2016": "3600",
+                "2017": "3800",
+                "2018": "3800",
+                "2019": "4183",
+                "2020": "4520",
+                "2021": "4980",
+                "2022": "4740",
+                "2023": "4750",
+                "2024": "4870",
+                "2025": "4500"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4119608",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Pitanga (PR)"
+              },
+              "serie": {
+                "2016": "26500",
+                "2017": "26420",
+                "2018": "15200",
+                "2019": "17500",
+                "2020": "17700",
+                "2021": "17100",
+                "2022": "16900",
+                "2023": "16700",
+                "2024": "16500",
+                "2025": "16350"
+              }
+            },
+            {
+              "localidade": {
+                "id": "4113254",
+                "nivel": {
+                  "id": "N6",
+                  "nome": "Município"
+                },
+                "nome": "Laranjal (PR)"
+              },
+              "serie": {
+                "2016": "5308",
+                "2017": "5720",
+                "2018": "7500",
+                "2019": "7450",
+                "2020": "7550",
+                "2021": "6800",
+                "2022": "6600",
+                "2023": "6300",
+                "2024": "6050",
+                "2025": "5700"
+              }
+            },
+            {
+              "localidade": {
+                "id": "41",
+                "nivel": {
+                  "id": "N3",
+                  "nome": "Unidade da Federação"
+                },
+                "nome": "Paraná"
+              },
+              "serie": {
+                "2016": "1599182",
+                "2017": "1420990",
+                "2018": "1356078",
+                "2019": "1309896",
+                "2020": "1329071",
+                "2021": "1254018",
+                "2022": "1224869",
+                "2023": "1170931",
+                "2024": "1128706",
+                "2025": "1117187"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/94/periodos/2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023%7C2024%7C2025/variaveis/107?localidades=N6%5B4127965%2C4109401%2C4119608%2C4113254%5D%7CN3%5B41%5D",
+  "collectedAt": "2026-10-07T11:59:51.319170+00:00"
+}
