@@ -1,0 +1,52 @@
+{
+  "data": {
+    "observations": [
+      {
+        "id": "e203afd6-fd7c-3d4e-9260-c48a58daa08c",
+        "municipalityCode": "4109401",
+        "date": "2026-06-17T19:00:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.31384,
+        "longitude": -52.00939,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "20a19e95-eb3b-3ad7-b4e8-8ae40ee8ad52",
+        "municipalityCode": "4109401",
+        "date": "2026-06-25T19:06:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.23595,
+        "longitude": -51.43076,
+        "biome": "Mata Atlântica"
+      }
+    ],
+    "availableThrough": "2026-06-30",
+    "reference": "202606",
+    "coverage": "monthly-export",
+    "satellite": "AQUA_M-T"
+  },
+  "source": {
+    "id": "fire-202606",
+    "agency": "INPE",
+    "dataset": "Programa Queimadas — satélite de referência",
+    "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/focos_mensal_br_202606.csv",
+    "reference": "202606",
+    "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+    "unit": "focos de calor",
+    "municipalityCodes": [
+      "4127965",
+      "4109401",
+      "4119608",
+      "4113254"
+    ],
+    "satellite": "AQUA_M-T",
+    "catalogUrl": "https://data.inpe.br/queimadas/pages/secao_downloads/dados-abertos/",
+    "transformation": "Filtro código IBGE (mensal) ou nome+UF (anual de referência); somente AQUA_M-T; deduplicação pelo ID oficial; UTC.",
+    "sha256": "cc446e981774db3e3ac61dc7efcace43af22c754da035b572244b8f4451c57da"
+  },
+  "http": {
+    "ETag": "\"140d1f1-65724058056c0\"",
+    "Last-Modified": "Tue, 21 Jul 2026 19:28:03 GMT",
+    "Content-Length": "21025265"
+  }
+}

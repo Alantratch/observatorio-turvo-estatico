@@ -570,6 +570,730 @@
       "note": "Vínculos, não pessoas únicas. RAIS: estoque anual. Novo CAGED: admissões menos desligamentos; saldo não é estoque."
     },
     {
+      "id": "environment-class-24",
+      "module": "environment",
+      "title": "Área Urbanizada",
+      "value": 362.8085592590324,
+      "unit": "ha",
+      "source": "MapBiomas · Coleção 11",
+      "agency": "Rede MapBiomas",
+      "reference": "2025",
+      "url": "https://drive.google.com/uc?id=1otOqymHuixvkRGVl65zTTNyfaHo46Gqk&export=download",
+      "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "1985",
+          "value": 108.2396641601567
+        },
+        {
+          "period": "1986",
+          "value": 116.1156196777347
+        },
+        {
+          "period": "1987",
+          "value": 121.7201143249516
+        },
+        {
+          "period": "1988",
+          "value": 125.6175966186529
+        },
+        {
+          "period": "1989",
+          "value": 131.1383420776372
+        },
+        {
+          "period": "1990",
+          "value": 136.2546285888678
+        },
+        {
+          "period": "1991",
+          "value": 140.8012207885748
+        },
+        {
+          "period": "1992",
+          "value": 148.1892131774908
+        },
+        {
+          "period": "1993",
+          "value": 152.0871233337407
+        },
+        {
+          "period": "1994",
+          "value": 156.5532016113281
+        },
+        {
+          "period": "1995",
+          "value": 164.2667018920899
+        },
+        {
+          "period": "1996",
+          "value": 168.7336846557617
+        },
+        {
+          "period": "1997",
+          "value": 178.2334532043455
+        },
+        {
+          "period": "1998",
+          "value": 180.6693242126462
+        },
+        {
+          "period": "1999",
+          "value": 198.2086307861323
+        },
+        {
+          "period": "2000",
+          "value": 208.1950149597163
+        },
+        {
+          "period": "2001",
+          "value": 212.498204174804
+        },
+        {
+          "period": "2002",
+          "value": 219.8884154663078
+        },
+        {
+          "period": "2003",
+          "value": 227.6840256958
+        },
+        {
+          "period": "2004",
+          "value": 234.7480267578113
+        },
+        {
+          "period": "2005",
+          "value": 240.5148579589832
+        },
+        {
+          "period": "2006",
+          "value": 241.9763211608876
+        },
+        {
+          "period": "2007",
+          "value": 251.3167761230459
+        },
+        {
+          "period": "2008",
+          "value": 257.8945223815911
+        },
+        {
+          "period": "2009",
+          "value": 261.1422646606437
+        },
+        {
+          "period": "2010",
+          "value": 263.3343010498036
+        },
+        {
+          "period": "2011",
+          "value": 270.2363133422843
+        },
+        {
+          "period": "2012",
+          "value": 277.1381924377434
+        },
+        {
+          "period": "2013",
+          "value": 285.3397347412109
+        },
+        {
+          "period": "2014",
+          "value": 292.4039440490722
+        },
+        {
+          "period": "2015",
+          "value": 303.2846628112792
+        },
+        {
+          "period": "2016",
+          "value": 305.8827637268063
+        },
+        {
+          "period": "2017",
+          "value": 310.9169321350093
+        },
+        {
+          "period": "2018",
+          "value": 311.5662426879878
+        },
+        {
+          "period": "2019",
+          "value": 313.3527510437007
+        },
+        {
+          "period": "2020",
+          "value": 316.7626834106434
+        },
+        {
+          "period": "2021",
+          "value": 322.2834474426268
+        },
+        {
+          "period": "2022",
+          "value": 339.1757257690422
+        },
+        {
+          "period": "2023",
+          "value": 343.4799599975581
+        },
+        {
+          "period": "2024",
+          "value": 355.4180395568835
+        },
+        {
+          "period": "2025",
+          "value": 362.8085592590324
+        }
+      ],
+      "note": "Classe 24: 4.2. Área Urbanizada. Área classificada, não produção econômica ou desmatamento."
+    },
+    {
+      "id": "environment-class-3",
+      "module": "environment",
+      "title": "Área de Formação Florestal",
+      "value": 41678.62315098654,
+      "unit": "ha",
+      "source": "MapBiomas · Coleção 11",
+      "agency": "Rede MapBiomas",
+      "reference": "2025",
+      "url": "https://drive.google.com/uc?id=1otOqymHuixvkRGVl65zTTNyfaHo46Gqk&export=download",
+      "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "1985",
+          "value": 42779.63755789558
+        },
+        {
+          "period": "1986",
+          "value": 42804.64962018823
+        },
+        {
+          "period": "1987",
+          "value": 41935.65410488678
+        },
+        {
+          "period": "1988",
+          "value": 39884.57001102735
+        },
+        {
+          "period": "1989",
+          "value": 37713.38331708377
+        },
+        {
+          "period": "1990",
+          "value": 37200.16162803397
+        },
+        {
+          "period": "1991",
+          "value": 36606.9545192872
+        },
+        {
+          "period": "1992",
+          "value": 36628.64279342096
+        },
+        {
+          "period": "1993",
+          "value": 37528.7372245553
+        },
+        {
+          "period": "1994",
+          "value": 38057.51139600292
+        },
+        {
+          "period": "1995",
+          "value": 38232.49744113176
+        },
+        {
+          "period": "1996",
+          "value": 38340.03653223054
+        },
+        {
+          "period": "1997",
+          "value": 37873.97373793393
+        },
+        {
+          "period": "1998",
+          "value": 37335.27888918702
+        },
+        {
+          "period": "1999",
+          "value": 37477.30757500076
+        },
+        {
+          "period": "2000",
+          "value": 37213.05923223332
+        },
+        {
+          "period": "2001",
+          "value": 37646.9775722472
+        },
+        {
+          "period": "2002",
+          "value": 38261.40457446269
+        },
+        {
+          "period": "2003",
+          "value": 38577.10591313575
+        },
+        {
+          "period": "2004",
+          "value": 39320.11842956598
+        },
+        {
+          "period": "2005",
+          "value": 40335.27863649299
+        },
+        {
+          "period": "2006",
+          "value": 41227.71229784299
+        },
+        {
+          "period": "2007",
+          "value": 41592.2097834995
+        },
+        {
+          "period": "2008",
+          "value": 41901.41092892775
+        },
+        {
+          "period": "2009",
+          "value": 42153.9542781274
+        },
+        {
+          "period": "2010",
+          "value": 42220.79050748573
+        },
+        {
+          "period": "2011",
+          "value": 42282.63426394326
+        },
+        {
+          "period": "2012",
+          "value": 42407.02160868268
+        },
+        {
+          "period": "2013",
+          "value": 42415.57312608297
+        },
+        {
+          "period": "2014",
+          "value": 42294.67868298711
+        },
+        {
+          "period": "2015",
+          "value": 42244.38136991372
+        },
+        {
+          "period": "2016",
+          "value": 42109.35068927462
+        },
+        {
+          "period": "2017",
+          "value": 42178.79652183106
+        },
+        {
+          "period": "2018",
+          "value": 42154.2284625357
+        },
+        {
+          "period": "2019",
+          "value": 42049.61468914154
+        },
+        {
+          "period": "2020",
+          "value": 41998.84117109449
+        },
+        {
+          "period": "2021",
+          "value": 41808.62074544941
+        },
+        {
+          "period": "2022",
+          "value": 41702.82337895725
+        },
+        {
+          "period": "2023",
+          "value": 41675.18736916776
+        },
+        {
+          "period": "2024",
+          "value": 41609.98574271575
+        },
+        {
+          "period": "2025",
+          "value": 41678.62315098654
+        }
+      ],
+      "note": "Classe 3: 1.1 Formação Florestal. Área classificada, não produção econômica ou desmatamento."
+    },
+    {
+      "id": "environment-class-33",
+      "module": "environment",
+      "title": "Área de Rio, Lago e Oceano",
+      "value": 232.5615125976567,
+      "unit": "ha",
+      "source": "MapBiomas · Coleção 11",
+      "agency": "Rede MapBiomas",
+      "reference": "2025",
+      "url": "https://drive.google.com/uc?id=1otOqymHuixvkRGVl65zTTNyfaHo46Gqk&export=download",
+      "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "1985",
+          "value": 248.3444439086915
+        },
+        {
+          "period": "1986",
+          "value": 266.1309168579104
+        },
+        {
+          "period": "1987",
+          "value": 283.9249705322271
+        },
+        {
+          "period": "1988",
+          "value": 253.1374193298343
+        },
+        {
+          "period": "1989",
+          "value": 268.7318198547367
+        },
+        {
+          "period": "1990",
+          "value": 259.7030608276369
+        },
+        {
+          "period": "1991",
+          "value": 265.0586402526858
+        },
+        {
+          "period": "1992",
+          "value": 276.437034454346
+        },
+        {
+          "period": "1993",
+          "value": 266.3822028808595
+        },
+        {
+          "period": "1994",
+          "value": 263.8693004394532
+        },
+        {
+          "period": "1995",
+          "value": 225.4283514831544
+        },
+        {
+          "period": "1996",
+          "value": 210.3100605468751
+        },
+        {
+          "period": "1997",
+          "value": 259.3866812194825
+        },
+        {
+          "period": "1998",
+          "value": 248.4258281433106
+        },
+        {
+          "period": "1999",
+          "value": 229.1705764831543
+        },
+        {
+          "period": "2000",
+          "value": 203.2355977478029
+        },
+        {
+          "period": "2001",
+          "value": 197.9543936706544
+        },
+        {
+          "period": "2002",
+          "value": 188.6135736999513
+        },
+        {
+          "period": "2003",
+          "value": 212.1054846618653
+        },
+        {
+          "period": "2004",
+          "value": 207.4668957031252
+        },
+        {
+          "period": "2005",
+          "value": 186.7523099853516
+        },
+        {
+          "period": "2006",
+          "value": 200.4819173583984
+        },
+        {
+          "period": "2007",
+          "value": 216.3174053405764
+        },
+        {
+          "period": "2008",
+          "value": 201.4451482910156
+        },
+        {
+          "period": "2009",
+          "value": 219.567200531006
+        },
+        {
+          "period": "2010",
+          "value": 215.4271130615236
+        },
+        {
+          "period": "2011",
+          "value": 198.6101803222657
+        },
+        {
+          "period": "2012",
+          "value": 207.3824881958009
+        },
+        {
+          "period": "2013",
+          "value": 185.2787808410644
+        },
+        {
+          "period": "2014",
+          "value": 211.6102182434084
+        },
+        {
+          "period": "2015",
+          "value": 194.7863672729492
+        },
+        {
+          "period": "2016",
+          "value": 200.6277415771487
+        },
+        {
+          "period": "2017",
+          "value": 198.9988332641605
+        },
+        {
+          "period": "2018",
+          "value": 189.9021758972172
+        },
+        {
+          "period": "2019",
+          "value": 198.8361047424321
+        },
+        {
+          "period": "2020",
+          "value": 197.1092968872071
+        },
+        {
+          "period": "2021",
+          "value": 195.4064604309085
+        },
+        {
+          "period": "2022",
+          "value": 219.3988458801274
+        },
+        {
+          "period": "2023",
+          "value": 226.3118180419928
+        },
+        {
+          "period": "2024",
+          "value": 223.7818175964361
+        },
+        {
+          "period": "2025",
+          "value": 232.5615125976567
+        }
+      ],
+      "note": "Classe 33: 5.1 Rio, Lago e Oceano. Área classificada, não produção econômica ou desmatamento."
+    },
+    {
+      "id": "environment-class-9",
+      "module": "environment",
+      "title": "Área de Silvicultura",
+      "value": 8014.226236114382,
+      "unit": "ha",
+      "source": "MapBiomas · Coleção 11",
+      "agency": "Rede MapBiomas",
+      "reference": "2025",
+      "url": "https://drive.google.com/uc?id=1otOqymHuixvkRGVl65zTTNyfaHo46Gqk&export=download",
+      "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+      "municipalityCode": "4127965",
+      "status": "real",
+      "series": [
+        {
+          "period": "1985",
+          "value": 3853.427832330222
+        },
+        {
+          "period": "1986",
+          "value": 5116.964855169597
+        },
+        {
+          "period": "1987",
+          "value": 5462.217322930846
+        },
+        {
+          "period": "1988",
+          "value": 5695.364664123432
+        },
+        {
+          "period": "1989",
+          "value": 5808.372817730614
+        },
+        {
+          "period": "1990",
+          "value": 5190.5460025695
+        },
+        {
+          "period": "1991",
+          "value": 4741.575126312138
+        },
+        {
+          "period": "1992",
+          "value": 4710.790475024279
+        },
+        {
+          "period": "1993",
+          "value": 4997.070675445447
+        },
+        {
+          "period": "1994",
+          "value": 5314.165289202846
+        },
+        {
+          "period": "1995",
+          "value": 5664.458755126944
+        },
+        {
+          "period": "1996",
+          "value": 5613.08222415769
+        },
+        {
+          "period": "1997",
+          "value": 5515.273849212582
+        },
+        {
+          "period": "1998",
+          "value": 5695.813879028263
+        },
+        {
+          "period": "1999",
+          "value": 5858.616384301684
+        },
+        {
+          "period": "2000",
+          "value": 5953.70309407341
+        },
+        {
+          "period": "2001",
+          "value": 5933.709736273098
+        },
+        {
+          "period": "2002",
+          "value": 6044.600339977978
+        },
+        {
+          "period": "2003",
+          "value": 6111.478069311432
+        },
+        {
+          "period": "2004",
+          "value": 6310.200448907389
+        },
+        {
+          "period": "2005",
+          "value": 6579.902256005751
+        },
+        {
+          "period": "2006",
+          "value": 6672.256480969038
+        },
+        {
+          "period": "2007",
+          "value": 6862.797126843037
+        },
+        {
+          "period": "2008",
+          "value": 7028.489909405306
+        },
+        {
+          "period": "2009",
+          "value": 7152.023668169937
+        },
+        {
+          "period": "2010",
+          "value": 7323.548185833576
+        },
+        {
+          "period": "2011",
+          "value": 7509.714217907541
+        },
+        {
+          "period": "2012",
+          "value": 7821.343314422481
+        },
+        {
+          "period": "2013",
+          "value": 8104.21738317255
+        },
+        {
+          "period": "2014",
+          "value": 8278.838424505495
+        },
+        {
+          "period": "2015",
+          "value": 8260.475589361511
+        },
+        {
+          "period": "2016",
+          "value": 8070.952822790458
+        },
+        {
+          "period": "2017",
+          "value": 8030.761154064796
+        },
+        {
+          "period": "2018",
+          "value": 8077.49729193099
+        },
+        {
+          "period": "2019",
+          "value": 8124.25714144273
+        },
+        {
+          "period": "2020",
+          "value": 8205.836386602663
+        },
+        {
+          "period": "2021",
+          "value": 8197.279673449548
+        },
+        {
+          "period": "2022",
+          "value": 8287.721024835066
+        },
+        {
+          "period": "2023",
+          "value": 8257.01746363513
+        },
+        {
+          "period": "2024",
+          "value": 8048.748915698126
+        },
+        {
+          "period": "2025",
+          "value": 8014.226236114382
+        }
+      ],
+      "note": "Classe 9: 3.3. Silvicultura. Área classificada, não produção econômica ou desmatamento."
+    },
+    {
       "id": "revenue",
       "module": "finance",
       "title": "Receita orçamentária",
@@ -827,43 +1551,6 @@
         }
       ],
       "note": "Área da unidade territorial na edição anual informada pelo IBGE."
-    },
-    {
-      "id": "contracts",
-      "module": "procurement",
-      "title": "Contratações publicadas",
-      "value": 45,
-      "unit": "contratações",
-      "source": "PNCP",
-      "agency": "MGI",
-      "reference": "Exemplo fictício",
-      "url": "https://pncp.gov.br/app/editais",
-      "collectedAt": null,
-      "municipalityCode": "4127965",
-      "status": "mock",
-      "series": [
-        {
-          "period": "2020",
-          "value": 36.0
-        },
-        {
-          "period": "2021",
-          "value": 38.7
-        },
-        {
-          "period": "2022",
-          "value": 37.35
-        },
-        {
-          "period": "2023",
-          "value": 42.3
-        },
-        {
-          "period": "2024",
-          "value": 45
-        }
-      ],
-      "note": "Números fictícios exclusivamente para demonstração; TODO: integrar e validar fonte."
     },
     {
       "id": "social-bf-families",

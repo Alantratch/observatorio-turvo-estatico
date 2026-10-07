@@ -97,8 +97,9 @@ def validate(data):
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment', 'education', 'health', 'agriculture', 'social'], default='all', help='Atualizar um módulo ou todos')
+    parser.add_argument('--module', choices=['all', 'population', 'economy', 'employment', 'education', 'health', 'agriculture', 'social', 'environment'], default='all', help='Atualizar um módulo ou todos')
     parser.add_argument('--offline', action='store_true', help='Validar snapshot sem consultar APIs')
+    parser.add_argument('--environment-source', choices=['all','land','fire','water','protection'], default='all', help='Somente Meio Ambiente: atualização por periodicidade')
     parser.add_argument('--source', choices=['all','rais','caged'], default='all', help='Somente Trabalho: bases independentes')
     parser.add_argument('--force', action='store_true', help='Reprocessar mesma divulgação e incorporar revisões')
     parser.add_argument('--rais-remuneration', action='store_true', help='Processar arquivo regional grande para remuneração RAIS; opcional/manual')
@@ -131,6 +132,9 @@ def main(argv=None):
     if options.module == 'social':
         from scripts.modules.social import update as update_social
         failures += update_social(DATA, options.offline, options.force, options.cache)['collection']['failures']
+    if options.module == 'environment':
+        from scripts.modules.environment import update as update_environment
+        failures += update_environment(DATA, options.offline, options.environment_source, options.cache, options.force)['collection']['failures']
     return 1 if failures and not options.offline else 0
 
 

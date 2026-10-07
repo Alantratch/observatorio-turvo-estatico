@@ -1,0 +1,592 @@
+{
+  "data": {
+    "observations": [
+      {
+        "id": "4d52ebf2-a872-3f6a-b474-f09a4afdc41b",
+        "municipalityCode": "4119608",
+        "date": "2025-01-05T17:49:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.76873,
+        "longitude": -51.76007,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "afbbbd04-2045-335d-bf31-6e462cd28f6f",
+        "municipalityCode": "4119608",
+        "date": "2025-01-05T17:49:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.67771,
+        "longitude": -51.56733,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "1bb429a5-9a6b-3692-8032-837ed584582d",
+        "municipalityCode": "4109401",
+        "date": "2025-01-15T17:49:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.45445,
+        "longitude": -51.15366,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "686b2356-4b86-3fc7-86d2-0e17d8989165",
+        "municipalityCode": "4109401",
+        "date": "2025-02-12T18:13:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.30892,
+        "longitude": -51.3025,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "14178122-b920-3c22-8471-747ef78fd286",
+        "municipalityCode": "4109401",
+        "date": "2025-02-12T18:13:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.31036,
+        "longitude": -51.31223,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "abf11d95-fb19-3877-92a1-6a909ec0ffbf",
+        "municipalityCode": "4109401",
+        "date": "2025-02-21T17:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.3328,
+        "longitude": -52.02091,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "1ec3d81b-a850-3a8b-b07c-589afd051bf1",
+        "municipalityCode": "4127965",
+        "date": "2025-02-24T17:53:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.9497,
+        "longitude": -51.33737,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "3da3e746-dc6f-331b-aeb9-a87f7ab2d243",
+        "municipalityCode": "4127965",
+        "date": "2025-02-24T17:53:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.9513,
+        "longitude": -51.33204,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "4bb0d0f4-b582-3a63-af5c-c58bbda9f865",
+        "municipalityCode": "4109401",
+        "date": "2025-03-24T18:11:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.46059,
+        "longitude": -51.12883,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "9678798c-dda3-3a70-8f66-b7d8d8d389e0",
+        "municipalityCode": "4109401",
+        "date": "2025-05-15T17:37:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.50928,
+        "longitude": -51.34951,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "c4c110fd-ee2a-3f49-b405-02d103853a0f",
+        "municipalityCode": "4109401",
+        "date": "2025-03-04T18:13:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.27325,
+        "longitude": -51.33467,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "4748866e-aa0b-3d29-8bc5-eb93fc4b3eae",
+        "municipalityCode": "4109401",
+        "date": "2025-03-04T18:13:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.47278,
+        "longitude": -51.12712,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "5cab492c-836a-3965-8114-6b39bede31e1",
+        "municipalityCode": "4109401",
+        "date": "2025-03-04T18:13:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.27466,
+        "longitude": -51.34438,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "84e30663-153b-3ff0-a3ee-a6ab75771bb1",
+        "municipalityCode": "4109401",
+        "date": "2025-06-18T18:21:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.47206,
+        "longitude": -51.20626,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "ea3f6fba-0f5c-34f8-9f97-c57ef361d5ab",
+        "municipalityCode": "4109401",
+        "date": "2025-07-06T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.16267,
+        "longitude": -51.50309,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "6fa1a1de-b3d6-30f8-b2de-1f3ab9ce6dcb",
+        "municipalityCode": "4119608",
+        "date": "2025-07-16T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.60644,
+        "longitude": -51.59517,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "0388a32c-8f08-346b-aa90-79c7ab7505b7",
+        "municipalityCode": "4119608",
+        "date": "2025-07-16T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.60787,
+        "longitude": -51.60483,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "0f3b457a-13d0-318e-b001-a18181bb87eb",
+        "municipalityCode": "4127965",
+        "date": "2025-07-21T18:26:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.05569,
+        "longitude": -51.74974,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "45943717-71e9-3f6b-8a93-6a13704023a5",
+        "municipalityCode": "4127965",
+        "date": "2025-07-31T18:21:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.00696,
+        "longitude": -51.47084,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "1f0cd418-3184-38e3-beb3-31a8e3980a80",
+        "municipalityCode": "4127965",
+        "date": "2025-07-31T18:21:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.00555,
+        "longitude": -51.46029,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "db214359-d18a-324c-9d49-ba9719b6fa2a",
+        "municipalityCode": "4109401",
+        "date": "2025-08-17T17:54:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.38022,
+        "longitude": -51.51684,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "5d71551b-28d9-3a3f-bb6f-913fa0d09682",
+        "municipalityCode": "4109401",
+        "date": "2025-08-17T17:54:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.37475,
+        "longitude": -51.51247,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "c66977ac-9076-375a-b3a3-e6bcd2c5083a",
+        "municipalityCode": "4109401",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.20745,
+        "longitude": -51.43538,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "70365a50-23f1-321e-94c4-0d73ae0213c1",
+        "municipalityCode": "4109401",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.47416,
+        "longitude": -51.11834,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "2ac786a8-0adc-3835-97a4-177821a583ce",
+        "municipalityCode": "4127965",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.00865,
+        "longitude": -51.46923,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "c23442f6-ad75-399d-9db6-5bf0b6a0cc19",
+        "municipalityCode": "4109401",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.21626,
+        "longitude": -51.43379,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "ad92e6fd-b11c-3c0a-8667-6cfb5978c337",
+        "municipalityCode": "4109401",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.47562,
+        "longitude": -51.12811,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "8ba09bd1-f6c8-3740-973b-a501263d3ddc",
+        "municipalityCode": "4127965",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.00723,
+        "longitude": -51.45955,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "063c1a25-3236-3c8e-be83-a98d963b5fb7",
+        "municipalityCode": "4109401",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.36948,
+        "longitude": -51.59867,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "eb784d7b-94a1-3a24-bcea-573c5fa1bc7e",
+        "municipalityCode": "4109401",
+        "date": "2025-08-18T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.36806,
+        "longitude": -51.58897,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "cf249f32-4fd9-3a3d-82df-823ab3b475c3",
+        "municipalityCode": "4119608",
+        "date": "2025-08-23T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.69305,
+        "longitude": -51.8943,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "5626e37c-f73a-3fc0-a77c-03186c2cdf5e",
+        "municipalityCode": "4127965",
+        "date": "2025-08-13T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.77388,
+        "longitude": -51.39053,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "111b9867-e591-3827-98d1-548fe03f45ce",
+        "municipalityCode": "4109401",
+        "date": "2025-08-13T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.35531,
+        "longitude": -51.44903,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "9a6396a2-2e6b-31dc-979c-4e31fa98a6eb",
+        "municipalityCode": "4109401",
+        "date": "2025-08-13T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.2168,
+        "longitude": -51.56173,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "da86ab91-4ace-3dad-94a9-f42c9c3faabf",
+        "municipalityCode": "4127965",
+        "date": "2025-08-13T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.77544,
+        "longitude": -51.4008,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "4d964a46-8ea8-352c-956a-1cdd759049b1",
+        "municipalityCode": "4109401",
+        "date": "2025-08-13T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.63897,
+        "longitude": -51.48837,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "a5daa408-7c5a-3bca-944b-bb1a1fda17df",
+        "municipalityCode": "4109401",
+        "date": "2025-08-13T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.18049,
+        "longitude": -51.32469,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "a09e621b-5ee3-35d7-a6c4-e494841033cb",
+        "municipalityCode": "4119608",
+        "date": "2025-09-08T19:00:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.63962,
+        "longitude": -51.59364,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "5ca48532-59cf-3595-bc6c-7c5bed05a1af",
+        "municipalityCode": "4119608",
+        "date": "2025-09-10T18:38:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.64094,
+        "longitude": -51.51081,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "be4c37d5-a864-30c5-8309-960065724026",
+        "municipalityCode": "4109401",
+        "date": "2025-09-12T18:19:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.30288,
+        "longitude": -51.23431,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "8b148f14-7d4e-3728-b1b5-e8607cca317d",
+        "municipalityCode": "4109401",
+        "date": "2025-09-12T18:17:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.47333,
+        "longitude": -51.12942,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "bc74897f-8a1f-3d3a-ba4b-6732cb0559f8",
+        "municipalityCode": "4109401",
+        "date": "2025-09-12T18:19:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.30446,
+        "longitude": -51.24736,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "bf3c8d19-5667-392e-acd0-cdffddbb91fb",
+        "municipalityCode": "4109401",
+        "date": "2025-09-12T18:19:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.27446,
+        "longitude": -51.34745,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "14ed0702-f42b-3a18-8dd5-5e410a4774f7",
+        "municipalityCode": "4109401",
+        "date": "2025-09-18T18:53:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.18103,
+        "longitude": -51.19138,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "e7e66b0f-f68d-30ba-9f6d-9d17c2976193",
+        "municipalityCode": "4119608",
+        "date": "2025-09-20T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.48995,
+        "longitude": -51.81226,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "60d89481-ea61-3303-8c02-d1c2fe317c25",
+        "municipalityCode": "4109401",
+        "date": "2025-09-20T18:32:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.63249,
+        "longitude": -51.42448,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "ae5f46fa-e242-37b3-a085-449e6f96f91c",
+        "municipalityCode": "4109401",
+        "date": "2025-09-25T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.53936,
+        "longitude": -51.50154,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "59792acd-8071-3712-a499-10c68b39aff9",
+        "municipalityCode": "4127965",
+        "date": "2025-10-15T18:17:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.9561,
+        "longitude": -51.34537,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "1fd98d22-d9aa-32c0-8d16-8339509adbd0",
+        "municipalityCode": "4109401",
+        "date": "2025-10-15T18:17:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.47452,
+        "longitude": -51.2907,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "826d249f-93e8-3374-9e6c-c2852600d835",
+        "municipalityCode": "4109401",
+        "date": "2025-10-20T18:11:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.47933,
+        "longitude": -51.13341,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "b592f034-aaf3-36fd-930a-db064ed83540",
+        "municipalityCode": "4127965",
+        "date": "2025-10-21T18:49:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.82273,
+        "longitude": -51.42689,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "354224fa-90ed-361b-aeff-c12968ba0c32",
+        "municipalityCode": "4127965",
+        "date": "2025-10-21T18:49:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.82473,
+        "longitude": -51.43865,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "3c410085-9461-3c0d-912b-b6dbc7e799d1",
+        "municipalityCode": "4109401",
+        "date": "2025-10-23T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.45993,
+        "longitude": -51.51876,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "c482b68f-7a15-3d24-b95f-a6c73e01f829",
+        "municipalityCode": "4109401",
+        "date": "2025-10-23T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.45853,
+        "longitude": -51.50786,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "d8a01caa-c9b6-3c28-8e14-ea44562f4dc6",
+        "municipalityCode": "4109401",
+        "date": "2025-10-23T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.46935,
+        "longitude": -51.51725,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "f1c81cfc-7738-3870-a694-e52418048416",
+        "municipalityCode": "4109401",
+        "date": "2025-10-23T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.4679,
+        "longitude": -51.50604,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "1d860267-7d49-3307-8252-406dfd1fbb4c",
+        "municipalityCode": "4127965",
+        "date": "2025-10-25T18:09:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -24.93758,
+        "longitude": -51.34234,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "dce03b75-b6c7-3b65-b3f3-aabe14f203c2",
+        "municipalityCode": "4109401",
+        "date": "2025-11-10T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.46854,
+        "longitude": -51.29037,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "24892bae-0a44-3bca-b3de-4cd6ec068df7",
+        "municipalityCode": "4109401",
+        "date": "2025-11-20T18:28:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.64133,
+        "longitude": -51.49108,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "d7f26ec6-995d-33f6-b925-64c6b33d3445",
+        "municipalityCode": "4109401",
+        "date": "2025-11-28T18:38:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.45733,
+        "longitude": -51.46883,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "9c45c43e-a6af-379d-8bb5-a4348ae88d93",
+        "municipalityCode": "4127965",
+        "date": "2025-12-03T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.07143,
+        "longitude": -51.38262,
+        "biome": "Mata Atlântica"
+      },
+      {
+        "id": "6835fe3a-c663-3857-a5d9-c9e943551e7b",
+        "municipalityCode": "4109401",
+        "date": "2025-12-03T18:34:00+00:00",
+        "satellite": "AQUA_M-T",
+        "latitude": -25.22594,
+        "longitude": -51.49415,
+        "biome": "Mata Atlântica"
+      }
+    ],
+    "availableThrough": "2025-12-31",
+    "reference": "2025",
+    "coverage": "annual-complete",
+    "satellite": "AQUA_M-T"
+  },
+  "source": {
+    "id": "fire-2025",
+    "agency": "INPE",
+    "dataset": "Programa Queimadas — satélite de referência",
+    "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/anual/Brasil_sat_ref/focos_br_ref_2025.zip",
+    "reference": "2025",
+    "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+    "unit": "focos de calor",
+    "municipalityCodes": [
+      "4127965",
+      "4109401",
+      "4119608",
+      "4113254"
+    ],
+    "satellite": "AQUA_M-T",
+    "catalogUrl": "https://data.inpe.br/queimadas/pages/secao_downloads/dados-abertos/",
+    "transformation": "Filtro código IBGE (mensal) ou nome+UF (anual de referência); somente AQUA_M-T; deduplicação pelo ID oficial; UTC.",
+    "sha256": "63b144c47279991dca0f2007e23e15b4a932355b6c93d033d81a245a8eab56ca"
+  },
+  "http": {
+    "ETag": "\"5a1fdd-64a9096dbd7c0\"",
+    "Last-Modified": "Wed, 11 Feb 2026 18:32:07 GMT",
+    "Content-Length": "5906397"
+  }
+}

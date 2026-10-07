@@ -1,0 +1,274 @@
+.env-page {
+  --env-green: #25704a;
+}
+.env-intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 30px 0 20px;
+}
+.env-intro h2 {
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.15;
+  margin: 14px 0;
+}
+.env-intro p {
+  max-width: 600px;
+  color: #61715e;
+  line-height: 1.7;
+}
+.env-biome {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--env-green);
+  font-weight: 600;
+}
+.env-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  white-space: nowrap;
+}
+.env-nav {
+  display: flex;
+  gap: 9px;
+  overflow: auto;
+  padding: 10px 0 22px;
+}
+.env-nav a {
+  padding: 8px 12px;
+  border: 1px solid #dce5d8;
+  border-radius: 20px;
+  white-space: nowrap;
+  background: #fff;
+  font-size: 13px;
+}
+.env-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 13px;
+  margin-bottom: 22px;
+}
+.env-card {
+  padding: 19px;
+  background: #fff;
+  border: 1px solid #dfe8da;
+  border-radius: 10px;
+  border-top: 3px solid #3b8060;
+}
+.env-card > span {
+  display: block;
+  min-height: 36px;
+  font-size: 13px;
+  color: #5a6c56;
+}
+.env-card strong {
+  display: block;
+  font-size: 26px;
+  color: #244a32;
+  margin: 8px 0;
+}
+.env-card strong small {
+  font-size: 14px;
+}
+.env-card p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.env-card > small,
+.env-source {
+  font-size: 11px;
+  color: #667360;
+}
+.env-section {
+  margin-bottom: 22px;
+  scroll-margin-top: 25px;
+  min-width: 0;
+}
+.env-description {
+  color: #677362;
+  line-height: 1.7;
+}
+.env-section p {
+  line-height: 1.7;
+}
+.env-section small {
+  display: block;
+  font-weight: normal;
+  font-size: 11px;
+  color: #667360;
+  margin-top: 5px;
+}
+.env-chart {
+  height: 310px;
+  width: 100%;
+  min-width: 0;
+  margin: 25px 0;
+}
+.env-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.env-facts div {
+  padding: 18px;
+  background: #f2f6ed;
+  border-radius: 8px;
+}
+.env-facts strong {
+  display: block;
+  font-size: 25px;
+  color: #2d603e;
+}
+.env-facts span {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.env-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 20px 0;
+}
+.env-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+  color: #4f654d;
+  max-width: 100%;
+}
+.env-filters select {
+  background: white;
+  border: 1px solid #d1dfcc;
+  border-radius: 6px;
+  padding: 9px;
+  max-width: 100%;
+  font: inherit;
+}
+.env-callout {
+  border-left: 3px solid #368367;
+  background: #f2f6ed;
+  padding: 17px;
+}
+.env-source {
+  margin: 20px 0 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e2e9dc;
+}
+.env-pending {
+  background: #f5f6f0;
+  border: 1px dashed #d5decc;
+  border-radius: 7px;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 13px;
+}
+.env-pending p {
+  margin: 8px 0;
+}
+.env-map {
+  margin: 20px 0;
+  padding: 18px;
+  background: #f7f8f2;
+  border: 1px solid #dce5d8;
+  border-radius: 9px;
+}
+.env-map svg {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 400px;
+}
+.env-map figcaption {
+  font-size: 11px;
+  color: #64705f;
+  line-height: 1.7;
+  margin-top: 15px;
+}
+.env-own {
+  background: #edf4e8;
+}
+.env-sources summary {
+  cursor: pointer;
+  padding: 14px 0;
+  border-top: 1px solid #e0e8da;
+  font-size: 13px;
+}
+.env-sources dl > div {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 12px;
+}
+.env-sources dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.env-section .table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.env-section table {
+  font-size: 12px;
+}
+.env-section th {
+  text-align: left;
+}
+.env-section td {
+  white-space: nowrap;
+}
+.env-section td small,
+.env-section th small {
+  white-space: normal;
+  max-width: 310px;
+}
+.env-section details {
+  margin: 15px 0;
+}
+.env-section details > summary {
+  cursor: pointer;
+  color: #34543a;
+  font-weight: 600;
+}
+@media (max-width: 650px) {
+  .env-intro {
+    display: block;
+    padding-top: 10px;
+  }
+  .env-download {
+    margin-top: 15px;
+    white-space: normal;
+  }
+  .env-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .env-card {
+    padding: 12px;
+  }
+  .env-card strong {
+    font-size: 22px;
+  }
+  .env-chart {
+    height: 280px;
+  }
+  .env-map {
+    padding: 8px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .env-map svg {
+    height: 300px;
+  }
+  .env-sources dl > div {
+    grid-template-columns: 80px 1fr;
+  }
+  .env-filters label {
+    width: 100%;
+  }
+}
