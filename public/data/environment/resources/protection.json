@@ -50,7 +50,7 @@
         "agency": "INSTITUTO AMBIENTAL DO PARANÁ - PR",
         "listedMunicipalities": "GUARAPUAVA (PR), PRUDENTÓPOLIS (PR), TURVO (PR)",
         "registryMentionsTurvo": true,
-        "intersectionHa": 95.07795536103009,
+        "intersectionHa": 95.07795536102971,
         "syncedAt": 1786460414000,
         "geometry": {
           "type": "MultiPolygon",
@@ -459,8 +459,8 @@
         }
       }
     ],
-    "unionAreaHa": 98.63135217895902,
-    "sharePercent": 0.10537109837309919,
+    "unionAreaHa": 98.63135217895861,
+    "sharePercent": 0.10537109837309876,
     "declaredMunicipalityCount": 1,
     "projection": "EPSG:31982",
     "methodology": "União das interseções com malha IBGE 2022; área projetada SIRGAS 2000 / UTM 22S. Estimativa cartográfica, sem dupla contagem; não equivale a demarcação legal, APP, RL ou CAR.",
@@ -476,7 +476,7 @@
     "dataset": "Poligonais CNUC e biomas IBGE",
     "url": "https://pamgia.ibama.gov.br/server/rest/services/BasesSincronizadas/lim_unidades_conserva%C3%A7%C3%A3o_mma_a/FeatureServer/0/query?f=geojson&where=1%3D1&geometry=-51.7793%2C-25.177%2C-51.2944%2C-24.7549&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=uc_id%2Ccd_cnuc%2Cnome_uc%2Cesfera%2Ccategoria%2Cgrupo%2Cmunicipio%2Corg_gestor%2Cdt_sync&outSR=4326&returnGeometry=true&resultRecordCount=2000",
     "reference": "Sincronização 2026-08-11",
-    "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+    "collectedAt": "2026-10-14T17:21:47.348904+00:00",
     "unit": "ha; unidades",
     "municipalityCodes": [
       "4127965"

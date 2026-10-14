@@ -355,7 +355,7 @@
       "dataset": "Programa Queimadas — satélite de referência",
       "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/focos_mensal_br_202610.csv",
       "reference": "202610",
-      "collectedAt": "2026-10-08T16:38:24.345690+00:00",
+      "collectedAt": "2026-10-14T17:21:47.348904+00:00",
       "unit": "focos de calor",
       "municipalityCodes": [
         "4127965",
@@ -366,7 +366,7 @@
       "satellite": "AQUA_M-T",
       "catalogUrl": "https://data.inpe.br/queimadas/pages/secao_downloads/dados-abertos/",
       "transformation": "Filtro código IBGE (mensal) ou nome+UF (anual de referência); somente AQUA_M-T; deduplicação pelo ID oficial; UTC.",
-      "sha256": "8cfbac62a3b6279c89469776938d3b259f482e40797e849b924a742acbd360da"
+      "sha256": "3f759656e0015aa6157ea6708f8ab68b68a9a017f811f12bf48ad5325bfb9c3e"
     },
     {
       "id": "land",
@@ -395,7 +395,7 @@
       "dataset": "Poligonais CNUC e biomas IBGE",
       "url": "https://pamgia.ibama.gov.br/server/rest/services/BasesSincronizadas/lim_unidades_conserva%C3%A7%C3%A3o_mma_a/FeatureServer/0/query?f=geojson&where=1%3D1&geometry=-51.7793%2C-25.177%2C-51.2944%2C-24.7549&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=uc_id%2Ccd_cnuc%2Cnome_uc%2Cesfera%2Ccategoria%2Cgrupo%2Cmunicipio%2Corg_gestor%2Cdt_sync&outSR=4326&returnGeometry=true&resultRecordCount=2000",
       "reference": "Sincronização 2026-08-11",
-      "collectedAt": "2026-10-07T18:19:30.573244+00:00",
+      "collectedAt": "2026-10-14T17:21:47.348904+00:00",
       "unit": "ha; unidades",
       "municipalityCodes": [
         "4127965"
@@ -6768,7 +6768,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-07",
+        "reference": "2026-10-13",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -6824,7 +6824,7 @@
             "count": 4,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-07",
+            "through": "2026-10-13",
             "per1000Km2": 4.273330783579299
           }
         ],
@@ -7255,7 +7255,7 @@
           "count": 4,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-07",
+          "through": "2026-10-13",
           "per1000Km2": 4.273330783579299
         },
         "previousYear": {
@@ -10833,7 +10833,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-07",
+        "reference": "2026-10-13",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -10889,7 +10889,7 @@
             "count": 14,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-07",
+            "through": "2026-10-13",
             "per1000Km2": 4.424928403078106
           }
         ],
@@ -11320,7 +11320,7 @@
           "count": 14,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-07",
+          "through": "2026-10-13",
           "per1000Km2": 4.424928403078106
         },
         "previousYear": {
@@ -15001,7 +15001,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-07",
+        "reference": "2026-10-13",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -15057,7 +15057,7 @@
             "count": 2,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-07",
+            "through": "2026-10-13",
             "per1000Km2": 1.1852174933361148
           }
         ],
@@ -15488,7 +15488,7 @@
           "count": 2,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-07",
+          "through": "2026-10-13",
           "per1000Km2": 1.1852174933361148
         },
         "previousYear": {
@@ -18552,7 +18552,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-07",
+        "reference": "2026-10-13",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -18608,7 +18608,7 @@
             "count": 0,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-07",
+            "through": "2026-10-13",
             "per1000Km2": 0.0
           }
         ],
@@ -19039,7 +19039,7 @@
           "count": 0,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-07",
+          "through": "2026-10-13",
           "per1000Km2": 0.0
         },
         "previousYear": {
@@ -19069,7 +19069,7 @@
   ],
   "fire": {
     "status": "real",
-    "reference": "2026-10-07",
+    "reference": "2026-10-13",
     "satellite": "AQUA_M-T",
     "annual": [
       {
@@ -19125,7 +19125,7 @@
         "count": 4,
         "complete": false,
         "coverageMonths": 10,
-        "through": "2026-10-07",
+        "through": "2026-10-13",
         "per1000Km2": 4.273330783579299
       }
     ],
@@ -19556,7 +19556,7 @@
       "count": 4,
       "complete": false,
       "coverageMonths": 10,
-      "through": "2026-10-07",
+      "through": "2026-10-13",
       "per1000Km2": 4.273330783579299
     },
     "previousYear": {
@@ -19796,7 +19796,7 @@
         "agency": "INSTITUTO AMBIENTAL DO PARANÁ - PR",
         "listedMunicipalities": "GUARAPUAVA (PR), PRUDENTÓPOLIS (PR), TURVO (PR)",
         "registryMentionsTurvo": true,
-        "intersectionHa": 95.07795536103009,
+        "intersectionHa": 95.07795536102971,
         "syncedAt": 1786460414000,
         "geometry": {
           "type": "MultiPolygon",
@@ -20205,8 +20205,8 @@
         }
       }
     ],
-    "unionAreaHa": 98.63135217895902,
-    "sharePercent": 0.10537109837309919,
+    "unionAreaHa": 98.63135217895861,
+    "sharePercent": 0.10537109837309876,
     "declaredMunicipalityCount": 1,
     "projection": "EPSG:31982",
     "methodology": "União das interseções com malha IBGE 2022; área projetada SIRGAS 2000 / UTM 22S. Estimativa cartográfica, sem dupla contagem; não equivale a demarcação legal, APP, RL ou CAR.",
@@ -21359,8 +21359,8 @@
     ]
   },
   "collection": {
-    "attemptedAt": "2026-10-08T16:38:24.345690+00:00",
-    "lastSuccessAt": "2026-10-08T16:38:24.345690+00:00",
+    "attemptedAt": "2026-10-14T17:21:47.348904+00:00",
+    "lastSuccessAt": "2026-10-14T17:21:47.348904+00:00",
     "failures": [],
     "policy": "Fontes independentes, transação por publicação. Arquivo INPE faltante preserva todo o bloco Fogo. Falhas ficam no log; snapshot anterior não é substituído por zero."
   }
