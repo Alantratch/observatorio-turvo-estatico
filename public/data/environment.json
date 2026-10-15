@@ -355,7 +355,7 @@
       "dataset": "Programa Queimadas — satélite de referência",
       "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/focos_mensal_br_202610.csv",
       "reference": "202610",
-      "collectedAt": "2026-10-14T17:21:47.348904+00:00",
+      "collectedAt": "2026-10-15T14:14:36.645030+00:00",
       "unit": "focos de calor",
       "municipalityCodes": [
         "4127965",
@@ -366,7 +366,7 @@
       "satellite": "AQUA_M-T",
       "catalogUrl": "https://data.inpe.br/queimadas/pages/secao_downloads/dados-abertos/",
       "transformation": "Filtro código IBGE (mensal) ou nome+UF (anual de referência); somente AQUA_M-T; deduplicação pelo ID oficial; UTC.",
-      "sha256": "3f759656e0015aa6157ea6708f8ab68b68a9a017f811f12bf48ad5325bfb9c3e"
+      "sha256": "95f16936583aefd69f4d956212cfbdda70178f179283f0302eb62d0940b3fa74"
     },
     {
       "id": "land",
@@ -6768,7 +6768,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-13",
+        "reference": "2026-10-14",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -6824,7 +6824,7 @@
             "count": 4,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-13",
+            "through": "2026-10-14",
             "per1000Km2": 4.273330783579299
           }
         ],
@@ -7255,7 +7255,7 @@
           "count": 4,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-13",
+          "through": "2026-10-14",
           "per1000Km2": 4.273330783579299
         },
         "previousYear": {
@@ -10833,7 +10833,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-13",
+        "reference": "2026-10-14",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -10889,7 +10889,7 @@
             "count": 14,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-13",
+            "through": "2026-10-14",
             "per1000Km2": 4.424928403078106
           }
         ],
@@ -11320,7 +11320,7 @@
           "count": 14,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-13",
+          "through": "2026-10-14",
           "per1000Km2": 4.424928403078106
         },
         "previousYear": {
@@ -15001,7 +15001,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-13",
+        "reference": "2026-10-14",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -15057,7 +15057,7 @@
             "count": 2,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-13",
+            "through": "2026-10-14",
             "per1000Km2": 1.1852174933361148
           }
         ],
@@ -15488,7 +15488,7 @@
           "count": 2,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-13",
+          "through": "2026-10-14",
           "per1000Km2": 1.1852174933361148
         },
         "previousYear": {
@@ -18552,7 +18552,7 @@
       },
       "fire": {
         "status": "real",
-        "reference": "2026-10-13",
+        "reference": "2026-10-14",
         "satellite": "AQUA_M-T",
         "annual": [
           {
@@ -18608,7 +18608,7 @@
             "count": 0,
             "complete": false,
             "coverageMonths": 10,
-            "through": "2026-10-13",
+            "through": "2026-10-14",
             "per1000Km2": 0.0
           }
         ],
@@ -19039,7 +19039,7 @@
           "count": 0,
           "complete": false,
           "coverageMonths": 10,
-          "through": "2026-10-13",
+          "through": "2026-10-14",
           "per1000Km2": 0.0
         },
         "previousYear": {
@@ -19069,7 +19069,7 @@
   ],
   "fire": {
     "status": "real",
-    "reference": "2026-10-13",
+    "reference": "2026-10-14",
     "satellite": "AQUA_M-T",
     "annual": [
       {
@@ -19125,7 +19125,7 @@
         "count": 4,
         "complete": false,
         "coverageMonths": 10,
-        "through": "2026-10-13",
+        "through": "2026-10-14",
         "per1000Km2": 4.273330783579299
       }
     ],
@@ -19556,7 +19556,7 @@
       "count": 4,
       "complete": false,
       "coverageMonths": 10,
-      "through": "2026-10-13",
+      "through": "2026-10-14",
       "per1000Km2": 4.273330783579299
     },
     "previousYear": {
@@ -21359,8 +21359,8 @@
     ]
   },
   "collection": {
-    "attemptedAt": "2026-10-14T17:21:47.348904+00:00",
-    "lastSuccessAt": "2026-10-14T17:21:47.348904+00:00",
+    "attemptedAt": "2026-10-15T14:14:36.645030+00:00",
+    "lastSuccessAt": "2026-10-15T14:14:36.645030+00:00",
     "failures": [],
     "policy": "Fontes independentes, transação por publicação. Arquivo INPE faltante preserva todo o bloco Fogo. Falhas ficam no log; snapshot anterior não é substituído por zero."
   }
