@@ -7879,9 +7879,11 @@
     "officialUrl": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html"
   },
   "collection": {
-    "attemptedAt": "2026-10-06T15:05:19.153397+00:00",
+    "attemptedAt": "2026-10-26T16:09:09.233397+00:00",
     "lastSuccessAt": "2026-10-06T15:05:19.153397+00:00",
-    "failures": [],
+    "failures": [
+      "URLError: <urlopen error timed out>"
+    ],
     "policy": "Qualquer falha requerida preserva integralmente o último snapshot validado, inclusive comparações."
   }
 }
