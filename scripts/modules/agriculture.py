@@ -311,5 +311,5 @@ def update(directory, offline=False):
         print(f'Agropecuária: PAM {data["crops"]["reference"]}, {data["summary"]["cropCount"]} produtos; Censo {data["agriculturalCensus"]["reference"]}.');return data
     except Exception as exc:
         if not previous:raise
-        data=copy.deepcopy(validate(previous));data['collection']={'attemptedAt':now,'failures':[f'{type(exc).__name__}: {exc}']};atomic_write(path,data)
+        data=validate(previous)
         print('FALHA Agropecuária: último snapshot completo preservado:',exc);return data

@@ -87,7 +87,7 @@ class AgricultureSnapshotTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as t:
    path=Path(t);original=snapshot();(path/'agriculture.json').write_text(json.dumps(original));(path/'sentinel.csv').write_text('untouched')
    with patch.object(a,'build',side_effect=TimeoutError('official API timeout')):result=a.update(path)
-   result['collection']=original['collection'];self.assertEqual(result,original);self.assertEqual((path/'sentinel.csv').read_text(),'untouched')
+   self.assertEqual(result,original);self.assertEqual((path/'sentinel.csv').read_text(),'untouched')
  def test_first_failure_cannot_invent_snapshot(self):
   with tempfile.TemporaryDirectory() as t,patch.object(a,'build',side_effect=TimeoutError('API')):
    with self.assertRaises(TimeoutError):a.update(t)
