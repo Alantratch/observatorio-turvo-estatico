@@ -220,7 +220,7 @@ Vite + React + TypeScript permite evolução incremental de componentes e módul
 
 Os sete workflows estão instalados em `.github/workflows/`: CI e seis rotinas de atualização. `docs/github-actions/` mantém cópias de referência idênticas; ao alterar uma rotina, atualize os dois arquivos. O deploy fica exclusivamente com a integração Git do Cloudflare Pages.
 
-Na aba Actions, escolha a rotina e use **Run workflow → main** para execução manual. A CI executa em PRs e commits na `main`; os coletores executam somente por agenda ou comando manual na `main`. Eles usam `GITHUB_TOKEN` com `contents: write`; nenhum secret adicional é necessário. Uma coleta parcial preserva dados anteriores e sinaliza falha após validar/versionar o que for seguro publicar.
+Na aba Actions, escolha a rotina e use **Run workflow → main** para execução manual. A CI executa em PRs e commits na `main`; os coletores executam somente por agenda ou comando manual na `main`. Eles usam `GITHUB_TOKEN` com `contents: write`; nenhum secret adicional é necessário. Uma coleta parcial preserva dados anteriores e registra aviso após validar/versionar o que for seguro publicar.
 
 A credencial local usada originalmente não tinha escopo `workflow`; a instalação foi realizada pelo conector GitHub. Para futuras alterações por CLI, use uma credencial com permissão de workflows. Não copie a antiga rotina Wrangler de deploy do PR #13.
 
