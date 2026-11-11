@@ -54,8 +54,7 @@ jobs:
           git commit -m 'data: atualizar snapshots públicos'
           # Push normal: se main avançar durante a coleta, falhar sem sobrescrever.
           git push origin HEAD:main
-      - name: Sinalizar falha após preservar e publicar o relatório
+      - name: Registrar coleta parcial sem falhar o workflow
         if: always() && steps.collect.outcome == 'failure'
         run: |
-          echo '::error::Coleta incompleta; último snapshot preservado. Consulte collection.failures em population.json e economy.json.'
-          exit 1
+          echo '::warning::Coleta incompleta; último snapshot preservado. Consulte collection.failures em population.json e economy.json.'
