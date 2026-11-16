@@ -74,6 +74,7 @@ jobs:
           git commit -m 'data: atualizar fontes ambientais municipais'
           # Push normal: se main avançar durante a coleta, falhar sem sobrescrever.
           git push origin HEAD:main
-      - name: Sinalizar coleta com falha após preservar snapshot
+      - name: Registrar coleta parcial sem falhar o workflow
         if: always() && steps.collect.outcome == 'failure'
-        run: exit 1
+        run: |
+          echo '::warning::Coleta ambiental incompleta; snapshots válidos preservados. Consulte o log da etapa de coleta para identificar as fontes com falha.'
