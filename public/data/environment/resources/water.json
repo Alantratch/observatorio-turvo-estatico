@@ -485,7 +485,7 @@
         "basin": "RIO PARANÁ",
         "subBasin": "RIOS PARANÁ,PARANAPANEMA E ...",
         "river": "R. BONITO OU PEDRINHO",
-        "registryUpdatedAt": 1427414400000
+        "registryUpdatedAt": 1793836800000
       }
     ],
     "measurements": {
@@ -505,7 +505,7 @@
     "dataset": "Inventário de estações hidrometeorológicas SNIRH",
     "url": "https://portal1.snirh.gov.br/server/rest/services/Esta%C3%A7%C3%B5es_Hidrometeorol%C3%B3gicas_SNIRH/FeatureServer/0/query?f=geojson&where=UF%3D%27PARAN%C3%81%27&geometry=-51.9293%2C-25.326999999999998%2C-51.144400000000005%2C-24.6049&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=Codigo%2CNome%2CTipoEstacao%2COperando%2CLatitude%2CLongitude%2CMunicipio%2CMunicipioCodigo%2CUF%2CBacia%2CSubBacia%2CRio%2CResponsavelSigla%2CEstacaoTelemetrica%2CDataAlteracao&outSR=4326&returnGeometry=true&resultRecordCount=2000",
     "reference": "Cadastro consultado; datas próprias por estação",
-    "collectedAt": "2026-10-07T18:29:48.008184+00:00",
+    "collectedAt": "2026-11-16T18:22:21.933542+00:00",
     "unit": "estações",
     "municipalityCodes": [
       "4127965"
