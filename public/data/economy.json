@@ -1807,7 +1807,7 @@
       "source": "IBGE / Produto Interno Bruto dos Municípios · Tabela 5938",
       "agency": "IBGE",
       "municipalityCode": "4127965",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4127965%5D",
       "methodology": "gdp-municipal-reference-2010-current-prices",
       "status": "real",
@@ -1823,7 +1823,7 @@
       "source": "IBGE / Produto Interno Bruto dos Municípios · Indicador 47001",
       "agency": "IBGE",
       "municipalityCode": "4127965",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "url": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/47001/resultados/4127965",
       "methodology": "gdp-municipal-reference-2010-current-prices",
       "status": "real",
@@ -1839,7 +1839,7 @@
       "source": "IBGE / Produto Interno Bruto dos Municípios · Tabela 5938",
       "agency": "IBGE",
       "municipalityCode": "4127965",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4127965%5D",
       "methodology": "gdp-municipal-reference-2010-current-prices",
       "status": "real",
@@ -1855,7 +1855,7 @@
       "source": "IBGE / Produto Interno Bruto dos Municípios · Tabela 5938",
       "agency": "IBGE",
       "municipalityCode": "4127965",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4127965%5D",
       "methodology": "gdp-municipal-reference-2010-current-prices",
       "status": "real",
@@ -7352,7 +7352,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4127965%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/5938",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/metadados",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valores em Mil Reais × 1.000 → R$; percentuais oficiais preservados sem recalcular ou normalizar.",
         "Variação nominal = (PIB atual / PIB anterior − 1) × 100; primeira observação/base zero = null.",
@@ -7402,7 +7402,7 @@
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/47001",
       "hierarchyUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/38/indicadores",
       "definitionUrl": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valor oficial em reais, multiplicador 1; não recalculado com população de outra pesquisa.",
         "Pesquisas retorna código municipal de seis dígitos; validação explícita sem dígito verificador.",
@@ -7504,7 +7504,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4109401%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/5938",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/metadados",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valores em Mil Reais × 1.000 → R$; percentuais oficiais preservados sem recalcular ou normalizar.",
         "Variação nominal = (PIB atual / PIB anterior − 1) × 100; primeira observação/base zero = null.",
@@ -7554,7 +7554,7 @@
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/47001",
       "hierarchyUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/38/indicadores",
       "definitionUrl": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valor oficial em reais, multiplicador 1; não recalculado com população de outra pesquisa.",
         "Pesquisas retorna código municipal de seis dígitos; validação explícita sem dígito verificador.",
@@ -7656,7 +7656,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4119608%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/5938",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/metadados",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valores em Mil Reais × 1.000 → R$; percentuais oficiais preservados sem recalcular ou normalizar.",
         "Variação nominal = (PIB atual / PIB anterior − 1) × 100; primeira observação/base zero = null.",
@@ -7706,7 +7706,7 @@
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/47001",
       "hierarchyUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/38/indicadores",
       "definitionUrl": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valor oficial em reais, multiplicador 1; não recalculado com população de outra pesquisa.",
         "Pesquisas retorna código municipal de seis dígitos; validação explícita sem dígito verificador.",
@@ -7808,7 +7808,7 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2002%7C2003%7C2004%7C2005%7C2006%7C2007%7C2008%7C2009%7C2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37%7C543%7C498%7C513%7C516%7C517%7C520%7C6575%7C6574%7C525%7C528?localidades=N6%5B4113254%5D",
       "officialUrl": "https://sidra.ibge.gov.br/tabela/5938",
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/metadados",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valores em Mil Reais × 1.000 → R$; percentuais oficiais preservados sem recalcular ou normalizar.",
         "Variação nominal = (PIB atual / PIB anterior − 1) × 100; primeira observação/base zero = null.",
@@ -7858,7 +7858,7 @@
       "metadataUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/47001",
       "hierarchyUrl": "https://servicodados.ibge.gov.br/api/v1/pesquisas/38/indicadores",
       "definitionUrl": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
-      "collectedAt": "2026-10-06T15:05:19.153397+00:00",
+      "collectedAt": "2026-11-16T19:37:24.041824+00:00",
       "transformations": [
         "Valor oficial em reais, multiplicador 1; não recalculado com população de outra pesquisa.",
         "Pesquisas retorna código municipal de seis dígitos; validação explícita sem dígito verificador.",
@@ -7879,11 +7879,9 @@
     "officialUrl": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html"
   },
   "collection": {
-    "attemptedAt": "2026-11-09T19:50:12.008627+00:00",
-    "lastSuccessAt": "2026-10-06T15:05:19.153397+00:00",
-    "failures": [
-      "URLError: <urlopen error timed out>"
-    ],
+    "attemptedAt": "2026-11-16T19:37:24.041824+00:00",
+    "lastSuccessAt": "2026-11-16T19:37:24.041824+00:00",
+    "failures": [],
     "policy": "Qualquer falha requerida preserva integralmente o último snapshot validado, inclusive comparações."
   }
 }
