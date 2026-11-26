@@ -1,7 +1,7 @@
 {
   "data": {
     "observations": [],
-    "availableThrough": "2026-11-18",
+    "availableThrough": "2026-11-25",
     "reference": "202611",
     "coverage": "monthly-export",
     "satellite": "AQUA_M-T"
@@ -12,7 +12,7 @@
     "dataset": "Programa Queimadas — satélite de referência",
     "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/focos_mensal_br_202611.csv",
     "reference": "202611",
-    "collectedAt": "2026-11-19T18:24:41.710977+00:00",
+    "collectedAt": "2026-11-26T19:09:26.099055+00:00",
     "unit": "focos de calor",
     "municipalityCodes": [
       "4127965",
@@ -23,11 +23,11 @@
     "satellite": "AQUA_M-T",
     "catalogUrl": "https://data.inpe.br/queimadas/pages/secao_downloads/dados-abertos/",
     "transformation": "Filtro código IBGE (mensal) ou nome+UF (anual de referência); somente AQUA_M-T; deduplicação pelo ID oficial; UTC.",
-    "sha256": "a0cba11ce6dea9f40f7354f8d3ae8a583e8c58e1826cc526f7856f6f0adbaa95"
+    "sha256": "0105e4472e9d7e3a6eef1a454b2180e38bc9244a199f2a6668c48ce670c26b9d"
   },
   "http": {
-    "ETag": "\"2b78e0b-660a4d81dd240\"",
-    "Last-Modified": "Thu, 19 Nov 2026 17:56:17 GMT",
-    "Content-Length": "45583883"
+    "ETag": "\"4534577-66131a96c4200\"",
+    "Last-Modified": "Thu, 26 Nov 2026 17:56:24 GMT",
+    "Content-Length": "72566135"
   }
 }
